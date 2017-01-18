@@ -1,0 +1,153 @@
+Networks:
+	List of Things that may be in an IT office
+		Asset Information - Documentation about Printers, Routers etc
+		List of IP(v4/v6)/MAC addresses
+		Microsoft Visio is used for network documentation
+	Hub
+		The hub is a piece of technology that tells data where it should go
+	4-port Router
+		Uses as a central connecting device that can connect up to 4 devices together
+	Switch
+		Used to conjuncture with other switches to tell packets where to move.
+	Network Adapters and RJ45 Patch Cable
+		A network adapter is a device that allows you to send and receive data to and from your computer
+		An adapter can connect to the network by cable (wired) or air (wireless).
+		An RJ45 cable is the most common type of network adapter port that allows the adapter to connect to most of todays wired networks.
+	Ethernet
+    A set of rules that govern the transmission of data between adapters and various connected devices
+  Broadcast
+    Data sent to everyone on the network
+  Unicast
+    Data sent to only one host
+  Data Transfer Rate
+    Lowercase b = bits (network speed)
+    Uppercase B = bytes (disk space)
+  IP Addresses
+    IPv4/IPv6 - 32bit address
+      ---.---.---.--- (- is octet, . is a period that separates the octets) --just the tip
+      max number is 255.255.255.255
+      my ip is something like 192.168.0.---
+      192 means that the IP address is for private usage
+      127.0.0.1 or LOCALHOST is your own router port. If you are hosting web pages or whatever on our own machine, you will probably use localhost:[port], such as localhost:1337
+			Reasons for IPv4: 255^4 (4.3 billion) IP addresses only, meaning that it ran out a few years ago. This is why IPv6 was introduced, as there are 340 undecillion (34 zeros) IP addresses, meaning that there are more IP addresses than grains of sand on the Earth.
+			IPv6 is unicast.
+		Binary--just the tip
+      Base10 is where you have 10 digits that you can use (0 to 9).
+      Base2 is where you have 2 digits that you can use (0 and 1).
+      101 = 01100101--just the tip
+      251 = 11111011--just the tip
+    Ping
+      Packet Internet Groper, tells you if there is a reply to the packets that you have sent.
+      Commands--just the tip
+        ping loopback  - ???
+        ping localhost - used to ping your own machine, pointless imo
+        ping 127.0.0.1 - see localhost
+    Wireless Access Points (WAP)
+      ???--just the tip
+    VLAN (VirtualLAN)
+      This splits put your LAN so that it easier to manage
+    DMZ
+      A small zone that is set up to prevent incoming attackers.
+    Network Topology
+      Star
+      Mesh
+      Ring--just the tip
+      IBM Token Ring
+    Ethernet Standards
+      802.3--just the tip
+        It's a way to try to avoid collisions
+    Frames
+      Groups of Bytes
+    Centralized Computing--just the tip
+			???
+    P2P
+			???--just the tip
+		OSI Model
+			Application - Away
+			Presentation - Pi--just the tipzza
+			Session - Sausage
+			Transport - Throw
+			Network - Not
+			Data Link - Do--just the tip
+			Physical - Please
+		Physical Layer
+			Includes physical and electrical medium for data transfer
+			Includes cables, jacks, patch panels, punch blocks, hubs, MAUs
+			Used by Bluetooth and Infrared
+		Communications Subnetwork--just the tip
+			100BASE-T
+				100 means 100mbps
+				BASE means ???
+				T means ???
+		Data Link
+		MAC
+		Consider it a network card--just the tip
+			A UUID assigned to the network adapter and manufacturer
+		Layer 2 Switches
+			Most commonly used type of switch in LAN
+			Hardware based
+			Store the MAC address
+		VLAN
+			Most common is IEEE 802.1(0?)--just the tip
+			Used to group up IP addresses for easier data management
+		Layer 3 Network Layer
+			Think topolgies
+		Layer 3 Switches
+			More intelligent than Layer 2
+			Uses logical addressing (IP) rather than illogical (MAC)
+		Layer 4 Transport Layer
+			Ensures error free transmission
+			Doesn't care if the data is correct
+			When you think 'ports', think the Transport Layer
+		Connection Orientated Communication
+			???
+		Connectionless Communication
+			???
+		Ports
+			There are a total of 65,536 ports numbered between 0 and 65535
+			They are defined by the Internet Assigned Numbers Authority and divided into categories
+		MIDI Ports
+			Medium dependent interface
+			used for media
+		Tools
+			Cutter
+			Wire Stripper
+			*Punch Down Tool*
+			Testing Device - called a Continuity Tester
+		Interference
+			Can be a real problem
+			Can come from power cables and electrical symbols
+		Electromagnetic interference
+			Used to spy on data
+			may be considered just interference
+		STP cables
+			stops cables from being twisted together
+		Plenum Rated
+			cables that are installed in the walls or above drop ceilings where they cannot be accessed by sprinkler systems
+		Wireless Bridge
+			Used to extend the wireless signal
+		DNS
+			Changes website names to IP addresses
+		Private Ranges
+			A - 10.0.0.0 to 10.255.255.255
+			B - ???
+			C - ???
+		Automatic Private IP Addressing
+			Uses a single Class B address 169.254.0.0
+		Static IP
+			Hardcoded
+		Dynamic IP
+			Used for DNS gateway
+
+
+
+
+
+
+
+
+
+
+
+
+The first computer that we worked on was a Dell DCNE with a serial number of HD1KY2J. The unit was connected to a power socket and we took adequate safety proportions by removing anything loose such as lanyards and ties. The unit was secure in an ESD mat, meaning the machine was secured against ElectroStatic Discharge (ESD). The unit was complete; there were no missing components. When we turned the device on there were no error messages shown when it first booted up. Sadly, we couldn’t get past POST and error code 99 appeared. For this reason, we were unable to check the BIOS, therefore meaning that we were unable to check if the operating system worked, or even what type of operating system was installed on it or what version was installed. One of the fault was that there was a power supply failure, and another was that it would not get past POST.
