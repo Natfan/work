@@ -34,7 +34,7 @@ Another thing to note is the **Data Protection Act of 1998**. This act must be u
 >* sexual health
 >* criminal records
 
-The Data Protection Act is used to protect the data that a company takes, and forces them to keep it regularly updated and removed from their databases if it is no longer required. The data must not be gained unlawfully, such as scams or phishing, and it must be kept safe and secure. Sensitive data must not contain the person's ethnicity, religion, politick views, health (including sexual health) or criminal records, unless otherwise stated, such as if those in possession of the data are a government facility or program, and if the user has permitted that facility or program access. The act was implemented to protect private citizen's data, and to ensure that companies are not using their data for nefarious or illegal purposes. 
+The Data Protection Act is used to protect the data that a company takes, and forces them to keep it regularly updated and removed from their databases if it is no longer required. The data must not be gained unlawfully, such as scams or phishing, and it must be kept safe and secure. Sensitive data must not contain the person's ethnicity, religion, politick views, health (including sexual health) or criminal records, unless otherwise stated, such as if those in possession of the data are a government facility or program, and if the user has permitted that facility or program access. The act was implemented to protect private citizen's data, and to ensure that companies are not using their data for nefarious or illegal purposes.
 <img src="https://www.roehampton.ac.uk/globalassets/images/corporate-information/data-protection-act.jpg" width = 25%>
 
 One important rule for performing security management and removing threats is to be 100% sure that the system edits that you are performing cannot negatively impact the legitimate users of the system. One way of ensuring that this rule is followed is be performing vigorous tests on the edits that you are performing. One way that this can be done is via trying to access the system as a regular user after performing the changes on a local machine. This means that any errors that are encountered are the same as what a legitimate user would face. After testing has been carried out, all bugs can be quashed.
@@ -42,7 +42,28 @@ One important rule for performing security management and removing threats is to
 <hr>
 
 ## PV - Employment Contracts: How They Can Support Or Obstruct An Organization
+Employment Contracts are, as defined on the official government webpage here (https://www.gov.uk/employment-contracts-and-conditions/overview):
 
+>All employees have an employment contract with their employer. A contract is an agreement that sets out an employee’s:
+>
+>* employment conditions
+>* rights
+>* responsibilities
+>* duties
+>* These are called the ‘terms’ of the contract.
+>
+>Employees and employers must stick to a contract until it ends (eg by an employer or employee giving notice or an employee being dismissed) or until the terms are changed (usually by agreement between the employee and employer).
+
+To sum up, an Employment Contract is what an employee signs up to, to ensure that their rights and responsibilities are not violated during their time working at the company. Both the employer and the employee have to agree to these legally binding words for the employee to start working at the company, and if the employer breaks these terms then the employee can sue. However, if the employee breaks these terms, the employer has the right to terminate their job.
+
+### Advantages
+The main advantage of an Employment Contract is that it allows the job description to be highly specific; both the employer and the employee knows what they should be doing, and at what pay their job is at. It also allows for an employer to entrust the employee with specific trade secrets, as the Employment Contract can act as a Non-Disclosure Agreement. The document is also useful as it allows for the employer or employee to settle disputes later down the line, if the employer is not paying enough or if the employee is not doing their job, for example. The document can be used as written evidence in a court of law, if required. Also, Employment Contracts are also a good way for an employer and an employee to have a positive relationship, as the employer knows that the employee fully understands their role in the company, and the employee has a certain level of job security knowing that their role is set and cannot be changed against their favor without their permission.
+
+### Disadvantages
+One disadvantage of having an Employment Contract is that it make it hard for an employee to change job if they are in the middle of a contract with a specific time frame. Also, the Contract can result in rather static job roles, meaning that responsibilities and salary cannot be negotiated easily.
+
+### Conclusion
+To conclude, it is generally better to have an Employment Contract as it allows for a legal standpoint to be made, along with job security for both the employee and the employer.
 
 <hr>
 
