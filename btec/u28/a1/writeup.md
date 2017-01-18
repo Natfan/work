@@ -22,11 +22,11 @@ A Domain Name Registrar is a company that sells access to domain names. Domain N
 
 ### World Wide Web
 
-The World Wide Web is  
+The World Wide Web is a series of internet servers that allow users to access different documents and files. Users may navigate the World Wide Web via hyperlinks. The World Wide Web should not be confused with the **Internet**. The World Wide Web is the framework or structure of the Internet. The World Wide Web is only one part of the Internet, and other protocols such as `FTP` and `SMTP` use the Internet but are not classified as the World Wide Web. 
 
-### Web
+### Internet
 
-text
+The Web, or the Internet, is different from the World Wide Web in that it is a "network of networks". The Internet is formed of many protocols, including `WWW`, `FTP`, `SSH`, `SMTP` and more. 
 
 ### Mail
 

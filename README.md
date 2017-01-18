@@ -6,7 +6,9 @@ Here is a work folder, where I do all my work.
 	Things that natfan does (not do) at college.
 	Examples:
 		- CompSci
+
 		- BTEC IT
+
 		- Tutor
 
 ^^^Please ^^^note ^^^that ^^^the ^^^above ^^^definition ^^^is ^^^only ^^^accurate ^^^in ^^^Nationaries.
@@ -14,9 +16,5 @@ Here is a work folder, where I do all my work.
 If you copy or otherwise plagerize my work, I will slap you.
 
 With a fish.
-
-That costs 1 pound.
-
-Ergo, 1poundfishslap.
 
 That is all.
