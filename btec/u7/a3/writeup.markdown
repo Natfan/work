@@ -54,6 +54,8 @@ Employment Contracts are, as defined on the official government webpage here (ht
 >
 >Employees and employers must stick to a contract until it ends (eg by an employer or employee giving notice or an employee being dismissed) or until the terms are changed (usually by agreement between the employee and employer).
 
+<img src="http://www.howellslegal.co.uk/news/image.axd?picture=2014%2F6%2Femployment-contract.jpg" width="75%">
+
 To sum up, an Employment Contract is what an employee signs up to, to ensure that their rights and responsibilities are not violated during their time working at the company. Both the employer and the employee have to agree to these legally binding words for the employee to start working at the company, and if the employer breaks these terms then the employee can sue. However, if the employee breaks these terms, the employer has the right to terminate their job.
 
 ### Advantages
@@ -71,6 +73,11 @@ To conclude, it is generally better to have an Employment Contract as it allows 
 ```
 Quote laws and show how it should be used in practice.
 ```
+### Privacy Laws
+A Privacy Law is a law that enables the seclusion of a user on the internet, enabling them peace of mind when inputting data as they know that the misuse of this material is illegal. There are many different Privacy Laws in the United Kingdom that cover many different areas, including communication, finance, home, online, health and information. As this assignment is only about the use of internet Privacy, I shall only talk about Privacy Acts relating to activities online and Privacy Acts regarding information.
+
+### Security Laws
+ree
 
 <hr>
 
@@ -93,3 +100,4 @@ Check for effectiveness, How it can be improved and the consequences of doing so
 * Install: https://s.tmimgcdn.com/blog/wp-content/uploads/2016/06/install-joomla-engine.jpg
 * Email: http://www.freeiconspng.com/uploads/email-icon--100-flat-vol-2-iconset--graphicloads-18.png
 * DPA: https://www.roehampton.ac.uk/globalassets/images/corporate-information/data-protection-act.jpg
+* Employment Contract: http://www.howellslegal.co.uk/news/image.axd?picture=2014%2F6%2Femployment-contract.jpg
