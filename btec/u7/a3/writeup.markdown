@@ -39,7 +39,7 @@ The Data Protection Act is used to protect the data that a company takes, and fo
 
 One important rule for performing security management and removing threats is to be 100% sure that the system edits that you are performing cannot negatively impact the legitimate users of the system. One way of ensuring that this rule is followed is be performing vigorous tests on the edits that you are performing. One way that this can be done is via trying to access the system as a regular user after performing the changes on a local machine. This means that any errors that are encountered are the same as what a legitimate user would face. After testing has been carried out, all bugs can be quashed.
 
-<hr>
+<div style="page-break-after: always;"></div>
 
 ## PV - Employment Contracts: How They Can Support Or Obstruct An Organization
 Employment Contracts are, as defined on the official government webpage here (https://www.gov.uk/employment-contracts-and-conditions/overview):
@@ -67,7 +67,7 @@ One disadvantage of having an Employment Contract is that it make it hard for an
 ### Conclusion
 To conclude, it is generally better to have an Employment Contract as it allows for a legal standpoint to be made, along with job security for both the employee and the employer.
 
-<hr>
+<div style="page-break-after: always;"></div>
 
 ## PVI - Legislation: Data Privacy Laws and Data Security Policies
 ### Privacy Laws
@@ -123,7 +123,7 @@ As you can see, these laws are scaling and have a minimum of 12 months jail time
 
 <img src="https://www.smokeball.com/wp-content/uploads/data-security.jpg" width="50%">
 
-<hr>
+<div style="page-break-after: always;"></div>
 
 ## MIII - Ethical Issues in IT Security
 ```
@@ -150,15 +150,14 @@ ree
 ### How It Relates To An ISP
 ree
 
-
-<hr>
+<div style="page-break-after: always;"></div>
 
 ## DII - Security Policies
 ```
 Check for effectiveness, How it can be improved and the consequences of doing so
 ```
 
-<hr>
+<div style="page-break-after: always;"></div>
 
 ## Sources
 * Social Media: https://d19n1ren9crl9v.cloudfront.net/wp-content/uploads/2015/09/bigstock-Modern-Keyboard-With-Colored-S-68403502.jpg

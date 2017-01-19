@@ -41,7 +41,6 @@ Creation of an illustrated report detailing ethical issues in IT security. Areas
 	Related to organisation type
 	Ethical issues related to IT security
 		The issue
-		The issues involved
 		The decision that was come to
 		How the student would deal with it
 	Ethical issues in relation to IT security
