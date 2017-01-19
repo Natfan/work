@@ -96,7 +96,18 @@ The first law I shall be discussing is the Data Protection Act of 1998. The foll
 >* sexual health
 >* criminal records
 
-To summarize, this law enables the fair use and storage of data, and does not allow it to be misused or inaccurate. It also requires that the data is updated regularly and removed when no longer neededd.
+To summarize, this law enables the fair use and storage of data, and does not allow it to be misused or inaccurate. It also requires that the data is updated regularly and removed when no longer needed.
+
+On the flip side of this, there is the Freedom of information Act of 2000. This act enables private citizens to be able to access all public public records, including government facilities and instituations. The following is an extract from the document.
+
+>The main principle behind freedom of information legislation is that people have a right to know about the activities of public authorities, unless there is a good reason for them not to. This is sometimes described as a presumption or assumption in favour of disclosure. The Act is also sometimes described as purpose and applicant blind.
+>
+>This means that:
+>
+>* everybody has a right to access official information. Disclosure of information should be the default – in other words, information should be kept private only when there is a good reason and it is permitted by the Act;
+>* an applicant (requester) does not need to give you a reason for wanting the information. On the contrary, you must justify refusing them information;
+>* you must treat all requests for information equally, except under some circumstances relating to vexatious requests and personal data (see When can we refuse a request? for details on these). The information someone can get under the Act should not be affected by who they are. You should treat all requesters equally, whether they are journalists, local residents, public authority employees, or foreign researchers; and
+>* because you should treat all requesters equally, you should only disclose information under the Act if you would disclose it to anyone else who asked. In other words, you should consider any information you release under the Act as if it were being released to the world at large.
 
 ### Security Laws
 ree
