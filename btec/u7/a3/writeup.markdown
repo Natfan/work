@@ -71,7 +71,7 @@ To conclude, it is generally better to have an Employment Contract as it allows 
 
 ## PVI - Legislation: Data Privacy Laws and Data Security Policies
 ### Privacy Laws
-A Privacy Law is a law that enables the seclusion of a user on the internet, enabling them peace of mind when inputting data as they know that the misuse of this material is illegal. There are many different Privacy Laws in the United Kingdom that cover many different areas, including communication, finance, home, online, health and information. As this assignment is only about the use of internet Privacy, I shall only talk about Privacy Acts relating to activities online and Privacy Acts regarding information.
+A Privacy Law is a law that enables the seclusion of a user on the internet, enabling them peace of mind when inputting data as they know that the misuse of this material is illegal. There are many different Privacy Laws in the United Kingdom that cover many different areas, including communication, finance, home, online, health and information. As this assignment is only about the use of internet Privacy, I shall only talk about Privacy Acts relating to activities online and Privacy Acts regarding information. These laws are important to UTC ISP as we deal with lots and lots of other people's network traffic, meaning that we need to follow these laws to the letter.
 
 The first law I shall be discussing is the Data Protection Act of 1998. The following is a brief summary taken from https://www.gov.uk/data-protection/the-data-protection-act/
 
@@ -110,7 +110,7 @@ On the flip side of this, there is the Freedom of information Act of 2000. This 
 >* because you should treat all requesters equally, you should only disclose information under the Act if you would disclose it to anyone else who asked. In other words, you should consider any information you release under the Act as if it were being released to the world at large.
 
 ### Security Laws
-ree
+There are also Security Laws that need to be evaluated and abided by. The main law that I shall be covering in this segment is the Computer Misuse Act of 1990. This act was created as a response to the *R v Gold & Schifreen* case, as there were no real laws to charge Gold & Schifreen with. The main outline of this Act is as follows, as seen from  
 
 <hr>
 
