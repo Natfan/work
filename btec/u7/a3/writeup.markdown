@@ -70,9 +70,6 @@ To conclude, it is generally better to have an Employment Contract as it allows 
 <hr>
 
 ## PVI - Legislation: Data Privacy Laws and Data Security Policies
-```
-Quote laws and show how it should be used in practice.
-```
 ### Privacy Laws
 A Privacy Law is a law that enables the seclusion of a user on the internet, enabling them peace of mind when inputting data as they know that the misuse of this material is illegal. There are many different Privacy Laws in the United Kingdom that cover many different areas, including communication, finance, home, online, health and information. As this assignment is only about the use of internet Privacy, I shall only talk about Privacy Acts relating to activities online and Privacy Acts regarding information.
 
@@ -99,7 +96,7 @@ The first law I shall be discussing is the Data Protection Act of 1998. The foll
 >* sexual health
 >* criminal records
 
-To summarize, 
+To summarize, this law enables the fair use and storage of data, and does not allow it to be misused or inaccurate. It also requires that the data is updated regularly and removed when no longer neededd.
 
 ### Security Laws
 ree
