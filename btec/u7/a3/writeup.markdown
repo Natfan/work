@@ -11,7 +11,7 @@ All software installed on the system must go through the correct channels. For i
 Another policy that we follow at UTCISP is the usage of email. Email sent via official domains such as `UTCISP.org` must use professional wording and contain no vulgar or inappropriate material that could damage the company's reputation. Any emails sent by any staff member that are not work related or place UTCISP in a bad light will have their internet privileges revoked and may face termination. Any emails viewed or received on company property must be workplace appropriate and must not compromise the systems of UTCISP. Any damage caused by emails opened on company property will be considered the fault of the user that opened them, and may result in docking of pay or termination, depending on the severity of the attack. Also, unwanted emails must be deleted, and the recycling bin must be wiped periodically.
 <img src="http://www.freeiconspng.com/uploads/email-icon--100-flat-vol-2-iconset--graphicloads-18.png" width="25%">
 
-Another thing to note is the **Data Protection Act of 1998**. This act must be used in accordance with IT system moderation as it is a legal document that states how data must be protected. The following is a brief summary taken from https://www.gov.uk/data-protection/the-data-protection-act/
+Another thing to note is the Data Protection Act of 1998. This act must be used in accordance with IT system moderation as it is a legal document that states how data must be protected. The following is a brief summary taken from https://www.gov.uk/data-protection/the-data-protection-act/
 
 >The Data Protection Act controls how your personal information is used by organizations, businesses or the government.
 >
@@ -75,6 +75,31 @@ Quote laws and show how it should be used in practice.
 ```
 ### Privacy Laws
 A Privacy Law is a law that enables the seclusion of a user on the internet, enabling them peace of mind when inputting data as they know that the misuse of this material is illegal. There are many different Privacy Laws in the United Kingdom that cover many different areas, including communication, finance, home, online, health and information. As this assignment is only about the use of internet Privacy, I shall only talk about Privacy Acts relating to activities online and Privacy Acts regarding information.
+
+The first law I shall be discussing is the Data Protection Act of 1998. The following is a brief summary taken from https://www.gov.uk/data-protection/the-data-protection-act/
+
+>The Data Protection Act controls how your personal information is used by organizations, businesses or the government.
+>
+>Everyone responsible for using data has to follow strict rules called ‘data protection principles’. They must make sure the information is:
+>
+>* used fairly and lawfully
+>* used for limited, specifically stated purposes
+>* used in a way that is adequate, relevant and not excessive
+>* accurate
+>* kept for no longer than is absolutely necessary
+>* handled according to people’s data protection rights
+>* kept safe and secure
+>* not transferred outside the European Economic Area without adequate protection
+>
+>There is stronger legal protection for more sensitive information, such as:
+>* ethnic background
+>* political opinions
+>* religious beliefs
+>* health
+>* sexual health
+>* criminal records
+
+To summarize, 
 
 ### Security Laws
 ree
