@@ -130,6 +130,27 @@ As you can see, these laws are scaling and have a minimum of 12 months jail time
 Issues, Issues Involved (?), Decision that was come to, How students can deal with it.
 ```
 
+## Monitoring Activities
+### The Issue
+ree
+
+### The Descision
+ree
+
+### How It Relates To An ISP
+ree
+
+## Reviewing saved data
+### The Issue
+ree
+
+### The Descision
+ree
+
+### How It Relates To An ISP
+ree
+
+
 <hr>
 
 ## DII - Security Policies
