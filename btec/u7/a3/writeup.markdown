@@ -73,6 +73,8 @@ To conclude, it is generally better to have an Employment Contract as it allows 
 ### Privacy Laws
 A Privacy Law is a law that enables the seclusion of a user on the internet, enabling them peace of mind when inputting data as they know that the misuse of this material is illegal. There are many different Privacy Laws in the United Kingdom that cover many different areas, including communication, finance, home, online, health and information. As this assignment is only about the use of internet Privacy, I shall only talk about Privacy Acts relating to activities online and Privacy Acts regarding information. These laws are important to UTC ISP as we deal with lots and lots of other people's network traffic, meaning that we need to follow these laws to the letter.
 
+<img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAOQAAAAJDhlMTI0NzRhLTc2NGUtNDRiOC05YjAwLWEzYWY2ZWQ1YWMwZg.jpg" width=50%"">
+
 The first law I shall be discussing is the Data Protection Act of 1998. The following is a brief summary taken from https://www.gov.uk/data-protection/the-data-protection-act/
 
 >The Data Protection Act controls how your personal information is used by organizations, businesses or the government.
@@ -110,7 +112,16 @@ On the flip side of this, there is the Freedom of information Act of 2000. This 
 >* because you should treat all requesters equally, you should only disclose information under the Act if you would disclose it to anyone else who asked. In other words, you should consider any information you release under the Act as if it were being released to the world at large.
 
 ### Security Laws
-There are also Security Laws that need to be evaluated and abided by. The main law that I shall be covering in this segment is the Computer Misuse Act of 1990. This act was created as a response to the *R v Gold & Schifreen* case, as there were no real laws to charge Gold & Schifreen with. The main outline of this Act is as follows, as seen from  
+
+There are also Security Laws that need to be evaluated and abided by. The main law that I shall be covering in this segment is the Computer Misuse Act of 1990. This act was created as a response to the *R v Gold & Schifreen* case, as there were no real laws to charge Gold & Schifreen with. The main three points of the Act are outlined as follows, as seen from Wikipedia page here: https://en.wikipedia.org/wiki/Computer_Misuse_Act_1990
+
+>* unauthorised access to computer material, punishable by 12 months' imprisonment (or 6 months in Scotland) and/or a fine "not exceeding level 5 on the standard scale" (since 2015, unlimited);
+>* unauthorised access with intent to commit or facilitate commission of further offences, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 5 years/fine on indictment;
+>* unauthorised modification of computer material, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 10 years/fine on indictment;
+
+As you can see, these laws are scaling and have a minimum of 12 months jail time, up to a maximum jail time of 10 years or an unlimited fine.
+
+<img src="https://www.smokeball.com/wp-content/uploads/data-security.jpg" width="50%">
 
 <hr>
 
@@ -134,3 +145,5 @@ Check for effectiveness, How it can be improved and the consequences of doing so
 * Email: http://www.freeiconspng.com/uploads/email-icon--100-flat-vol-2-iconset--graphicloads-18.png
 * DPA: https://www.roehampton.ac.uk/globalassets/images/corporate-information/data-protection-act.jpg
 * Employment Contract: http://www.howellslegal.co.uk/news/image.axd?picture=2014%2F6%2Femployment-contract.jpg
+* Privacy Law: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAOQAAAAJDhlMTI0NzRhLTc2NGUtNDRiOC05YjAwLWEzYWY2ZWQ1YWMwZg.jpg
+* Security Law: https://www.smokeball.com/wp-content/uploads/data-security.jpg
