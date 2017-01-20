@@ -31,6 +31,14 @@ testing
 - [ ] reshow test plan with a added evidence and pass/fail columns.
 - [ ] if tests fail explain why they failed and retest, resulting in many iterations of tests with fixes
 
+evaluation
+- [ ] meeting with client.
+- [ ] evidence of testing.
+- [ ] explain why tests passed or failed.
+- [ ] evaluate project based on smart objectives
+- [ ] take the possible targets and add them as possible extentions, these do not have to be implemented
+  - [ ] these need to be talked about their cost, chance of success etc
+
 apendix
 - [ ] interview with client transcript
 - [ ] feedback from smart objective
