@@ -132,9 +132,9 @@ Issues, Issues Involved (?), Decision that was come to, How students can deal wi
 
 ## Monitoring Activities
 ### The Issue
-ree
+The issue is that, while System Administrators can access logs and monitor, should they? On one hand, monitoring network activities can help users by predicting their habits, along with possibly preventing crimes as the culprits can be apprehended due to our Administrators reporting their activities to the police. While this can save lives, it could also be considered a violation of civil rights, due to the fact that it invades all of our customer's privacy.
 
-### The Descision
+### The Decision
 ree
 
 ### How It Relates To An ISP
@@ -144,7 +144,7 @@ ree
 ### The Issue
 ree
 
-### The Descision
+### The Decision
 ree
 
 ### How It Relates To An ISP
