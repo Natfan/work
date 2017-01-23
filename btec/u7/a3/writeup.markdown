@@ -102,7 +102,7 @@ To summarize, this law enables the fair use and storage of data, and does not al
 
 On the flip side of this, there is the Freedom of information Act of 2000. This act enables private citizens to be able to access all public public records, including government facilities and instituations. The following is an extract from the document.
 
->The main principle behind freedom of information legislation is that people have a right to know about the activities of public authorities, unless there is a good reason for them not to. This is sometimes described as a presumption or assumption in favour of disclosure. The Act is also sometimes described as purpose and applicant blind.
+>The main principle behind freedom of information legislation is that people have a right to know about the activities of public authorities, unless there is a good reason for them not to. This is sometimes described as a presumption or assumption in favor of disclosure. The Act is also sometimes described as purpose and applicant blind.
 >
 >This means that:
 >
@@ -115,9 +115,9 @@ On the flip side of this, there is the Freedom of information Act of 2000. This 
 
 There are also Security Laws that need to be evaluated and abided by. The main law that I shall be covering in this segment is the Computer Misuse Act of 1990. This act was created as a response to the *R v Gold & Schifreen* case, as there were no real laws to charge Gold & Schifreen with. The main three points of the Act are outlined as follows, as seen from Wikipedia page here: https://en.wikipedia.org/wiki/Computer_Misuse_Act_1990
 
->* unauthorised access to computer material, punishable by 12 months' imprisonment (or 6 months in Scotland) and/or a fine "not exceeding level 5 on the standard scale" (since 2015, unlimited);
->* unauthorised access with intent to commit or facilitate commission of further offences, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 5 years/fine on indictment;
->* unauthorised modification of computer material, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 10 years/fine on indictment;
+>* unauthorized access to computer material, punishable by 12 months' imprisonment (or 6 months in Scotland) and/or a fine "not exceeding level 5 on the standard scale" (since 2015, unlimited);
+>* unauthorized access with intent to commit or facilitate commission of further offences, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 5 years/fine on indictment;
+>* unauthorized modification of computer material, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 10 years/fine on indictment;
 
 As you can see, these laws are scaling and have a minimum of 12 months jail time, up to a maximum jail time of 10 years or an unlimited fine.
 
