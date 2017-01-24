@@ -132,10 +132,10 @@ Issues, Issues Involved (?), Decision that was come to, How students can deal wi
 
 ## Monitoring Activities
 ### The Issue
-The issue is that, while System Administrators can access logs and monitor, should they? On one hand, monitoring network activities can help users by predicting their habits, along with possibly preventing crimes as the culprits can be apprehended due to our Administrators reporting their activities to the police. While this can save lives, it could also be considered a violation of civil rights, due to the fact that it invades all of our customer's privacy.
+The issue is that, while System Administrators can access logs and monitor, should they? On one hand, monitoring network activities can help users by predicting their habits, along with possibly preventing crimes as the culprits can be apprehended due to our Administrators reporting their activities to the police. While this can save lives, it could also be considered a violation of civil rights, due to the fact that it invades all of our customer's privacy. Does this mean that we should obey the law and report crimes that we discover, even if we discover them using questionable morals, or should we keep our customer's privacy, even if it means that crimes can be performed on our network without our knowledge?
 
 ### The Decision
-ree
+The decision was to create trigger words that, when sent through our network, flag the system and notify our staff if it happens. Then, we can notify the appropriate authorities so that they can apprehend the criminal. We chose this response as we felt it was immoral to spy on our customers, but we felt we had a duty to help protect this country, given that we are a provider of infrastructure. Therefore we decided to generate a non-intrusive method of dealing with the situation. All data stored via the triggers are deleted after 48 hours, and only data caught by the filters will ever be saved, even temporarily.
 
 ### How It Relates To An ISP
 ree
