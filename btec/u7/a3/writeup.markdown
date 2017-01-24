@@ -144,7 +144,7 @@ Similarly to saving network traffic, we also have the ability to use our custome
 We have decided to stick with our moral standpoint and keep our customers' information safe and secure. All passwords stored in our databases are encrypted with SHA-1 and can never be decrypted. This means that we could not pass on the data even if we wanted to. Also, we have made it expressly clear to our customers that we will only use their data for external purposes if we gain their express permission.
 
 ### How It Relates To An ISP
-This relates to an ISP for a similar reason as aforementioned. We have access to lots and lots of personal data, and we could sell it off or use it for malicious purposes but we choose not to, in order to keep our moral integrity.
+This relates to an ISP for a similar reason as aforementioned. We have access to lots and lots of personal data, and we could sell it off or use it for malicious purposes but we choose not to, in order to keep our moral integrity. Not only does this keep our conscience clean, it also creates a reputation for UTCISP in which we are a moral company which cares for it's consumers and will not sell them out for profit. We are a company made by people for people, and our actions need to reflect that.
 
 <div style="page-break-after: always;"></div>
 
@@ -152,6 +152,7 @@ This relates to an ISP for a similar reason as aforementioned. We have access to
 ```
 evaluate Security policies, Check for effectiveness, how it is used, where/How it can be improved and the consequences of doing so (changing and not changing policy)
 ```
+
 
 <div style="page-break-after: always;"></div>
 
