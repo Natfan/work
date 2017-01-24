@@ -126,10 +126,6 @@ As you can see, these laws are scaling and have a minimum of 12 months jail time
 <div style="page-break-after: always;"></div>
 
 ## MIII - Ethical Issues in IT Security
-```
-Issues, Issues Involved (?), Decision that was come to, How students can deal with it.
-```
-
 ## Monitoring Activities
 ### The Issue
 The issue is that, while System Administrators can access logs and monitor, should they? On one hand, monitoring network activities can help users by predicting their habits, along with possibly preventing crimes as the culprits can be apprehended due to our Administrators reporting their activities to the police. While this can save lives, it could also be considered a violation of civil rights, due to the fact that it invades all of our customer's privacy. Does this mean that we should obey the law and report crimes that we discover, even if we discover them using questionable morals, or should we keep our customer's privacy, even if it means that crimes can be performed on our network without our knowledge?
@@ -138,32 +134,32 @@ The issue is that, while System Administrators can access logs and monitor, shou
 The decision was to create trigger words that, when sent through our network, flag the system and notify our staff if it happens. Then, we can notify the appropriate authorities so that they can apprehend the criminal. We chose this response as we felt it was immoral to spy on our customers, but we felt we had a duty to help protect this country, given that we are a provider of infrastructure. Therefore we decided to generate a non-intrusive method of dealing with the situation. All data stored via the triggers are deleted after 48 hours, and only data caught by the filters will ever be saved, even temporarily.
 
 ### How It Relates To An ISP
-ree
+This decision relates to an ISP as we are the guardians of all data that our users send and recieve. If we wanted, we could take our user's data and sell it to other companies for profit, but we won't. The two reasons why we won't is because it is morally wrong and it is also illegal. While some of our competitors have large legal teams and questionable morality they may feel comfortable doing this but we, UTCISP, do not. We have promised to be 100% honest with our customers, and that is a promise that we plan to keep.
 
 ## Reviewing saved data
 ### The Issue
-ree
+Similarly to saving network traffic, we also have the ability to use our customers' saved data to our advantage. For instance, we could decrypt our customers' passwords and use them to break into other websites where they use the same or similar passwords. Another thing that we could do is sell our customers' private data to advertising companies for profit.
 
 ### The Decision
-ree
+We have decided to stick with our moral standpoint and keep our customers' information safe and secure. All passwords stored in our databases are encrypted with SHA-1 and can never be decrypted. This means that we could not pass on the data even if we wanted to. Also, we have made it expressly clear to our customers that we will only use their data for external purposes if we gain their express permission.
 
 ### How It Relates To An ISP
-ree
+This relates to an ISP for a similar reason as aforementioned. We have access to lots and lots of personal data, and we could sell it off or use it for malicious purposes but we choose not to, in order to keep our moral integrity.
 
 <div style="page-break-after: always;"></div>
 
 ## DII - Security Policies
 ```
-Check for effectiveness, How it can be improved and the consequences of doing so
+evaluate Security policies, Check for effectiveness, how it is used, where/How it can be improved and the consequences of doing so (changing and not changing policy)
 ```
 
 <div style="page-break-after: always;"></div>
 
 ## Sources
-* Social Media: https://d19n1ren9crl9v.cloudfront.net/wp-content/uploads/2015/09/bigstock-Modern-Keyboard-With-Colored-S-68403502.jpg
-* Install: https://s.tmimgcdn.com/blog/wp-content/uploads/2016/06/install-joomla-engine.jpg
-* Email: http://www.freeiconspng.com/uploads/email-icon--100-flat-vol-2-iconset--graphicloads-18.png
-* DPA: https://www.roehampton.ac.uk/globalassets/images/corporate-information/data-protection-act.jpg
-* Employment Contract: http://www.howellslegal.co.uk/news/image.axd?picture=2014%2F6%2Femployment-contract.jpg
-* Privacy Law: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAOQAAAAJDhlMTI0NzRhLTc2NGUtNDRiOC05YjAwLWEzYWY2ZWQ1YWMwZg.jpg
-* Security Law: https://www.smokeball.com/wp-content/uploads/data-security.jpg
+* Social Media: https://goo.gl/V4i7EE
+* Install: https://goo.gl/mHLIv9
+* Email: https://goo.gl/oZyAbO
+* DPA: https://goo.gl/7kQ0T1
+* Employment Contract: https://goo.gl/0aXNV5
+* Privacy Law: https://goo.gl/ry7hfC
+* Security Law: https://goo.gl/StPtXU
