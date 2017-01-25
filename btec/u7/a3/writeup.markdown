@@ -152,7 +152,13 @@ This relates to an ISP for a similar reason as aforementioned. We have access to
 ```
 evaluate Security policies, Check for effectiveness, how it is used, where/How it can be improved and the consequences of doing so (changing and not changing policy)
 ```
+In this segment I shall be evaluating the security policies that I mentioned in PIV. I shall also check for effectiveness, how the policies are used, where and how the policies can be improved and the possible consequences of changing security policies.
 
+The first policy that I shall cover is the testing of software. Th
+
+Another policy that I have previously mentioned is the usage of email.
+
+Finally, legality is a policy that must be discussed.
 
 <div style="page-break-after: always;"></div>
 
