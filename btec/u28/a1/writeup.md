@@ -22,19 +22,19 @@ A Domain Name Registrar is a company that sells access to domain names. Domain N
 
 ### World Wide Web
 
-The World Wide Web is a series of internet servers that allow users to access different documents and files. Users may navigate the World Wide Web via hyperlinks. The World Wide Web should not be confused with the **Internet**. The World Wide Web is the framework or structure of the Internet. The World Wide Web is only one part of the Internet, and other protocols such as `FTP` and `SMTP` use the Internet but are not classified as the World Wide Web. 
+The World Wide Web is a series of internet servers that allow users to access different documents and files. Users may navigate the World Wide Web via hyperlinks. The World Wide Web should not be confused with the **Internet**. The World Wide Web is the framework or structure of the Internet. The World Wide Web is only one part of the Internet, and other protocols such as `FTP` and `SMTP` use the Internet but are not classified as the World Wide Web.
 
 ### Internet
 
-The Web, or the Internet, is different from the World Wide Web in that it is a "network of networks". The Internet is formed of many protocols, including `WWW`, `FTP`, `SSH`, `SMTP` and more. 
+The Web, or the Internet, is different from the World Wide Web in that it is a "network of networks". The Internet is formed of many protocols, including `WWW`, `FTP`, `SSH`, `SMTP` and more. The Internet is a global network of servers and systems that allow users to accss information from many of the aforementioned protocols.
 
-### Mail
+### Email
 
-text
+Email is a main method of communication via electronic means. Messages sent via Email can have more than one recipient. Many different prodiders allow their users to access their emails in browser, such as Outlook, Gmail and Yahoo. Companies such as Microsoft also prodide desktop applications for their users to use, such as Microsoft Outlook. Finally, some people write their own email clients using the specific protocols provided such as POP3, IMAP and SMTP.
 
 ### Proxy Server
 
-text
+A proxy server is a server that acts as a "middleman" to some networks. Proxy servers are used to relinquish strain on infrastructure via spreading the load if lots of users are using it, but they can also be used to hide the user's location due to privacy concerns, the reason normally being that they either do not want the website to track them or because the website that they are viewing is illegal in their country. Proxy servers can be used by servers, as aforementioned, to prevent the user accessing the site from 
 
 ### Browser
 
@@ -57,4 +57,3 @@ text
 text
 
 <pagebreak>
-
