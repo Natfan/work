@@ -5,6 +5,7 @@
 Only things that I need to do at time of writing will be added. I will not backdate for things that I have done.
 
 [ ] Items marked like this need to be completed.
+
 [x] Items marked like this are completed but are kept for records.
 
 # BTEC
