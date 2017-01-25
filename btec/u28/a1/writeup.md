@@ -34,15 +34,11 @@ Email is a main method of communication via electronic means. Messages sent via 
 
 ### Proxy Server
 
-A proxy server is a server that acts as a "middleman" to some networks. Proxy servers are used to relinquish strain on infrastructure via spreading the load if lots of users are using it, but they can also be used to hide the user's location due to privacy concerns, the reason normally being that they either do not want the website to track them or because the website that they are viewing is illegal in their country. Proxy servers can be used by servers, as aforementioned, to prevent the user accessing the site from 
+A proxy server is a server that acts as a "middleman" to some networks. Proxy servers are used to relinquish strain on infrastructure via spreading the load if lots of users are using it, but they can also be used to hide the user's location due to privacy concerns, the reason normally being that they either do not want the website to track them or because the website that they are viewing is illegal in their country. Proxy servers can be used by servers, as aforementioned, to prevent the user accessing the site's server location as they do not connect to the server itself, they are routed through a proxy. This means that home webservers are secure from DDoS attacks, along with doxing.
 
 ### Browser
 
-text
-
-### Email
-
-text
+A browser, or web brower, is a GUI, or graphical user interface, which parses HTML files into their appropriate output, meaning that users can view them when accessing the World Wide Web. Web Browsers can also do other things such as access other protocols like FTP, run code injected in HTML pages such as Javascript and PHP, and can also be used for sending emails via the `webmail` Protocol. There are many different browers, but the most widely used browers are Google Chrome, Firefox, Microsoft Edge, Opera and Internet Explorer. Many web browsers, such as 
 
 ### TCP/IP
 
