@@ -50,31 +50,31 @@ A browser, or web brower, is a GUI, or graphical user interface, which parses HT
 Cache, also known as Memory Cache; Cache Store or RAM Cache, is a method of storing data which will be used over and over again. Cache is stored in High-Speed Static Random Access Memory, or SRAM, as it is is much faster but more expensive. This means that Cache is relatively small and is used for programs which will use the same data again and again.
 
 #### Memory
-Memory is a large defintion which covers many different components of a computer. One type of Memory is Random Access Memory, or RAM, which is volatile memory which is wiped when power is disconnected. Another type of Memory is Read-Only Memory, or ROM, which is data which is written onto the chip and cannot be changed. 
+Memory is a large defintion which covers many different components of a computer. One type of Memory is Random Access Memory, or RAM, which is volatile memory which is wiped when power is disconnected. Another type of Memory is Read-Only Memory, or ROM, which is data which is written onto the chip and cannot be changed. Unlike RAM, ROM is non-volitle and cannot be changed.
 
 #### Processor Speed
-text
+Processor Speed is an important component in Client Side Systems as processors with higher speeds can run more programs. Now adays many programs have a minimum requirements in order to actually run, and this number is measured in megahertz and gigahertz, or MHz and GHz.
 
 
 ### Server Side Factors
 #### Web Server Capability
-text
+Web Server Caoability is the amount of hardware that the physical server has. A Web Server is a computer system that is connected to the internet and contains software that allows it to deliver web pages. A few examples of the software that are used are Apache and IIS, and they allow access to the web pages via the HTTP protocol.
 
-#### Avaliable Bandwidth
-text
+#### Available Bandwidth
+Bandwidth is the amount of data that can be sent over a specific static amount of time. Bandwidth is normally expressed via bits/second or bps, but it can also sometimes be expressed in cycles/second, or Hertz if the device is analog. If the Bandwidth on a server is higher, then the web page will be able to be delivered to more people at a faster rate, meaning that more customers will be serviced. Ergo, higher bandwidth may cost more but will mean for that more "hits" are generated.
 
 #### Number Of Hits
-text
+A common misconception of Web Hits is that each hit is a visit, but this is not the case. Web Hits are the amount of files downloaded on your website. This includes images, graphics, videos and audio. If a website has many buttons and each one is an image, then they will get more hits. On average, a good website will get about 15 hits per view.
 
 #### File Types
-text
+File Types, or File Formats, are a standardized attempt to store information and allow it to be read by specific programs. For example, `.exe` files can only be run on Windows systems, `.app` files can only be run on OSX systems and `.sh` files can only be run on Linux systems. This is because all Operating Systems are different under the hood, and each one performs actions differently. In the example of webiste development, `.html` files are Hyper Text Markup Language files and are used to display web pages on the internet. HTML files can contain HTML, JavaScript, PHP and others natively, but they can also import code from other files such as `.js` and `.php` files. HTML files can also use Cascading Style Sheets, or CSS, files to stylise the website. Breaking up your website and storing commonly reused code means that it only has to be written once and it can then be imported again and again.
 
 <pagebreak>
 
-## PIII: ???
+## PIII: Security Risks, Protection Mechanisms and Data Protection Act
 ### Security Risks
 #### Hacking
-text
+Hacking is when an external force
 
 #### Virus
 text
