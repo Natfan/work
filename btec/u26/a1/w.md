@@ -50,12 +50,12 @@ e. 3P - 2Q
 
 The following are my answers to the question, with working out added to them as an intermediate step.
 
-a. M + N = [3 -1]   [ 4  3]   [(3+ 4) (-1+ 3)]   [7 2]
-           [4  2] + [-1 -1] = [(4+-1) ( 2+-1)] = [3 1]
+a. M + N =``` [3 -1]   [ 4  3]   [(3+ 4) (-1+ 3)]   [7 2]
+           [4  2] + [-1 -1] = [(4+-1) ( 2+-1)] = [3 1]```
 
-b. P + Q = [-1 24]   [1  35]
+b. P + Q = ```[-1 24]   [1  35]
            [-3 43] + [4 -42] = Undefined as their orders are not equal.
-                     [2 -48]
+                     [2 -48]```
 
 c. M - N = [3 -1]   [ 4  3]   [(3-4) (-1- 3)]   [(3-4) (-1-3)]   [-1 -4]
            [4  2] - [-1 -1] = [(4--1 ( 2--1)] = [(4+1) ( 2+1)] = [ 5  3]
@@ -74,16 +74,44 @@ I have also constructed a PowerPoint presentation on the subject of the use of M
 # PII: Multiplying Matrices
 
 The following questions need to be answered:
-*Please note that `.` is equal to `=`.*
+*Please note that `.` is equal to `*` or `x`.*
 
 a. M.N
 b. P.Q
 c. R.S
-d. R.S
+d. S.R
 
 The following are my answers to the questions, along with the working out added to then as an intermediate step.
 
 a. M . N = [3 -1]   [ 4  3]   [(3\* 4) (-1\* 3)]   [ 7 -3]
            [4  2] . [-1 -1] = [(4\*-1) ( 2\*-1)] = [-4 -2]
 
-b. P . Q = 
+b. P . Q = [-1 24]   [1  35]
+           [-3 43] . [4 -42] = Undefined as their orders are not equal.
+                     [2 -48]
+
+           [ 2  3 3]   [-6  3]
+c. R . S = [ 9  2 6] . [-3 -2] = Undefined as their orders are not equal.
+           [12 -4 7]   [-6  6]
+
+          [-6  3]   [ 2  3 3]
+d. S . R =[-3 -2] . [ 9  2 6] = Undefined as their orders are not equal.
+          [-6  6]   [12 -4 7]
+
+<pagebreak>
+
+# PIII: Inverse and Transpose
+
+The following questions need to be answered:
+
+a. M^-1
+b. N^-1
+c. P^-1
+d. Q^-1
+e. M^T
+f. P^T
+g. R^T
+
+The following are my answers to the questions, along with the working out added to them as an intermediate step.
+
+a. 
