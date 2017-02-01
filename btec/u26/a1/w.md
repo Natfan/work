@@ -38,8 +38,12 @@ The following data is used in PI,
      [ -6  6 ]
 ```
 
+<pagebreak>
 
-## PI: Adding & Subtracting Matrices, Along With Demonstrating How Matrices Can Be Used To Represent Data
+## PI: How Matrices Can Be Used To Represent Ordered Data And How They Are Similar To Variables In Computer Programming
+The following presentation is about how Matrices can  
+
+## PII: Adding & Subtracting Matrices, Along With Demonstrating How Matrices Can Be Used To Represent Data
 
 The following questions need to be answered:
 
@@ -78,8 +82,6 @@ d. 3P = [-1 24] * 3 = [(-1*3) (24*3)] = [-3  72]
 e. 3P + 2Q = ([-1 24] * 3) + ([4 -42] * 2) = [-3  72] + [8 -84] = [ 5 -12]
              ([-3 43]    )   ([2 -48]    )   [-9 129]   [4 -96]   [-5  33]
 ```
-
-I have also constructed a PowerPoint presentation on the subject of the use of Matrices in data analysis and how they can be compared to variables arrays in computer programming. Please see the next page for a print out of the presentation.
 
 <pagebreak>
 
@@ -150,25 +152,30 @@ b. N⁻¹ =  [ 4  3]⁻¹   [ 1  3]
 ```
 
 ```
-c. P⁻¹ = [-1 24]⁻¹  [43/29 -24/29]
-         [-3 43]  = [ 3/29  -1/29]
+c. P⁻¹ = [-1 24]⁻¹   [43/29 -24/29]
+         [-3 43]   = [ 3/29  -1/29]
 
 ```
 
 ```
-         [2  33]
-d. Q⁻¹ = [4 -42] = Undefined as the matrix needs to be a square for an inverse to be found.
+         [2  33]⁻¹
+d. Q⁻¹ = [4 -42]   = Undefined as the matrix needs to be a square for an inverse to be found.
          [2 -48]
 ```
 
 ```
-e. 
+e. M^T = [3 -1]^T   [3  4]
+         [4  2]   = [-1 2]
 ```
 
 ```
-f. 
+         [ 1 35]^T   [ 1 -1 -3]
+f. P^T = [-1 24]   = [35 24 43]
+         [-3 43]
 ```
 
 ```
-g. 
+         [ 2  3 3]^T   [2 9 12]
+g. R^T = [ 9  2 6]   = [3 2 -4]
+         [12 -4 7]     [3 6  7]
 ```
