@@ -39,8 +39,31 @@ The following data is used in PII, PIII and PIV,
 
 <pagebreak>
 
-## PI: How Matrices Can Be Used To Represent Ordered Data And How They Are Similar To Variables In Computer Programming
-Matrices can be used to represent ordered data in the real world in many different applications. 
+## PI: Understanding Matrices and How Matrices Can Be Used To Represent Ordered Data
+### Overview
+A Matrix is a way of displaying data in an ordered format. Matrices are in a rectanguar format with cells comprised of rows and columns. Matrices can be used with one another to add, subtract and multiply. When writing out a matrix calculation, regular mathematical symbols are used, except for the full stop symbol (.), which is used for multiplcation of matrices. When multipling matrices, the order of which matrix comes first is key. `A . B` is not the same as `B . A`.
+
+### Order
+The order of a matrix is very important. A matrix with the numbers `[3, 6] [9, 5]` will have a different outcome if manipulated with another number than a matrix with the numbers `[6, 3] [5, 9]`. This means that if the order of any individual number is changed, the whole calculation could be invalidated.
+
+### Indecies
+Indexes of matrices are selected subsections of a matrix. For instance, a 3x3 matrix may be like this;
+
+```
+[9 2 8]
+[3 1 4]
+[7 6 5]
+```
+
+But an index of the matrix would be only a small group, such as this 2x2 subsection.
+
+```
+[3 1]
+[7 6]
+```
+
+### Real World Applications
+Matrices can be used in the real world in many different applications. One use of matrixes in the real world is the traits of a population of people, webpage rankings and cryptography. Without matrices, many real world applications would be hindered.
 
 <pagebreak>  
 
@@ -183,7 +206,7 @@ g. R^T = [ 9  2 6]   = [3 2 -4]
 
 <pagebreak>
 
-# PV: Simulatious Equations
+# PV: Simulations Equations
 
 The following questions need to be answered:
 
@@ -302,7 +325,7 @@ When making a 2x2 matrix, as seen below, one can do many more things with the da
 [7] [1]
 ```
 
-It can be used to add, subtract, multiply and divide, along with calculating the inverse and transpositions. It can also be used for generating solutions to simulatious equations. The possiblities are vast, whereas with a two dimensional array, the possible uses are very similar to a single dimensional array. A two dimensional array, as shown below, can be used to store more data than a single dimensional array as other values can be added to the data.
+It can be used to add, subtract and multiply, along with calculating the inverse and transpositions. It can also be used for generating solutions to simulatious equations. The possiblities are vast, whereas with a two dimensional array, the possible uses are very similar to a single dimensional array. A two dimensional array, as shown below, can be used to store more data than a single dimensional array as other values can be added to the data.
 
 ```
 var array = [
