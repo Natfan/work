@@ -1,0 +1,12 @@
+D:\Coding\MonsterSkeletonProgram\MonsterSkeletonProgram\bin\Debug\MonsterSkeletonProgram.exe.config
+D:\Coding\MonsterSkeletonProgram\MonsterSkeletonProgram\bin\Debug\MonsterSkeletonProgram.exe
+D:\Coding\MonsterSkeletonProgram\MonsterSkeletonProgram\bin\Debug\MonsterSkeletonProgram.pdb
+D:\Coding\MonsterSkeletonProgram\MonsterSkeletonProgram\obj\Debug\MonsterSkeletonProgram.csprojResolveAssemblyReference.cache
+D:\Coding\MonsterSkeletonProgram\MonsterSkeletonProgram\obj\Debug\MonsterSkeletonProgram.exe
+D:\Coding\MonsterSkeletonProgram\MonsterSkeletonProgram\obj\Debug\MonsterSkeletonProgram.pdb
+C:\Users\natha_000\Desktop\UTCReading\CompSci\Mock Exams\Dec16\Prelim\MonsterSkeletonProgram\MonsterSkeletonProgram\bin\Debug\MonsterSkeletonProgram.exe.config
+C:\Users\natha_000\Desktop\UTCReading\CompSci\Mock Exams\Dec16\Prelim\MonsterSkeletonProgram\MonsterSkeletonProgram\obj\Debug\MonsterSkeletonProgram.exe
+C:\Users\natha_000\Desktop\UTCReading\CompSci\Mock Exams\Dec16\Prelim\MonsterSkeletonProgram\MonsterSkeletonProgram\obj\Debug\MonsterSkeletonProgram.pdb
+C:\Users\natha_000\Desktop\UTCReading\CompSci\Mock Exams\Dec16\Prelim\MonsterSkeletonProgram\MonsterSkeletonProgram\bin\Debug\MonsterSkeletonProgram.exe
+C:\Users\natha_000\Desktop\UTCReading\CompSci\Mock Exams\Dec16\Prelim\MonsterSkeletonProgram\MonsterSkeletonProgram\bin\Debug\MonsterSkeletonProgram.pdb
+C:\Users\natha_000\Desktop\UTCReading\CompSci\Mock Exams\Dec16\Prelim\MonsterSkeletonProgram\MonsterSkeletonProgram\obj\Debug\MonsterSkeletonProgram.csprojResolveAssemblyReference.cache
