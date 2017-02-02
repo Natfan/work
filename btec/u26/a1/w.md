@@ -2,7 +2,7 @@
 *By Nathan Windisch*
 
 ## Data
-The following data is used in PI, 
+The following data is used in PII, PIII and PIV,
 
 ```
  M = [  3 -1 ]
@@ -11,23 +11,22 @@ The following data is used in PI,
 
 ```
  N = [  4  3 ]
-     [ -1 -1 ]
+     [ -3 -1 ]
 ```
 
 ```
-     [  1 35 ]
- P = [ -1 24 ]
-     [ -3 43 ]
+     [  1 3 5 ]
+ P = [ -1 2 4 ]
+     [ -3 4 3 ]
 ```
 
 ```
-     [ 2   33 ]
- Q = [ 4  -42 ]
-     [ 2  -48 ]
+     [ 2  3  3 ]
+ Q = [ 4  4 -2 ]
+     [ 2 -4  8 ]
 ```
 
 ```
-     [  2  3  3 ]
  R = [  9  2  6 ]
      [ 12 -4  7 ]
 ```
@@ -41,9 +40,11 @@ The following data is used in PI,
 <pagebreak>
 
 ## PI: How Matrices Can Be Used To Represent Ordered Data And How They Are Similar To Variables In Computer Programming
-The following presentation is about how Matrices can  
+The following presentation is about how Matrices can be used to represent ordered data and how they are similar to variables within Computer Programming.
 
-## PII: Adding & Subtracting Matrices, Along With Demonstrating How Matrices Can Be Used To Represent Data
+<pagebreak>  
+
+## PII: Adding & Subtracting Matrices
 
 The following questions need to be answered:
 
@@ -57,39 +58,39 @@ The following are my answers to the question, with working out added to them as 
 
 ```
 a. M + N = [3 -1]   [ 4  3]   [(3+ 4) (-1+ 3)]   [7 2]
-           [4  2] + [-1 -1] = [(4+-1) ( 2+-1)] = [3 1]
+           [4  2] + [-1 -1] = [(4+-3) ( 2+-1)] = [1 1]
 ```
 
 ```
-b. P + Q = [-1 24]   [1  35]
-           [-3 43] + [4 -42] = Undefined as their orders are not equal.
-                     [2 -48]
+           [ 1 3 5]   [2  3  3]   [( 1+2) (3+ 3) (5+ 3)]   [3 6  8]
+b. P + Q = [-1 2 4] + [4  4 -2] = [(-1+4) (2+ 4) (4+-2)] = [3 6  2]
+           [-1 4 3]   [3 -4  8]   [(-1+3) (4+-4) (3+ 8)]   [2 0 11]
 ```
 
 ```
-c. M - N = [3 -1]   [ 4  3]   [(3-4) (-1- 3)]   [(3-4) (-1-3)]   [-1 -4]
-           [4  2] - [-1 -1] = [(4--1 ( 2--1)] = [(4+1) ( 2+1)] = [ 5  3]
+c. M - N = [3 -1]   [ 4  3]   [(3- 4) (-1- 3)]   [(3-4) (-1-3)]   [-1 -4]
+           [4  2] - [-3 -1] = [(4--3) ( 2--1)] = [(4+3) ( 2+1)] = [ 7  3]
 ```
 
 ```
-        [ 1 35]       [( 1*3) (35*3)]   [ 3 105]
-d. 3P = [-1 24] * 3 = [(-1*3) (24*3)] = [-3  72]
-        [-3 43]       [(-3*3) (43*3)]   [-9 129]
+        [ 1 3 5]       [( 1*3) (3*3) (5*3)]   [ 3  9 15]
+d. 3P = [-1 2 4] * 3 = [(-1*3) (2*3) (4*3)] = [-3  6 12]
+        [-1 4 3]       [(-1*3) (4*3) (3*3)]   [-3 12  9]
 ```
 
 ```
-             ([ 1 35]    )   ([2  33]    )   [ 3 105]   [4  66]   [ 7 171]
-e. 3P + 2Q = ([-1 24] * 3) + ([4 -42] * 2) = [-3  72] + [8 -84] = [ 5 -12]
-             ([-3 43]    )   ([2 -48]    )   [-9 129]   [4 -96]   [-5  33]
+             ([ 1 3 5]  )   ([2  3  3]  )   [( 1*3) (3*3) (5*3)]   [(2*2) ( 3*2) ( 3*2)]   [ 3  9 15]   [4  6  6]   [( 3+4) ( 9+ 6) (15+ 6)]   [7 15 21]
+e. 3P + 2Q = ([-1 2 4]*3) + ([4  4 -2]*2) = [(-1*3) (2*3) (4*3)] + [(4*2) ( 4*2) (-2*2)] = [-3  6 12] + [8  8 -4] = [(-3+8) ( 6+ 8) (12+-4)] = [5 14  8]
+             ([-1 4 3]  )   ([2 -4  8]  )   [(-1*3) (4*3) (3*3)]   [(3*2) (-4*2) ( 8*2)]   [-3 12  9]   [6 -8 16]   [(-3+6) (12+-8) ( 9+16)]   [3  4 25]
 ```
 
 <pagebreak>
 
-# PII: Multiplying Matrices
+## PIII: Multiplying Matrices
 
 The following questions need to be answered:
 
-*Please note that `.` is equal to `*` or `x`.*
+*Please note that . is equal to x.*
 
 a. M.N
 b. P.Q
@@ -104,35 +105,35 @@ a. M . N = [3 -1]   [ 4  3]   [(3* 4) (-1* 3)]   [ 7 -3]
 ```
 
 ```
-b. P . Q = [ 1 35]   [2  33]   [ (1*2) (35* 33)]   [ 2  1155]
-           [-1 24] . [4 -42] = [(-1*4) (24*-42)] = [-4 -1008]
-           [-3 43]   [2 -48]   [(-3*2) (43*-48)]   [-6 -2064]
+           [ 1 3 5]   [2  3  3]   [ (1*2) (3* 3) (5* 3)]   [ 2   9 15]
+b. P . Q = [-1 2 4] . [4  4 -2] = [(-1*4) (2* 4) (4*-2)] = [-4   8 -8]
+           [-3 4 3]   [2 -4  8]   [(-3*2) (4*-4) (3* 8)]   [-6 -16 24]
 ```
 
 ```
-           [ 2  3 3]   [-6  3]
-c. R . S = [ 9  2 6] . [-3 -2] = Undefined as their orders are not equal.
-           [12 -4 7]   [-6  6]
+                       [-6  3]
+c. R . S = [ 9  2 6] . [-3 -2] = [( 9*-6+ 2*-3+6*-6) ( 9*3+ 2*-2+6*6)] = [- 96 59]
+           [12 -4 7]   [-6  6]   [(12*-6+-4x-3+7*-6) (12*3+-4*-2+7*6)]   [-102 86]
 ```
 
 ```
-           [-6  3]   [ 2  3 3]
-d. S . R = [-3 -2] . [ 9  2 6] = Undefined as their orders are not equal.
-           [-6  6]   [12 -4 7]
+           [-6  3]               [-6*9+3*12-3*9+-2*12-6*9+6*12]   [-18 -24 -15]
+d. S . R = [-3 -2] . [ 9  2 6] = [-6*2+3*-4-3*2+-2*-4-6*2+6*-4] = [-51   2 -32]
+           [-6  6]   [12 -4 7]   [-6*6+3* 7-3*6+-2* 7-6*6+6* 7]   [ 18 -36   6]
 ```
 
 <pagebreak>
 
-# PIII: Inverse and Transpose
+## PIV: Inverse and Transpose
 
 The following questions need to be answered:
 
-*Please note that* `x/y` *is the same as* `x over y`*.*
+*Please note that x/y is the same as x over y .*
 
-a. M^-1
-b. N^-1
-c. P^-1
-d. Q^-1
+a. M⁻¹
+b. N⁻¹
+c. P⁻¹
+d. Q⁻¹
 e. M^T
 f. P^T
 g. R^T
@@ -179,3 +180,119 @@ f. P^T = [-1 24]   = [35 24 43]
 g. R^T = [ 9  2 6]   = [3 2 -4]
          [12 -4 7]     [3 6  7]
 ```
+
+<pagebreak>
+
+# PV: Simulatious Equations
+
+The following questions need to be answered:
+
+```
+a. 3x + 4y = 14
+   2x - 7y = 11
+```
+
+```
+b. 6x + 2y = 24
+   3x - 3y = 22
+```
+
+The following are my answers to the questions, along with the working out added to them as an intermediate step.
+
+```
+a. [3  4] [x] = [14]
+   [2 -7] [y]   [11]
+
+   Therefore
+   [x] [3  4]⁻¹ = [14]
+   [y] [2 -7]     [11]
+   And we shall call this matrix 'A' for easier understanding later on.
+
+   1/|A| [3  4] = 1/(3*-7) - (4*2) [3  4] =
+         [2 -7]                    [2 -7]
+
+   1/-29 [-7 4] = 1/29 [-7 -4] =
+         [ 2 3]        [-2  3]
+
+   [((1/-29)*-7) ((1/-29)*-4)] =
+   [((1/-29)*-2) ((1/-29)* 3)]
+
+   A⁻¹ = [7/29  4/ 29]
+         [2/29 -3/-29]
+
+   The next step is to inverse 'A' by the original 11.14 matrix.
+
+   [x] = [7/29  4/ 29] [14]
+   [y]   [2/29 -3/-29] [11]
+
+   [7/29  4/ 29] [14] = [[(7/29)x14] + [( 4/ 29)x11]] = [98/29 +  44/ 29] = [142/ 29]
+   [2/29 -3/-29] [11]   [[(2/29)x14]   [(-3/-29)x11]]   [28/29 + -33/-29]   [ -5/-29]
+
+   Ergo:
+   [x] = [142/ 29]
+   [y]   [ -5/-29]
+```
+
+Finally, we can determine that the answer is:
+   **x = 142/29**
+   **y = -5/-29**
+
+```
+b. [6  2] [x] = [24]
+   [3 -3] [y]   [22]
+
+   Therefore
+   [x] [6  2]⁻¹ = [24]
+   [y] [3 -3]     [22]
+   And we shall call this matrix 'A' for easier understanding later on.
+
+   1/|A| [6  2] = 1/(6*(-3))- (2*(-3)) [6  2] =
+         [3 -3]                        [3 -3]
+
+   1/-24 [-3 2] = 1/-24 [-3 -2] =
+         [ 3 6]         [-3  6]
+
+   [((1/-24)*-3) ((1/-24)*-2)] =
+   [((1/-24)*-3) ((1/-24)* 6)]
+
+   A⁻¹ = [1/8  1/12]
+         [1/8 -1/-4]
+
+   The next step is to inverse 'A' by the original 11.14 matrix.
+
+   [x] = [1/8  1/12] [24]
+   [y]   [1/8 -1/-4] [22]
+
+   [1/8  1/12] [24] = [[(1/8)x24] + [( 1/12)x22]] = [3 +  11/ 6] = [29/ 6]
+   [1/8 -1/-4] [22]   [[(1/8)x24]   [(-1/-4)x22]]   [3 + -11/-2]   [-5/-2]
+
+   Ergo:
+   [x] = [29/ 6]
+   [y]   [-5/-2]
+```
+Finally, we can determine that the final answer is:
+  **x = 29/6**
+  **y = -5/-2**
+
+<pagebreak>
+
+## MI: Relationship between Matrices and Arrays in Computer Programming
+A standardized array has a number of rows and columns. For instance, a 3x2 matrix it would have two columns and three rows, and a 5x5 matrix would have five columns and five rows. Arrays are very similar, but the other way around. A 3x2 matrix would have two rows and three columns, and a 5x5 matrix would have five rows and five columns. Aside from this, the way that arrays are used within programming are very similar to the way that matrices are used, at least in terms of storage. When creating a natrix with one column, one would do something like this:
+
+```
+[3]
+[4]
+[9]
+```
+
+The above matrix is a 3x1 matrix. To get the same result when programming, one may do something like the following to get a single dimensional array:
+
+```
+var array = [3, 4, 9];
+```
+
+The reason why this is called a single dimensional array is because there is only one 'side' to it; there is only one set of numbers meaning that if one were to assign all of these cells a unique identifier, they would be `3:0, 4:1, 9:2` with the first number being the value and the second being the identifier.
+
+A matrix with only one column can't really do much as far as mathematics is concerned. It cannot be used to multiply with anything inside itself, and is generally a useless piece of data. An array with one dimension, on the other hand, in extremely useful as it can store vast quantities of data with ease, allowing for data to be accessed from many new methods, along with manipulating the data to add and remove new cells on the fly. Whilst all of this is good, I shall now compare the similarities between a 2x2 matrix and a 2 dimensional array.
+
+When making a 2x2 matrix, 
