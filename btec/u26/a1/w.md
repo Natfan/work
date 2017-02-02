@@ -40,7 +40,7 @@ The following data is used in PII, PIII and PIV,
 <pagebreak>
 
 ## PI: How Matrices Can Be Used To Represent Ordered Data And How They Are Similar To Variables In Computer Programming
-The following presentation is about how Matrices can be used to represent ordered data and how they are similar to variables within Computer Programming.
+Matrices can be used to represent ordered data in the real world in many different applications. 
 
 <pagebreak>  
 
@@ -291,8 +291,26 @@ The above matrix is a 3x1 matrix. To get the same result when programming, one m
 var array = [3, 4, 9];
 ```
 
-The reason why this is called a single dimensional array is because there is only one 'side' to it; there is only one set of numbers meaning that if one were to assign all of these cells a unique identifier, they would be `3:0, 4:1, 9:2` with the first number being the value and the second being the identifier.
+The reason why this is called a single dimensional array is because there is only one 'side' to it; there is only one set of numbers meaning that if one were to assign all of these cells a unique identifier, they would be `3:0; 4:1; 9:2` with the first number being the value and the second being the identifier.
 
-A matrix with only one column can't really do much as far as mathematics is concerned. It cannot be used to multiply with anything inside itself, and is generally a useless piece of data. An array with one dimension, on the other hand, in extremely useful as it can store vast quantities of data with ease, allowing for data to be accessed from many new methods, along with manipulating the data to add and remove new cells on the fly. Whilst all of this is good, I shall now compare the similarities between a 2x2 matrix and a 2 dimensional array.
+A matrix with only one column can't really do much as far as mathematics is concerned. It cannot be used to multiply with anything inside itself, and is generally a useless piece of data. An array with one dimension, on the other hand, in extremely useful as it can store vast quantities of data with ease, allowing for data to be accessed from many new methods, along with manipulating the data to add and remove new cells on the fly. Whilst all of this is good, I shall now compare the similarities between a 2x2 matrix and a two dimensional array.
 
-When making a 2x2 matrix, 
+When making a 2x2 matrix, as seen below, one can do many more things with the data.
+
+```
+[4] [9]
+[7] [1]
+```
+
+It can be used to add, subtract, multiply and divide, along with calculating the inverse and transpositions. It can also be used for generating solutions to simulatious equations. The possiblities are vast, whereas with a two dimensional array, the possible uses are very similar to a single dimensional array. A two dimensional array, as shown below, can be used to store more data than a single dimensional array as other values can be added to the data.
+
+```
+var array = [
+  [4, 7]
+  [9, 1]
+];
+```
+
+This array can be considered as an "array within an array". It can store the data within the first layer, like the one beofre, but it can also store more data inside it. When assigning unique identifier, it would be displayed like `[4,7]:0; [9,1]:1` for the first layer and `4:0; 7:1 ` for the second layer in the first subarray. This means that multiple layers of data can be stored within one array.
+
+## MII:
