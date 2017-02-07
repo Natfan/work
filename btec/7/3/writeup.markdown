@@ -17,22 +17,22 @@ Another thing to note is the Data Protection Act of 1998. This act must be used 
 >
 >Everyone responsible for using data has to follow strict rules called ‘data protection principles’. They must make sure the information is:
 >
->* used fairly and lawfully
->* used for limited, specifically stated purposes
->* used in a way that is adequate, relevant and not excessive
->* accurate
->* kept for no longer than is absolutely necessary
->* handled according to people’s data protection rights
->* kept safe and secure
->* not transferred outside the European Economic Area without adequate protection
+>- used fairly and lawfully
+>- used for limited, specifically stated purposes
+>- used in a way that is adequate, relevant and not excessive
+>- accurate
+>- kept for no longer than is absolutely necessary
+>- handled according to people’s data protection rights
+>- kept safe and secure
+>- not transferred outside the European Economic Area without adequate protection
 >
 >There is stronger legal protection for more sensitive information, such as:
->* ethnic background
->* political opinions
->* religious beliefs
->* health
->* sexual health
->* criminal records
+>- ethnic background
+>- political opinions
+>- religious beliefs
+>- health
+>- sexual health
+>- criminal records
 
 The Data Protection Act is used to protect the data that a company takes, and forces them to keep it regularly updated and removed from their databases if it is no longer required. The data must not be gained unlawfully, such as scams or phishing, and it must be kept safe and secure. Sensitive data must not contain the person's ethnicity, religion, political views, health (including sexual health) or criminal records, unless otherwise stated, such as if those in possession of the data are a government facility or program, and if the user has permitted that facility or program access. The act was implemented to protect private citizen's data, and to ensure that companies are not using their data for nefarious or illegal purposes.
 <img src="https://www.roehampton.ac.uk/globalassets/images/corporate-information/data-protection-act.jpg" width = 25%>
@@ -46,13 +46,13 @@ Employment Contracts are, as defined on the official government webpage here (ht
 
 >All employees have an employment contract with their employer. A contract is an agreement that sets out an employee’s:
 >
->* employment conditions
->* rights
->* responsibilities
->* duties
->* These are called the ‘terms’ of the contract.
+>- employment conditions
+>- rights
+>- responsibilities
+>- duties
+>- These are called the ‘terms’ of the contract.
 >
->Employees and employers must stick to a contract until it ends (eg by an employer or employee giving notice or an employee being dismissed) or until the terms are changed (usually by agreement between the employee and employer).
+>Employees and employers must stick to a contract until it ends (for example, by an employer or employee giving notice or an employee being dismissed) or until the terms are changed (usually by agreement between the employee and employer).
 
 <img src="http://www.howellslegal.co.uk/news/image.axd?picture=2014%2F6%2Femployment-contract.jpg" width="75%">
 
@@ -81,22 +81,22 @@ The first law I shall be discussing is the Data Protection Act of 1998. The foll
 >
 >Everyone responsible for using data has to follow strict rules called ‘data protection principles’. They must make sure the information is:
 >
->* used fairly and lawfully
->* used for limited, specifically stated purposes
->* used in a way that is adequate, relevant and not excessive
->* accurate
->* kept for no longer than is absolutely necessary
->* handled according to people’s data protection rights
->* kept safe and secure
->* not transferred outside the European Economic Area without adequate protection
+>- used fairly and lawfully
+>- used for limited, specifically stated purposes
+>- used in a way that is adequate, relevant and not excessive
+>- accurate
+>- kept for no longer than is absolutely necessary
+>- handled according to people’s data protection rights
+>- kept safe and secure
+>- not transferred outside the European Economic Area without adequate protection
 >
 >There is stronger legal protection for more sensitive information, such as:
->* ethnic background
->* political opinions
->* religious beliefs
->* health
->* sexual health
->* criminal records
+>- ethnic background
+>- political opinions
+>- religious beliefs
+>- health
+>- sexual health
+>- criminal records
 
 To summarize, this law enables the fair use and storage of data, and does not allow it to be misused or inaccurate. It also requires that the data is updated regularly and removed when no longer needed.
 
@@ -106,18 +106,18 @@ On the flip side of this, there is the Freedom of information Act of 2000. This 
 >
 >This means that:
 >
->* everybody has a right to access official information. Disclosure of information should be the default – in other words, information should be kept private only when there is a good reason and it is permitted by the Act;
->* an applicant (requester) does not need to give you a reason for wanting the information. On the contrary, you must justify refusing them information;
->* you must treat all requests for information equally, except under some circumstances relating to vexatious requests and personal data (see When can we refuse a request? for details on these). The information someone can get under the Act should not be affected by who they are. You should treat all requesters equally, whether they are journalists, local residents, public authority employees, or foreign researchers; and
->* because you should treat all requesters equally, you should only disclose information under the Act if you would disclose it to anyone else who asked. In other words, you should consider any information you release under the Act as if it were being released to the world at large.
+>- everybody has a right to access official information. Disclosure of information should be the default – in other words, information should be kept private only when there is a good reason and it is permitted by the Act;
+>- an applicant (requester) does not need to give you a reason for wanting the information. On the contrary, you must justify refusing them information;
+>- you must treat all requests for information equally, except under some circumstances relating to vexatious requests and personal data (see "When can we refuse a request?" for details on these). The information someone can get under the Act should not be affected by who they are. You should treat all requesters equally, whether they are journalists, local residents, public authority employees, or foreign researchers; and
+>- because you should treat all requesters equally, you should only disclose information under the Act if you would disclose it to anyone else who asked. In other words, you should consider any information you release under the Act as if it were being released to the world at large.
 
 ### Security Laws
 
 There are also Security Laws that need to be evaluated and abided by. The main law that I shall be covering in this segment is the Computer Misuse Act of 1990. This act was created as a response to the *R v Gold & Schifreen* case, as there were no real laws to charge Gold & Schifreen with. The main three points of the Act are outlined as follows, as seen from Wikipedia page here: https://en.wikipedia.org/wiki/Computer_Misuse_Act_1990
 
->* unauthorized access to computer material, punishable by 12 months' imprisonment (or 6 months in Scotland) and/or a fine "not exceeding level 5 on the standard scale" (since 2015, unlimited);
->* unauthorized access with intent to commit or facilitate commission of further offences, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 5 years/fine on indictment;
->* unauthorized modification of computer material, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 10 years/fine on indictment;
+>- unauthorized access to computer material, punishable by 12 months' imprisonment (or 6 months in Scotland) and/or a fine "not exceeding level 5 on the standard scale" (since 2015, unlimited);
+>- unauthorized access with intent to commit or facilitate commission of further offences, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 5 years/fine on indictment;
+>- unauthorized modification of computer material, punishable by 12 months/maximum fine (or 6 months in Scotland) on summary conviction and/or 10 years/fine on indictment;
 
 As you can see, these laws are scaling and have a minimum of 12 months jail time, up to a maximum jail time of 10 years or an unlimited fine.
 
@@ -134,9 +134,9 @@ The issue is that, while System Administrators can access logs and monitor, shou
 The decision was to create trigger words that, when sent through our network, flag the system and notify our staff if it happens. Then, we can notify the appropriate authorities so that they can apprehend the criminal. We chose this response as we felt it was immoral to spy on our customers, but we felt we had a duty to help protect this country, given that we are a provider of infrastructure. Therefore we decided to generate a non-intrusive method of dealing with the situation. All data stored via the triggers are deleted after 48 hours, and only data caught by the filters will ever be saved, even temporarily.
 
 ### How It Relates To An ISP
-This decision relates to an ISP as we are the guardians of all data that our users send and recieve. If we wanted, we could take our user's data and sell it to other companies for profit, but we won't. The two reasons why we won't is because it is morally wrong and it is also illegal. While some of our competitors have large legal teams and questionable morality they may feel comfortable doing this but we, UTCISP, do not. We have promised to be 100% honest with our customers, and that is a promise that we plan to keep.
+This decision relates to an ISP as we are the guardians of all data that our users send and receive. If we wanted, we could take our user's data and sell it to other companies for profit, but we won't. The two reasons why we won't is because it is morally wrong and it is also illegal. While some of our competitors have large legal teams and questionable morality they may feel comfortable doing this but we, UTCISP, do not. We have promised to be 100% honest with our customers, and that is a promise that we plan to keep.
 
-## Reviewing saved data
+## Reviewing Saved Data
 ### The Issue
 Similarly to saving network traffic, we also have the ability to use our customers' saved data to our advantage. For instance, we could decrypt our customers' passwords and use them to break into other websites where they use the same or similar passwords. Another thing that we could do is sell our customers' private data to advertising companies for profit.
 
@@ -154,19 +154,19 @@ evaluate Security policies, Check for effectiveness, how it is used, where/How i
 ```
 In this segment I shall be evaluating the security policies that I mentioned in PIV. I shall also check for effectiveness, how the policies are used, where and how the policies can be improved and the possible consequences of changing security policies.
 
-The first policy that I shall cover is the testing of software. The software should be tested is the   
+The first policy that I shall cover is the testing of software. The software should be tested is the group policy software that we have installed on all systems within the company by default. Group policy is done via Windows Server 2012 and will be used to prevent employees from installing their own software. This is a highly important policy as it disallows users from editing the system when they should not be. It also means that the secure customer data on the system cannot be compromised by any outside programs, as the only programs that are installed on the system are ones that have been approved by the IT team. This means that if our servers and machines are compromised in any way, we have a very small list of possible ways that the hackers got into our system, meaning that the faults can be patched relatively easily and quickly. This testing policy is used all the time, whenever a user logs into a machine, due to the fact that group policy software has been added to the startup protocol. This policy could be improved by locking down the system even more, resulting in no administrative actions of any kind. While this would significantly reduce the amount of threats that we are open to, it may limit  the amount of actions that the users of the system can perform. This means that they will need to call upon the IT support team whenever they run into an issue. All in all, this policy change would probably mean that more time is spent fixing issues than the potential time saved from implementing these features. This system is already rather effective already, and in hindsight does not really need to be changed.
 
-Another policy that I have previously mentioned is the usage of email.
+Another policy that I have previously mentioned is the usage of email. 
 
 Finally, legality is a policy that must be discussed.
 
 <div style="page-break-after: always;"></div>
 
 ## Sources
-* Social Media: https://goo.gl/V4i7EE
-* Install: https://goo.gl/mHLIv9
-* Email: https://goo.gl/oZyAbO
-* DPA: https://goo.gl/7kQ0T1
-* Employment Contract: https://goo.gl/0aXNV5
-* Privacy Law: https://goo.gl/ry7hfC
-* Security Law: https://goo.gl/StPtXU
+- Social Media: https://goo.gl/V4i7EE
+- Install: https://goo.gl/mHLIv9
+- Email: https://goo.gl/oZyAbO
+- Data Protection Act: https://goo.gl/7kQ0T1
+- Employment Contract: https://goo.gl/0aXNV5
+- Privacy Law: https://goo.gl/ry7hfC
+- Security Law: https://goo.gl/StPtXU
