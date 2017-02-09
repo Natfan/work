@@ -8,16 +8,15 @@ The issue is that there are not many choose-your-adventure video games on the ma
 To recap, the project will have the following features:
 
 * A basic story with two or three different outcomes
+* Items that are required to perform various actions within the story
 * A menu which allows the user to select stories that they have selected
 * A UI which is easy to use
 * An options page
 * A credits page
 
-#### Priorities
-`musts, likes, possibles`
-As aforementioned, there are tasks that will have to be completed within the scope. That being said, there are other tasks that the client would like me to complete, and others that are possibilities that can be added onto the base product after the initial development phase has been completed. 
+<pagebreak>
 
-#### Boundaries
+### Boundaries
 `input and output`
 
 <pagebreak>
@@ -34,21 +33,46 @@ text
 
 ## Analysis
 ### Outline
-`Approach`
+I have decided to approach the project by listing all the features that the client needs to have completed for a base product, what could be added to the project within the timescale and what may be added if there was a larger timespan on which to develop this program to it's full potential, if there were more time and resources available to me and my client. Some of the tasks that the client would like me to complete are:
+
+* UI configuration
+* Viewing stories grouped by genre
+* Viewing stories grouped by last read
+* Viewing stories grouped by user rating
+
+The following are some tasks which would be possible if a second round of development were to be initiated, or if a longer timespan with more resources were to be used instead:
+
+* Audio playing along with the user reader reading the story
+* Access to a store page where users can purchase expansion packs and other downloadable content
+* Ability to unlock and view achievements
+* Ability to sign up to a web service in order to save and load progress, along with achievements and configuration profiles
+* Ability to view leaderboards to see who has completed stories in the shortest amounts of time, with the most gear unlocked, who gained the most achievements and more
 
 <pagebreak>
 
 ### Use Case Diagram
 `UML 2.0`
+The following is a UML 2.0 diagram that I have created to show how the proposed system will work.
+
+<img src="Resources\Images\usecaseuml.png"></img>
+
+<pagebreak>
 
 ### IOPS Chart
 `Complexity, Storage, Estimates`
+`Input, Output, Processing and Storage`
+
+<pagebreak>
 
 ### Smart Objectives
 text
 
+<pagebreak>
+
 ### Interview
 text
+
+<pagebreak>
 
 ### Feedback
 text
@@ -59,18 +83,27 @@ text
 ### Testing Strategy
 text
 
+<pagebreak>
+
 ### Test Plan
 `table with main tests then more rows with subtests`
+
+<pagebreak>
 
 ### Entity Relationship Diagram
 text
 
+<pagebreak>
+
 ### HCI (?)
 text
+
+<pagebreak>
 
 ### Flow Chart
 `per usecase`
 
+<pagebreak>
 
 ### Class Diagram
 `uml 2.0`
@@ -93,8 +126,17 @@ text
 ## Evaluation
 
 `User Acceptance Testing`
+
+<pagebreak>
+
 `SMART`
+
+<pagebreak>
+
 `Interview Feedback`
+
+<pagebreak>
+
 `Future Extentions: cost, impact, etc`
 
 <pagebreak>
