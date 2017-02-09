@@ -22,7 +22,7 @@ To recap, the project will have the following features:
 <div style="page-break-after: always;"></div>
 
 ### Convincing The Client
-text
+When discussing with the client for the first time we had a talk about what we wanted to create. He wanted an Android and possible an iOS application, but I explained to him that the development of two applications was too tricky. He listed the things that he wanted from the product, which I mentioned beforehand. After noting down what he wanted from me, I set to work on creating my very first Android application. After vigerous testing, I decided that it would be easier if I made a C# console varient of the game, and then ported it over to Android (and therefore Java, which is avery similar language) later, once it was finished.
 
 <div style="page-break-after: always;"></div>
 
