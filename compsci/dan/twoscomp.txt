@@ -1,0 +1,19 @@
+0101100000 | 111000 =     (small, negative as the start of M is 0 (small) and the start of E is 1 (neg)
+0101100000 | 001000 =
+
+256 + 64 + 32 | -8 = 
+352 x 2^-8 = 
+
+
+
+
+    M        E
+1111001100    000110
+0000110011    000110 [Flip the mantissa, not the exponent as the mantissa is positive]
+0000110100    000110 [Add 1 to the mantissa]
+0.000110100 * 2^6    [Convert the exponent to denary]
+0.0001101   * 2^6    [Remove the trailing 0s at the end, they are not important]
+00000110.1           ["Bunnyhop" the decimal point by 6 to the right, as we know that the number is 
+going to be big due to the fact that the mantissa starts with a 1]
+-6.5                 [Convert to denary, giving 6.5 (mantissa = 6, exponent is .5 as it is only one 
+number), negate it as the exponent starts with a 0]
