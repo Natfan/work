@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book version="2">
+	<title>Storyteller Test Story</title>
+	<sections>
+		<section>
+			<number>1</number>
+			<shiftable>false</shiftable>
+			<summary>main cave</summary>
+			<text>
+				<p order="1">You wake up in a dark, grungy cave. You see a path to your left and an opening to your right. You look up and see light from the hole above, but it is too steep to climb. Maybe if you had some rope then you could climb it…</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">go left</p>
+					</text>
+					<destination>2</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">go right</p>
+					</text>
+					<destination>3</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>2</number>
+			<shiftable>true</shiftable>
+			<summary>go left</summary>
+			<text>
+				<p order="1">You walk along the path to your left and access a larger cavern. There is light in the corner of the room, produced by an underground source of magma. There is a dusty, old chest in another corner of the room. There is also a door in the back of the room but it seems abandoned.</p>
+				<p order="2"/>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">explore the room</p>
+					</text>
+					<destination>4</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">try to open the door</p>
+					</text>
+					<destination>5</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">open the chest</p>
+					</text>
+					<destination>6</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">go back to the main cave</p>
+					</text>
+					<destination>1</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>3</number>
+			<shiftable>true</shiftable>
+			<summary>go right</summary>
+			<text>
+				<p order="1">You go into the tunnel on the right. As you crouch down inside to get a better look, the area behind you collapses. It seems that there is no way back. You crawl down the passageway. </p>
+				<p order="2"/>
+				<p order="3">[1 in 10 chance for the following:</p>
+				<p order="4">&#9;As you are about halfway down the passage way, the walls tremble. EARTHQUAKE! &#9;&#9;The roof of the tunnel collapses on top of you, crushing your body.</p>
+				<p order="5">&#9;</p>
+				<p order="6">&#9;You are dead. Game over.]</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>4</number>
+			<shiftable>true</shiftable>
+			<summary>explore the room</summary>
+			<text>
+				<p order="1">You explore the room and find nothing. Maybe it was this curious attitude that got you stuck down here in the first place?</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">choose again</p>
+					</text>
+					<destination>2</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>5</number>
+			<shiftable>true</shiftable>
+			<summary>try to open the door</summary>
+			<text>
+				<p order="1">After a bit of tinkering, the door gives way. It opens to a dark cavern. [If user searched the chest then they will have a torch and a hook. Use the torch and implement a way that it has a 1 in 50 chance of going out.] [If the user has a torch, then they can see. If not, tell them that it is dark and that they should go back.]</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">hold out your torch and go forth</p>
+					</text>
+					<destination>7</destination>
+				</choice>
+				<choice>
+					<text>
+						<p order="1">go back if you don&apos;t have a torch</p>
+					</text>
+					<destination>2</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>6</number>
+			<shiftable>true</shiftable>
+			<summary>open the chest</summary>
+			<text>
+				<p order="1">You open the chest and discover the following:</p>
+				<p order="2">&#9;[ ] A torch</p>
+				<p order="3">&#9;[ ] A grappling hook but no rope.</p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices>
+				<choice>
+					<text>
+						<p order="1">choose again</p>
+					</text>
+					<destination>2</destination>
+				</choice>
+			</choices>
+		</section>
+		<section>
+			<number>7</number>
+			<shiftable>true</shiftable>
+			<summary>hold out your torch and go forth</summary>
+			<text>
+				<p order="1">You hold out your torch and proceed into the dark cavern. You move slowly as you can&apos;t really see much beyond your own hands. You feel an empty space by your feet where the floor should be, and you stumble backwards. [1 in 5 chance to tumble into the abyss.] You  </p>
+			</text>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+		<section>
+			<number>8</number>
+			<shiftable>true</shiftable>
+			<summary>go back to the main cave.</summary>
+			<text/>
+			<backgroundcolour>#ffffff</backgroundcolour>
+			<choices/>
+		</section>
+	</sections>
+	<footer>
+		<p order="1">Created using the GameBook Authoring Tool</p>
+		<p order="2">http://www.crumblyheadgames.co.uk/the-gamebook-authoring-tool/</p>
+	</footer>
+	<formats>
+		<choice>To {{text}}, go to {{destination}}.</choice>
+	</formats>
+	<styles>
+		<style name="text">
+			<font>
+				<name>Cambria</name>
+				<size>10</size>
+			</font>
+		</style>
+		<style name="header">
+			<font>
+				<name>Cambria</name>
+				<size>36</size>
+			</font>
+		</style>
+		<style name="footer">
+			<font>
+				<name>Consolas</name>
+				<size>8</size>
+			</font>
+		</style>
+	</styles>
+</book>
