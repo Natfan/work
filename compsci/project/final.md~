@@ -3,12 +3,19 @@
 
 ## Introduction
 ### Scope
-The product that I am creating is a text-based application that allows users to play a type of game called a gamebook where users read the story and can make decisions that change the outcome of the story. When completed this application will be very complex and will have many stories, each with multiple endings based on how the user plays the game. Expansion upgrades will be available in the form of micro-transactions, but these could also be unlocked either by watching adverts or completing achievements, both of which will give the user a soft currency. Cosmetic upgrades such as app skins could be implemented, for easier reading at night with a dark theme.
+The issue is that there are not many choose-your-adventure video games on the market right now. My client is Oliver Eastgreen Cox and he has requested that I work with him to develop an application which will enable the user to play through predetermined stories, along with an audiobook being played alongside, for those with headphones who prefer listening to reading. The proposed final product, which I shall not be developing in this project but will be worked on later if further expansion is required, will have multiple free stories for the user to choose from, all with different themes and lengths in order to satisfy everyone's fictional tastes, from Science Fiction to Fantasy to Horror. All stories are intended to have multiple endings, but only a few of them may be able to be completed for this demonstration. Expansion packs could be made later down the line, to generate more profit. These expansion packs could be more stories categorised under different genres, changes to the colour scheme of the user interface or general soft currency which could be used to purchase these features or more that we add in the future. Another idea that has been toyed with is the ability for players to gain achievements while playing which, in turn will give them the soft currency for free, meaning that users can gain access to the paid content without spending any money at all, it will just be significantly harder as they will not earn as much as those that pay. As the game is single player, balance is not an issue at all due to the fact that nothing that a player does will have any significance to any other player at all. A player can cheat through the entire game and it will have no consequence to the rest of the playerbase.
 
+To recap, the project will have the following features:
 
+* A basic story with two or three different outcomes
+* A menu which allows the user to select stories that they have selected
+* A UI which is easy to use
+* An options page
+* A credits page
 
-#### Priorties
+#### Priorities
 `musts, likes, possibles`
+As aforementioned, there are tasks that will have to be completed within the scope. That being said, there are other tasks that the client would like me to complete, and others that are possibilities that can be added onto the base product after the initial development phase has been completed. 
 
 #### Boundaries
 `input and output`
