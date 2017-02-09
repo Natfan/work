@@ -3,6 +3,8 @@
 
 ## Introduction
 ### Scope
+The product that I am creating is a text-based application that allows users to play a type of game called a gamebook where users read the story and can make decisions that change the outcome of the story. When completed this application will be very complex and will have many stories, each with multiple endings based on how the user plays the game. Expansion upgrades will be available in the form of micro-transactions, but these could also be unlocked either by watching adverts or completing achievements, both of which will give the user a soft currency. Cosmetic upgrades such as app skins could be implemented, for easier reading at night with a dark theme.
+
 
 
 #### Priorties
@@ -55,8 +57,6 @@ text
 
 ### Entity Relationship Diagram
 text
-
-
 
 ### HCI (?)
 text
