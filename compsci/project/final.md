@@ -53,7 +53,7 @@ The following are some tasks which would be possible if a second round of develo
 ### Use Case Diagram
 The following is a UML 2.0 diagram that I have created to show how the proposed system will work.
 
-<img src="Resources/Images/umlusecase.png" style="width=100%"></img>
+<img src="resources/images/umlusecase.png" style="width=100%"></img>
 
 As you can see, the Player has a few different options that they can choose from, such as:
 
@@ -80,17 +80,17 @@ When working with my Use Case UML diagram, I discovered that there were a few IO
 
 The first IOPS issue that I came across was the fact that I was not fully sure how I would allow the user to generate the default game files so that the user can create the game for the first time. I developed the following chart to make it clearer for myself when I got round to developing the actual program.
 
-<img src="Resources/Images/iops1.png" style="width=100%"></img>
+<img src="resources/images/iops1.png" style="width=100%"></img>
 
 This is an IOPS chart that shows how a game is created. It contains redunancies to allow the user to enter the Load Game screen but still create a fresh game save if they have none currently.
 
 The second IOPS issue that I came across is that I do not have a visual representation as to how the Change Options and Credits Menu functions will work. The following is a quick IOPS chart as to how the Change Options menu shall function:
 
-<img src="Resources/Images/iops2.png" style="width=100%"></img>
+<img src="resources/images/iops2.png" style="width=100%"></img>
 
 The following IOPS chart is how the Credits menu will function:
 
-<img src="Resources/Images/iops3.png" style="width=100%"></img>
+<img src="resources/images/iops3.png" style="width=100%"></img>
 
 <div style="page-break-after: always;"></div>
 
