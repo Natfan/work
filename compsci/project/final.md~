@@ -229,9 +229,8 @@ The following is the flow chart for UC3.
 <div style="page-break-after: always;"></div>
 
 ### Class Diagram
-The following is my class diagram for my project:
-
-<img src="resources/images/classdia.png" style="width=100%"></img>
+`uml 2.0`
+`object, module, flow`
 
 <div style="page-break-after: always;"></div>
 
