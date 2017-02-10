@@ -1,6 +1,8 @@
 # Computer Science Project
 *By Nathan Windisch*
 
+<div style="page-break-after: always;"></div>
+
 ## Introduction
 ### Scope
 The issue is that there are not many choose-your-adventure video games on the market right now. My client is Oliver Eastgreen Cox and he has requested that I work with him to develop an application which will enable the user to play through predetermined stories, along with an audiobook being played alongside, for those with headphones who prefer listening to reading. The proposed final product, which I shall not be developing in this project but will be worked on later if further expansion is required, will have multiple free stories for the user to choose from, all with different themes and lengths in order to satisfy everyone's fictional tastes, from Science Fiction to Fantasy to Horror. All stories are intended to have multiple endings, but only a few of them may be able to be completed for this demonstration. Expansion packs could be made later down the line, to generate more profit. These expansion packs could be more stories categorised under different genres, changes to the colour scheme of the user interface or general soft currency which could be used to purchase these features or more that we add in the future. Another idea that has been toyed with is the ability for players to gain achievements while playing which, in turn will give them the soft currency for free, meaning that users can gain access to the paid content without spending any money at all, it will just be significantly harder as they will not earn as much as those that pay. As the game is single player, balance is not an issue at all due to the fact that nothing that a player does will have any significance to any other player at all. A player can cheat through the entire game and it will have no consequence to the rest of the playerbase.
@@ -19,7 +21,6 @@ This is the full scope of the project that I shall be undertaking.
 <div style="page-break-after: always;"></div>
 
 ### Boundaries
-`input and output`
 The general planned boundaries for my project, that being the inputs and outputs of the program, are as follows:
 **Inputs**
 * Users can create their games from a template.
@@ -31,7 +32,12 @@ The general planned boundaries for my project, that being the inputs and outputs
 *Please note that all of these are input actions that the user can perform.*
 
 **Outputs** 
-
+* Program will generate a new game from a template when the user creates a game.
+* Program will write their game to a file using XML as a configuration service.
+* Program will read their XML save file when loading a game.
+* Program will go to different parts of the story based on what actions the user performs.
+* Program will update the configuration file and reload it when options changes are saved.
+* Program will access and display the credits page on demand.
 
 <div style="page-break-after: always;"></div>
 
@@ -41,7 +47,7 @@ When discussing with the client for the first time we had a talk about what we w
 <div style="page-break-after: always;"></div>
 
 ### Complexity
-text
+The complexity of the project is that I shall start to work with C# to create a Console Application, then I shall port it over to Android during my second round of development. I shall attempt to add in XML, configuration, multiple classes, functions and I may look at implementing PHP and HTML in order to generate a leaderboard that users can view when not on the game, so that they can view it when not at their computers.
 
 <div style="page-break-after: always;"></div>
 
@@ -87,9 +93,6 @@ It is important to note that if you wish to quit and save your progress you will
 <div style="page-break-after: always;"></div>
 
 ### IOPS Chart
-`Complexity, Storage, Estimates`
-`Input, Output, Processing and Storage`
-
 When working with my Use Case UML diagram, I discovered that there were a few IOPS procedures that needed to be looked at before I could continue. For reference, IOPS stands for `Input, Output, Processing and Storage`.
 
 The first IOPS issue that I came across was the fact that I was not fully sure how I would allow the user to generate the default game files so that the user can create the game for the first time. I developed the following chart to make it clearer for myself when I got round to developing the actual program.
@@ -136,24 +139,36 @@ These are all of my SMART objectives for my three issues that I found with my Us
 ### Interview
 After generating all of this data I met up with my client for my first interview. The following is a rundown of what was discussed. The prefix `(O)` is for things that my client, Oliver Cox said, and the prefix `(N)` is for things that I said.
 
-(O): So I asked 
+(O): So I asked you to test if the design for the system that I sent you would work. What were your findings?
 
-<div style="page-break-after: always;"></div>
+(N): After lots of testing, I found that all of the things that I drew up in this Use Case Diagram would work in theory, but I had to expand each point so that I knew what to do.
+
+*I then showed him the Use Case Diagram, which was the initial design, and the IOPS chart, which was the follow up points.*
+
+(O): These are all very good, was there anything else that you found out during your analysis?
+
+(N): Yes, there was. After working on my IOPS chart, I decided to create a list of SMART objectives to see if the Use Cases were Specific, Measurable, Achievable, Realistic and Time Bound.
+
+(O): Cool, what were your findings?
+
+(N): As you can see... *I showed him the SMART Objectives table.* All of the points within the Use Case Diagram are all Specific, Measurable, Achievable, Realistic and Time Bound.
+
+(O): Very good, it seems as if you have been making progress. Let's have another meeting when you have more to show me.
 
 ### Feedback
-text
+I didn't get as much feedback as I would have liked from my interview with my client. I would have preferred more clearly defined tasks set up during the interview. Sadly the tasks that Oliver requested of me were more general and less specific. Luckily, I was able to relay what I had done to my client, so that he was kept on top of what I have been doing.
 
 <div style="page-break-after: always;"></div>
 
 ## Design
 ### Testing Strategy
-text
+My testing strategy can be seen below and I shall test all of the routes that my current game mock up can do and as there are a total of 4 decisions with two independent choices, I shall be using four bit binary to make a plan, where 0 is the first decision and 1 is the second. I shall then perform all these tests one after the other, and see which do not work.
+
+Another part of my testing strategy will be testing the options menu, and if different options work with one another. The final part of the strategy will be testing if I can edit keybinds from the options menu.
 
 <div style="page-break-after: always;"></div>
 
 ### Test Plan
-`table with main tests then more rows with subtests`
-
 The following are my test cases. Please note that the numbers under **Play Game** are due to the fact that I have a total of four tests currently set up, and each one can be dependent on any other. This means that there is a total of 16 possible tests, and I performed them all. The **Options** subsection is when I tested a quick mock up of the application, and the results can be seen in the table below.
 
 |Test #|Test Description|Test Date|Bugs Detected?|Bugs Fixed?|New Bugs Created?|
@@ -187,17 +202,29 @@ The following are my test cases. Please note that the numbers under **Play Game*
 <div style="page-break-after: always;"></div>
 
 ### Entity Relationship Diagram
-text
+There are not many parts of my program that will require an Entity Relationship Diagram, but a part that will require it is the game saving part of my code. The following is my Entity Relationship diagram for that segment:
+
+<img src="resources/images/er.png" style="width=100%"></img>
 
 <div style="page-break-after: always;"></div>
 
-### HCI (?)
-text
+### Human Computer Interaction
+Human Computer Interaction is the way that Humans interacts with computer systems and programs. Human Computer Interaction is highly important as without it, users would not be able to use the software very well, if at all. Human Computer Interaction can be made possible via making easy to use instructions and documentation, meaning that users can use the software without having to go through the source code and understanding what was actually programmed. A successful point of Human Computer Interaction is a well built interface that looks like it was designed by a human rather than a computer, meaning that people will be able to use it easier.
 
 <div style="page-break-after: always;"></div>
 
 ### Flow Chart
-`per usecase`
+I have decided to make a flow chart for each Use Case that I have developed in previous segments. The first Use Case, UC1, can be seen developed into a flow chart below.
+
+<img src="resources/images/fc1.png" style="width=100%"></img>
+
+The following is the flow chart for UC2.
+
+<img src="resources/images/fc2.png" style="width=100%"></img>
+
+The following is the flow chart for UC3.
+
+<img src="resources/images/fc3.png" style="width=100%"></img>
 
 <div style="page-break-after: always;"></div>
 
@@ -222,6 +249,7 @@ text
 ## Evaluation
 
 `User Acceptance Testing`
+User Acceptance Tests are a highly important part of the Evaluation process. User Acceptance Tests are tests which involve asking the user questions about the system 
 
 <div style="page-break-after: always;"></div>
 
