@@ -310,10 +310,9 @@ namespace StoryTellerTextBasedAdventureGame {
         #region Menu
         string gameText_menuText_Main = "Main Menu \n1) Play \n2) Statistics \n3) Achievements \n4) Credits ";
         string gameText_menuText_Play = "Play \nOh, hi there " + Environment.UserName + ". Pick an option, please.\n1) Start A New Game ";
-        string gameText_menuText_Stats = "Statistics \nTHINGS GO HERE LATER FIGURE IT OUT LATER.";
-        string gameText_menuText_Achievements = "Achievements \nTHINGS GO HERE LATER FIGURE IT OUT LATER.";
+        string gameText_menuText_Stats = "Statistics";
+        string gameText_menuText_Achievements = "Achievements";
         string gameText_menuText_Credits = "Credits \n" + credits_title_leadDeveloper + ": " + credits_name_nathanWindisch + "\n" + credits_title_writer + ": " + credits_name_oliEastGreenCox + "\n" + credits_title_writer + ": " + credits_name_nathanWindisch + "\n" + credits_title_tester + ": " + credits_name_jamesCox + " " + credits_notes_norelation;
-        string gameText_menuText_PressNumberToSelectItem = "FIX THIS LATER";
         #region Play Menu
         string gameMenu_menuText_playMenu_resumeGame = "\n2) Resume Previous Game";
         #endregion
