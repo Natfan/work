@@ -31,7 +31,7 @@ The general planned boundaries for my project, that being the inputs and outputs
 * Users can view the credits.
 *Please note that all of these are input actions that the user can perform.*
 
-**Outputs** 
+**Outputs**
 * Program will generate a new game from a template when the user creates a game.
 * Program will write their game to a file using XML as a configuration service.
 * Program will read their XML save file when loading a game.
@@ -156,7 +156,7 @@ After generating all of this data I met up with my client for my first interview
 (O): Very good, it seems as if you have been making progress. Let's have another meeting when you have more to show me.
 
 ### Feedback
-I didn't get as much feedback as I would have liked from my interview with my client. I would have preferred more clearly defined tasks set up during the interview. Sadly the tasks that Oliver requested of me were more general and less specific. Luckily, I was able to relay what I had done to my client, so that he was kept on top of what I have been doing. 
+I didn't get as much feedback as I would have liked from my interview with my client. I would have preferred more clearly defined tasks set up during the interview. Sadly the tasks that Oliver requested of me were more general and less specific. Luckily, I was able to relay what I had done to my client, so that he was kept on top of what I have been doing. This was the first meeting with feedback that I gained from my client.
 
 <div style="page-break-after: always;"></div>
 
@@ -170,6 +170,7 @@ Another part of my testing strategy will be testing the options menu, and if dif
 
 ### Test Plan
 The following are my test cases. Please note that the numbers under **Play Game** are due to the fact that I have a total of four tests currently set up, and each one can be dependent on any other. This means that there is a total of 16 possible tests, and I performed them all. The **Options** subsection is when I tested a quick mock up of the application, and the results can be seen in the table below.
+
 
 |Test #|Test Description|Test Date|Bugs Detected?|Bugs Fixed?|New Bugs Created?|
 |-|
@@ -231,19 +232,44 @@ The following is the flow chart for UC3.
 ### Class Diagram
 The following is my class diagram for my project:
 
-<img src="resources/images/classdia.png" style="width=100%"></img>
+<img src="resources/images/classdiag.png" style="width=100%"></img>
 
 <div style="page-break-after: always;"></div>
 
 ## Implementation
-`C#, JS, SQL, PHP`
-`src, annotations`
+For the fully annotated code, please see Appendix A.
 
 <div style="page-break-after: always;"></div>
 
 ## Testing
-`evidence table, with pass/fail`
-`iteration tests and fixes`
+The following are my test cases for the code itself. As I had already mocked up a prototype beforehand, the results are similar to the test cases before.
+|Test #|Test Description|Test Date|Bugs Detected?|Bugs Fixed?|New Bugs Created?|
+|-|
+|N/A|**Play Game**|N/A|N/A|N/A|N/A|
+|01|0000|29-Jun-16|14:03|N|N/A|
+|02|0001|29-Jun-16|14:05|N|N/A|
+|03|0010|2j-Jun-16|14:07|N|N/A|
+|04|0011|29-Jun-16|14:09|N|N/A|
+|05|0100|29-Jun-16|14:11|N|N/A|
+|06|0101|29-Jun-16|14:13|N|N/A|
+|07|0110|29-Jun-16|14:15|N|N/A|
+|08|0111|29-Jun-16|14:17|N|N/A|
+|09|1000|29-Jun-16|14:19|N|N/A|
+|10|1001|29-Jun-16|14:21|N|N/A|
+|11|1010|29-Jun-16|14:23|N|N/A|
+|12|1011|29-Jun-16|14:25|N|N/A|
+|13|1100|29-Jun-16|14:27|Y|Y|
+|14|1101|29-Jun-16|14:29|Y|Y|
+|15|1110|29-Jun-16|14:31|Y|Y|
+|16|1111|29-Jun-16|14:33|Y|Y|
+|N/A|**Options**|N/A|N/A|N/A|N/A|
+|17|fastType enabled|29-Jun-16|14:56|N|N/A|
+|19|instaType enabled|29-Jun-16|14:58|N|N/A|
+|18|fastType and instaType enabled|29-Jun-16|15:00|Y|Y|
+|N/A|**Edit Options**|N/A|N/A|N/A|N/A|
+|20|Edit key for skip|29-Jun-16|15:15|N|N/A|
+|21|Edit key for option 1|29-Jun-16|15:15|N|N/A|
+|22|Edit key for option 2|29-Jun-16|15:15|N|N/A|
 
 <div style="page-break-after: always;"></div>
 
@@ -254,14 +280,554 @@ User Acceptance Tests are a highly important part of the Evaluation process. Use
 ### Interview Feedback
 My interview feedback can be considered similar to the User Acceptance Tests, as they were conducted by the same person. This means that all feedback given to me via the user should also be considered part of the feedback from the interview that we had, but with some more additional points:
 
-* He would prefer it if the features that we discussed at the start of the project would be implemented, such as leaderboards, achievements and downloadable content. 
+* He would prefer it if the features that we discussed at the start of the project would be implemented, such as leaderboards, achievements and downloadable content.
 * He would also prefer it if the product was written for Android applications, which is something I will do in my second round of development later on.
 * He liked the simplistic UI style with the old-school character by character typing system, as he felt it made the game nostalgic and self-aware of the games that it was built on.
 
 <div style="page-break-after: always;"></div>
 
-### Future Extensions:
-`cost, impact, etc`
+### Future Extensions
 One future extension that I can add to the program is the ability for users to log into a server, in order to save your progress. Along with this feature, it means that leaderboards and profiles can be generated off that data. It also entails that users will be able to access their data across different devices. An impact of this is that it may cost lots of money to host these servers, as they will require lots of data due to the sending and receiving user's data, which could range from mere bytes to megabytes, depending on how much of the game they have completed, the amount of books they have open and the amount of achievements they have completed, unlocked or in progress. All of this data will also take up space on the server, possibly meaning that multiple hard disk drives will be required if the game's user base gets very large very fast. Hopefully this will mean that, while it may cost a lot of money to keep the game running, we will gain more money in profit, from the users that are purchasing in game products.
 
 Another future implication is that the game will need to be updated regularly. This means that I will need to implement an update system that does not get blocked by firewalls and cannot get compromised, meaning that the game cannot get hacked and malicious software cannot get installed.
+
+<div style="page-break-after: always;"></div>
+
+## Appendix
+### A: The Code
+The following is my code for the game StoryTeller.
+
+```c#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Configuration;
+
+
+namespace StoryTellerTextBasedAdventureGame {
+    // this is where the configuration settings are generated in a flatfile.
+    public class Config {
+        public static bool debug = true;
+
+        public static FileStream Q = new FileStream("config.txt", FileMode.OpenOrCreate, FileAccess.Write);
+        // because of this line, sadly it will only work on machines with the correct file path, relative paths will be used in the next developement run to allow a wider access to the game.
+        public static char gamePlay_next_upper = ConfigurationSettings.AppSettings.Get(
+            #region URL
+            "C://Users/natha_000/Documents/Visual Studio 2015/Projects/StoryTellerTextBasedAdventureGame/StoryTellerTextBasedAdventureGame/" +
+            #endregion
+            "App.config/config/gamePlay/next_upper").ToCharArray()[1];
+        //public static char gamePlay_next_upper = 'C';
+        public static ConsoleKey gamePlay_back = ConsoleKey.Backspace;
+        public static ConsoleKey gamePlay_exit = ConsoleKey.Escape;
+        public static bool text_textType = true;
+        public static int text_textFreq(int value) {
+            //int text_textFreq = 0; // DEBUG, COMMENT OUT IF NEEDED.
+            int text_textFreq = 45000; //LIVE, COMMENT OUT IF NEEDED.
+
+            value = text_textFreq;
+
+            return value;
+        }
+        public static ConsoleColor foregroundColor = ConsoleColor.Gray;
+        public static ConsoleColor backgroundColor = ConsoleColor.Black;
+    }
+
+    // this is where the actual code is run
+    class Program {
+        // this is where all of the variables for the game are stored
+        static bool noType = false;
+        static bool gameRunning = false;
+        List<string> inventory = new List<string>();
+
+        // this is where the constants that mustnt be changed are stored
+        #region Constants
+        const int ms = 1000;
+        #endregion
+
+        // this is where the settings are set up
+        #region Settings
+        bool settings_text_textType = Config.text_textType;
+        static int settings_text_textFreq = Config.text_textFreq / ms; // In Seconds
+
+        static char settings_gamePlay_next_upper = Config.gamePlay_next_upper;
+        char settings_gamePlay_next_lower = char.ToLower(settings_gamePlay_next_upper);
+
+        static ConsoleKey settings_gamePlay_back = Config.gamePlay_back;
+
+        static ConsoleKey settings_gamePlay_exit = Config.gamePlay_exit;
+        #endregion
+
+        // this is where all the commonly used strings are called
+        #region Strings
+        #region GameText
+        string gameText_next = "\n\nPress " + settings_gamePlay_next_upper + " to continue. ";
+        string gameText_back = "\nPress " + settings_gamePlay_back + " to go back. ";
+        string gameText_exit = "\nPress " + settings_gamePlay_exit + " to quit.";
+        #region ImportantWords
+        static string gameText_importantWords_game = "StoryTeller";
+        static string gameText_importantWords_gameTitle = gameText_importantWords_game + " - The Virtual Gamebook";
+        #endregion
+
+        #region Welcome
+        string gameText_welcomeText_Welcome = "Hello, and welcome to StoryTeller.\nIn this game, you make the decisions and the story builds around your actions. \nWhen prompted, type where you want to go or what you want to do. \nYou shall be prompted with what options you can do. \n\nThe following is an example: \nYou enter a room. You can go 'F'(ORWARDS), 'B'(ACKWARDS), 'L'(EFT), 'R'(IGHT). \nYour choice must match the options given, but does not have to be case sensitive. \nDo not attempt to complete the example; nothing will happen.";
+        #endregion
+
+        #region Menu
+        string gameText_menuText_Main = "Main Menu \n1) Play \n2) Statistics \n3) Achievements \n4) Credits ";
+        string gameText_menuText_Play = "Play \nOh, hi there " + Environment.UserName + ". Pick an option, please.\n1) Start A New Game ";
+        string gameText_menuText_Stats = "Statistics \nTHINGS GO HERE LATER FIGURE IT OUT LATER.";
+        string gameText_menuText_Achievements = "Achievements \nTHINGS GO HERE LATER FIGURE IT OUT LATER.";
+        string gameText_menuText_Credits = "Credits \n" + credits_title_leadDeveloper + ": " + credits_name_nathanWindisch + "\n" + credits_title_writer + ": " + credits_name_oliEastGreenCox + "\n" + credits_title_writer + ": " + credits_name_nathanWindisch + "\n" + credits_title_tester + ": " + credits_name_jamesCox + " " + credits_notes_norelation;
+        string gameText_menuText_PressNumberToSelectItem = "FIX THIS LATER";
+        #region Play Menu
+        string gameMenu_menuText_playMenu_resumeGame = "\n2) Resume Previous Game";
+        #endregion
+        #endregion
+
+        #region StoryText
+        #endregion
+
+        #region Credits
+        #region Titles
+        static string credits_title_leadDeveloper = "Lead Developer";
+        static string credits_title_writer = "Writer";
+        static string credits_title_tester = "Tester";
+        #endregion
+
+        #region People
+        static string credits_name_nathanWindisch = "Nathan Windisch";
+        static string credits_name_oliEastGreenCox = "Oli Eastgreen Cox";
+        static string credits_name_jamesCox = "James Cox";
+        #endregion
+
+        #region Notes
+        static string credits_notes_norelation = "(No relation)";
+        #endregion
+
+        #endregion
+
+        #endregion
+
+        #endregion
+
+        // this is the Main code that is executed on run. it calls the "run()" code as a new instance, so as not to get confused, it is never called
+        static void Main(string[] args) {
+            Console.Clear();
+            new Program().run();
+        }
+
+        // this is where all the code starts, it is called with
+        // run();
+        void run() {
+            Console.Title = gameText_importantWords_gameTitle;
+            Console.SetWindowSize(100, Console.WindowHeight);
+            Console.ForegroundColor = Config.foregroundColor;
+            Console.BackgroundColor = Config.backgroundColor;
+            inventory.Clear();
+
+            while (!Console.KeyAvailable) {
+                Console.Clear();
+                //Console.WriteLine(random(0, 5));
+                type(gameText_welcomeText_Welcome);
+                type(gameText_next);
+                noType = false;
+
+                ConsoleKeyInfo next = Console.ReadKey();
+                if (next.KeyChar == settings_gamePlay_next_lower || next.KeyChar == settings_gamePlay_next_upper) {
+                    Console.Clear();
+                    MainMenu();
+                } if (next.Key == ConsoleKey.Escape) {
+                    Environment.Exit(0);
+                } else {
+                    Console.Clear();
+                    run();
+                }
+                Console.ReadLine();
+            }
+            Console.ReadKey();
+        }
+
+        // this displays the main menu, it is called with
+        // MainMenu();
+        void MainMenu() {
+            //prepend();
+            type(gameText_menuText_Main);
+            append();
+            ConsoleKeyInfo next = Console.ReadKey();
+            if (next.KeyChar == '1') {
+                prepend();
+                PlayMenu();
+            }
+            if (next.KeyChar == '2') {
+                prepend();
+                StatisticsMenu();
+            }
+            if (next.KeyChar == '3') {
+                prepend();
+                AchievementsMenu();
+            }
+            if (next.KeyChar == '4') {
+                prepend();
+                CreditsMenu();
+            }
+            if (next.Key == settings_gamePlay_back) {
+                prepend();
+                MainMenu();
+            } if (next.Key == ConsoleKey.Escape) {
+                Environment.Exit(0);
+            } else {
+                //prepend();
+                MainMenu();
+            }
+        }
+
+        // this displays the play menu, it is called with
+        // PlayMenu();
+        void PlayMenu() {
+            type(gameText_menuText_Play);
+            if (gameRunning) {
+                type(gameMenu_menuText_playMenu_resumeGame);
+            }
+
+            ConsoleKeyInfo next = Console.ReadKey();
+            if (next.KeyChar == '1') {
+                prepend();
+                game();
+            }
+            if (gameRunning) {
+                if (next.KeyChar == '2') {
+                    prepend();
+                    resume();
+                }
+            }
+            if (next.Key == ConsoleKey.Backspace) {
+                prepend();
+                MainMenu();
+            }  if (next.Key == ConsoleKey.Escape) {
+                Environment.Exit(0);
+            } else {
+                prepend();
+                PlayMenu();
+            }
+        }
+
+        // this displays the statistics menu, it is called with
+        // StatisticsMenu();
+        void StatisticsMenu() {
+            //type(gameText_menuText_Stats);
+            type(gameText_next);
+            wip();
+            MainMenu();
+            append();
+
+            ConsoleKeyInfo next = Console.ReadKey();
+            if (next.Key == ConsoleKey.Backspace) {
+                prepend();
+                MainMenu();
+            } if (next.Key == ConsoleKey.Escape) {
+                Environment.Exit(0);
+            } else {
+                prepend();
+                StatisticsMenu();
+            }
+        }
+
+        // this displays the achievements menu, it is called with
+        // AchievementsMenu();
+        void AchievementsMenu() {
+            //type(gameText_menuText_Achievements);
+            wip();
+            MainMenu();
+            append();
+
+            ConsoleKeyInfo next = Console.ReadKey();
+            if (next.Key == ConsoleKey.Backspace) {
+                prepend();
+                MainMenu();
+            } if (next.Key == ConsoleKey.Escape) {
+                Environment.Exit(0);
+            } else {
+                prepend();
+                AchievementsMenu();
+            }
+        }
+
+        // this displays the credit menu, it is called with
+        // CreditsMenu();
+        void CreditsMenu() {
+            type(gameText_menuText_Credits);
+            append();
+
+            ConsoleKeyInfo next = Console.ReadKey();
+            if (next.Key == ConsoleKey.Backspace) {
+                prepend();
+                MainMenu();
+            } if (next.Key == ConsoleKey.Escape) {
+                Environment.Exit(0);
+            } else {
+                prepend();
+                CreditsMenu();
+            }
+        }
+
+        // this is where all of the code is issued when the game is run, it is called with:
+        // game();
+        void game() {
+            inventory.Clear();
+            void enterance() {
+                prepend();
+                type("You wake up in a dark, grungy cave.\nYou see a path to your left and an opening to your right.\nYou look up and see light from the hole above, but it is too steep to climb.\nMaybe if you had some rope then you could climb it...");
+                type("You do the following: ");
+                type("1. Left");
+                type("2. Right");
+                if (inventory.Contains("grapplinghook") && inventory.Contains("rope")) {
+                    type("3. Get out with your rope and grappling hook.");
+                }
+                ConsoleKeyInfo next = Console.ReadKey();
+                if (next.KeyChar == '1') {
+                    left1();
+                }
+                if (next.KeyChar == '2') {
+                    right1();
+                }
+                if (inventory.Contains("grapplinghook") && inventory.Contains("rope")) {
+                    if (next.KeyChar == '3') {
+                        win();
+                    }
+                }
+                append();
+            }
+            void left1() {
+                prepend();
+                type("You walk along the path to your left and access a larger cavern. \nThere is light in the corner of the room, produced by an underground source of magma. \nThere is a dusty, old chest in another corner of the room. \nThere is also a door in the back of the room but it seems abandoned.")
+                type("You can do the following: ");
+                type("1. Explore the room.");
+                type("2. Try to open the door.");
+                type("3. Open the chest.");
+                type("4. Go back to the main cave.");
+                ConsoleKeyInfo next = Console.ReadKey();
+                if (next.KeyChar == '1') {
+                    left1_explore();
+                }
+                if (next.KeyChar == '2') {
+                    left1_door();
+                }
+                if (next.KeyChar == '3') {
+                    left1_chest();
+                }
+                if (next.KeyChar == '4') {
+                    enterance();
+                }
+                append();
+            }
+            void left1_explore() {
+                prepend();
+                type("You explore the room and find nothing. \nMaybe it was this curious attitude that got you stuck down here in the first place?");
+                type("You can do the following: ");
+                type("1. Choose again");
+                ConsoleKeyInfo next = Console.ReadKey();
+                if (next.KeyChar == '1') {
+                    left1();
+                }
+                append();
+            }
+            void left1_door() {
+                prepend();
+                type("After a bit of tinkering, the door gives way. \nIt opens to a dark cavern.")
+                if (inventory.contains("torch")) {
+                    type("You use your torch and go inside.");
+                    random(50);
+                    if (random == 50) {
+                        type("Your torch has gone out.");
+                        type("You can do the following: ");
+                        type("1. Go back and get another torch.");
+                        ConsoleKeyInfo next = Console.ReadKey();
+                        if (next.KeyChar == '1') {
+                            left1_chest();
+                        }
+                    }
+                    left2();
+                } else {
+                    prepend();
+                    type("It seems a little dark, try something else.");
+                    type("You can do the following: ");
+                    type("1. Go back to the first room on the left.");
+                    ConsoleKeyInfo next = Console.ReadKey();
+                    if (next.KeyChar == '1') {
+                        left1());
+                    }
+                }
+                append();
+            }
+            void left1_chest() {
+                prepend();
+                type("You look inside the chest.");
+                success("You gained 1 Torch and 1 Empty Grappling Hook (You might need some rope.)");
+                inventory.Add("torch");
+                inventory.Add("grapplinghook");
+                type("You can do the following: ");
+                type("1. Explore the room.");
+                type("2. Try to open the door.");
+                type("3. Go back to the main cave.");
+                ConsoleKeyInfo next = Console.ReadKey();
+                if (next.KeyChar == '1') {
+                    left1_explore();
+                }
+                if (next.KeyChar == '2') {
+                    left1_door();
+                }
+                if (next.KeyChar == '3') {
+                    left1();
+                }
+                append();
+            }
+            void left2() {
+                prepend();
+                type("The dark room seems to be illuminated a bit by your Torch. \nYou walk forward and find a piece of rope. \nYou think for a bit and realise that you could use it for your grappling hook.");
+                inventory.Add("rope");
+                type("You can do the following: ");
+                type("1. Go back to the first room on the left.");
+                ConsoleKeyInfo next = Console.ReadKey();
+                if (next.KeyChar == '1') {
+                    left1();
+                }
+                append();
+            }
+            void right1() {
+                prepend();
+                type("You go into the tunnel on the right. \nAs you crouch down inside to get a better look, the area behind you collapses. \nIt seems that there is no way back. \nYou crawl down the passageway.");
+                random(5);
+                if (random == 5) {
+                    type("As you are about halfway down the passage way, the walls tremble. \nEARTHQUAKE! \nThe roof of the tunnel collapses on top of you, crushing your body.");
+                    gameover();
+                } else {
+                    type("You can do the following: ");
+                    type("1. Go forward.");
+                    ConsoleKeyInfo next = Console.ReadKey();
+                    if (next.KeyChar == '1') {
+                        right2();
+                    }
+                }
+                append();
+            }
+            void right2() {
+                prepend();
+                type("The cavern ahead of you seems massiv, judging by the echo.");
+                random(5);
+                if (random == 5) {
+                    type("You stumble and trip, falling down. \nAs you fall, you notice that there is no ground beneath your hands. \nYou fall into the abyss.");
+                    gameover();
+                } else {
+                    type("You can do the following: ");
+                    type("1. Go forward.");
+                    ConsoleKeyInfo next = Console.ReadKey();
+                    if (next.KeyChar == '1') {
+                        right3();
+                    }
+                }
+                append();
+            }
+            void right3() {
+                prepend();
+                type("You walk until you get to the wall of the cavern. \nOr what you think is a wall. \nIt's too dark to see, so you feel along the wall until you start to realise that it is not rock beneath your hands, it's scales. \nYou back away slowly but it is too late. \nA huge eyelid opens and reveals a terrible red eye with no pupil. \nThe dragon breathes fire, turning you to cinders.");
+                gameover();
+                append();
+            }
+
+            // this outputs the gameover text in a error format, it is called with:
+            // gameover();
+            void gameover() {
+                prepend();
+                error("You died, game over!");
+                inventory.Clear();
+                append();
+            }
+
+            // this outputs the win text in a success format, it is called with:
+            // win();
+            void win() {
+                prepend();
+                success("You won, congratulations!");
+                inventory.Clear();
+                append();
+            }
+        }
+
+        // this sends them the resume game message, sadly this is a work in progres. it is called with:
+        // resume();
+        void resume() {
+            wip();
+            MainMenu();
+        }
+
+        // this generates a random number, it is called with:
+        // random(int);
+        int random(int i) {
+            Random rndm = new Random();
+            random = rndm.Next(i);
+        }
+
+        // this types out the text that is given to it, it is called with:
+        // type(string);
+        void type(string value) {
+            for (int i = 0; i < value.Length; ++i) {
+                Console.Write(value.ToCharArray()[i]);
+                wait(settings_text_textFreq);
+            }
+        }
+
+        // this displayes the work in progress text, it is called with:
+        // wip();
+        void wip() {
+            warning("This is a Work In Progress, sending you to the Main Menu instead.\n\n");
+        }
+
+        // this types out the text that is given to it with a green (success) colour, it is called with:
+        // success(string);
+        void success(string value) {
+            Console.ForegroundColor = ConsoleColor.Green;
+            type(value);
+            Console.ForegroundColor = Config.foregroundColor;
+        }
+
+        // this types out the text that is given to it with a yellow (warning) colour, it is called with:
+        // warning(string);
+        void warning(string value) {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            type(value);
+            Console.ForegroundColor = Config.foregroundColor;
+        }
+
+        // this types out the text that is given to it with a red (error) colour, it is called with:
+        // error(string);
+        void error(string value) {
+            Console.ForegroundColor = ConsoleColor.Red;
+            type(value);
+            Console.ForegroundColor = Config.foregroundColor;
+        }
+
+        // this waits for a specific amount of time in milliseconds, it is called with:
+        // wait(int);
+        void wait(int i) {
+            System.Threading.Thread.Sleep(i);
+        }
+
+        // this issues the prepend text, merely clearing the console, it is called with;
+        // prepend();
+        void prepend() {
+            Console.Clear();
+        }
+
+        // this issues the append text, sending the user instructions at the end of the previous text, it is called with;
+        // append();
+        void append() {
+            type("\n");
+            type(gameText_back);
+            type(gameText_exit);
+        }
+    }
+}
+```
