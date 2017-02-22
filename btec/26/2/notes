@@ -1,0 +1,27 @@
+f a question has a sum symbol with a number at the top and (letter=number) at the bottom, it may look like this:
+
+10
+SUM (6-5n)
+n=1
+
+The you need to do the sum 10 times over, the first time with n equating to 1, the n-2, then n=3 and so forth.
+
+the answer to all of these are:
+1+(-4)+(-9)+(-14)+(-19)+(-24)+(-29)+(-34)+(-39)+(-44)
+which is -215
+
+
+
+SUM TO INFINITY
+Regular formula:
+
+Sn = (n(1-Rn))/(1-r)
+
+To infinity
+Sinf(inf(1-Rinf))/(1-r)
+Sinf(a)/(1-r)
+
+if (x/r) > 1 then
+	x = infinity
+else
+	x = a/r
