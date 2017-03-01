@@ -2,10 +2,12 @@
 *Nathan Windisch*
 
 Question 1)
+
     1. 4th
     2. 1st
 
 Question 2)
+
     1.  i. Program Counter
         ii. ???
 
@@ -14,6 +16,7 @@ Question 2)
         iii. Decode Current Instruction Register
 
 Question 3)
+
     1.  i. USB Sticks
         ii. USB Sticks are useful for quickly transferring files as they are small and do not require power as there are no moving parts.
 
@@ -24,6 +27,7 @@ Question 3)
         ii. DVD-R is good for transferring data as it allows software distributors to make them read only after finishing, meaning that they cannot be tampered with during transit.
 
 Question 4)
+
     1. A protocol is a set of rules governing the exchange of data between devices.
 
     2. A high level language interpreter interprets the code that is written into machine code, which is then translated into machine code for the processor to read and execute.
@@ -45,9 +49,11 @@ Question 4)
       ii. Students may only use the lower resolution as the files may then have a smaller file size, meaning that more can be stored.
 
 Question 5)
+
     1. Do we have to do this question? I was under the impression that we no longer had to do HTML and website creation.
 
 Question 6)
+
     1. i. AND
        ii. NAND
        iii. OR
@@ -57,6 +63,7 @@ Question 6)
 ![test](logicgate.png "test")
 
 Question 7)
+
     1. Data Protection Act
     2. The data is not protected as any user that has access to the main system can access all subsystems.
     3. If a user that is logged in can access other people's data, then it means that if that user's network is compromised then all of the other data could be breached.
@@ -67,4 +74,5 @@ Question 7)
        iii. Special Purpose Application Software
 
 Question 8)
+
     1. Again, do we have to do this question? HTML is redundant, no?
