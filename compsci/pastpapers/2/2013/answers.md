@@ -40,4 +40,31 @@ Question 4)
        ii. The robot has to store each colour as a variable then load it again when called
        iii. A child's brain is different to a processor as information is stored in multiple areas for maximum effectiveness.
 
-    6. i. A digital camera saves the image taken in an RBG format, meaning that each pixel is a 6 character code ranging from A-F, 0-9
+    6. i. A digital camera saves the image taken in an RBG format, meaning that each pixel is a 6 character code ranging from A-F, 0-9. This means that the image that was taken can be viewed by anything with the correct drivers installed.
+
+      ii. Students may only use the lower resolution as the files may then have a smaller file size, meaning that more can be stored.
+
+Question 5)
+    1. Do we have to do this question? I was under the impression that we no longer had to do HTML and website creation.
+
+Question 6)
+    1. i. AND
+       ii. NAND
+       iii. OR
+    2. i. B . (A+!A) = B . (A+A) = B . A = A
+       ii. A . B + B = A . B = A
+       iii. !B . !(!A+!B) = !B . (A+B) = A . (B+!B) = A . B = A
+![test](logicgate.png "test")
+
+Question 7)
+    1. Data Protection Act
+    2. The data is not protected as any user that has access to the main system can access all subsystems.
+    3. If a user that is logged in can access other people's data, then it means that if that user's network is compromised then all of the other data could be breached.
+    4. i. HTTP is not encrypted, meaning that the data could be breached if the network is compromised.
+       ii. HTTPS is better as it is securely encrypted when sent, along with when received.
+    5. i. Utility Program
+       ii. Bespoke Application Software
+       iii. Special Purpose Application Software
+
+Question 8)
+    1. Again, do we have to do this question? HTML is redundant, no?
