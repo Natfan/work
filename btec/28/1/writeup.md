@@ -2,6 +2,8 @@
 
 *By Nathan Windisch*
 
+<div style="page-break-after:always"></div>
+
 ## PI: Web Architecture and Components
 ### Internet Service Provider
 An Internet Service Provider is a company that provides access to the internet to their customers. This is done by selling equipment to their customers. This equipment can be hardware such as routers and cabling, or software such as localhost webserver access to control the hardware remotely. Internet Service Providers have many different types of customers, including private citizens, small businesses and large corporations. Because all of these different groups have different needs, multiple packages must be issued. For instance, a private individual will not need the same internet speeds and bandwidth as a datacenter, meaning that they will not expect to pay the same price. As a result, the structure of the hardware and software that the Internet Service Provider leased must be flexible to accommodate all these different needs.
@@ -39,7 +41,7 @@ The Application Layer is the seventh layer in the Open Systems Interconnection (
 ### Flow Diagram
 A flow diagram, or flow chart, is a method of displaying the sequence of actions of items within a system. This can include the movement or communication between people and also the dynamic between smaller machines. It is called a Flow Diagram because it shows the transition between steps, similar to how a waterfall transfers water from one place to another.
 
-<pagebreak>
+<div style="page-break-after:always"></div>
 
 ## PII: Client & Server Side Features
 ### Client Side Factors
@@ -69,7 +71,7 @@ A common misconception of Web Hits is that each hit is a visit, but this is not 
 #### File Types
 File Types, or File Formats, are a standardized attempt to store information and allow it to be read by specific programs. For example, `.exe` files can only be run on Windows systems, `.app` files can only be run on OSX systems and `.sh` files can only be run on Linux systems. This is because all Operating Systems are different under the hood, and each one performs actions differently. In the example of website development, `.html` files are Hyper Text Markup Language files and are used to display web pages on the internet. HTML files can contain HTML, JavaScript, PHP and others natively, but they can also import code from other files such as `.js` and `.php` files. HTML files can also use Cascading Style Sheets, or CSS, files to stylise the website. Breaking up your website and storing commonly reused code means that it only has to be written once and it can then be imported again and again.
 
-<pagebreak>
+<div style="page-break-after:always"></div>
 
 ## PIII: Security Risks, Protection Mechanisms and Data Protection Act
 ### Security Risks
@@ -123,7 +125,7 @@ The Data Protection Act is a law created by the UK government in 1998 to protect
 >* sexual health
 >* criminal records
 
-<pagebreak>
+<div style="page-break-after:always"></div>
 
 ## MI: Web 2.0, Blogs, Cloud Computing and Online Applications
 ### Web 2.0
@@ -136,13 +138,25 @@ Blogs are a way for people to communicate with the world. They allow people to s
 Cloud computing is the practice of generating, saving, storing and loading information from an external server. This allows companies to rent server space in order to do all of their computing and file saving without having to host the physical servers themselves. This means that they can save lots of money as they do not have to purchase the servers, install them, keep using up space to store them, cool them, repair them or upgrade them. All of the hard work of keeping the servers maintained is down to a subcontracted company, meaning that businesses can spend more money on R&D or expanding the company. Another thing that most hosting companies have is a Service Level Agreement, which means that the host agrees to having a specific uptime percentage, and if they do not then their customers either get some free store credit or money off their next payment. Good hosting compies that have a good infrastructre and a very high uptime normally set their Service Level Agreement to be between 98.00% and 99.99% uptime, depending on how confident they are. Service Level Agreements only apply to faults that are caused by the hosting company. Anything that the customer's do that causes their service to go down in their own fault.
 
 ### Online Applications
-Online Applications, also known as `SaaS` or `Software as a Service`, is a form of cloud computing that performs all of the server based actions on the cloud, and allows the client to 
+Online Applications, also known as `SaaS` or `Software as a Service`, is a form of cloud computing that performs all of the server based actions on the cloud, and allows the client to perform actions on the client that are then sent to the servers and performed. An upside of this is that client doesn't have to install anything, meaning that the service can be used on any device. Another upside is that sharing files is incredibly easy, as they are already saved to the cloud. A downside to SaaS is that it requires a constant Internet connection in order to edit the files. Another downside is that these services normally have a monthly fee rather than a one-time payment.
 
-<pagebreak>
+<div style="page-break-after:always"></div>
 
 ## DI: TCP/IP
 ### Role of TCP/IP
-[incomplete]
+TCP/IP is a model that has four layers. It is used to standardize how the TCP/IP stack works. The OSI model is different from the TCP/IP model, and should not be confused with the TCP/IP model. I shall provide an example for each of the layers in the TCP/IP model:
+
+#### Layer I: Network Access
+The lowest layer of the TCP/IP stack is the network access layer. It handles individual pulses on the wire. It also words with wireless networking by being on the antennas. This layer only knows about the signals on the wire, which it interprets into 0s and 1s, and is therefore not aware of the packet structure of the higher up levels. Because it is so low and pimative, it is considered as a part of the kernel level driver package.
+
+#### Layer II: Internet Layer
+The second layer on the TCP/IP model is the internet layer. It works with the packets that are found within the TCP part of the system. It recieves them from the levels tha are higher up, forming data that can be sent over wires and cables. Within these packets is framentations of the data, along with the source and destination IP addresses. The packet is also set when in the Internet layer when it is on it's initial route, meaning that further nodes will be assisted by this.
+
+#### Layer III: Transport Layer
+The third layer within the TCP/IP stack is the transport layer, and this is liable for ensuring that the connection between the two nodes is kept constant and open or else the packets will be either not sent or lost when either transmitting or recieving the data, as the connection is closed during the transmission. This layer also performs cyclic checks to ensure that the other node is kept alive, by also sending a keepAlive signal.
+
+#### Layer IV: Application Layer
+The final layer within the TCP/IP model is the application layer. This final layer is in charge of transporting specific data such as `HTTP`, `HTTPS`, `FTP`, `SSH` and `TELNET`. As the application layer is the highest layer on the TCP/IP model, it is used as an interface with regular APIs. This is used by developers for programming.
 
 ### How TCP/IP Links To The Application Layer
-[incomplete]
+Within TCP/IP, the application layer deals with all communication protocols that are used within the various process-to-process programs on the system. Along with this, the application layer also contains the interfaces needed for the communication systems. This is used to standardize communication and ensure that all systems have the same protocols, in order to make communcation between the systems easy and quick. This means that
