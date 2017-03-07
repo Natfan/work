@@ -28,7 +28,7 @@ Email is a main method of communication via electronic means. Messages sent via 
 A proxy server is a server that acts as a "middleman" to some networks. Proxy servers are used to relinquish strain on infrastructure via spreading the load if lots of users are using it, but they can also be used to hide the user's location due to privacy concerns, the reason normally being that they either do not want the website to track them or because the website that they are viewing is illegal in their country. Proxy servers can be used by servers, as aforementioned, to prevent the user accessing the site's server location as they do not connect to the server itself, they are routed through a proxy. This means that home webservers are secure from DDoS attacks, along with doxing.
 
 ### Browser
-A browser, or web browser, is a GUI, or graphical user interface, which parses HTML files into their appropriate output, meaning that users can view them when accessing the World Wide Web. Web Browsers can also do other things such as access other protocols like FTP, run code injected in HTML pages such as Javascript and PHP, and can also be used for sending emails via the `webmail` Protocol. 
+A browser, or web browser, is a GUI, or graphical user interface, which parses HTML files into their appropriate output, meaning that users can view them when accessing the World Wide Web. Web Browsers can also do other things such as access other protocols like FTP, run code injected in HTML pages such as Javascript and PHP, and can also be used for sending emails via the `webmail` Protocol.
 
 ### TCP/IP
 TCP/IP is a group of rules that are the basis for communication protocols on the Internet. TCP/IP stands for Transmission Control Protocol/Internet Protocol. TCP/IP can also be considered for use in a communication protocol in a private network, such as intranet or extranet. TCP/IP is useful as it enables two different hosts to exchange data streams via a connection which has been established. TCP/IP also gives users the guarantee of data delivery in the same order that it was sent. TCP/IP is better than IP as it allows for data streams that are not based around packets, whereas IP is based solely around the transference of packets.
@@ -37,14 +37,14 @@ TCP/IP is a group of rules that are the basis for communication protocols on the
 The Application Layer is the seventh layer in the Open Systems Interconnection (OSI) System. It contains process-to-process protocols and well built interfaces for communication across an IP network. It can also be used for end-user services. It is named as such because it is the final layer of the OSI system and is the layer that actually interfaces with the user, ergo it is called the Application Layer.
 
 ### Flow Diagram
-A flow diagram, or flow chart, is a method of displaying the sequence of actions of items within a system. This can include the movement or communication between people and also the dynamic between smaller machines. It is called a Flow Diagram because it shows the transition between steps, similar to how a waterfall transfers water from one place to another. 
+A flow diagram, or flow chart, is a method of displaying the sequence of actions of items within a system. This can include the movement or communication between people and also the dynamic between smaller machines. It is called a Flow Diagram because it shows the transition between steps, similar to how a waterfall transfers water from one place to another.
 
 <pagebreak>
 
 ## PII: Client & Server Side Features
 ### Client Side Factors
 #### Browser
-A browser, or web browser, is a GUI, or graphical user interface, which parses HTML files into their appropriate output, meaning that users can view them when accessing the World Wide Web. Web Browsers can also do other things such as access other protocols like FTP, run code injected in HTML pages such as Javascript and PHP, and can also be used for sending emails via the `webmail` Protocol. There are many different browsers, but the most widely used browsers are Google Chrome, Firefox, Microsoft Edge, Opera and Internet Explorer. Many web browsers, such as Google Chrome, Firefox and Opera, are open-source whereas Microsoft Edge and Internet Explorer are close-source. Chrome is so open-source, Opera is actually based off it. 
+A browser, or web browser, is a GUI, or graphical user interface, which parses HTML files into their appropriate output, meaning that users can view them when accessing the World Wide Web. Web Browsers can also do other things such as access other protocols like FTP, run code injected in HTML pages such as Javascript and PHP, and can also be used for sending emails via the `webmail` Protocol. There are many different browsers, but the most widely used browsers are Google Chrome, Firefox, Microsoft Edge, Opera and Internet Explorer. Many web browsers, such as Google Chrome, Firefox and Opera, are open-source whereas Microsoft Edge and Internet Explorer are close-source. Chrome is so open-source, Opera is actually based off it.
 
 #### Cache
 Cache, also known as Memory Cache; Cache Store or RAM Cache, is a method of storing data which will be used over and over again. Cache is stored in High-Speed Static Random Access Memory, or SRAM, as it is is much faster but more expensive. This means that Cache is relatively small and is used for programs which will use the same data again and again.
@@ -58,7 +58,7 @@ Processor Speed is an important component in Client Side Systems as processors w
 
 ### Server Side Factors
 #### Web Server Capability
-Web Server Capability is the amount of hardware that the physical server has. A Web Server is a computer system that is connected to the internet and contains software that allows it to deliver web pages. A few examples of the software that are used are Apache and IIS, and they allow access to the web pages via the HTTP protocol. 
+Web Server Capability is the amount of hardware that the physical server has. A Web Server is a computer system that is connected to the internet and contains software that allows it to deliver web pages. A few examples of the software that are used are Apache and IIS, and they allow access to the web pages via the HTTP protocol.
 
 #### Available Bandwidth
 Bandwidth is the amount of data that can be sent over a specific static amount of time. Bandwidth is normally expressed via bits/second or bps, but it can also sometimes be expressed in cycles/second, or Hertz if the device is analog. If the Bandwidth on a server is higher, then the web page will be able to be delivered to more people at a faster rate, meaning that more customers will be serviced. Ergo, higher bandwidth may cost more but will mean for that more "hits" are generated.
@@ -125,19 +125,22 @@ The Data Protection Act is a law created by the UK government in 1998 to protect
 
 <pagebreak>
 
-## MI: Blogs, Cloud Computing and Online Applications
+## MI: Web 2.0, Blogs, Cloud Computing and Online Applications
+### Web 2.0
+Web 1.0 was what was considered the "static web". All the information only changed when the website was updated, and nothing was reactive. Website were more like books, in that they could only be read and nothing could be done with them other than that. This was good for the time, as web pages didn't really need to do much at the time. The World Wide Web was not as easily accessible or widely used as it is now, so nothing extra was needed. After a while the Internet grew and more people needed to use the service for different things. Because of this, new programming languages such as Javascript and PHP were developed to repond to the user's inputs. These webpages are "reactive" web pages and are considered a standard in Web 2.0. Some popular examples of Web 2.0 pages are social media websites such as `Facebook`, `Twitter` and `Reddit`, but Web 2.0 also covers any website with a forum or commenting system, or just any general way for users to upload their content. This means that websites such as `BBC News`, `YouTube` and `Wikipedia` are all technically Web 2.0, even if most would not consider any of them, especially the latter, to have any sort of user interactivity.
+
 ### Blogs
-Blogs are a way for people to communicate with the world. 
+Blogs are a way for people to communicate with the world. They allow people to spread their thoughts and opinions with one another and just let people get things off their chest. Blogs are normally written in an informal format and normally contain articles that newspapers refer to "opinion pieces", meaning that they may be biased in some way. There are many different types of blogs that can be found on the World Wide Web, but the most common are those that are owned by private individuals. These blogs can talk about anything at all, but they usually stick to one subject so they they can pander to their target demographic. For instance, a beauty and makeup blog would not be expected to write articles on quantum mathematics. Because of this, many people turn to blogs for information that relates to their personal opinion. This generates what is called an "echo chamber", meaning that an audience only hears what they want to hear. This is a dangerous precident as it means that those who only get their information from blogs may be misinformed. Some people use blogs to share things that they have done. For example, the popular Internet artist XKCD uses blogs as a form of allowing people to share their work and promote their content. This shows that there are many different ways to use a blog, and the only real requirement is that the posts are in an informal format, and are only posted by a one person or a small group of individuals.
 
 ### Cloud Computing
-[incomplete]
+Cloud computing is the practice of generating, saving, storing and loading information from an external server. This allows companies to rent server space in order to do all of their computing and file saving without having to host the physical servers themselves. This means that they can save lots of money as they do not have to purchase the servers, install them, keep using up space to store them, cool them, repair them or upgrade them. All of the hard work of keeping the servers maintained is down to a subcontracted company, meaning that businesses can spend more money on R&D or expanding the company. Another thing that most hosting companies have is a Service Level Agreement, which means that the host agrees to having a specific uptime percentage, and if they do not then their customers either get some free store credit or money off their next payment. Good hosting compies that have a good infrastructre and a very high uptime normally set their Service Level Agreement to be between 98.00% and 99.99% uptime, depending on how confident they are. Service Level Agreements only apply to faults that are caused by the hosting company. Anything that the customer's do that causes their service to go down in their own fault.
 
 ### Online Applications
-[incomplete]
+Online Applications, also known as `SaaS` or `Software as a Service`, is a form of cloud computing that performs all of the server based actions on the cloud, and allows the client to 
 
 <pagebreak>
 
-## DI: ???
+## DI: TCP/IP
 ### Role of TCP/IP
 [incomplete]
 
