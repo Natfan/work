@@ -38,8 +38,16 @@ TCP/IP is a group of rules that are the basis for communication protocols on the
 ### Application Layer
 The Application Layer is the seventh layer in the Open Systems Interconnection (OSI) System. It contains process-to-process protocols and well built interfaces for communication across an IP network. It can also be used for end-user services. It is named as such because it is the final layer of the OSI system and is the layer that actually interfaces with the user, ergo it is called the Application Layer.
 
-### Flow Diagram
+### Flow Diagram: Definition
 A flow diagram, or flow chart, is a method of displaying the sequence of actions of items within a system. This can include the movement or communication between people and also the dynamic between smaller machines. It is called a Flow Diagram because it shows the transition between steps, similar to how a waterfall transfers water from one place to another.
+
+<div style="page-break-after:always"></div>
+
+### Flow Diagram: Example
+
+The following is a flow diagram of how the the data flow within networks works. It is also a good example of a flow diagram.
+
+<img src="flowdiag.png" style="width:50%; height:50%"></img>
 
 <div style="page-break-after:always"></div>
 
@@ -160,3 +168,7 @@ The final layer within the TCP/IP model is the application layer. This final lay
 
 ### How TCP/IP Links To The Application Layer
 Within TCP/IP, the application layer deals with all communication protocols that are used within the various process-to-process programs on the system. Along with this, the application layer also contains the interfaces needed for the communication systems. This is used to standardize communication and ensure that all systems have the same protocols, in order to make communcation between the systems easy and quick. This means that
+
+The following is a flow diagram of how the TCP/IP stack works.
+
+<img src="https://docs.oracle.com/cd/E18752_01/html/816-4554/figures/ipov.fig88.png" style="width:50%; height:50%"></img>
