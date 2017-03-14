@@ -1,0 +1,106 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  14 MAR 2017 23:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**writeup.tex
+(./writeup.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./writeup.aux)
+\openout1 = `writeup.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+
+(./writeup.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `writeup.toc'.
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (2.91199pt too wide) in paragraph at lines 25--28
+[]\OT1/cmtt/m/n/12 Sequence: -3, 1, 5, 9, 13 ... Formula: 4n-3 as the diffence
+ []
+
+
+Overfull \hbox (13.98628pt too wide) in paragraph at lines 25--28
+\OT1/cmtt/m/n/12 between all the numbers is 4 and the sequence starts at -3 1n.
+.17n
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 25--28
+\OT1/cmtt/m/n/12 = -3, 1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57,
+ 61 
+ []
+
+[1]
+Missing character: There is no â in font cmtt12!
+Missing character: There is no ˆ in font cmtt12!
+Missing character: There is no ž in font cmtt12!
+ [2] [3] [4] [5] [6] (./writeup.aux) ) 
+Here is how much of TeX's memory you used:
+ 244 strings out of 493013
+ 2611 string characters out of 6139317
+ 55632 words of memory out of 5000000
+ 3859 multiletter control sequences out of 15000+600000
+ 9278 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 22i,6n,19p,256b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nat/.texlive/texmf-var/fonts/pk/l
+jfour/public/cm/cmsy10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/pub
+lic/cm/cmmi12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cm
+mi8.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> <
+/usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/nat/.tex
+live/texmf-var/fonts/pk/ljfour/public/cm/cmtt12.600pk> </home/nat/.texlive/texm
+f-var/fonts/pk/ljfour/public/cm/cmcsc10.720pk> </home/nat/.texlive/texmf-var/fo
+nts/pk/ljfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/pu
+blic/cm/dpi600/cmr12.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/c
+m/cmbx12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.
+864pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </h
+ome/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
+Output written on writeup.pdf (7 pages, 60778 bytes).
+PDF statistics:
+ 262 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
