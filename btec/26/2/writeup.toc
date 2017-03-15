@@ -1,7 +1,17 @@
-\contentsline {section}{\numberline {1}Task I}{1}
-\contentsline {subsection}{\numberline {1.1}Question I}{1}
-\contentsline {subsection}{\numberline {1.2}Question II}{2}
-\contentsline {subsection}{\numberline {1.3}Question III}{3}
-\contentsline {subsection}{\numberline {1.4}Question IV}{4}
-\contentsline {subsection}{\numberline {1.5}Question V}{5}
-\contentsline {subsection}{\numberline {1.6}Question VI}{6}
+\contentsline {section}{\numberline {1}Sequences and Series}{1}
+\contentsline {subsection}{\numberline {1.1}nth and 17th Terms}{1}
+\contentsline {subsection}{\numberline {1.2}Sums to Terms and Infinity}{2}
+\contentsline {subsubsection}{\numberline {1.2.1}nth Term}{2}
+\contentsline {subsubsection}{\numberline {1.2.2}10th Term}{2}
+\contentsline {subsubsection}{\numberline {1.2.3}Sum to 5th Term}{2}
+\contentsline {subsubsection}{\numberline {1.2.4}Sum to Infinity}{2}
+\contentsline {subsection}{\numberline {1.3}Equations}{3}
+\contentsline {subsection}{\numberline {1.4}Balls in Bags}{8}
+\contentsline {subsubsection}{\numberline {1.4.1}What is the probability that a yellow ball is selected?}{9}
+\contentsline {subsubsection}{\numberline {1.4.2}What is the probability 2 yellow balls are selected consecutively?}{9}
+\contentsline {subsubsection}{\numberline {1.4.3}Draw a probability tree and use it to find the probability that a yellow ball is selected 4 times in a row.}{9}
+\contentsline {subsection}{\numberline {1.5}Venn Diagrams}{10}
+\contentsline {subsubsection}{\numberline {1.5.1}The Diagram}{10}
+\contentsline {subsubsection}{\numberline {1.5.2}Probability: Computer Science but not Mathematics}{11}
+\contentsline {subsubsection}{\numberline {1.5.3}Probability: Engineering with or without other subjects}{11}
+\contentsline {subsection}{\numberline {1.6}Betting Game}{12}
