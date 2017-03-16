@@ -15,3 +15,6 @@
 \contentsline {subsubsection}{\numberline {1.5.2}Probability: Computer Science but not Mathematics}{11}
 \contentsline {subsubsection}{\numberline {1.5.3}Probability: Engineering with or without other subjects}{11}
 \contentsline {subsection}{\numberline {1.6}Betting Game}{12}
+\contentsline {subsubsection}{\numberline {1.6.1}Draw a probability space diagram for this game.}{12}
+\contentsline {subsubsection}{\numberline {1.6.2}What is the most likely total score(s) from both dice?}{12}
+\contentsline {subsubsection}{\numberline {1.6.3}What is the least likely score(s) and why?}{12}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  15 MAR 2017 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  16 MAR 2017 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -438,7 +438,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 Here is how much of TeX's memory you used:
  11409 strings out of 493013
  231425 string characters out of 6139317
- 268407 words of memory out of 5000000
+ 267407 words of memory out of 5000000
  14746 multiletter control sequences out of 15000+600000
  9278 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -455,9 +455,9 @@ cm/dpi600/cmr12.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmb
 x12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk
 > </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/n
 at/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on writeup.pdf (13 pages, 100697 bytes).
+Output written on writeup.pdf (13 pages, 102139 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
+ 353 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
