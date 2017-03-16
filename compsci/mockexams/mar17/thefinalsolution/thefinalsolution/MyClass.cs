@@ -6,12 +6,9 @@
 
 using System;
 
-namespace PredatorPrey
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
+namespace PredatorPrey {
+  class Program {
+    static void Main(string[] args) {
       Simulation Sim;
       int MenuOption;
       int LandscapeSize;
@@ -679,73 +676,53 @@ namespace PredatorPrey
       Console.Write("Pr dth " + Math.Round(ProbabilityOfDeathOtherCauses, 2) + " ");
     }
 
-    public virtual bool CheckIfKilledByOtherFactor()
-    {
-      if (Rnd.Next(0, 100) < ProbabilityOfDeathOtherCauses * 100)
-      {
+    public virtual bool CheckIfKilledByOtherFactor() {
+      if (Rnd.Next(0, 100) < ProbabilityOfDeathOtherCauses * 100) {
         IsAlive = false;
         return true;
-      }
-      else
-      {
+      } else {
         return false;
       }
     }
 
-    protected virtual double CalculateRandomValue(int BaseValue, int Variability)
-    {
+    protected virtual double CalculateRandomValue(int BaseValue, int Variability) {
       return BaseValue - (BaseValue * Variability / 100) + (BaseValue * Rnd.Next(0, (Variability * 2) + 1) / 100);
     }
   }
 
-  class Fox : Animal
-  {
+  class Fox : Animal {
     private int FoodUnitsNeeded = 10;
     private int FoodUnitsConsumedThisPeriod = 0;
     private const int DefaultLifespan = 7;
     private const double DefaultProbabilityDeathOtherCauses = 0.1;
 
     public Fox(int Variability)
-        : base(DefaultLifespan, DefaultProbabilityDeathOtherCauses, Variability)
-    {
+        : base(DefaultLifespan, DefaultProbabilityDeathOtherCauses, Variability) {
       FoodUnitsNeeded = (int)(10 * base.CalculateRandomValue(100, Variability) / 100);
     }
 
-    public void AdvanceGeneration(bool ShowDetail)
-    {
-      if (FoodUnitsConsumedThisPeriod == 0)
-      {
+    public void AdvanceGeneration(bool ShowDetail) {
+      if (FoodUnitsConsumedThisPeriod == 0) {
         IsAlive = false;
-        if (ShowDetail)
-        {
+        if (ShowDetail) {
           Console.WriteLine("  Fox dies as has eaten no food this period.");
         }
-      }
-      else
-      {
-        if (CheckIfKilledByOtherFactor())
-        {
+      } else {
+        if (CheckIfKilledByOtherFactor()) {
           IsAlive = false;
-          if (ShowDetail)
-          {
+          if (ShowDetail) {
             Console.WriteLine("  Fox killed by other factor.");
           }
-        }
-        else
-        {
-          if (FoodUnitsConsumedThisPeriod < FoodUnitsNeeded)
-          {
+        } else {
+          if (FoodUnitsConsumedThisPeriod < FoodUnitsNeeded) {
             CalculateNewAge();
-            if (ShowDetail)
-            {
+            if (ShowDetail) {
               Console.WriteLine("  Fox ages further due to lack of food.");
             }
           }
           CalculateNewAge();
-          if (!IsAlive)
-          {
-            if (ShowDetail)
-            {
+          if (!IsAlive) {
+            if (ShowDetail) {
               Console.WriteLine("  Fox has died of old age.");
             }
           }
@@ -753,31 +730,24 @@ namespace PredatorPrey
       }
     }
 
-    public void ResetFoodConsumed()
-    {
+    public void ResetFoodConsumed() {
       FoodUnitsConsumedThisPeriod = 0;
     }
 
-    public bool ReproduceThisPeriod()
-    {
+    public bool ReproduceThisPeriod() {
       const double ReproductionProbability = 0.25;
-      if (Rnd.Next(0, 100) < ReproductionProbability * 100)
-      {
+      if (Rnd.Next(0, 100) < ReproductionProbability * 100) {
         return true;
-      }
-      else
-      {
+      } else {
         return false;
       }
     }
 
-    public void GiveFood(int FoodUnits)
-    {
+    public void GiveFood(int FoodUnits) {
       FoodUnitsConsumedThisPeriod = FoodUnitsConsumedThisPeriod + FoodUnits;
     }
 
-    public override void Inspect()
-    {
+    public override void Inspect() {
       base.Inspect();
       Console.Write("Food needed " + FoodUnitsNeeded + " ");
       Console.Write("Food eaten " + FoodUnitsConsumedThisPeriod + " ");
@@ -785,10 +755,8 @@ namespace PredatorPrey
     }
   }
 
-  class Rabbit : Animal
-  {
-    enum Genders
-    {
+  class Rabbit : Animal {
+    enum Genders {
       Male,
       Female
     }
@@ -799,54 +767,41 @@ namespace PredatorPrey
     private Genders Gender;
 
     public Rabbit(int Variability)
-        : base(DefaultLifespan, DefaultProbabilityDeathOtherCauses, Variability)
-    {
+        : base(DefaultLifespan, DefaultProbabilityDeathOtherCauses, Variability) {
       ReproductionRate = DefaultReproductionRate * CalculateRandomValue(100, Variability) / 100;
-      if (Rnd.Next(0, 100) < 50)
-      {
+      if (Rnd.Next(0, 100) < 50) {
         Gender = Genders.Male;
-      }
-      else
-      {
+      } else {
         Gender = Genders.Female;
       }
     }
 
     public Rabbit(int Variability, double ParentsReproductionRate)
-        : base(DefaultLifespan, DefaultProbabilityDeathOtherCauses, Variability)
-    {
+        : base(DefaultLifespan, DefaultProbabilityDeathOtherCauses, Variability) {
       ReproductionRate = ParentsReproductionRate * CalculateRandomValue(100, Variability) / 100;
-      if (Rnd.Next(0, 100) < 50)
-      {
+      if (Rnd.Next(0, 100) < 50) {
         Gender = Genders.Male;
-      }
-      else
-      {
+      } else {
         Gender = Genders.Female;
       }
     }
 
-    public override void Inspect()
-    {
+    public override void Inspect() {
       base.Inspect();
       Console.Write("Rep rate " + Math.Round(ReproductionRate, 1) + " ");
       Console.WriteLine("Gender " + Gender + " ");
     }
 
-    public bool IsFemale()
-    {
-      if (Gender == Genders.Female)
-      {
+    public bool IsFemale() {
+      if (Gender == Genders.Female) {
         return true;
       }
-      else
-      {
+      else {
         return false;
       }
     }
 
-    public double GetReproductionRate()
-    {
+    public double GetReproductionRate() {
       return ReproductionRate;
     }
   }
