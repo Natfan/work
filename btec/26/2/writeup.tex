@@ -1,10 +1,10 @@
 \documentclass[a4paper,12pt]{article}
 
 \usepackage{graphicx}
-
-%\usepackage[latin1]{inputenc}
-%\usepackacge{inputenc}
+\usepackage{tabu}
 \usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 \begin{document}
 \title{Unit XXVI Assignment II}
@@ -19,33 +19,102 @@
 \section{Sequences and Series}
 The following are answers to questions set for the first task.
 \subsection{nth and 17th Terms}
-Find a formula for the \textsc{nth} term of this sequence and find the \textsc{17th} term using your \textsc{nth} term formula. Also calculate the \textbf{sum of the first 17 terms of this sequence}.
+Find a formula for the \textbf{nth} term of this sequence and find the \textbf{17th} term using your \textsc{nth} term formula. Also calculate the \textbf{sum of the first 17 terms of this sequence}.
 
-\texttt{Sequence: -3, 1, 5, 9, 13 ...}
+If the squence is \texttt{-3, 1, 5, 9, 13 ...} then we know that the formula must start with \textsc{4x+[SOMETHING]} due to the fact that the difference between each number and the last is +4. Now we need to calculate what the other part of the formula is. Not figure this out, we must subtract a number from the first value to enable \textsc{4x} to line up with our current sequence. This means that we need to subtract \textsc{7} from all numbers in the current formula in order for them to be accurate with our sequence. This means that the other part of our formula is \textsc{-7}, meaning that the forumla thus far is \textsc{4x+-7} or, more simply, \textsc{4x-7}. Therefore, the \textsc{nth} term will be \textsc{4x-7}.
 
-\texttt{Formula: 4n-3 as the diffence between all the numbers is 4 and the sequence starts at -3}
+Now, we need to apply our new found formula to the extended system, meaning that the following occurs:
 
-\texttt{1n..17n = -3, 1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61}
+$${1n..17n = -3, 1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61}$$
+
+This means that the 17th term is \textsc{61}.
 
 \newpage
 
 \subsection{Sums to Terms and Infinity}
-Find a formula for the \textsc{nth} term of this sequence and find the \textsc{10th} term using your \textsc{nth} term formula. Also calculate the \textbf{sum to the 5th term} and the \textbf{sum to infinity} of this sequence.
+Find a formula for the \textbf{nth} term of this sequence and find the \textbf{10th} term using your \textsc{nth} term formula. Also calculate the \textbf{sum to the 5th term} and the \textbf{sum to infinity} of this sequence.
 
 \subsubsection{nth Term}
-\texttt{81, -27, 9, -3 ... = Xn+/-Y}
-\texttt{Xn+/-Y}
-\texttt{15n =}
-\texttt{∞n =}
+If the seqence is \texttt{81, -27, 9, -3 ...} then we know that there will not be an easy solution to this problem. This is because there is no obvious correlation between these numbers. To solve this, we will need to find the difference between the first and the second number, which is \textsc{108}. The difference between the second and the third number is \textsc{36}, and the difference between \textsc{12}. From these numbers, we can tell that the difference between each number and the last one is $$\frac{previousNumber}{3}$$
+
+Because of this, we can calculate that the first part of the formula is $$a * r^{n-1}$$
+
+We know that the common ratio, which in this case is \texttt{r}, is $$\frac{-1}{-3}$$
+
+This means that we can apply this to the current sequence, resulting in:
+
+$$a * r^{n-1} = 81 * \frac{1}{3}^{n-1}$$
+
+\newpage
 
 \subsubsection{10th Term}
-\texttt{things}
+Within this section, all I need to do is apply the \texttt{10th term} to the previously generated formula, as follows:
+
+$$81 * -\frac{1}{3}^{10-1}$$
+
+We can condense this further, giving us:
+
+$$81 * -\frac{1}{3}^{9}$$
+
+Now we merely need to calculate the right side of the equation:
+
+$$81 * -\frac{1}{19683}$$
+
+And subtitute the \texttt{1} with \texttt{81} as it is a multiplication of the numerator.
+
+$$-\frac{81}{19683}$$
+
+Now we just condense the equation:
+
+$$-\frac{1}{243}$$
 
 \subsubsection{Sum to 5th Term}
-\texttt{things}
+The formula that we need to perform this equation is as follows:
+
+$$S_n = \frac{a_1(r^n-1)}{r-1}$$
+
+In a similar fashion to the previous question, I shall now just substitute the algebraic numbers within the sample formula with my own data:
+
+$$\frac{81(-\frac{1}{3}^5-1)}{-\frac{1}{3}-1}$$
+
+We can condense this down into the following equqation:
+
+$$\frac{81(-0.004115226..-1)}{-1.\dot{3}}$$
+
+Now we just expand the brackets:
+
+$$\frac{81 * -1.004115226..}{-1.\dot{3}}$$
+
+And finally we do the final calculation on the left side of the equation:
+
+$$-\frac{81.\dot{3}}{1.\dot{3}}$$
+
+This gives us the final number of:
+
+$$61$$
+
+\newpage
 
 \subsubsection{Sum to Infinity}
-\texttt{things}
+To generate a \texttt{Sum to Infinity} you need to use the following formula:
+
+$$S = \frac{a}{(1-r)}$$
+
+As in all the previous iterations of this question, I just need to substitute the formula with my own data, as follows:
+
+$$\frac{81}{(1--\frac{1}{3})}$$
+
+Now we need to cancel out the negatives:
+
+$$\frac{81}{(1+\frac{1}{3})}$$
+
+We can now combine the numbers on the bottom of the fraction together:
+
+$$\frac{81}{(1+1\dot{3})}$$
+
+This gives us the final number of:
+
+$$60.75$$
 
 \newpage
 
@@ -177,7 +246,6 @@ This is because 2 x 2 x 2 x 2 is 16 and 5 x 5 x 5 x 5 is 625. We multiply these 
 
 \subsubsection{The Diagram}
 
-
 \def\firstcircle{(0,0) circle (1.5cm)}
 \def\secondcircle{(55:2cm) circle (1.5cm)}
 \def\thirdcircle{(0:2cm) circle (1.5cm)}
@@ -287,7 +355,7 @@ $$\frac{7}{19}$$
 
 \subsubsection{Probability: Engineering with or without other subjects}
 
-he total number of all of these students is:
+The total number of all of these students is:
 
 $$70 + 83 + 0 + 10 + 15 + 12 + 0 + 0 = 190$$
 
@@ -308,11 +376,224 @@ $$\frac{1}{2}$$
 \subsection{Betting Game}
 A betting game involves one player throwing a six sided die to represent an attack and the other player throwing a four sided die to represent a defence.
 \subsubsection{Draw a probability space diagram for this game.}
-\subsubsection{What is the most likely total score(s) from both dice?}
-\subsubsection{What is the least likely score(s) and why?}
+\begin{center}
+  \setlength{\arrayrulewidth}{.05em}
+  \begin{tabu}{|c|[2pt]c|c|c|c|c|c|}
+      \hline
+      + & 1 & 2 & 3 & 4 & 5 & 6  \\\tabucline[2pt]{-}
+      1 & 2 & 3 & 4 & 5 & 6 & 7  \\\hline
+      2 & 3 & 4 & 5 & 6 & 7 & 8  \\\hline
+      3 & 4 & 5 & 6 & 7 & 8 & 9  \\\hline
+      4 & 5 & 6 & 7 & 8 & 9 & 10 \\\hline
+  \end{tabu}
+\end{center}
 
-\begin{tabular}{c}
-    %do table.
-\end{tabular}
+\subsubsection{What is the most likely total score(s) from both dice?}
+The most likely total score when both dice are thrown is 4, 5, 6 and 7 as they have an equal amount of percentage within the table. $$\frac{4}{24}$$ is the percentage for each of the four numbers. Simpilfied, this is $$\frac{1}{6}\mbox{ or }1.\dot{6}$$
+
+\subsubsection{What is the least likely score(s) and why?}
+The least likely total score when both dice are thrown is 2 and 10 as they have an equal amount of percentage within the table. $$\frac{1}{24}$$ is the percentage for each of the two numbers. This cannot be simplified as the previous fraction has the lowest common numerator.
+
+\newpage
+
+\section{Number Systems}
+The following table needs to be completed and two more rows need to be added. The following is the original table.
+
+\subsection{Tables}
+\begin{center}
+  \setlength{\arrayrulewidth}{.05em}
+  \begin{tabu}{|c|[2pt]c|c|c|c|}
+    \hline
+      & Denary & Binary & Octal & Hexadecimal \\\tabucline[2pt]{-}
+    a & 22     & -      & -     & 13          \\\hline
+    b & -      & -      & 13    & -           \\\hline
+    c & 41     & -      & -     & -           \\\hline
+    d & -      & 10100  & -     & -           \\\hline
+    e & -      & -      & 36    & -           \\\hline
+    f & -      & -      & -     & 2A          \\\hline
+    g & 271    & -      & -     & -           \\\hline
+    h & -      & -      & -     & -           \\\hline
+    i & -      & -      & -     & -           \\\hline
+  \end{tabu}
+\end{center}
+
+The following is my updated version of the table.
+
+\begin{center}
+  \setlength{\arrayrulewidth}{.05em}
+  \begin{tabu}{|c|[2pt]c|c|c|c|}
+    \hline
+      & Denary & Binary    & Octal & Hexadecimal \\\tabucline[2pt]{-}
+    a & 22     & 10110     & 26    & 16          \\\hline
+    b & 11     & 1011      & 13    & B           \\\hline
+    c & 41     & 101001    & 51    & 29          \\\hline
+    d & 14     & 10100     & 24    & 14          \\\hline
+    e & 30     & 11110     & 36    & 1E          \\\hline
+    f & 42     & 101010    & 52    & 2A          \\\hline
+    g & 271    & 100001111 & 417   & 10F         \\\hline
+    h & 135    & 100000111 & 207   & 87          \\\hline
+    i & 87     & 101011    & 127   & 57          \\\hline
+  \end{tabu}
+\end{center}
+
+\newpage
+
+\section{Number System Calculations}
+\subsection{Hexadecial Calculations}
+\subsubsection{Hexadecimal Adition}
+I need to add together two hexadecimal functions that are found within the previous table.
+\[
+  a + f = 22 + 42 = 64
+\]
+Within the previous equation I used the denary numbers for the $a$ and $f$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a hexadecimal number, which is in Base16.
+\[
+  64_{10} = 40_{16}
+\]
+As a result, we can conclude that:
+\[
+  a + f = 40
+\]
+
+\subsubsection{Hexadecimal Multiplication}
+I need to multiply two hexadecimal functions together, which were found within the previous table.
+\[
+  g * f = 271 * 42 = 11382
+\]
+Within the previous equation I used the denary numbers for the $g$ and $f$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a hexadecimal number, which is in Base16.
+\[
+  11382_{10} = 2C76_{16}
+\]
+As a result, we can conclude that:
+\[
+  g * f = 2C76
+\]
+
+\newpage
+
+\subsubsection{Hexadecimal Subtraction}
+I need to subtract one hexadecimal value from another, which were found within the previous table.
+\[
+  f - b = 42 - 11 = 31
+\]
+Within the previous equation I used the denary numbers for the $f$ and $b$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a hexadecimal number, which is in Base16.
+\[
+  31_{10} = 1F_{16}
+\]
+As a result, we can conclude that:
+\[
+  f - b = 1F
+\]
+
+\newpage
+
+\subsection{Octal Calculations}
+\subsubsection{Octal Addition}
+I need to add two octal functions together, which were found within the previous table.
+\[
+  a + e = 22 + 30 = 52
+\]
+Within the previous equation I used the denary numbers for the $a$ and $e$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a octal number, which is in Base8.
+\[
+  52_{10} = 64_{8}
+\]
+As a result, we can conclude that:
+\[
+  a - e = 64
+\]
+
+\subsubsection{Octal Subtraction}
+I need to subtract one octal value from another, which were found within the previous table.
+\[
+  e - b = 30 - 11 = 19
+\]
+Within the previous equation I used the denary numbers for the $e$ and $b$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into an octal number, which is in Base8.
+\[
+  19_{10} = 23_{8}
+\]
+As a result, we can conclude that:
+\[
+  e - b = 23
+\]
+
+\newpage
+
+\subsection{Binary Calculations}
+\subsubsection{Binary Addition}
+I need to add two binary functions together, which were found within the previous table.
+\[
+  a + d = 22 + 14 = 36
+\]
+Within the previous equation I used the denary numbers for the $a$ and $d$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a binary number, which is in Base2.
+\[
+  36_{10} = 100100_{2}
+\]
+As a result, we can conclude that:
+\[
+  a + d = 100100
+\]
+
+\subsubsection{Binary Multiplication}
+I need to multiply two binary functions together, which were found within the previous table.
+\[
+  a * d = 22 * 14 = 308
+\]
+Within the previous equation I used the denary numbers for the $a$ and $d$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a binary number, which is in Base2.
+\[
+  308_{10} = 100110100_{2}
+\]
+As a result, we can conclude that:
+\[
+  a * d = 100110100
+\]
+
+\newpage
+
+\subsection{Additional Equations}
+I also have to perform two more additional equations of my own choice.
+\subsubsection{Hexadecimal Addition}
+I need to add together two hexadecimal functions that are found within the previous table.
+\[
+  e + c = 30 + 41 = 71
+\]
+Within the previous equation I used the denary numbers for the $a$ and $f$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a hexadecimal number, which is in Base16.
+\[
+  71_{10} = 47_{16}
+\]
+As a result, we can conclude that:
+\[
+  e + c = 47
+\]
+
+\subsubsection{Binary Subtraction}
+I need to subtract one binary value from another, which were found within the previous table.
+\[
+  f - d = 42 - 14 = 28
+\]
+Within the previous equation I used the denary numbers for the $a$ and $d$ values, meaning that the output number was in denary.
+
+Because of this, I had to convert the denary number, which was in Base10 into a binary number, which is in Base2.
+\[
+  28_{10} = 11100_{2}
+\]
+As a result, we can conclude that:
+\[
+  f - d = 11100
+\]
 
 \end{document}
