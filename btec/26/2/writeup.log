@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  16 MAR 2017 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  19 MAR 2017 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,35 +414,135 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (./writeup.aux)
+))
+(/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
+
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks35
+\t@pgfplots@tokb=\toks36
+\t@pgfplots@tokc=\toks37
+\pgfplots@tmpa=\dimen173
+\c@pgfplots@coordindex=\count126
+\c@pgfplots@scanlineindex=\count127
+
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_l
+oader.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
+gflibraryfpu.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
+gfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count128
+))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
+ext.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
+x
+\c@pgfplotsarray@tmp=\count129
+)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
+ex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
+ex
+\c@pgfplotstable@counta=\count130
+\t@pgfplotstable@a=\toks38
+)
+(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
+.code.tex
+\c@pgfplotslibrarysurf@no=\count131
+
+(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
+pgfsys-pdftex.def)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex)))
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen174
+\pgfdecoratedremainingdistance=\dimen175
+\pgfdecoratedinputsegmentcompleteddistance=\dimen176
+\pgfdecoratedinputsegmentremainingdistance=\dimen177
+\pgf@decorate@distancetomove=\dimen178
+\pgf@decorate@repeatstate=\count132
+\pgfdecorationsegmentamplitude=\dimen179
+\pgfdecorationsegmentlength=\dimen180
+)
+\tikz@lib@dec@box=\box44
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathmorphing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathmorphing.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+decorations.pathreplacing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
+ons.pathreplacing.code.tex))
+\pgfplots@numplots=\count133
+\pgfplots@xmin@reg=\dimen181
+\pgfplots@xmax@reg=\dimen182
+\pgfplots@ymin@reg=\dimen183
+\pgfplots@ymax@reg=\dimen184
+\pgfplots@zmin@reg=\dimen185
+\pgfplots@zmax@reg=\dimen186
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+plotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (./writeup.aux)
 \openout1 = `writeup.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
-\scratchdimen=\dimen173
-\scratchbox=\box44
-\nofMPsegments=\count127
-\nofMParguments=\count128
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count129
-\MPscratchDim=\dimen174
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count134
+\scratchdimen=\dimen187
+\scratchbox=\box45
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen188
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -493,12 +593,17 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
 
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
+your preamble.
+ on input line 10.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -513,44 +618,69 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: probabilitytable.png Graphic file (type png)
 
 <use probabilitytable.png>
-Package pdftex.def Info: probabilitytable.png used on input line 218.
+Package pdftex.def Info: probabilitytable.png used on input line 319.
 (pdftex.def)             Requested size: 390.0pt x 270.98164pt.
  [11 <./probabilitytable.png>] [12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 305.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 415.
 
 
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 305.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 415.
  [13] [14] [15] [16] [17]
-[18] [19] [20] [21] (./writeup.aux) ) 
+[18] [19] [20] [21]
+Overfull \hbox (70.75302pt too wide) in paragraph at lines 747--762
+[] 
+ []
+
+[22] [23] [24] <boxplot.jpg, id=106, 501.875pt x 301.125pt>
+File: boxplot.jpg Graphic file (type jpg)
+ <use boxplot.jpg>
+Package pdftex.def Info: boxplot.jpg used on input line 811.
+(pdftex.def)             Requested size: 390.0pt x 234.01273pt.
+
+[25 <./boxplot.jpg>] [26]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [27] (./writeup.aux) ) 
 Here is how much of TeX's memory you used:
- 13088 strings out of 493013
- 252255 string characters out of 6139317
- 296150 words of memory out of 5000000
- 16379 multiletter control sequences out of 15000+600000
- 12873 words of font info for 50 fonts, out of 8000000 for 9000
+ 23135 strings out of 493013
+ 589057 string characters out of 6139317
+ 782346 words of memory out of 5000000
+ 26286 multiletter control sequences out of 15000+600000
+ 13220 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,9n,54p,755b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nat/.texlive/texmf-var/fonts/pk/lj
-four/public/cm/cmex10.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/d
-pi600/cmr8.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.60
-0pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.600pk> </hom
-e/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/nat/.te
-xlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/nat/.texlive/tex
-mf-var/fonts/pk/ljfour/public/cm/cmtt12.600pk> </home/nat/.texlive/texmf-var/fo
-nts/pk/ljfour/public/cm/cmcsc10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/l
-jfour/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/
-dpi600/cmr12.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12
-.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> <
-/home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/nat/
-.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on writeup.pdf (23 pages, 134480 bytes).
+ 62i,9n,96p,755b,1830s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm
+/cmti12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmex10.7
+20pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/n
+at/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </home/nat/.texliv
+e/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.600pk> </home/nat/.texlive/texmf-va
+r/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/nat/.texlive/texmf-var/fonts/p
+k/ljfour/public/cm/cmmi12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/
+public/cm/cmtt12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm
+/cmcsc10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.
+720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home
+/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </home/nat/.tex
+live/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/nat/.texlive/texm
+f-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/nat/.texlive/texmf-var/font
+s/pk/ljfour/public/cm/cmr17.720pk>
+Output written on writeup.pdf (29 pages, 176161 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 516 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
