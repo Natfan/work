@@ -4,21 +4,30 @@
 # Meta
 Only things that I need to do at time of writing will be added. I will not backdate for things that I have done.
 
-[ ] Items marked like this need to be completed.
+* [ ] Items marked like this need to be completed.
 
-[x] Items marked like this are completed but are kept for records.
+* [x] Items marked like this are completed but are kept for records.
 
 # BTEC
-* [ ] Unit 7 Assignment 3
-* [ ] Unit 26 Assignment 1
-* [ ] Unit 28 Assignment 1
-* [ ] Unit 29 Assignment 2
+* [x] Unit 07 Assignment 3
+* [ ] Unit 14 Assignment 1
+* [ ] Unit 14 Assignment 2
+* [ ] Unit 14 Assignment 3
+* [ ] Unit 14 Assignment 4
+* [ ] Unit 18 Assignment 1
+* [ ] Unit 18 Assignment 2
+* [ ] Unit 26 Assignment 1 [R]
+* [ ] Unit 26 Assignment 2
+* [ ] Unit 28 Assignment 2
+* [ ] Unit 29 Assignment 2 [R]
+* [ ] Unit 31 Assignment 1
+* [ ] Unit 31 Assignment 2
 
 # Computer Science
-* [ ] Project
+* [x] Project
+* [ ] Revise for exams
 
 # Apprenticeship
 * [ ] Email people that I liked from the speed networking evening.
-* [ ] Find possible apprenticeship fairs.
-* [ ] See when IBM applications open.
+* [x] Find possible apprenticeship fairs.
 * [ ] Keep in communication with Pathway CTM.
