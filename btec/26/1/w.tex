@@ -12,16 +12,320 @@
 \author{Nathan Windisch}
 \date{Janurary 2017}
 \maketitle
-\pagenumbering{roman}
+\pagenumbering{arabic}
 \tableofcontents
 \newpage
-\pagenumbering{arabic}
 
-\section{Data}
-The following data is used in PII, PIII and PIV:
-\begin{equation}
-  \begin{pmatrix}
-     3 & -1
-     4 &  2
-  \end
-\end
+  \section{Data}
+    The following data is used in PII, PIII and PIV:
+    \begin{equation}
+      M =
+      \begin{pmatrix}
+        3 & -1\\
+        4 &  2
+      \end{pmatrix}
+      \\
+    \end{equation}
+    \begin{equation}
+      N =
+      \begin{pmatrix}
+         4 &  3\\
+        -3 & -1
+      \end{pmatrix}
+      \\
+    \end{equation}
+    \begin{equation}
+      P =
+      \begin{pmatrix}
+        1 & 3 & 5\\
+        -1 & 2 & 4\\
+        -3 & 4 & 3
+      \end{pmatrix}
+      \\
+    \end{equation}
+    \begin{equation}
+      Q =
+      \begin{pmatrix}
+        2 &  3 &  3\\
+        4 &  4 & -2\\
+        3 & -4 &  8
+      \end{pmatrix}
+      \\
+    \end{equation}
+    \begin{equation}
+      R =
+      \begin{pmatrix}
+         9 &  2 & 6\\
+        12 & -4 & 7
+      \end{pmatrix}
+      \\
+    \end{equation}
+    \begin{equation}
+      S =
+      \begin{pmatrix}
+        -6 &  3\\
+        -3 & -2\\
+        -6 &  6
+      \end{pmatrix}
+    \end{equation}
+
+  \newpage
+
+  \section{Understanding Matrices and How Matrices Can Be Used To Represent Ordered Data}
+    \subsection{Overview}
+      A Matrix is a way of displaying data in an ordered format. Matrices are in a rectanguar format with cells comprised of rows and columns. Matrices can be used with one another to add, subtract and multiply. When writing out a matrix calculation, regular mathematical symbols are used, except for the full stop symbol (.), which is used for multiplcation of matrices. When multipling matrices, the order of which matrix comes first is key. \textsc{A . B} is not the same as \textsc{B . A}.
+    \subsection{Order}
+      The order of a matrix is very important. A matrix with the numbers
+
+      \begin{equation}
+        \begin{pmatrix}
+          3 & 6\\
+          9 & 5
+        \end{pmatrix}
+      \end{equation}
+
+      will have a different outcome if manipulated with another number than a matrix with the numbers
+
+      \begin{equation}
+        \begin{pmatrix}
+          6 & 3\\
+          5 & 9
+        \end{pmatrix}
+      \end{equation}
+
+      This means that if the order of any individual number is changed, the whole calculation could be invalidated.
+
+    \newpage
+
+    \subsection{Indecies}
+    Indexes of matrices are selected subsections of a matrix. For instance, a 3x3 matrix may be like this;
+
+    \begin{equation}
+      \begin{pmatrix}
+        9 & 2 & 8\\
+        3 & 1 & 4\\
+        7 & 6 & 5
+      \end{pmatrix}
+    \end{equation}
+
+    But an index of the matrix would be only a small group, such as this 2x2 subsection.
+
+    \begin{equation}
+      \begin{pmatrix}
+        3 & 1\\
+        7 & 6
+      \end{pmatrix}
+    \end{equation}
+
+    \subsection{Real World Applications}
+      Matrices can be used in the real world in many different applications. One use of matrixes in the real world is the traits of a population of people, webpage rankings and cryptography. Without matrices, many real world applications would be hindered.
+
+  \newpage
+
+  \section{Adding and Subtracting Matrices}
+    The following are the questions that need to be answered:
+    \begin{enumerate}
+      \item M + N
+      \item P + Q
+      \item M - N
+      \item 3P
+      \item 3P - 2Q
+    \end{enumerate}
+    The following are my answers to the question, with working out added to them as an intermediate step.
+
+    \subsection{M + N}
+      \begin{equation}
+        M + N =
+        \begin{pmatrix}
+          3 & -1\\
+          4 &  2
+        \end{pmatrix}
+        +
+        \begin{pmatrix}
+           4 &  3\\
+          -1 & -1
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          3 +  4 & -1 +  3\\
+          4 + -3 &  2 + -1
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          7 & 2\\
+          1 & 1
+        \end{pmatrix}
+      \end{equation}
+    \subsection{P + Q}
+      \begin{equation}
+        P + Q =
+        \begin{pmatrix}
+           1 & 3 & 5\\
+          -1 & 2 & 4\\
+          -1 & 4 & 3
+        \end{pmatrix}
+        +
+        \begin{pmatrix}
+          2 & 3 & 3\\
+          4 & 4 & -2\\
+          3 & -4 & 8
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          1 + 2 & 3 + 3 & 5 + 3\\
+          -1 + 4 & 2 + 4 & 4 + -2\\
+          -3 + 3 & 4 + -4 & 3 + 8
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          3 & 6 & 8\\
+          3 & 6 & 2\\
+          0 & 0 & 11
+        \end{pmatrix}
+      \end{equation}
+    \subsection{M - N}
+      \begin{equation}
+        M - N =
+        \begin{pmatrix}
+          3 & -1\\
+          4 &  2
+        \end{pmatrix}
+        -
+        \begin{pmatrix}
+           4 & 3\\
+          -1 & -1
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          3 - 4 & -1 - 3\\
+          4 - -3 & 2 - -1
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          3 - 4 & -1 - 3\\
+          4 + 3 & 2 + 1
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          -1 & -4\\
+          7 & 3
+        \end{pmatrix}
+      \end{equation}
+
+    \subsection{3P}
+      \begin{equation}
+        3P =
+        3
+        \begin{pmatrix}
+          1 & 3 & 5\\
+          -1 & 2 & 4\\
+          -3 & 4 & 3\\
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          3(1) & 3(3) & 3(5)\\
+          3(-1) & 3(2) & 3(4)\\
+          3(-3) & 3(4) & 3(3)
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          3 & 9 & 15\\
+          -3 & 6 & 12\\
+          -9 & 12 & 9\\
+        \end{pmatrix}
+      \end{equation}
+
+    \subsection{3P - 2Q}
+    Due to the fact that I have already calculated 3P, I shall now only calculate 2Q and then add them together at the end.
+      \begin{equation}
+        2Q =
+        2
+        \begin{pmatrix}
+          2 & 3 & 3\\
+          4 & 4 & -2\\
+          3 & -4 & 8
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          2(2) & 2(3) & 2(3)\\
+          2(4) & 2(4) & 2(-2)\\
+          2(3) & 2(-4) & 2(8)
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          4 & 6 + 6\\
+          8 & 8 & -4\\
+          6 & -8 & 16
+        \end{pmatrix}
+      \end{equation}
+
+      Now I will perform 3P - 2Q now that I have calculated 2Q.
+      \begin{equation}
+        \begin{pmatrix}
+          3 & 9 & 15\\
+          -3 & 6 & 12\\
+          -9 & 12 & 9
+        \end{pmatrix}
+        -
+        \begin{pmatrix}
+          4 & 6 & 6\\
+          8 & 8 & -4\\
+          6 & -8 & 16
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          3 - 4 & 9 - 6 & 15 - 6\\
+          -3 - 8 & 6 - 8 & 12 - -4\\
+          -9 - 6 & 12 - -8 & 9 - 16
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          -1 & 3 & 9\\
+          -11 & -2 & 16\\
+          -15 & 20 & -7
+        \end{pmatrix}
+      \end{equation}
+
+  \newpage
+
+  \section{Multiplying Matrices}
+    The following are the questions that need to be answered:
+
+    \begin{enumerate}
+      \item M $\times$ N
+      \item P $\times$ Q
+      \item R $\times$ S
+      \item S $\times$ R
+    \end{enumerate}
+
+    The following are my answers to the questions, along with the working out added to then as an intermediate step.
+    \subsection{M $\times$ N}
+      \begin{equation}
+        \begin{pmatrix}
+          3 & -1\\
+          4 & 2
+        \end{pmatrix}
+        \begin{pmatrix}
+          4 & 3\\
+          -1 & -1
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          (3 \times 4) + (-1 \times -3) & (3 \times 3) + (-1 \times -1)\\
+          (4 \times 4) + (2 \times -3) & (4 \times 3) + (2 \times -1)
+        \end{pmatrix}
+      \end{equation}
+      \begin{equation}
+        =
+        \begin{pmatrix}
+          12 + 3 & 9 + 1\\
+          16 + -6 & 12 + -2
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+          15 & 10\\
+          10 & 10
+        \end{pmatrix}
+      \end{equation}
+
+\end{document}

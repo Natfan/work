@@ -65,7 +65,7 @@ But an index of the matrix would be only a small group, such as this 2x2 subsect
 ### Real World Applications
 Matrices can be used in the real world in many different applications. One use of matrixes in the real world is the traits of a population of people, webpage rankings and cryptography. Without matrices, many real world applications would be hindered.
 
-<pagebreak>  
+<pagebreak>
 
 ## PII: Adding & Subtracting Matrices
 
@@ -126,7 +126,8 @@ The following are my answers to the questions, along with the working out added 
 a. M . N = [3 -1]   [ 4  3]   [(3* 4) (-1* 3)]   [ 7 -3]
            [4  2] . [-1 -1] = [(4*-1) ( 2*-1)] = [-4 -2]
 ```
-
+`TODO: UP TO HERE`
+***
 ```
            [ 1 3 5]   [2  3  3]   [ (1*2) (3* 3) (5* 3)]   [ 2   9 15]
 b. P . Q = [-1 2 4] . [4  4 -2] = [(-1*4) (2* 4) (4*-2)] = [-4   8 -8]

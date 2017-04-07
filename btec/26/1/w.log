@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  7 APR 2017 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  7 APR 2017 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**writeup.tex
-(./writeup.tex
+**w.tex
+(./w.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -515,8 +515,8 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (./writeup.aux)
-\openout1 = `writeup.aux'.
+))) (./w.aux)
+\openout1 = `w.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -607,80 +607,52 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./writeup.toc [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+) (./w.toc)
 \tf@toc=\write4
-\openout4 = `writeup.toc'.
+\openout4 = `w.toc'.
 
- [2] [1] [2] [3] [4] [5] [6] [7]
-[8] [9] [10] <probabilitytable.png, id=57, 522.95375pt x 363.3575pt>
-File: probabilitytable.png Graphic file (type png)
+ [1
 
-<use probabilitytable.png>
-Package pdftex.def Info: probabilitytable.png used on input line 319.
-(pdftex.def)             Requested size: 390.0pt x 270.98164pt.
- [11 <./probabilitytable.png>] [12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 415.
-
-
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 415.
- [13] [14] [15] [16] [17]
-[18] [19] [20] [21]
-Overfull \hbox (70.75302pt too wide) in paragraph at lines 747--762
-[] 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+Overfull \hbox (51.62073pt too wide) detected at line 185
+\OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 Q \OT1/cmr/m/n/12 = [] + 
+[] = [] = []
  []
 
-[22] [23] [24] <boxplot.jpg, id=106, 501.875pt x 301.125pt>
-File: boxplot.jpg Graphic file (type jpg)
- <use boxplot.jpg>
-Package pdftex.def Info: boxplot.jpg used on input line 811.
-(pdftex.def)             Requested size: 390.0pt x 234.01273pt.
 
-[25 <./boxplot.jpg>] [26]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
- [27] (./writeup.aux) ) 
+Overfull \hbox (69.08755pt too wide) detected at line 213
+\OML/cmm/m/it/12 M \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 N \OT1/cmr/m/n/12 = []
+ \OMS/cmsy/m/n/12 ^^@ [] \OT1/cmr/m/n/12 = [] = [] = []
+ []
+
+[5]
+Overfull \hbox (60.44316pt too wide) detected at line 287
+[] \OMS/cmsy/m/n/12 ^^@ [] \OT1/cmr/m/n/12 = [] = []
+ []
+
+[6] [7] (./w.aux) ) 
 Here is how much of TeX's memory you used:
- 23135 strings out of 493013
- 589057 string characters out of 6139317
+ 22658 strings out of 493013
+ 575959 string characters out of 6139317
  782346 words of memory out of 5000000
- 26286 multiletter control sequences out of 15000+600000
- 13220 words of font info for 51 fonts, out of 8000000 for 9000
+ 25818 multiletter control sequences out of 15000+600000
+ 12704 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,96p,755b,1830s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm
-/cmti12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmex10.7
-20pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/n
-at/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </home/nat/.texliv
-e/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.600pk> </home/nat/.texlive/texmf-va
-r/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/nat/.texlive/texmf-var/fonts/p
-k/ljfour/public/cm/cmmi12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/
-public/cm/cmtt12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm
-/cmcsc10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.
-720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home
-/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </home/nat/.tex
-live/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/nat/.texlive/texm
-f-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/nat/.texlive/texmf-var/font
-s/pk/ljfour/public/cm/cmr17.720pk>
-Output written on writeup.pdf (29 pages, 176172 bytes).
+ 62i,6n,96p,697b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cms
+y10.864pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmcsc10.720p
+k> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home
+/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmex10.720pk> </home/nat/.tex
+live/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/nat/.texlive/texm
+f-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </usr/share/texmf-dist/fonts/pk/l
+jfour/public/cm/dpi600/cmr12.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/
+public/cm/cmbx12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm
+/cmbx12.864pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.72
+0pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
+Output written on w.pdf (7 pages, 77462 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 280 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
