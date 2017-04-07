@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  7 APR 2017 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  7 APR 2017 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,7 +630,12 @@ Overfull \hbox (60.44316pt too wide) detected at line 287
 [] \OMS/cmsy/m/n/12 ^^@ [] \OT1/cmr/m/n/12 = [] = []
  []
 
-[6] [7] (./w.aux) ) 
+[6]
+Overfull \hbox (116.96875pt too wide) detected at line 351
+\OT1/cmr/m/n/12 = []
+ []
+
+[7] [8] [9] (./w.aux) ) 
 Here is how much of TeX's memory you used:
  22658 strings out of 493013
  575959 string characters out of 6139317
@@ -639,20 +644,23 @@ Here is how much of TeX's memory you used:
  12704 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,96p,697b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cms
-y10.864pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmcsc10.720p
-k> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home
-/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmex10.720pk> </home/nat/.tex
-live/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/nat/.texlive/texm
-f-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </usr/share/texmf-dist/fonts/pk/l
-jfour/public/cm/dpi600/cmr12.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/
-public/cm/cmbx12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm
-/cmbx12.864pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.72
-0pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
-Output written on w.pdf (7 pages, 77462 bytes).
+ </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600
+/cmsy10.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.600pk
+> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.864pk> </home/
+nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmcsc10.720pk> </home/nat/.tex
+live/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk> </home/nat/.texlive/texm
+f-var/fonts/pk/ljfour/public/cm/cmex10.720pk> </home/nat/.texlive/texmf-var/fon
+ts/pk/ljfour/public/cm/cmmi12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljf
+our/public/cm/cmsy8.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public
+/cm/cmsy10.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12
+.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </ho
+me/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.864pk> </home/nat/.t
+exlive/texmf-var/fonts/pk/ljfour/public/cm/cmr12.720pk> </home/nat/.texlive/tex
+mf-var/fonts/pk/ljfour/public/cm/cmr17.720pk>
+Output written on w.pdf (9 pages, 84022 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 309 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
