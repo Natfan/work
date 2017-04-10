@@ -126,7 +126,8 @@ The following are my answers to the questions, along with the working out added 
 a. M . N = [3 -1]   [ 4  3]   [(3* 4) (-1* 3)]   [ 7 -3]
            [4  2] . [-1 -1] = [(4*-1) ( 2*-1)] = [-4 -2]
 ```
-
+`TODO: UP TO HERE`
+***
 ```
            [ 1 3 5]   [2  3  3]   [ (1*2) (3* 3) (5* 3)]   [ 2   9 15]
 b. P . Q = [-1 2 4] . [4  4 -2] = [(-1*4) (2* 4) (4*-2)] = [-4   8 -8]
@@ -148,6 +149,7 @@ d. S . R = [-3 -2] . [ 9  2 6] = [-6*2+3*-4-3*2+-2*-4-6*2+6*-4] = [-51   2 -32]
 <pagebreak>
 
 ## PIV: Inverse and Transpose
+
 The following questions need to be answered:
 
 *Please note that x/y is the same as x over y .*
@@ -164,7 +166,6 @@ The following are my answers to the questions, along with the working out added 
 
 For reference, when calculating the inverse of a matrix you need to calculate the inverse of each individual element.
 
-`TODO: UP TO HERE`
 ```
 a. M⁻¹= [3 -1]⁻¹   [ 1/5 1/10]
         [4  2]   = [-2/5 3/10]
