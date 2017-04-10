@@ -440,30 +440,56 @@
     \section{Inverse and Transpose}
       \subsection{Inverse}
         When generating an Inverse Matrix, there are many steps to follow that can make the process seem difficult as they all need to be performed in the right in order to ensure that the calculations are done correctly. Fortunately, I shall show how to perform an Inverse function by breaking it down into simple steps. The first method I shall show is a general rule of thumb for generating matrices.
+        \subsubsection{Generic Method}
+          I shall start off this explaination by naming some terms and definining them. An inverse square is one where the original and an inverse of that are multiplied with one another to get the answer which will give you another matrix. This tertiary matrix is called an indentity matrix due to the fact that it contains nothing but zeros, apart from a diagonal line going from the top left corner down to the bottom right corner of the matrix. The following is an example of an identity matrix:
 
-        I shall start off this explaination by naming some terms and definining them. An inverse square is one where the original and an inverse of that are multiplied with one another to get the answer which will give you another matrix. This tertiary matrix is called an indentity matrix due to the fact that it contains nothing but zeros, apart from a diagonal line going from the top left corner down to the bottom right corner of the matrix. The following is an example of an identity matrix:
+          \begin{equation}
+            \begin{pmatrix}
+              1 & 0 & 0 & \quad & 0\\
+              0 & 1 & 0 & \quad & 0\\
+              0 & 0 & 1 & \quad & 0\\
+              \quad & \quad & \quad & \quad & 0\\
+              0 & 0 & 0 & 0 & 1
+            \end{pmatrix}
+          \end{equation}
+        \subsubsection{2x2 Method}
+          Now that the generic method of formulating an Inverse Matrix, I shall now show the method for the 2x2 matrix:
 
-        \begin{equation}
-          \begin{pmatrix}
-            1 & 0 & 0 & \quad & 0\\
-            0 & 1 & 0 & \quad & 0\\
-            0 & 0 & 1 & \quad & 0\\
-            \quad & \quad & \quad & \quad & 0\\
-            0 & 0 & 0 & 0 & 1
-          \end{pmatrix}
-        \end{equation}
+          The first thing that is needed when trying to generate 2x2 Inverse Matrix is the determinate of the matrix. The determine is calculated by multiplying the bottom right and top left values together and then subtracting the top left and bottom right values from that other number. When displayed in a matrix, it can be seen as follows:
 
-        for the 2x2 matrix.
+          (Please note that A will be surrounded by square brackets due to the fact that it is an absolute value.)
 
+          \begin{equation}
+            A =
+            \begin{pmatrix}
+              a & b\\
+              c & d
+            \end{pmatrix}
+            = [A] = ad - cb
+          \end{equation}
 
+          To provide this method with some more grounded results, I shall substitute the algebraic letters with random numbers, as follows:
 
+          \begin{equation}
+            A =
+            \begin{pmatrix}
+              2 & 6\\
+              7 & 9
+            \end{pmatrix}
+            = [A] = 2(9) - 7(6) = 18 - 42 = -24
+
+            [A] = -24
+          \end{equation}
+
+        \subsubsection{The Questions}
         The following are the questions that need to be answered:
-
         \begin{enumerate}
           \item M$^-1$
           \item N$^-1$
           \item P$^-1$
           \item Q$^-1$
+        \end{enumerate}
+        \begin{enumerate}
           \item M$^T$
           \item P$^T$
           \item R$^T$
