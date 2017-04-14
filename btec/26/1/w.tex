@@ -455,31 +455,126 @@
         \subsubsection{2x2 Method}
           Now that the generic method of formulating an Inverse Matrix, I shall now show the method for the 2x2 matrix:
 
-          The first thing that is needed when trying to generate 2x2 Inverse Matrix is the determinate of the matrix. The determine is calculated by multiplying the bottom right and top left values together and then subtracting the top left and bottom right values from that other number. When displayed in a matrix, it can be seen as follows:
 
-          (Please note that A will be surrounded by square brackets due to the fact that it is an absolute value.)
+          \paragraph{Determinate Generation}
+            The first thing that is needed when trying to generate 2x2 Inverse Matrix is the determinate of the matrix. The determine is calculated by multiplying the bottom right and top left values together and then subtracting the top left and bottom right values from that other number. When displayed in a matrix, it can be seen as follows:
 
-          \begin{equation}
-            A =
-            \begin{pmatrix}
-              a & b\\
-              c & d
-            \end{pmatrix}
-            = [A] = ad - cb
-          \end{equation}
+            (Please note that A will be surrounded by square brackets due to the fact that it is an absolute value.)
 
-          To provide this method with some more grounded results, I shall substitute the algebraic letters with random numbers, as follows:
+            \begin{equation}
+              A =
+              \begin{pmatrix}
+                a & b\\
+                c & d
+              \end{pmatrix}
+              = [A] = ad - cb
+            \end{equation}
 
-          \begin{equation}
-            A =
-            \begin{pmatrix}
-              2 & 6\\
-              7 & 9
-            \end{pmatrix}
-            = [A] = 2(9) - 7(6) = 18 - 42 = -24
+            To provide this method with some more grounded results, I shall substitute the algebraic letters with randomly generated numbers, as follows:
 
-            [A] = -24
-          \end{equation}
+            \begin{equation}
+              A =
+              \begin{pmatrix}
+                2 & 6\\
+                7 & 9
+              \end{pmatrix}
+              = [A] = 2(9) - 7(6) = 18 - 42 = -24
+
+              [A] = -24
+            \end{equation}
+
+          \paragraph{Inverse Formula Generation}
+            After the determinate has been calculated, an inverse of the original formula can be found. To do this, all that is required is the switching of the bottom right and top left values of the matrix. After this, the other two values need to be swapped with the negatives of their original values and the final value is the product of the whole matrix by one over the determinate. To show this in a more visual format, I shall provide the general formula for this function:
+
+            \begin{equation}
+              A =
+              \begin{pmatrix}
+                a & b\\
+                c & d
+              \end{pmatrix}
+              =
+              A^{-1} = \frac{1}{[A]}
+              \begin{pmatrix}
+                d & -b\\
+                -c & a
+              \end{pmatrix}
+              =
+              \frac{1}{ad-bc}
+              \begin{pmatrix}
+                d & -b\\
+                -c & a
+              \end{pmatrix}
+            \end{equation}
+            Put into one equation, we can show this as:
+            \begin{equation}
+              \begin{pmatrix}
+                \frac{1}{ad-bc}d & -\frac{1}{ad-bc}b\\
+            		-\frac{1}{ad-bc}c & \frac{1}{ad-bc}a
+              \end{pmatrix}
+            \end{equation}
+
+            To try to explain this even more, I shall substitute the algebraic valies for real numbers:
+
+            \begin{equation}
+              A =
+              \begin{pmatrix}
+                2 & 4\\
+                1 & 9
+              \end{pmatrix}
+              =
+              A^{-1} = \frac{1}{[A]}
+              \begin{pmatrix}
+                9 & -4\\
+                -1 & 2
+              \end{pmatrix}
+              =
+              \frac{1}{(2 \times 9) - (4 \times 1)}
+              \begin{pmatrix}
+                9 & -4\\
+                -1 & 2
+              \end{pmatrix}
+            \end{equation}
+            Put into one equation, we can show this as:
+            \begin{equation}
+              \begin{pmatrix}
+                \frac{1}{(2 \times 9) - (4 \times 1)}9 & -\frac{1}{(2 \times 9) - (4 \times 1)}4\\
+                -\frac{1}{(2 \times 9) - (4 \times 1)}1 & \frac{1}{(2 \times 9) - (4 \times 1)}2
+              \end{pmatrix}
+            \end{equation}
+      \subsection{Transpose}
+        Another way that matrices can be modified is by "Transposing" them. Transposing meerly swaps numbers within the matrix around, meaning that a 3x2 matrix would simply become a 2x3 matrix. I shall demonstrate how a transposition would work, using algebraic functions.
+
+        \begin{equation}
+          \begin{pmatrix}
+            a & b & c\\
+            d & e & f
+          \end{pmatrix}
+          ^T
+           =
+          \begin{pmatrix}
+            a & d\\
+            b & e\\
+            c & f
+          \end{pmatrix}
+          ^T
+        \end{equation}
+
+        Now I shall use random numbers for a more practical demonstration:
+
+        \begin{equation}
+          \begin{pmatrix}
+            1 & 5 & 3\\
+            7 & 9 & 6
+          \end{pmatrix}
+          ^T
+           =
+          \begin{pmatrix}
+            1 & 7\\
+            5 & 9\\
+            3 & 6
+          \end{pmatrix}
+          ^T
+        \end{equation}
 
         \subsubsection{The Questions}
         The following are the questions that need to be answered:
@@ -500,15 +595,106 @@
         For reference, when calculating the inverse of a matrix you need to calculate the inverse of each individual element.
 
         \subsection{M$^-1$}
-        \begin{equation}
-          A =
-          \begin{pmatrix}
-            3 & -1\\
-            4 &  2
-          \end{pmatrix}
-        \end{equation}
+          \begin{equation}
+            M =
+            \begin{pmatrix}
+              3 & -1\\
+              4 &  2
+            \end{pmatrix}
+            ^-1
+            =
+            \begin{pmatrix}
+              \frac{1}{5} & \frac{1}{10}\\
+             \frac{-2}{5} & \frac{3}{10}
+            \end{pmatrix}
+          \end{equation}
+
+        \subsection{N$^-1$}
+            \begin{equation}
+              N =
+              \begin{pmatrix}
+                4 &  3\\
+               -1 & -1
+              \end{pmatrix}
+              ^-1
+              =
+              \begin{pmatrix}
+                1 &  3\\
+               -1 & -4
+              \end{pmatrix}
+            \end{equation}
 
 
+        \subsection{P$^-1$}
+          \begin{equation}
+            P =
+            \begin{pmatrix}
+              -1 & 24\\
+              -3 & 43
+            \end{pmatrix}
+            ^-1
+             =
+            \begin{pmatrix}
+              \frac{43}{29} & \frac{-24}{29}\\
+              \frac{ 3}{29} & \frac{ -1}{29}
+            \end{pmatrix}
+          \end{equation}
 
+        \subsection{Q$^-1$}
+          \begin{equation}
+            Q =
+            \begin{pmatrix}
+              -1 & 24\\
+              -3 & 43
+            \end{pmatrix}
+             = Undefined as the matrix needs to be a square for an inverse to be found.
+          \end{equation}
 
+        \subsection{M$^-T$}
+          \begin{equation}
+            M =
+            \begin{pmatrix}
+              3 & -1\\
+              4 &  2
+            \end{pmatrix}
+            ^-T
+             =
+            \begin{pmatrix}
+               3 & -1\\
+              -1 &  2
+            \end{pmatrix}
+          \end{equation}
+
+        \subsection{P$^-T$}
+          \begin{equation}
+            P =
+            \begin{pmatrix}
+              1 & 35\\
+             -1 & 24\\
+             -3 & 43
+            \end{pmatrix}
+            ^-T
+             =
+            \begin{pmatrix}
+               1 & -1 & -3\\
+              35 & 24 & 43
+            \end{pmatrix}
+          \end{equation}
+
+        \subsection{R$^-T$}
+          \begin{equation}
+            R =
+            \begin{pmatrix}
+              2 &  3 & 3\\
+              9 &  2 & 6\\
+             12 & -4 & 7
+            \end{pmatrix}
+            ^-T
+             =
+            \begin{pmatrix}
+               2 & 9 & 12\\
+               3 & 2 & -4\\
+               3 & 6 &  7
+            \end{pmatrix}
+          \end{equation}
 \end{document}

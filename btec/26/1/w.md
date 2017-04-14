@@ -126,8 +126,7 @@ The following are my answers to the questions, along with the working out added 
 a. M . N = [3 -1]   [ 4  3]   [(3* 4) (-1* 3)]   [ 7 -3]
            [4  2] . [-1 -1] = [(4*-1) ( 2*-1)] = [-4 -2]
 ```
-`TODO: UP TO HERE`
-***
+
 ```
            [ 1 3 5]   [2  3  3]   [ (1*2) (3* 3) (5* 3)]   [ 2   9 15]
 b. P . Q = [-1 2 4] . [4  4 -2] = [(-1*4) (2* 4) (4*-2)] = [-4   8 -8]
@@ -167,13 +166,13 @@ The following are my answers to the questions, along with the working out added 
 For reference, when calculating the inverse of a matrix you need to calculate the inverse of each individual element.
 
 ```
-a. M⁻¹= [3 -1]⁻¹   [ 1/5 1/10]
-        [4  2]   = [-2/5 3/10]
+a. M⁻¹= [3 -1]^-1   [ 1/5 1/10]
+        [4  2]    = [-2/5 3/10]
 ```
 
 ```
-b. N⁻¹ =  [ 4  3]⁻¹   [ 1  3]
-          [-1 -1]   = [-1 -4]
+b. N⁻¹ =  [ 4  3]^-1   [ 1  3]
+          [-1 -1]    = [-1 -4]
 ```
 
 ```
@@ -187,6 +186,10 @@ c. P⁻¹ = [-1 24]⁻¹   [43/29 -24/29]
 d. Q⁻¹ = [4 -42]   = Undefined as the matrix needs to be a square for an inverse to be found.
          [2 -48]
 ```
+
+***
+`TODO: UP TO HERE`
+***
 
 ```
 e. M^T = [3 -1]^T   [3  4]
