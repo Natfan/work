@@ -154,13 +154,13 @@ The following questions need to be answered:
 
 *Please note that x/y is the same as x over y .*
 
-a. M⁻¹
-b. N⁻¹
-c. P⁻¹
-d. Q⁻¹
-e. M^T
-f. P^T
-g. R^T
+* a. M^-1
+* b. N^-1
+* c. P^-1
+* d. Q^-1
+* e. M^T
+* f. P^T
+* g. R^T
 
 The following are my answers to the questions, along with the working out added to them as an intermediate step.
 
