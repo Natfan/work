@@ -187,10 +187,6 @@ d. Q⁻¹ = [4 -42]   = Undefined as the matrix needs to be a square for an inve
          [2 -48]
 ```
 
-***
-`TODO: UP TO HERE`
-***
-
 ```
 e. M^T = [3 -1]^T   [3  4]
          [4  2]   = [-1 2]
@@ -211,6 +207,10 @@ g. R^T = [ 9  2 6]   = [3 2 -4]
 <pagebreak>
 
 # PV: Simulations Equations
+
+***
+`TODO: UP TO HERE`
+***
 
 The following questions need to be answered:
 
