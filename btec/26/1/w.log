@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  10 APR 2017 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  17 APR 2017 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -515,34 +515,93 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (./w.aux)
+))) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count134
+\lst@gtempboxa=\box45
+\lst@token=\toks39
+\lst@length=\count135
+\lst@currlwidth=\dimen187
+\lst@column=\count136
+\lst@pos=\count137
+\lst@lostspace=\dimen188
+\lst@width=\dimen189
+\lst@newlines=\count138
+\lst@lineno=\count139
+\lst@maxwidth=\dimen190
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count140
+\lst@skipnumbers=\count141
+\lst@framebox=\box46
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count142
+\float@exts=\toks40
+\float@box=\box47
+\@float@everytoks=\toks41
+\@floatcapt=\box48
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count143
+\Gm@cntv=\count144
+\c@Gm@tempcnt=\count145
+\Gm@bindingoffset=\dimen191
+\Gm@wd@mp=\dimen192
+\Gm@odd@mp=\dimen193
+\Gm@even@mp=\dimen194
+\Gm@layoutwidth=\dimen195
+\Gm@layoutheight=\dimen196
+\Gm@layouthoffset=\dimen197
+\Gm@layoutvoffset=\dimen198
+\Gm@dimlist=\toks42
+) (./w.aux)
 \openout1 = `w.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen187
-\scratchbox=\box45
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen188
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count146
+\scratchdimen=\dimen199
+\scratchbox=\box49
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen256
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -550,9 +609,6 @@ Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -597,94 +653,107 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
 your preamble.
- on input line 10.
+ on input line 13.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+\c@lstlisting=\count152
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./w.toc)
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./w.toc)
 \tf@toc=\write4
 \openout4 = `w.toc'.
 
- [1
+ [2] [3] [4] [5] [6] [7] [8] [9] [10]
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 775--777
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-Overfull \hbox (51.62073pt too wide) detected at line 185
-\OML/cmm/m/it/12 P \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 Q \OT1/cmr/m/n/12 = [] + 
-[] = [] = []
  []
 
 
-Overfull \hbox (69.08755pt too wide) detected at line 213
-\OML/cmm/m/it/12 M \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 N \OT1/cmr/m/n/12 = []
- \OMS/cmsy/m/n/12 ^^@ [] \OT1/cmr/m/n/12 = [] = [] = []
+Underfull \hbox (badness 10000) in paragraph at lines 783--785
+
  []
 
-[5]
-Overfull \hbox (60.44316pt too wide) detected at line 287
-[] \OMS/cmsy/m/n/12 ^^@ [] \OT1/cmr/m/n/12 = [] = []
+
+Underfull \hbox (badness 10000) in paragraph at lines 796--798
+
  []
 
-[6]
-Overfull \hbox (29.72159pt too wide) detected at line 352
-[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 804--806
+
  []
 
-[7] [8] [9]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.480 
-      
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.480 
-      
-? 
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.482           \end{equation}
-                              
-? X
- 
+[12] [13] (./w.aux) ) 
 Here is how much of TeX's memory you used:
- 22663 strings out of 493013
- 576147 string characters out of 6139317
- 782346 words of memory out of 5000000
- 25822 multiletter control sequences out of 15000+600000
- 13349 words of font info for 52 fonts, out of 8000000 for 9000
+ 24372 strings out of 493013
+ 600931 string characters out of 6139317
+ 787321 words of memory out of 5000000
+ 27503 multiletter control sequences out of 15000+600000
+ 11804 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,96p,697b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share
-/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </usr/share/texmf-dist/f
-onts/pk/ljfour/public/cm/dpi600/cmex10.pk> </home/nat/.texlive/texmf-var/fonts/
-pk/ljfour/public/cm/cmsy10.864pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour
-/public/cm/cmcsc10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/
-cm/cmbx12.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmex10
-.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> <
-/home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </home/nat/
-.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </usr/share/texmf-di
-st/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/nat/.texlive/texmf-var/fon
-ts/pk/ljfour/public/cm/cmbx12.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljf
-our/public/cm/cmbx12.864pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/publi
-c/cm/cmr12.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmr17
-.720pk>
-Output written on w.pdf (9 pages, 93741 bytes).
+ 64i,20n,111p,718b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/c
+mmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> 
+</usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </home/nat/.te
+xlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </usr/share/texmf-dist/f
+onts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/nat/.texlive/texmf-var/fonts/pk
+/ljfour/public/amsfonts/cmextra/cmex8.600pk> </home/nat/.texlive/texmf-var/font
+s/pk/ljfour/public/cm/cmsy10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfo
+ur/public/cm/cmcsc10.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/publi
+c/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex
+10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr
+/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-
+dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texmf-dist/fonts/p
+k/ljfour/public/cm/dpi600/cmbx10.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljf
+our/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dp
+i600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk
+> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
+Output written on w.pdf (13 pages, 107901 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 413 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
