@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  17 APR 2017 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.3.14)  18 APR 2017 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,54 +706,145 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [2] [3] [4] [5] [6] [7] [8] [9] [10]
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 775--777
+Underfull \hbox (badness 10000) in paragraph at lines 774--776
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--785
+Underfull \hbox (badness 10000) in paragraph at lines 782--784
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--798
+Underfull \hbox (badness 10000) in paragraph at lines 795--797
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--806
+Underfull \hbox (badness 10000) in paragraph at lines 803--805
 
  []
 
-[12] [13] (./w.aux) ) 
+[12]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.828 
+      
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.828 
+      
+? 
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829       \end{equation*}
+                           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.829       \end{equation*}
+                           
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.829       \end{equation*}
+                           
+? 
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 919--921
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 927--929
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--942
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--950
+
+ []
+
+[14]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.971 
+      
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.971 
+      
+? 
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.972       \end{equation*}
+                           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.972       \end{equation*}
+                           
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.972       \end{equation*}
+                           
+? 
+[15] [16] [17] (./w.aux) ) 
 Here is how much of TeX's memory you used:
- 24372 strings out of 493013
- 600931 string characters out of 6139317
- 787321 words of memory out of 5000000
- 27503 multiletter control sequences out of 15000+600000
- 11804 words of font info for 46 fonts, out of 8000000 for 9000
+ 24374 strings out of 493013
+ 600952 string characters out of 6139317
+ 786321 words of memory out of 5000000
+ 27504 multiletter control sequences out of 15000+600000
+ 11972 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,20n,111p,718b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/c
-mmi12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> 
-</usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </home/nat/.te
-xlive/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </usr/share/texmf-dist/f
-onts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/nat/.texlive/texmf-var/fonts/pk
-/ljfour/public/amsfonts/cmextra/cmex8.600pk> </home/nat/.texlive/texmf-var/font
-s/pk/ljfour/public/cm/cmsy10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfo
-ur/public/cm/cmcsc10.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/publi
-c/cm/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex
-10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr
-/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-
-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texmf-dist/fonts/p
-k/ljfour/public/cm/dpi600/cmbx10.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljf
-our/public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dp
-i600/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk
-> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on w.pdf (13 pages, 107901 bytes).
+ </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public
+/cm/cmtt10.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm/cmmi1
+2.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </us
+r/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </home/nat/.texliv
+e/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </usr/share/texmf-dist/fonts
+/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljf
+our/public/amsfonts/cmextra/cmex8.600pk> </home/nat/.texlive/texmf-var/fonts/pk
+/ljfour/public/cm/cmsy10.720pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/p
+ublic/cm/cmcsc10.600pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/public/cm
+/cmbx12.600pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmex10.p
+k> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </usr/sha
+re/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </usr/share/texmf-dist
+/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texmf-dist/fonts/pk/lj
+four/public/cm/dpi600/cmbx10.pk> </home/nat/.texlive/texmf-var/fonts/pk/ljfour/
+public/cm/cmbx12.720pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600
+/cmr10.pk> </usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </
+usr/share/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
+Output written on w.pdf (17 pages, 125015 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 467 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
