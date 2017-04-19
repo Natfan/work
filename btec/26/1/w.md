@@ -207,11 +207,6 @@ g. R^T = [ 9  2 6]   = [3 2 -4]
 <pagebreak>
 
 # PV: Simulations Equations
-
-***
-`TODO: UP TO HERE`
-***
-
 The following questions need to be answered:
 
 ```
@@ -341,3 +336,6 @@ var array = [
 This array can be considered as an "array within an array". It can store the data within the first layer, like the one beofre, but it can also store more data inside it. When assigning unique identifier, it would be displayed like `[4,7]:0; [9,1]:1` for the first layer and `4:0; 7:1 ` for the second layer in the first subarray. This means that multiple layers of data can be stored within one array.
 
 ## MII:
+***
+`TODO: UP TO HERE`
+***

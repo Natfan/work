@@ -1043,8 +1043,68 @@
 
     \newpage
 
-    \section{Applying Matrix Techniques To Vector Transformation, Rotation, Maps and Graphs}
-      things.
+    \section{Applying Matrix Techniques To Vector Transformation, Reflection and Rotation}
+      In this section I shall talk about Vector Transformation, Reflection and Rotation, and how they can be applied using vectors.
+      \subsection{Vector Transformation}
+        A vector can be represented as a column matrix. If a square's verticies were the coordinates \texttt{(1, 1)}, \texttt{(-1, 1)}, \texttt{(-1, -1)}, \texttt{(1, -1)} then you could convert this into a 2x2 matrix, as seen below:
+        \begin{equation*}
+          \begin{pmatrix}
+            (1 -1) & (-1  1)\\(1  1) & (-1 -1)
+          \end{pmatrix}
+        \end{equation*}
 
+      \subsection{Reflection}
+        To reflect an image, we mu multiply the vertex martrix with a reflect matrix depending on how it needs to be reflected. The following are some examples of matrices based on different reflection types:
+        \subsubsection{X Axis Reflection}
+          \begin{equation*}
+            \begin{pmatrix}
+              1 & 0\\0 & -1
+            \end{pmatrix}
+          \end{equation*}
+
+        \subsubsection{Y Axis Reflection}
+          \begin{equation*}
+            \begin{pmatrix}
+              -1 & 0\\0 & 1
+            \end{pmatrix}
+          \end{equation*}
+
+        \subsubsection{Origin Reflection}
+          \begin{equation*}
+            \begin{pmatrix}
+              -1 & 0\\0 & -1
+            \end{pmatrix}
+          \end{equation*}
+
+        \subsubsection{Reflection At The Line \texttt{x=y}}
+          \begin{equation*}
+            \begin{pmatrix}
+              1 & 0\\0 & 1
+            \end{pmatrix}
+          \end{equation*}
+
+
+      \subsection{Rotation}
+        To rotate an image, we must multiply the vertex matrix with a rotation matrix, depending on how it needs to be rotated. The following are some examples of matrices based on different rotation types:
+        \subsubsection{90^o Rotation}
+          \begin{equation*}
+            \begin{pmatrix}
+              0 & -1\\1 & 0
+            \end{pmatrix}
+          \end{equation*}
+
+        \subsubsection{180^o Rotation}
+          \begin{equation*}
+            \begin{pmatrix}
+              -1 & 0\\0 & -1
+            \end{pmatrix}
+          \end{equation*}
+
+        \subsubsection{270^o/-90^o Rotation}
+          \begin{equation*}
+            \begin{pmatrix}
+              0 & 1\\-1 & 0
+            \end{pmatrix}
+          \end{equation*}
 
 \end{document}
