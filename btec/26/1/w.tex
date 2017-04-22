@@ -8,6 +8,7 @@
 \usepackage{pgfplots}
 \usepackage{listings}
 \usepackage{float}
+\usepackage{gensymb}
 \usepackage[a4paper]{geometry}
 
 \begin{document}
@@ -600,7 +601,7 @@
 
         For reference, when calculating the inverse of a matrix you need to calculate the inverse of each individual element.
 
-        \subsection{M$^-1$}
+        \subsubsection{M$^-1$}
           \begin{align*}
             M =
             \begin{pmatrix}
@@ -615,7 +616,7 @@
             \end{pmatrix}
           \end{align*}
 
-        \subsection{N$^-1$}
+        \subsubsection{N$^-1$}
             \begin{align*}
               N =
               \begin{pmatrix}
@@ -631,7 +632,7 @@
             \end{align*}
 
 
-        \subsection{P$^-1$}
+        \subsubsection{P$^-1$}
           \begin{align*}
             P =
             \begin{pmatrix}
@@ -646,7 +647,7 @@
             \end{pmatrix}
           \end{align*}
 
-        \subsection{Q$^-1$}
+        \subsubsection{Q$^-1$}
           \begin{align*}
             Q =
             \begin{pmatrix}
@@ -658,7 +659,7 @@
           \\
           This is due to the fact that the matrix needs to be a square for an inverse to be found.
 
-        \subsection{M$^-T$}
+        \subsubsection{M$^-T$}
           \begin{align*}
             M =
             \begin{pmatrix}
@@ -673,7 +674,7 @@
             \end{pmatrix}
           \end{align*}
 
-        \subsection{P$^-T$}
+        \subsubsection{P$^-T$}
           \begin{align*}
             P =
             \begin{pmatrix}
@@ -689,7 +690,7 @@
             \end{pmatrix}
           \end{align*}
 
-        \subsection{R$^-T$}
+        \subsubsection{R$^-T$}
           \begin{align*}
             R =
             \begin{pmatrix}
@@ -1007,7 +1008,7 @@
 
     \newpage
 
-    \section{MI: Relationship between Matrices and Arrays in Computer Programming}
+    \section{Relationship between Matrices and Arrays in Computer Programming}
       A standardized array has a number of rows and columns. For instance, a 3x2 matrix it would have two columns and three rows, and a 5x5 matrix would have five columns and five rows. Arrays are very similar, but the other way around. A 3x2 matrix would have two rows and three columns, and a 5x5 matrix would have five rows and five columns. Aside from this, the way that arrays are used within programming are very similar to the way that matrices are used, at least in terms of storage. When creating a natrix with one column, one would do something like this:
 
       \begin{equation*}
@@ -1083,24 +1084,25 @@
             \end{pmatrix}
           \end{equation*}
 
+	\newpage
 
       \subsection{Rotation}
         To rotate an image, we must multiply the vertex matrix with a rotation matrix, depending on how it needs to be rotated. The following are some examples of matrices based on different rotation types:
-        \subsubsection{90^o Rotation}
+        \subsubsection{90? Rotation}
           \begin{equation*}
             \begin{pmatrix}
               0 & -1\\1 & 0
             \end{pmatrix}
           \end{equation*}
 
-        \subsubsection{180^o Rotation}
+        \subsubsection{180? Rotation}
           \begin{equation*}
             \begin{pmatrix}
               -1 & 0\\0 & -1
             \end{pmatrix}
           \end{equation*}
 
-        \subsubsection{270^o/-90^o Rotation}
+        \subsubsection{270?/-90? Rotation}
           \begin{equation*}
             \begin{pmatrix}
               0 & 1\\-1 & 0
