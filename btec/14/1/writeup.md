@@ -130,18 +130,22 @@ There are many different types of Data Types, and I shall list them and give eac
 An array is a group of data that is all stored within one location. Arrays normally only store one specific data type, but can store multiple arrays within themselves. These are called multi-dimensional arrays.
 
 #### Example
-`int a = 10;`
-`string b = "Hello, world!";`
-`char c = 'c';`
-`bool d = true;`
-`double e = 3.14;`
-`float f = -13.37F;`
-`byte g = 3;`
-`short h = 467;`
-`long i = 34325;`
+```
+int a = 10;
+string b = "Hello, world!";
+char c = 'c';
+bool d = true;
+double e = 3.14;
+float f = -13.37F;
+byte g = 3;
+short h = 467;
+long i = 34325;
+```
 
-`int[] j = [ 1, 3, 5, 7, 9, 11 ];`
-`int[][] k = [ [ 0, 2, 4, 6, 8, 10], [ -0, -2, -4, -6, -8, -10 ] ];`
+```
+int[] j = [ 1, 3, 5, 7, 9, 11 ];
+int[][] k = [ [ 0, 2, 4, 6, 8, 10], [ -0, -2, -4, -6, -8, -10 ] ];
+```
 
 ### Loops
 #### Definition
