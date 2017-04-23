@@ -2,21 +2,6 @@
 *By Nathan Windisch*
 
 ## PI: Features of Event Driven Programming
-* [x] Define what is meant by event driven programming
-* [x] Give examples of event driven systems
-* [x] Give examples of programming languages used for event driven programs
-* [x] Explain features of event driven programs
-
-* [x] Service orientated
-* [x] Time driven
-* [x] Trigger functions
-* [x] Events
-* [ ] Event loops
-* [ ] Flexibility
-* [ ] Suitability for GUI
-* [ ] Simplicity of programming
-* [ ] Ease of development
-
 ### What is Event Driven Programming?
 Event Driven Programming is the usage of events to define the outcome of the program. Events can be actions performed by the user, such as mouse clicks or key presses, inputs from sensors, or from calls sent by another thread. This means that the most programs that are written today that have some sort of user interactive feature are based on code that is event driven, due to the fact that having actions that respond to the user are inherently event driven. The following are some examples of programming languages that utilize event driven architecture:
 * Java
@@ -51,3 +36,158 @@ External Events are called when a user requests that a program opens a specific 
 
 ### Event Loops
 Event Loops are called when a specific event needs to run multiple times in quick succession. An example of this is when a user enters in some text into a form that is not the correct data type, then the system should report to the user that an error occurred until the user fixes it.
+
+### Flexibility
+Event Driven Program is extremely flexible as the code is based around events rather than things being hard coded into the program. This means that the code should work relatively with hundreds of lines missing, as long as each individual code block is complete.
+
+### Suitability for Graphical User Interface
+Event driven programs are especially suitable for Graphical User Interfaces, or GUIs, due to the fact that GUIs are mainly based around events such as mouse clicks and keyboard presses. GUIs can also have games and other programs running on them, most of which are event driven.
+
+### Simplicity of Programming and Ease of Development
+Event driven programming languages are good or developers as many teams of people can work on different things and they will not break each other's code due to the fact that each block of code runs off events rather than one another. They are also much more simple to program as code blocks should generally not fully interact with one another, meaning that lots of event driven code is module based. Also, there are many debugging tools that allow developer to find errors in their code quickly and easily.
+
+<div style="page-break-after: always"></div>
+
+## PII: Tools and Techniques of Event Driven Programming
+### Key Press
+#### Definition
+A key press is when a user presses a key on a keyboard. In event driven programming, key presses are vital to be able to intercept as it allows users to manipulate the program.
+
+#### Example 
+The following is a semi-pseudocode example of how intercepting a keypress would work:
+```
+if (keypress == 'w' || keypress == 'W') {  //  Execute if the user presses the 'w' character OR if the user presses the 'W' character while holding the shift modifier.
+	player.move(forward); //  Moves the player forward.
+}
+```
+
+### Mouse Click
+#### Definition
+A mouse click is when a user clicks a button on the mouse. Like keypresses, this is very important in video games where the user uses the mouse.
+
+#### Example
+The following is a semi-pseudocode example of how intercepting a mouse click would work:
+```
+if (mouseclick == 'LeftClick') {  // Executes if the user clicks the left mouse button.
+	player.attack();  // Makes the player attack.
+}
+```
+
+### Touch Screen
+#### Definition
+Touch Screen are becoming increasingly more used due to mobile phones being used more often. Touch screens are one of the only inputs found on mobile phones, meaning that lots of things need to be able to be done with them in order to bring them up to speed with modern desktop computers.
+
+#### Example
+The following is an example of a touch screen on a mobile phone.
+![An example of a touch screen.](img/touchscreen.png "An example of a touch screen.")
+
+### Menus
+#### Definition
+A menu is a method of displaying extended information to a user. Menus can be categorised to give users a basic output, but allow them to focus into more detailed parts of the program if they want to.
+
+#### Example
+The following is an example of a menu found within Google Chrome.
+![An example of a menu.](img/menu.png "An example of a menu.")
+
+### System Event
+#### Definition
+A system event is when the operating system notifes the user of an important action that they need to act on. An example of this is if an application needs to access more permisisons.
+
+#### Example
+![An example of a system event.](img/sysevent.png "An example of a system event.")
+
+### Variables and Constants
+#### Definition
+Variables are arguably one of the most important parts of programming. They allow developers to store information within the program, either hard coded or on the fly when the user interacts with the system.
+
+Constants are similar to variables but cannot be changed by the user or any code once it has been instantiated. It is for constant values that never change.
+
+#### Example
+The following is a `C#` example of how a variable is stored. I have used every single primitive variable type that is available, and I shall discuss them in more depth in the next segment.
+```
+var x = 123;
+var y = "a cat";
+var z = true;
+var a = 3.14F;
+var b = 13.37;
+var c = 'g';
+```
+
+### Data Types and Arrays
+#### Definition
+There are many different types of Data Types, and I shall list them and give each one a basic description. Please note that there may be more, obscure data types out there, but I shall just list the main ones that can be found within commonly used programming languages such as `C#`, `Java` and `Python`.
+
+* Integer: A whole number that can be a maximum of 32 bits in size.
+* String: Words stored as text, can include single letters or numbers, but they will be stored as text and cannot be manipulated as letters or numbers.
+* Characters: Single letters.
+* Booleans: Either a true or false value.
+* Double: A number that can have a decimal value that can be a maximum of 64 bits in size.
+* Float: Similar to a double, but cannot store as many numbers and MUST have an 'F' at the end of the value that can be a maximum of 32 bis in size.
+* Byte: An integer that is very small that can be a maximum of 8 bits in size.
+* Short: An integer that is quite small that can be a maximum of 16 bits in size.
+* Long: Similar to an integer but can have much larger values.
+
+An array is a group of data that is all stored within one location. Arrays normally only store one specific data type, but can store multiple arrays within themselves. These are called multi-dimensional arrays.
+
+#### Example
+`int a = 10;`
+`string b = "Hello, world!";`
+`char c = 'c';`
+`bool d = true;`
+`double e = 3.14;`
+`float f = -13.37F;`
+`byte g = 3;`
+`short h = 467;`
+`long i = 34325;`
+
+`int[] j = [ 1, 3, 5, 7, 9, 11 ];`
+`int[][] k = [ [ 0, 2, 4, 6, 8, 10], [ -0, -2, -4, -6, -8, -10 ] ];`
+
+### Loops
+#### Definition
+A loop is a sequence of code that is repeated for a specified number of times, or until a specific condition is reached. One thing that loops are used for is constantly repeating code until the program is stopped, but another thing that it is used for is increasing variables within the function.
+
+#### Example
+The following is an example of a `for` loop which repeats until the conditions (the second argument) is met.
+
+```
+for (int i = 0; i >= 10; i++) {
+	Console.WriteLine("The loop will run for another " + (10 - i) + " times.");
+}
+```
+
+The following example does the same as the previous one, but uses a `while` loop rather than a `for`.
+```
+int i = 0;
+while (i >= 10) {
+	Console.WriteLine("The loop will run for another " + (10 - i) + " times.");
+	i++;
+}
+```
+
+<div style="page-break-after: always"></div>
+
+## MI: Event Driven Operating Systems
+### Example
+$def
+
+### Justification
+$def
+
+### Advantages
+$def
+
+### Disadvantages
+$def
+
+<div style="page-break-after: always"></div>
+
+## DI: Command Line Interfaces
+### Examples
+$def
+
+### Advantages
+$def
+
+### Disadvantages
+$def
