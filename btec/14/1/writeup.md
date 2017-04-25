@@ -53,7 +53,7 @@ Event driven programming languages are good or developers as many teams of peopl
 #### Definition
 A key press is when a user presses a key on a keyboard. In event driven programming, key presses are vital to be able to intercept as it allows users to manipulate the program.
 
-#### Example 
+#### Example
 The following is a semi-pseudocode example of how intercepting a keypress would work:
 ```
 if (keypress == 'w' || keypress == 'W') {  //  Execute if the user presses the 'w' character OR if the user presses the 'W' character while holding the shift modifier.
@@ -83,7 +83,7 @@ The following is an example of a touch screen on a mobile phone.
 
 ### Menus
 #### Definition
-A menu is a method of displaying extended information to a user. Menus can be categorised to give users a basic output, but allow them to focus into more detailed parts of the program if they want to.
+A menu is a method of displaying extended information to a user. Menus can be categorized to give users a basic output, but allow them to focus into more detailed parts of the program if they want to.
 
 #### Example
 The following is an example of a menu found within Google Chrome.
@@ -91,10 +91,10 @@ The following is an example of a menu found within Google Chrome.
 
 ### System Event
 #### Definition
-A system event is when the operating system notifes the user of an important action that they need to act on. An example of this is if an application needs to access more permisisons.
+A system event is when the operating system notifies the user of an important action that they need to act on. An example of this is if an application needs to access more permissions.
 
 #### Example
-![An example of a system event.](img/sysevent.png "An example of a system event.")
+![An example of a system event.](img/uac.png "An example of a system event.")
 
 ### Variables and Constants
 #### Definition
@@ -172,14 +172,30 @@ while (i >= 10) {
 <div style="page-break-after: always"></div>
 
 ## MI: Event Driven Operating Systems
-### Example
-$def
-
 ### Justification
-$def
+All Operating Systems are event driven due to the fact that they all take a user input and supply an output once certain conditions are met. For instance, when the user logs in the operating systems checks if they are a valid user, if their password is correct and what their user settings are. It then logs them into the system and sets their settings to be the same as those stored in the Hard Drive. An example of an event driven operating system is Windows 10 by Microsoft. Another example is OSX by Apple. Many programs that you will use in both of these operating systems have things that you can click on and interact with, such as prompts and menus.
+
+### Examples
+#### Start Menu
+A better example of this is the Start Menu in Windows 10. You can either click the button in the bottom left hand side of the screen to open it, or you can press the Windows key on your keyboard. Please note that the Windows key can also be referred to as the *Super Key* or the *Hyper Key*.
+![An example of the Start Menu.](img/startmenu.png "An example of the Start Menu.")
+
+#### Drag 'n' Drop
+Another example of event driven code within operating systems is the "Drag 'n' Drop" feature. This allows the user to move files between places without entering complex commands such `mv` or `cp`.
+![An example of Drag 'n' Drop.](img/dnd1.png "An example of Drag 'n' Drop.")
+![An example of Drag 'n' Drop.](img/dnd2.png "An example of Drag 'n' Drop.")
+![An example of Drag 'n' Drop.](img/dnd3.png "An example of Drag 'n' Drop.")
+![An example of Drag 'n' Drop.](img/dnd4.png "An example of Drag 'n' Drop.")
+![An example of Drag 'n' Drop.](img/dnd5.png "An example of Drag 'n' Drop.")
+
+#### External Drives
+Another example is plugging in an external drive, as it has to install the drivers if they are not there already and present the user a dialog so that they can interact with the external drive.
+![An example of External Drives.](img/drives.png "An example of External Drives")
 
 ### Advantages
-$def
+An advantage of an event driven operating system is that it allows the user to perform complex tasks without much effort. They can use the keyboard and mouse to navigate the system and can execute code without typing a single thing into the command line interface. Event driven operating Systems are much easier to program that non event driven ones, due to the fact that it can be built in a very modular fashion, meaning that the users and the distributors can pick and choose what features are right for them. Object orientated code will also allows processes to be run on multiple threads, meaning that the code can run much quicker as new actions do not have to wait for the previous ones to complete. This also means that the operating system will be written with modern programming languages with object orientation and good documentation that is extremely scalable, such as `Java` or `C#`. This means that the operating system will be much more efficient, meaning that it will run faster.
+
+A final advantage is that when you are using an event driven programming method for an operating system then you can easily have all of the windows and menus act as an object and then you can have all the similar ones get the attributes of a template for its type as mentioned in an earlier section, this will therefor ensure that there is less redundancy in the system and so the code will therefor be smaller. In addition to this, this also allows for when the time comes to update the system having a simpler process as you will then only have to update the windows group with the new attributes and then all the windows that will be created will have the new update applied, this will then be system wide immediately.
 
 ### Disadvantages
 $def
