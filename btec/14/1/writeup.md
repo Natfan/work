@@ -198,7 +198,7 @@ An advantage of an event driven operating system is that it allows the user to p
 A final advantage is that when you are using an event driven programming method for an operating system then you can easily have all of the windows and menus act as an object and then you can have all the similar ones get the attributes of a template for its type as mentioned in an earlier section, this will therefor ensure that there is less redundancy in the system and so the code will therefor be smaller. In addition to this, this also allows for when the time comes to update the system having a simpler process as you will then only have to update the windows group with the new attributes and then all the windows that will be created will have the new update applied, this will then be system wide immediately.
 
 ### Disadvantages
-$def
+One disadvantage is that if the operating system is not a modular system then when things are changed in one event handler then many other things may break, such as the desktop breaking if the login manager is changed, for instance. Another thing that is a definite disadvantage to creating an event driven operating system is that code cannot really be executed on startup, due to the fact that it inherently not event driven as it does to react to a user's response, other than when the user presses the on button. This means that the startup code cannot be event driven, as it must be executed outside of the main thread, therefore meaning that all operating systems can only be mostly event driven, but not entirely event driven.
 
 <div style="page-break-after: always"></div>
 
