@@ -204,6 +204,7 @@ One disadvantage is that if the operating system is not a modular system then wh
 
 ## DI: Command Line Interfaces
 ### Examples
+#### Terminals
 The Command Line Interface, or CLI, is a secondary method for accessing a system. It allows the user to create more complex arguments within programs, ensuring that they fit to a user's every need. They key point of a Command Line Interface is that it does not have a Graphical User Interface, or GUI. One example of a Command Line Interface is the Command Prompt, from Microsoft's Windows.  The following is an image of the Command Prompt in action.
 ![An example of Command Prompt.](img/cli_cmd.png "An example of Command Prompt.")
 The Command Prompt allows for users to perform many functions, including:
@@ -240,6 +241,14 @@ Linux is also heavily command based, as shown by the extensive amount of termina
 * `PuTTY, primarily used for SHH`
 * `Terminator`
 * `Xfce Terminal`
+
+As you can see, there are many different Terminal emulators, showing how diverse and advanced the Linux community is. Most terminals can do all of the things that Command Prompt can do, and then some.
+
+#### Event Driven Command Line Interface Applications
+As far as event driven CLI applications go, I shall list 4 programs that I believe fall under that description and what they do.
+
+##### Vim (VI Improved)
+Vim is a modular, scalable text editor 
 
 
 ### Advantages
