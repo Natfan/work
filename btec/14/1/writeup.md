@@ -204,7 +204,43 @@ One disadvantage is that if the operating system is not a modular system then wh
 
 ## DI: Command Line Interfaces
 ### Examples
-$def
+The Command Line Interface, or CLI, is a secondary method for accessing a system. It allows the user to create more complex arguments within programs, ensuring that they fit to a user's every need. They key point of a Command Line Interface is that it does not have a Graphical User Interface, or GUI. One example of a Command Line Interface is the Command Prompt, from Microsoft's Windows.  The following is an image of the Command Prompt in action.
+![An example of Command Prompt.](img/cli_cmd.png "An example of Command Prompt.")
+The Command Prompt allows for users to perform many functions, including:
+
+* Moving between directories,
+* Executing programs,
+* Changing the front end of the Prompt, via `color`,
+* Copying, moving, renaming and deleting files,
+* Getting and setting the date and time of the system.
+* Searching through files and comparing them,
+* Creating files and directories,
+* Accessing advanced backup features,
+* Configuring background services,
+* Shutting down and restarting the computer, along with logging in and logging out of users,
+* Displaying system information.
+
+Microsoft's Windows also has another Command Line Interface called PowerShell, which is built for system administrator. The syntax is much more complicated than the Command Prompt, but is much better for automating tasks. The following are some examples which PowerShell can do:
+
+* PowerShell can be used to display all USB devices installed on either only one or even multiple computers that are connected to the network.
+* Time consuming tasks can also be automated so that they run in the background, ensuring that the user can do other work.
+* Processes can also be identified and killed.
+* Application can be filtered based on highly specific information and export it in either as a HTML, JSON or CSV document, along with other formats too.
+* Commands can be chained together to automate long and recursive functions.
+
+Linux is also heavily command based, as shown by the extensive amount of terminal emulators that can be found over the vast range of distributions. I shall list some now:
+
+* `TTY`, the default Command Line Interface that can be accessed by pressing `F<1-9>`. Please note that one terminal is normally used up by the X server, which is the graphical frontend of the system. This is normally found on TTY1 or TTY7.
+* `rxvt` and `urxvt`
+* `xterm`
+* `GNONE Terminal`
+* `Konsole`
+* `Terminator`
+* `Yakuake`
+* `PuTTY, primarily used for SHH`
+* `Terminator`
+* `Xfce Terminal`
+
 
 ### Advantages
 $def
