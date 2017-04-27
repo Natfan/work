@@ -113,6 +113,9 @@ var b = 13.37;
 var c = 'g';
 ```
 
+#### Scope
+There are two different types of scopes that variables can use, local and global. Local variables are only accessable within certain areas, such as specific functions or classes. This means that you can resuse the same variable name over and over and the data will not conflict. It also means that you can ensure where the data is stored, meaning that 
+
 ### Data Types and Arrays
 #### Definition
 There are many different types of Data Types, and I shall list them and give each one a basic description. Please note that there may be more, obscure data types out there, but I shall just list the main ones that can be found within commonly used programming languages such as `C#`, `Java` and `Python`.
