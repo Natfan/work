@@ -114,7 +114,7 @@ var c = 'g';
 ```
 
 #### Scope
-There are two different types of scopes that variables can use, local and global. Local variables are only accessible within certain areas, such as specific functions or classes. This means that you can reuse the same variable name over and over and the data will not conflict. It also means that you can ensure where the data is stored, meaning that data cannot conflict if you don't want it to. Global variables ensure that the data is carried between functions and classes
+There are two different types of scopes that variables can use, local and global. Local variables are only accessible within certain areas, such as specific functions or classes. This means that you can reuse the same variable name over and over and the data will not conflict. It also means that you can ensure where the data is stored, meaning that data cannot conflict if you don't want it to. Global variables ensure that the data is carried between functions and classes, meaning that the data that you use is accessable from everywhere, reducing the need for data reptition.
 
 ### Data Types and Arrays
 #### Definition
@@ -251,7 +251,10 @@ As you can see, there are many different Terminal emulators, showing how diverse
 As far as event driven CLI applications go, I shall list 4 programs that I believe fall under that description and what they do.
 
 ##### Vim (VI Improved)
-Vim is a modular, scalable text editor
+Vim is a modular, scalable text editor with mulitple levels of editing, including a regular "insert mode", a "visual mode" for bulk editing and a "replace mode" for overwriting currently written text. Vim also has many features such as:
+* a persistent undo tree that can span multiple files and reboots,
+* a extensive plugin system that has multiple branches and community made launchers,
+* tens of thousands of plugins, allowing Vim to do anything imaginable, 
 
 
 ### Advantages
