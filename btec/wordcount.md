@@ -1,0 +1,47 @@
+Unit I: ?
+	Assignment I: ?
+	Assignment II: ?
+	Assignment III: ?
+Unit II: 4114
+	Assignment I: 4114
+	Assignment II: ?
+	Assignment III: ?
+Unit III: 2531
+	Assignment I: 2531
+	Assignment II: ?
+	Assignment III: ?
+Unit VII: 4719
+	Assignment I: 874
+	Assignment II: ?
+	Assignment III: 3845
+Unit VIII: 5232
+	Assignment I: ?
+	Assignment II: 5232
+Unit XIV: 3623
+	Assignment I: 3623
+	Assignment II: ?
+	Assignment III: ?
+	Assignment IV: ?
+Unit XVIII: 707
+	Assignment I: 707
+	Assignment II: ?
+Unit XXVI: 8964
+	Assignment I: 4047
+	Assignment II: 4917
+Unit XXVIII: 3984
+	Assignment I: 3984
+	Assignment II: ?
+Unit XXIX: 8012
+	Assignment I: 3717
+	Assignment II: 4295
+Unit XXX: 6606
+	Assignment I: 3577
+	Assignment II: 3029
+Unit XXXI: ?
+	Assignment I: ?
+	Assignment II: ?
+Unit XXXXII: ?
+	Assignment I: ?
+	Assignment I: ?
+	
+2#1 + 3#1 + 7#1 + 7#3 + 8#2 + 14#1 + 18#1 + 26 + 28#1 + 29 + 30 = 48,492
