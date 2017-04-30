@@ -114,7 +114,7 @@ var c = 'g';
 ```
 
 #### Scope
-There are two different types of scopes that variables can use, local and global. Local variables are only accessible within certain areas, such as specific functions or classes. This means that you can reuse the same variable name over and over and the data will not conflict. It also means that you can ensure where the data is stored, meaning that data cannot conflict if you don't want it to. Global variables ensure that the data is carried between functions and classes, meaning that the data that you use is accessable from everywhere, reducing the need for data reptition.
+There are two different types of scopes that variables can use, local and global. Local variables are only accessible within certain areas, such as specific functions or classes. This means that you can reuse the same variable name over and over and the data will not conflict. It also means that you can ensure where the data is stored, meaning that data cannot conflict if you don't want it to. Global variables ensure that the data is carried between functions and classes, meaning that the data that you use is accessible from everywhere, reducing the need for data repetition.
 
 ### Data Types and Arrays
 #### Definition
@@ -235,27 +235,59 @@ Microsoft's Windows also has another Command Line Interface called PowerShell, w
 Linux is also heavily command based, as shown by the extensive amount of terminal emulators that can be found over the vast range of distributions. I shall list some now:
 
 * `TTY`, the default Command Line Interface that can be accessed by pressing `F<1-9>`. Please note that one terminal is normally used up by the X server, which is the graphical frontend of the system. This is normally found on TTY1 or TTY7.
-* `rxvt` and `urxvt`
-* `xterm`
-* `GNONE Terminal`
-* `Konsole`
-* `Terminator`
-* `Yakuake`
-* `PuTTY, primarily used for SHH`
-* `Terminator`
-* `Xfce Terminal`
+* `rxvt` and `urxvt`,
+* `xterm`,
+* `GNONE Terminal`,
+* `Konsole`,
+* `Terminator`,
+* `Yakuake`,
+* `PuTTY, primarily used for SHH`,
+* `Terminator`,
+* `Xfce Terminal`.
 
 As you can see, there are many different Terminal emulators, showing how diverse and advanced the Linux community is. Most terminals can do all of the things that Command Prompt can do, and then some.
 
 #### Event Driven Command Line Interface Applications
-As far as event driven CLI applications go, I shall list 4 programs that I believe fall under that description and what they do.
+As far as event driven CLI applications go, I shall list four programs that I believe fall under that description and what they do.
 
 ##### Vim (VI Improved)
-Vim is a modular, scalable text editor with mulitple levels of editing, including a regular "insert mode", a "visual mode" for bulk editing and a "replace mode" for overwriting currently written text. Vim also has many features such as:
+Vim is a modular, scalable text editor with multiple levels of editing, including a regular "insert mode", a "visual mode" and "visual block mode" for bulk editing and a "replace mode" for overwriting currently written text. Vim also has many features such as:
 * a persistent undo tree that can span multiple files and reboots,
 * a extensive plugin system that has multiple branches and community made launchers,
-* tens of thousands of plugins, allowing Vim to do anything imaginable, 
+* tens of thousands of plugins, allowing Vim to do anything imaginable,
+* extensive support for hundreds of file formats and syntax highlighting and correction for hundreds of programming languages,
+* a high-powered search and replace engine with regular expression,
+* integration with a wide variety of tools,
+* intuitive command syntax for easy access.
 
+The main command to access this within most distributions of Linux is `vim`. Please note that this may not be installed by default, and I would personally recommend "NeoVim", a community centered build of the program with easier documentation, a better API, asynchronous events, cleaner code and a better community. If you do not have access to the Internet and cannot get vim installed, it's predecessor `vi` is available by default on most Linux systems.
+
+This is event driven as it needs to accept keys that are inputted and translate them into either commands, such as saving; loading; generating new files or switching modes, or outputting text into the current buffer. It also needs to be able to autosave, and this will be run on a clock which is started when the user does not press any keys for a few seconds.
+
+#### w3m
+w3m is a text based web browser that has support for the following elements:
+* frames,
+* colour,
+* images,
+* SSL/HTTPS connectivity,
+* tables.
+
+w3m stands for *"WWW wo miru"* which is Japanese for *"to see the WWW"*, or more simply it is a World Wide Web Browser based in the command line. The way to access w3m is to execute `w3m <url|file>` with `<url>` being a `http`, `https` or `ftp` link, or `<file>` being a link to a file, relative links withstanding. When attempting to read a HTML file as you would online, the command `w3m -T text/html page.html` might be useful, whereas viewing it as a source file then one should use `w3m -T text/plain page.html`. Navigating a page is easy as it uses Vim's key bindings which are as follows:
+
+* `h` to go left,
+* `j` to go down,
+* `k` to go up and,
+* `l` to go left.
+
+Similar to Vim, w3m is event driven due to the fact that it takes user's inputs and outputs them in the form of a web browser. Users can move around and interact with a page via using keystrokes.
+
+#### ftp
+ftp is an inbuilt command within most distributions of Linux which allows the transference of files between clients, between servers, or any combination of the two. This allows user to access, view, download and store data from other sources quickly and easily. FTP stands for *File Transfer Protocol* and is highly useful for server administration, file backup and system restoration, along with file sharing and data presentation. The FTP command syntax is as follows: `ftp [-options] [-s:filename] <host>`, where the options can be things such as `-n` which disables auto-login, `-d` which enables a verbose output for debugging or `-g` to disable filename wildcards. The `-s:filename` option allows users to use a text file to execute commands, speeding up automation and ensuring that no mistakes are made during the setup of the command. The final option, which is `host` is the socket that the user wants to connect to. The socket is compromised of the IP address and the port. An example of this is as follows: `numerical/text IP:port`, or in more real world terms both `127.0.0.1:21` and `example.org:21` would both connect to the `example.org` FTP server, if you are connected to the server over LAN. The reason why the port is `21` is because the default FTP port is 21, but this can be changed with configuration, if required.
+
+FTP is event driven because it entirely relies on the user's input in order to connect. Even if the user writes a bash script to connect using a file to execute custom options, the user is still executing commands themselves via event driven sources such as keypresses.
+
+#### gcalcli
+$def
 
 ### Advantages
 $def
