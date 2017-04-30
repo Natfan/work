@@ -1,0 +1,21 @@
+[x] win7
+[x] office
+ [x] outlook
+[x] fixing things previously
+[x] technical docs (BTEC OP OP)
+[x] people skills
+ [x] teachers are among those that have commended for the clarity of my emails
+[x] organised (taskwarrior, charts, lists of revision material)
+[x] customer service (helping out family and friends, helping out kids at als)
+
+I have used many operating systems, including Windows XP, 7, 8.1 and 10; along with Linux distributions such as Arch, Mint, Ubuntu, TinyCore and Manjaro. I am more familiar with Windows 10, as it is my primary operating system at home, but I feel that the difference between Windows 7 and 10 is minimal, meaning that I can solve problems on both quickly and easily.
+
+During my time at UTC Reading, I have used many Office365 tools such as Word, Excel, OneNote and Yammer, but the most important piece of software that I have used is Outlook. I believe that this will help me work at the University of Reading as I already have experience with the software.
+
+I have also developed my skills at providing technical documentation in the form of my BTEC assignments. I have written nearly 50,000 words across various subjects within IT, including: Software Development, Graphic Design, The Internet, Website Design, Databases, Ecommerce, Computer Safety, Event Driven Programming, Systems Security, Mathematics, Project Planning and Troubleshooting. I believe that this will help me meet your requirements, as I have already written many documents similar to the technical documentation that would be required of me in this job.
+
+My studies have given me ample opportunity to develop my skills in both written and verbal communication. I have received many positive comments regarding my email writing skills, including from my teachers.
+
+During my time as a student, I have also used many tools to improve my productivity such as TaskWarrior and Trello, both of which I have used to compile notes and resources, these tools also help me to manage my time effectively to ensure that I complete all of my tasks on time. I have also used Excel to help me keep track of revision notes for my exam-based subjects.
+
+I have helped out many friends and family with their technical issues, including virus removal, system reinstallation and file recover. I have also worked with small children within a local primary school, Aldryngton Primary School. During this time, I took a number of roles including teaching assistant within the IT suite where I had to assist the children with getting their software started, accessing their files and explaining what to do. I have also helped a similar set of children write code using "Scratch" and "Python", along with using markup languages such as "HTML" and "CSS". I believe that working in these environments has prepared me for a role as a helpdesk adviser as I have learned to talk patiently to those who do not understand the technology as well as I do, a skill that is crucial within IT support.
