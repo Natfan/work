@@ -224,7 +224,9 @@ The Command Prompt allows for users to perform many functions, including:
 * Shutting down and restarting the computer, along with logging in and logging out of users,
 * Displaying system information.
 
-Microsoft's Windows also has another Command Line Interface called PowerShell, which is built for system administrator. The syntax is much more complicated than the Command Prompt, but is much better for automating tasks. The following are some examples which PowerShell can do:
+Microsoft's Windows also has another Command Line Interface called PowerShell, which is built for system administrator. The syntax is much more complicated than the Command Prompt, but is much better for automating tasks.
+![An example of Power Shell.](img/cli_shl.png "An example of Power Shell.")
+The following are some examples which PowerShell can do:
 
 * PowerShell can be used to display all USB devices installed on either only one or even multiple computers that are connected to the network.
 * Time consuming tasks can also be automated so that they run in the background, ensuring that the user can do other work.
@@ -233,7 +235,7 @@ Microsoft's Windows also has another Command Line Interface called PowerShell, w
 * Commands can be chained together to automate long and recursive functions.
 
 Linux is also heavily command based, as shown by the extensive amount of terminal emulators that can be found over the vast range of distributions. I shall list some now:
-
+![An example of a Terminal.](img/cli_ter.png "An example of a Terminal.")
 * `TTY`, the default Command Line Interface that can be accessed by pressing `F<1-9>`. Please note that one terminal is normally used up by the X server, which is the graphical frontend of the system. This is normally found on TTY1 or TTY7.
 * `rxvt` and `urxvt`,
 * `xterm`,
@@ -284,7 +286,7 @@ Similar to Vim, w3m is event driven due to the fact that it takes user's inputs 
 #### ftp
 ftp is an inbuilt command within most distributions of Linux which allows the transference of files between clients, between servers, or any combination of the two. This allows user to access, view, download and store data from other sources quickly and easily. FTP stands for *File Transfer Protocol* and is highly useful for server administration, file backup and system restoration, along with file sharing and data presentation. The FTP command syntax is as follows: `ftp [-options] [-s:filename] <host>`, where the options can be things such as `-n` which disables auto-login, `-d` which enables a verbose output for debugging or `-g` to disable filename wildcards. The `-s:filename` option allows users to use a text file to execute commands, speeding up automation and ensuring that no mistakes are made during the setup of the command. The final option, which is `host` is the socket that the user wants to connect to. The socket is compromised of the IP address and the port. An example of this is as follows: `numerical/text IP:port`, or in more real world terms both `127.0.0.1:21` and `example.org:21` would both connect to the `example.org` FTP server, if you are connected to the server over LAN. The reason why the port is `21` is because the default FTP port is 21, but this can be changed with configuration, if required.
 
-FTP is event driven because it entirely relies on the user's input in order to connect. Even if the user writes a bash script to connect using a file to execute custom options, the user is still executing commands themselves via event driven sources such as keypresses.
+FTP is event driven because it entirely relies on the user's input in order to connect. Even if the user writes a bash script to connect using a file to execute custom options, the user is still executing commands themselves via event driven sources such as key presses.
 
 #### gcalcli
 $def
