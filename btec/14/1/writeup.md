@@ -189,7 +189,6 @@ Another example of event driven code within operating systems is the "Drag 'n' D
 ![An example of Drag 'n' Drop.](img/dnd2.png "An example of Drag 'n' Drop.")
 ![An example of Drag 'n' Drop.](img/dnd3.png "An example of Drag 'n' Drop.")
 ![An example of Drag 'n' Drop.](img/dnd4.png "An example of Drag 'n' Drop.")
-![An example of Drag 'n' Drop.](img/dnd5.png "An example of Drag 'n' Drop.")
 
 #### External Drives
 Another example is plugging in an external drive, as it has to install the drivers if they are not there already and present the user a dialog so that they can interact with the external drive.
