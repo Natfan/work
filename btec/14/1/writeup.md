@@ -288,11 +288,18 @@ ftp is an inbuilt command within most distributions of Linux which allows the tr
 
 FTP is event driven because it entirely relies on the user's input in order to connect. Even if the user writes a bash script to connect using a file to execute custom options, the user is still executing commands themselves via event driven sources such as key presses.
 
-#### gcalcli
-$def
-
 ### Advantages
 $def
+* more powerful
+* only do what the user wants it to
+* more secure
+ - more likely to be open source, code is easier to understand
+* good for responding to other programs
+* low amounts of human intervention required
 
 ### Disadvantages
 $def
+* limited amount of things that can be actually useful as cli only
+* can be much easier to program as a gui
+* can be much harder to use compared to a gui
+  - steep learning curve
