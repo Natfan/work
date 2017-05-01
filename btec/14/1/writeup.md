@@ -236,7 +236,7 @@ The following are some examples which PowerShell can do:
 
 Linux is also heavily command based, as shown by the extensive amount of terminal emulators that can be found over the vast range of distributions. I shall list some now:
 ![An example of a Terminal.](img/cli_ter.png "An example of a Terminal.")
-* `TTY`, the default Command Line Interface that can be accessed by pressing `F<1-9>`. Please note that one terminal is normally used up by the X server, which is the graphical frontend of the system. This is normally found on TTY1 or TTY7.
+* `TTY`, the default Command Line Interface that can be accessed by pressing `F<1-9>`. Please note that one terminal is normally used up by the X server, which is the graphical front end of the system. This is normally found on either TTY1 or TTY7.
 * `rxvt` and `urxvt`,
 * `xterm`,
 * `GNONE Terminal`,
@@ -262,7 +262,7 @@ Vim is a modular, scalable text editor with multiple levels of editing, includin
 * integration with a wide variety of tools,
 * intuitive command syntax for easy access.
 
-The main command to access this within most distributions of Linux is `vim`. Please note that this may not be installed by default, and I would personally recommend "NeoVim", a community centered build of the program with easier documentation, a better API, asynchronous events, cleaner code and a better community. If you do not have access to the Internet and cannot get vim installed, it's predecessor `vi` is available by default on most Linux systems.
+The main command to access this within most distributions of Linux is `vim`. Please note that this may not be installed by default, and I would personally recommend "NeoVim", a community centered build of the program with easier documentation, a better API, asynchronous events, cleaner code and a better community. If you do not have access to the Internet and cannot get Vim installed, it's predecessor `vi` is available by default on most Linux systems.
 
 This is event driven as it needs to accept keys that are inputted and translate them into either commands, such as saving; loading; generating new files or switching modes, or outputting text into the current buffer. It also needs to be able to autosave, and this will be run on a clock which is started when the user does not press any keys for a few seconds.
 
@@ -284,12 +284,12 @@ w3m stands for *"WWW wo miru"* which is Japanese for *"to see the WWW"*, or more
 Similar to Vim, w3m is event driven due to the fact that it takes user's inputs and outputs them in the form of a web browser. Users can move around and interact with a page via using keystrokes.
 
 #### ftp
-ftp is an inbuilt command within most distributions of Linux which allows the transference of files between clients, between servers, or any combination of the two. This allows user to access, view, download and store data from other sources quickly and easily. FTP stands for *File Transfer Protocol* and is highly useful for server administration, file backup and system restoration, along with file sharing and data presentation. The FTP command syntax is as follows: `ftp [-options] [-s:filename] <host>`, where the options can be things such as `-n` which disables auto-login, `-d` which enables a verbose output for debugging or `-g` to disable filename wildcards. The `-s:filename` option allows users to use a text file to execute commands, speeding up automation and ensuring that no mistakes are made during the setup of the command. The final option, which is `host` is the socket that the user wants to connect to. The socket is compromised of the IP address and the port. An example of this is as follows: `numerical/text IP:port`, or in more real world terms both `127.0.0.1:21` and `example.org:21` would both connect to the `example.org` FTP server, if you are connected to the server over LAN. The reason why the port is `21` is because the default FTP port is 21, but this can be changed with configuration, if required.
+`ftp` is an inbuilt command within most distributions of Linux which allows the transference of files between clients, between servers, or any combination of the two. This allows user to access, view, download and store data from other sources quickly and easily. FTP stands for *File Transfer Protocol* and is highly useful for server administration, file backup and system restoration, along with file sharing and data presentation. The FTP command syntax is as follows: `ftp [-options] [-s:filename] <host>`, where the options can be things such as `-n` which disables auto-login, `-d` which enables a verbose output for debugging or `-g` to disable filename wildcards. The `-s:filename` option allows users to use a text file to execute commands, speeding up automation and ensuring that no mistakes are made during the setup of the command. The final option, which is `host` is the socket that the user wants to connect to. The socket is compromised of the IP address and the port. An example of this is as follows: `numerical/text IP:port`, or in more real world terms both `127.0.0.1:21` and `example.org:21` would both connect to the `example.org` FTP server, if you are connected to the server over LAN. The reason why the port is `21` is because the default FTP port is 21, but this can be changed with configuration, if required.
 
 FTP is event driven because it entirely relies on the user's input in order to connect. Even if the user writes a bash script to connect using a file to execute custom options, the user is still executing commands themselves via event driven sources such as key presses.
 
 ### Advantages
-$def
+One advantage of having a program be based on a command line interface and having it event driven is that it can be automated very well. With GUI programs lots of interaction is needed such as clicking the mouse and typing text, whereas with a command line based program can allow users to execute programs using either scripts such as `BASH`, or via schedulers such as `cronjob`. This also means that programs that are command line based can respond to other programs, via outputting logs meaning that other event driven applications can intercept them and
 * more powerful
 * only do what the user wants it to
 * more secure
@@ -299,7 +299,7 @@ $def
 
 ### Disadvantages
 $def
-* limited amount of things that can be actually useful as cli only
-* can be much easier to program as a gui
-* can be much harder to use compared to a gui
+* limited amount of things that can be actually useful as CLI only
+* can be much easier to program as a GUI
+* can be much harder to use compared to a GUI
   - steep learning curve
