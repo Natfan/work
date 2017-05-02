@@ -1,52 +1,63 @@
-\contentsline {section}{\numberline {1}Sequences and Series}{1}
-\contentsline {subsection}{\numberline {1.1}nth and 17th Terms}{1}
-\contentsline {subsection}{\numberline {1.2}Sums to Terms and Infinity}{2}
-\contentsline {subsubsection}{\numberline {1.2.1}nth Term}{2}
-\contentsline {subsubsection}{\numberline {1.2.2}10th Term}{3}
-\contentsline {subsubsection}{\numberline {1.2.3}Sum to 5th Term}{3}
-\contentsline {subsubsection}{\numberline {1.2.4}Sum to Infinity}{5}
-\contentsline {subsection}{\numberline {1.3}Equations}{6}
-\contentsline {subsection}{\numberline {1.4}Balls in Bags}{11}
-\contentsline {subsubsection}{\numberline {1.4.1}What is the probability that a yellow ball is selected?}{12}
-\contentsline {subsubsection}{\numberline {1.4.2}What is the probability 2 yellow balls are selected consecutively?}{12}
-\contentsline {subsubsection}{\numberline {1.4.3}Draw a probability tree and use it to find the probability that a yellow ball is selected 4 times in a row.}{12}
-\contentsline {subsection}{\numberline {1.5}Venn Diagrams}{13}
-\contentsline {subsubsection}{\numberline {1.5.1}The Diagram}{13}
-\contentsline {subsubsection}{\numberline {1.5.2}Probability: Computer Science but not Mathematics}{14}
-\contentsline {subsubsection}{\numberline {1.5.3}Probability: Engineering with or without other subjects}{14}
-\contentsline {subsection}{\numberline {1.6}Betting Game}{15}
-\contentsline {subsubsection}{\numberline {1.6.1}Draw a probability space diagram for this game.}{15}
-\contentsline {subsubsection}{\numberline {1.6.2}What is the most likely total score(s) from both dice?}{15}
-\contentsline {subsubsection}{\numberline {1.6.3}What is the least likely score(s) and why?}{15}
-\contentsline {section}{\numberline {2}Number Systems}{16}
-\contentsline {subsection}{\numberline {2.1}Tables}{16}
-\contentsline {section}{\numberline {3}Number System Calculations}{17}
-\contentsline {subsection}{\numberline {3.1}Hexadecial Calculations}{17}
-\contentsline {subsubsection}{\numberline {3.1.1}Hexadecimal Adition}{17}
-\contentsline {subsubsection}{\numberline {3.1.2}Hexadecimal Multiplication}{17}
-\contentsline {subsubsection}{\numberline {3.1.3}Hexadecimal Subtraction}{18}
-\contentsline {subsection}{\numberline {3.2}Octal Calculations}{19}
-\contentsline {subsubsection}{\numberline {3.2.1}Octal Addition}{19}
-\contentsline {subsubsection}{\numberline {3.2.2}Octal Subtraction}{19}
-\contentsline {subsection}{\numberline {3.3}Binary Calculations}{20}
-\contentsline {subsubsection}{\numberline {3.3.1}Binary Addition}{20}
-\contentsline {subsubsection}{\numberline {3.3.2}Binary Multiplication}{20}
-\contentsline {subsection}{\numberline {3.4}Additional Equations}{21}
-\contentsline {subsubsection}{\numberline {3.4.1}Hexadecimal Addition}{21}
-\contentsline {subsubsection}{\numberline {3.4.2}Binary Subtraction}{21}
-\contentsline {section}{\numberline {4}Data Task}{22}
-\contentsline {subsection}{\numberline {4.1}Data}{22}
-\contentsline {subsubsection}{\numberline {4.1.1}Hypothesis}{22}
-\contentsline {subsubsection}{\numberline {4.1.2}Data Set}{22}
-\contentsline {subsubsection}{\numberline {4.1.3}Frequency Diagram}{23}
-\contentsline {subsubsection}{\numberline {4.1.4}Mean, Median and Mode}{23}
-\contentsline {paragraph}{Mean}{23}
-\contentsline {paragraph}{Median}{23}
-\contentsline {paragraph}{Mode}{23}
-\contentsline {paragraph}{Range}{23}
-\contentsline {paragraph}{Interquartile Range}{24}
-\contentsline {subsubsection}{\numberline {4.1.5}Box Plot}{25}
-\contentsline {paragraph}{Varience}{25}
-\contentsline {subsubsection}{\numberline {4.1.6}Conclusion}{26}
-\contentsline {section}{\numberline {5}Recursion}{27}
-\contentsline {section}{\numberline {6}Number Systems}{27}
+\contentsline {section}{\numberline {1}Sequences and Series}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}nth and 17th Terms}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Sums to Terms and Infinity}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}nth Term}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}10th Term}{5}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Sum to 5th Term}{5}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Sum to Infinity}{7}{subsubsection.1.2.4}
+\contentsline {subsection}{\numberline {1.3}Equations}{8}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Balls in Bags}{13}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}What is the probability that a yellow ball is selected?}{14}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}What is the probability 2 yellow balls are selected consecutively?}{14}{subsubsection.1.4.2}
+\contentsline {subsubsection}{\numberline {1.4.3}Draw a probability tree and use it to find the probability that a yellow ball is selected 4 times in a row.}{14}{subsubsection.1.4.3}
+\contentsline {subsection}{\numberline {1.5}Venn Diagrams}{15}{subsection.1.5}
+\contentsline {subsubsection}{\numberline {1.5.1}The Diagram}{15}{subsubsection.1.5.1}
+\contentsline {subsubsection}{\numberline {1.5.2}Probability: Computer Science but not Mathematics}{16}{subsubsection.1.5.2}
+\contentsline {subsubsection}{\numberline {1.5.3}Probability: Engineering with or without other subjects}{16}{subsubsection.1.5.3}
+\contentsline {subsection}{\numberline {1.6}Betting Game}{17}{subsection.1.6}
+\contentsline {subsubsection}{\numberline {1.6.1}Draw a probability space diagram for this game.}{17}{subsubsection.1.6.1}
+\contentsline {subsubsection}{\numberline {1.6.2}What is the most likely total score(s) from both dice?}{17}{subsubsection.1.6.2}
+\contentsline {subsubsection}{\numberline {1.6.3}What is the least likely score(s) and why?}{17}{subsubsection.1.6.3}
+\contentsline {section}{\numberline {2}Number Systems}{18}{section.2}
+\contentsline {subsection}{\numberline {2.1}Tables}{18}{subsection.2.1}
+\contentsline {section}{\numberline {3}Number System Calculations}{19}{section.3}
+\contentsline {subsection}{\numberline {3.1}Hexadecimal Calculations}{19}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Hexadecimal Addition}{19}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Hexadecimal Multiplication}{19}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Hexadecimal Subtraction}{20}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Octal Calculations}{21}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Octal Addition}{21}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Octal Subtraction}{21}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Binary Calculations}{22}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Binary Addition}{22}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Binary Multiplication}{22}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Additional Equations}{23}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Hexadecimal Addition}{23}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Binary Subtraction}{23}{subsubsection.3.4.2}
+\contentsline {section}{\numberline {4}Data Task}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Data}{24}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Hypothesis and Source Validity}{24}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Data Set}{25}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Frequency Diagram}{26}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Mean, Median and Mode}{26}{subsubsection.4.1.4}
+\contentsline {paragraph}{Mean}{26}{section*.2}
+\contentsline {paragraph}{Median}{26}{section*.3}
+\contentsline {paragraph}{Mode}{26}{section*.4}
+\contentsline {paragraph}{Range}{26}{section*.5}
+\contentsline {paragraph}{Interquartile Range}{27}{section*.6}
+\contentsline {subsubsection}{\numberline {4.1.5}Box Plot}{28}{subsubsection.4.1.5}
+\contentsline {paragraph}{Variance}{28}{section*.7}
+\contentsline {subsubsection}{\numberline {4.1.6}Conclusion}{29}{subsubsection.4.1.6}
+\contentsline {section}{\numberline {5}Recursion}{30}{section.5}
+\contentsline {section}{\numberline {6}Number Systems}{30}{section.6}
+\contentsline {subsection}{\numberline {6.1}Binary}{30}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Hexadecimal}{30}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Octal}{31}{subsection.6.3}
+\contentsline {section}{\numberline {7}Network Planning}{32}{section.7}
+\contentsline {subsection}{\numberline {7.1}Different Amounts of Hosts}{32}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}1,000 Hosts}{32}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}200 Hosts}{32}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}30 Hosts}{33}{subsubsection.7.1.3}
+\contentsline {subsection}{\numberline {7.2}IPv4 \& IPv6}{34}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Classes of Networks}{34}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Classless Inter-Domain Routing (CIDR)}{36}{subsection.7.4}
