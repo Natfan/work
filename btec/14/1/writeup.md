@@ -288,17 +288,7 @@ Similar to Vim, w3m is event driven due to the fact that it takes user's inputs 
 FTP is event driven because it entirely relies on the user's input in order to connect. Even if the user writes a bash script to connect using a file to execute custom options, the user is still executing commands themselves via event driven sources such as key presses.
 
 ### Advantages
-One advantage of having a program be based on a command line interface and having it event driven is that it can be automated very well. With GUI programs lots of interaction is needed such as clicking the mouse and typing text, whereas with a command line based program can allow users to execute programs using either scripts such as `BASH`, or via schedulers such as `cronjob`. This also means that programs that are command line based can respond to other programs, via outputting logs meaning that other event driven applications can intercept them and
-* more powerful
-* only do what the user wants it to
-* more secure
- - more likely to be open source, code is easier to understand
-* good for responding to other programs
-* low amounts of human intervention required
+One advantage of having a program be based on a command line interface and having it event driven is that it can be automated very well. With GUI programs lots of interaction is needed such as clicking the mouse and typing text, whereas with a command line based program can allow users to execute programs using either scripts such as `BASH`, or via schedulers such as `cronjob`. This also means that programs that are command line based can respond to other programs, via outputting logs meaning that other event driven applications can intercept them and manipulate them based on what they are. CLI programs are also more powerful as they do not have to waste resources drawing, rendering and manipulating a graphical interface, it just needs to display text on the screen. Because of this, it also means that the user can do what they want with the program. No extra functions have to be called if they don't want to, the program only has to execute the bare bones of the system if that is what the user desires. The user can also chain these commands together to get the program to do certain things in a certain order. Another advantage is that command line interfaces can have their source code posted online, meaning that they are also more secure than a graphical user interface program that has the source code posted online due to the fact that CLI programs are often more logical and easier to understand. Websites that can host code are `https://github.com/`, `https://bitbucket.org/` and `https://heroku.com/`. CLI programs, especially ones for Linux, are more likely to be opensource.
 
 ### Disadvantages
-$def
-* limited amount of things that can be actually useful as CLI only
-* can be much easier to program as a GUI
-* can be much harder to use compared to a GUI
-  - steep learning curve
+One disadvantage to a command line interface program is that there are a limited amount of things that are more useful within the environment which can't be done better with a graphical user interface instead. Many programs can have both a command line and graphical interface, such as the version control and source code management system `git`, which has the command line tool `git` and a plethora of graphical interfaces such as `Github Desktop`, `GitKraken`, `SourceTree` and `GitUp`. Programming a CLI program can be much harder than writing a GUI program such as a Windows Form program, which merely requires the developer to drag and drop elements and then write code for them. Another disadvantage is that CLI can be much harder to use than a GUI. Lots of time needs to be spent looking into the documentation of the software so that the user fully understands what the arguments are before they execute any commands. Because of this, the learning curve is steep.
