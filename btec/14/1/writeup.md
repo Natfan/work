@@ -79,7 +79,7 @@ Touch Screen are becoming increasingly more used due to mobile phones being used
 
 #### Example
 The following is an example of a touch screen on a mobile phone.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/touchscreen.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/touchscreen.png" style="width:30%;"></img>
 
 ### Menus
 #### Definition
@@ -87,14 +87,14 @@ A menu is a method of displaying extended information to a user. Menus can be ca
 
 #### Example
 The following is an example of a menu found within Google Chrome.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/menu.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/menu.png" style="width:30%;"></img>
 
 ### System Event
 #### Definition
 A system event is when the operating system notifies the user of an important action that they need to act on. An example of this is if an application needs to access more permissions.
 
 #### Example
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/uac.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/uac.png" style="width:30%;"></img>
 
 ### Variables and Constants
 #### Definition
@@ -181,18 +181,15 @@ All Operating Systems are event driven due to the fact that they all take a user
 ### Examples
 #### Start Menu
 A better example of this is the Start Menu in Windows 10. You can either click the button in the bottom left hand side of the screen to open it, or you can press the Windows key on your keyboard. Please note that the Windows key can also be referred to as the *Super Key* or the *Hyper Key*.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/startmenu.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/startmenu.png" style="width:30%;"></img>
 
 #### Drag 'n' Drop
 Another example of event driven code within operating systems is the "Drag 'n' Drop" feature. This allows the user to move files between places without entering complex commands such `mv` or `cp`.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/2dnd1.png"></img>
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/2dnd2.png"></img>
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/2dnd3.png"></img>
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/2dnd4.png"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd.gif" style="height:30;"></img>
 
 #### External Drives
 Another example is plugging in an external drive, as it has to install the drivers if they are not there already and present the user a dialog so that they can interact with the external drive.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/drives.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/drives.png" style="width:30%;"></img>
 
 ### Advantages
 An advantage of an event driven operating system is that it allows the user to perform complex tasks without much effort. They can use the keyboard and mouse to navigate the system and can execute code without typing a single thing into the command line interface. Event driven operating Systems are much easier to program that non event driven ones, due to the fact that it can be built in a very modular fashion, meaning that the users and the distributors can pick and choose what features are right for them. Object orientated code will also allows processes to be run on multiple threads, meaning that the code can run much quicker as new actions do not have to wait for the previous ones to complete. This also means that the operating system will be written with modern programming languages with object orientation and good documentation that is extremely scalable, such as `Java` or `C#`. This means that the operating system will be much more efficient, meaning that it will run faster.
@@ -208,7 +205,7 @@ One disadvantage is that if the operating system is not a modular system then wh
 ### Examples
 #### Terminals
 The Command Line Interface, or CLI, is a secondary method for accessing a system. It allows the user to create more complex arguments within programs, ensuring that they fit to a user's every need. They key point of a Command Line Interface is that it does not have a Graphical User Interface, or GUI. One example of a Command Line Interface is the Command Prompt, from Microsoft's Windows.  The following is an image of the Command Prompt in action.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/cli_cmd.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/cli_cmd.png" style="width:30%;"></img>
 The Command Prompt allows for users to perform many functions, including:
 
 * Moving between directories,
@@ -224,7 +221,7 @@ The Command Prompt allows for users to perform many functions, including:
 * Displaying system information.
 
 Microsoft's Windows also has another Command Line Interface called PowerShell, which is built for system administrator. The syntax is much more complicated than the Command Prompt, but is much better for automating tasks.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/cli_shl.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/cli_shl.png" style="width:30%;"></img>
 The following are some examples which PowerShell can do:
 
 * PowerShell can be used to display all USB devices installed on either only one or even multiple computers that are connected to the network.
@@ -234,7 +231,7 @@ The following are some examples which PowerShell can do:
 * Commands can be chained together to automate long and recursive functions.
 
 Linux is also heavily command based, as shown by the extensive amount of terminal emulators that can be found over the vast range of distributions. I shall list some now:
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/cli_ter.png" style="width:30%;height:30%;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/cli_ter.png" style="width:30%;"></img>
 * `TTY`, the default Command Line Interface that can be accessed by pressing `F<1-9>`. Please note that one terminal is normally used up by the X server, which is the graphical front end of the system. This is normally found on either TTY1 or TTY7.
 * `rxvt` and `urxvt`,
 * `xterm`,
