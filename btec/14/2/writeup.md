@@ -18,7 +18,7 @@ There are a few different tools that I shall use within this program, and I shal
 Selection is important to this program as without it, the Administrator cannot specify which user they would like to freeze, meaning that the program would be completely useless without it.
 
 ### Loops
-Loops are also very important for the "*" feature, which freezes all players on the server. This may be useful if there are some severe bugs that would affect the entire player base, so they are being frozen for thier own safety. This feature request a loop to go through all the online players on the server and add them all to the ArrayList of frozen players.
+Loops are also very important for the "\*" feature, which freezes all players on the server. This may be useful if there are some severe bugs that would affect the entire player base, so they are being frozen for thier own safety. This feature request a loop to go through all the online players on the server and add them all to the ArrayList of frozen players.
 
 ### Event Handlers
 Event Handlers are used to prevent frozen players from moving, interacting with their environment, interacting with other players, typing commands or talking in chat, amongst other things. This is extremely useful and should be considered one of the core features of the system.
@@ -27,10 +27,10 @@ Event Handlers are used to prevent frozen players from moving, interacting with 
 Debugging is extremely useful from a development standpoint as it helps me check where errors are in the code if any arise. I can do this by outputting messages when every action is performed, but only showing the messages to staff members if the debugging boolean is set to true. This should not be used in production to prevent spam towards the Administrator, as these messages will be sent in chat and could cause lots of spam such as a message being sent whenever a frozen player changes their position even by a centemetre.
 
 ### Variable Declaration and Scope
-Variable declaration is useful as it allows me to store the unique indentifiers of players who are frozen, meaning that checks can be performed on them and cancel their actions if they are within the list. The scope of this variable will be within the main class due to the fact that it will need to be accessed from every class, so it being stored in the main class makes it in the most central position possible.
+Variable declaration is useful as it allows me to store the unique identifiers of players who are frozen, meaning that checks can be performed on them and cancel their actions if they are within the list. The scope of this variable will be within the main class due to the fact that it will need to be accessed from every class, so it being stored in the main class makes it in the most central position possible.
 
 ### Constants
-A constant that will be used is the ChatColor shorthands. Instead of having to write out
+A constant that will be used is the ChatColor short hands. Instead of having to write out
 
 `player.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] " + ChatColor.DARK_AQUA + "You have been " + ChatColor.GREEN + "frozen" + ChatColor.DARK_AQUA + ".");`
 
@@ -44,7 +44,7 @@ ChatColor sec = ChatColor.GREEN;
 player.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] " + pri + "You have been " + sec + "frozen" + pri + ".");
 ```
 
-Which is much shorter and more efficient. It also allows me to change the colour schema on the fly and it will be propegated across the entire program. Adding to this, I can add a `prefix` string to shorten this even more, changing it to:
+Which is much shorter and more efficient. It also allows me to change the colour schema on the fly and it will be propagated across the entire program. Adding to this, I can add a `prefix` string to shorten this even more, changing it to:
 
 ```
 string prefix = ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] ";
@@ -55,16 +55,48 @@ ChatColor sec = ChatColor.GREEN;
 player.sendMessage(prefix + pri + "You have been " + sec + "frozen" + pri + ".");
 ```
 
-As with the other constants, these variables will be accessable across the entire project.
+As with the other constants, these variables will be accessible across the entire project.
 
 ### Data Types
-I shall be using many different data types, some of which are primative and can be found within the Java language, and some of which are more advanced and are native to Spigot. I shall list them as follows:
+I shall be using many different data types, some of which are primitive and can be found within the Java language, and some of which are more advanced and are native to Spigot. I shall list them as follows:
 
 #### String
-Strings will be used to store text data such as the `prefix` and are generally used for communcating with the user.
+Strings will be used to store text data such as the `prefix` and are generally used for communicating with the user.
 
 #### Integers
 Integers will be used within for loops to keep track of which player they are currently operating on, along with using constants for changing timings on the fly. MAX_INT is also used for setting effects to be applied to the player infinitely.
+
+#### ArrayList
+An ArrayList will be used to keep track of all of the users that have been frozen, to ensure that if they perform any action that is not allowed and if they are in the ArrayList then it will be cancelled.
+
+#### UUID
+Due to the fact that players can change their usernames it is important to use their Universal Unique IDentifier, or UUID, when adding players to the ArrayList due to the fact they could just change their name and be thawed.
+
+#### Entity
+An Entity is any dynamic, moving object within the game. This encompasses but is not limited to players, animals and monsters, along with projectiles and boats. These will need to be intercepted when preventing actions.
+
+##### Player
+The Player is a subset of an entity that is controlled by the user. Both the Administrator and the users are considered players, but the Administrators cannot be frozen due to a specific permission node that prevents it, unlike regular users.
+
+##### HumanEntity
+The HumanEntity is an interface of the Player, and NPCs, that is used by chest functions within Spigot.
+
+#### Projectile
+The Projectile is an entity that moves through the air within the game. There are a few subsets of it, such as Arrows, Potions, EnderPearls, Eggs and Snowballs. As a rule of thumb, if the player can throw it then it is a Projectile. These will need to be
+
+##### Potion
+A Potion is an item within Minecraft that gives the consumer a specific effect when applied. They can either be drunk or, in the case of this instance, thrown onto the ground. These 'splash' potions cause an AoE which applies the potion effect to all entities within the vicinity.
+
+##### EnderPearl
+An EnderPearl is a projectile which can be thrown by the Player. When it lands, it is deleted and the Player is teleported to that position.
+
+Inventory
+ItemStack
+ItemMeta
+SlotType
+
+ChatColor
+
 
 * show tools & techniques used
  - data types
