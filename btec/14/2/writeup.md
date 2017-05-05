@@ -12,15 +12,61 @@ The software that I shall be designing is a plugin for piece of server software 
 * If the Administrator finds anything on the user that they should not have, they will be punished accordingly; this can include being removed from the server either temporarily or permanently,
 * If the Administrator does not find anything, then the user will be thawed and they will be allowed to continue their game.
 
+There are a few different tools that I shall use within this program, and I shall list them and describe why they are important.
+
+### Selection
+Selection is important to this program as without it, the Administrator cannot specify which user they would like to freeze, meaning that the program would be completely useless without it.
+
+### Loops
+Loops are also very important for the "*" feature, which freezes all players on the server. This may be useful if there are some severe bugs that would affect the entire player base, so they are being frozen for thier own safety. This feature request a loop to go through all the online players on the server and add them all to the ArrayList of frozen players.
+
+### Event Handlers
+Event Handlers are used to prevent frozen players from moving, interacting with their environment, interacting with other players, typing commands or talking in chat, amongst other things. This is extremely useful and should be considered one of the core features of the system.
+
+### Debugging
+Debugging is extremely useful from a development standpoint as it helps me check where errors are in the code if any arise. I can do this by outputting messages when every action is performed, but only showing the messages to staff members if the debugging boolean is set to true. This should not be used in production to prevent spam towards the Administrator, as these messages will be sent in chat and could cause lots of spam such as a message being sent whenever a frozen player changes their position even by a centemetre.
+
+### Variable Declaration and Scope
+Variable declaration is useful as it allows me to store the unique indentifiers of players who are frozen, meaning that checks can be performed on them and cancel their actions if they are within the list. The scope of this variable will be within the main class due to the fact that it will need to be accessed from every class, so it being stored in the main class makes it in the most central position possible.
+
+### Constants
+A constant that will be used is the ChatColor shorthands. Instead of having to write out
+
+`player.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] " + ChatColor.DARK_AQUA + "You have been " + ChatColor.GREEN + "frozen" + ChatColor.DARK_AQUA + ".");`
+
+Which is an excessively long line of code which will need to be changed if the formatting of the colours ever needs to change, I can just write:
+
+```
+ChatColor pri = ChatColor.DARK_AQUA;
+ChatColor sec = ChatColor.GREEN;
+
+
+player.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] " + pri + "You have been " + sec + "frozen" + pri + ".");
+```
+
+Which is much shorter and more efficient. It also allows me to change the colour schema on the fly and it will be propegated across the entire program. Adding to this, I can add a `prefix` string to shorten this even more, changing it to:
+
+```
+string prefix = ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] ";
+ChatColor pri = ChatColor.DARK_AQUA;
+ChatColor sec = ChatColor.GREEN;
+
+
+player.sendMessage(prefix + pri + "You have been " + sec + "frozen" + pri + ".");
+```
+
+As with the other constants, these variables will be accessable across the entire project.
+
+### Data Types
+I shall be using many different data types, some of which are primative and can be found within the Java language, and some of which are more advanced and are native to Spigot. I shall list them as follows:
+
+#### String
+Strings will be used to store text data such as the `prefix` and are generally used for communcating with the user.
+
+#### Integers
+Integers will be used within for loops to keep track of which player they are currently operating on, along with using constants for changing timings on the fly. MAX_INT is also used for setting effects to be applied to the player infinitely.
 
 * show tools & techniques used
- - selection
- - loop
- - event handler
- - debugging
- - var declaration
- - var scope
- - constants
  - data types
 * examples of triggers used
  - commands executed
