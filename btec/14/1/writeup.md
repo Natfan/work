@@ -185,10 +185,10 @@ A better example of this is the Start Menu in Windows 10. You can either click t
 
 #### Drag 'n' Drop
 Another example of event driven code within operating systems is the "Drag 'n' Drop" feature. This allows the user to move files between places without entering complex commands such `mv` or `cp`.
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/1.png" style="height:30;"></img>
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/2.png" style="height:30;"></img>
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/3.png" style="height:30;"></img>
-<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/4.png" style="height:30;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/1.png" style="width:30;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/2.png" style="width:30;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/3.png" style="width:30;"></img>
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/1/img/dnd/4.png" style="width:30;"></img>
 
 #### External Drives
 Another example is plugging in an external drive, as it has to install the drivers if they are not there already and present the user a dialog so that they can interact with the external drive.
