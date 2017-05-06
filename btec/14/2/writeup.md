@@ -2,17 +2,7 @@
 *By Nathan Windisch*
 
 ## PIII: Designing A Bespoke Event Driven Application
-The software that I shall be designing is a plugin for piece of server software called `Spigot` that is used to make the generation of add-ons to the video game `Minecraft`. The plugin in question is called **Chill**, a tool which allows Administrators to freeze possible cheaters to prevent them from causing any more damage to legitimate players. After this point they can a voice chat service such as Teamspeak3 or Discord so that they can communicate with the staff member that froze them, possibly share their screen and, after rigorous checks, may be unfrozen. If it turns out that the player was cheating, they will be punished accordingly. The input of the program is when the Administrator freezes a player, the output is when the user tries to perform an action that is prohibited while they are frozen, along with notifying staff members when a person who should not be frozen is attempted to be frozen, and the process is the blocking of these actions. The following is a basic outline of how the program will work:
-
-* The Administrator finds a cheat is firing up a large number of alerts from our AntiCheat systems,
-* The Administrator teleports to the suspected cheater,
-* The Administrator confirms that the user is breaking the rules or using external software to gain an unfair advantage,
-* The Administrator freezes the user, blocking their access to perform any actions including movement, chat, commands, interacting with the world or other entities,
-* The Administrator requests the user to join voice chat and searches their installation folder for any malicious files,
-* If the Administrator finds anything on the user that they should not have, they will be punished accordingly; this can include being removed from the server either temporarily or permanently,
-* If the Administrator does not find anything, then the user will be thawed and they will be allowed to continue their game.
-
-There are a few different tools that I shall use within this program, and I shall list them and describe why they are important.
+The software that I shall be designing is a plugin for piece of server software called `Spigot` that is used to make the generation of add-ons to the video game `Minecraft`. The plugin in question is called **Chill**, a tool which allows Administrators to freeze possible cheaters to prevent them from causing any more damage to legitimate players. After this point they can a voice chat service such as Teamspeak3 or Discord so that they can communicate with the staff member that froze them, possibly share their screen and, after rigorous checks, may be unfrozen. If it turns out that the player was cheating, they will be punished accordingly. The input of the program is when the Administrator freezes a player, the output is when the user tries to perform an action that is prohibited while they are frozen, along with notifying staff members when a person who should not be frozen is attempted to be frozen, and the process is the blocking of these actions. There are a few different tools that I shall use within this program, and I shall list them and describe why they are important.
 
 ### Selection
 Selection is important to this program as without it, the Administrator cannot specify which user they would like to freeze, meaning that the program would be completely useless without it.
@@ -24,7 +14,7 @@ Loops are also very important for the "\*" feature, which freezes all players on
 Event Handlers are used to prevent frozen players from moving, interacting with their environment, interacting with other players, typing commands or talking in chat, amongst other things. This is extremely useful and should be considered one of the core features of the system.
 
 ### Debugging
-Debugging is extremely useful from a development standpoint as it helps me check where errors are in the code if any arise. I can do this by outputting messages when every action is performed, but only showing the messages to staff members if the debugging boolean is set to true. This should not be used in production to prevent spam towards the Administrator, as these messages will be sent in chat and could cause lots of spam such as a message being sent whenever a frozen player changes their position even by a centemetre.
+Debugging is extremely useful from a development standpoint as it helps me check where errors are in the code if any arise. I can do this by outputting messages when every action is performed, but only showing the messages to staff members if the debugging boolean is set to true. This should not be used in production to prevent spam towards the Administrator, as these messages will be sent in chat and could cause lots of spam such as a message being sent whenever a frozen player changes their position even by a centimeter.
 
 ### Variable Declaration and Scope
 Variable declaration is useful as it allows me to store the unique identifiers of players who are frozen, meaning that checks can be performed on them and cancel their actions if they are within the list. The scope of this variable will be within the main class due to the fact that it will need to be accessed from every class, so it being stored in the main class makes it in the most central position possible.
@@ -88,26 +78,65 @@ The Projectile is an entity that moves through the air within the game. There ar
 A Potion is an item within Minecraft that gives the consumer a specific effect when applied. They can either be drunk or, in the case of this instance, thrown onto the ground. These 'splash' potions cause an AoE which applies the potion effect to all entities within the vicinity.
 
 ##### EnderPearl
-An EnderPearl is a projectile which can be thrown by the Player. When it lands, it is deleted and the Player is teleported to that position.
+An EnderPearl is a projectile which can be thrown by the Player. When it lands, it is deleted and the Player is teleported to that position. This will need to be cancelled if the user is frozen due to the fact that the frozen user should not be able to move.
 
-Inventory
-ItemStack
-ItemMeta
-SlotType
+#### Inventory
+An Inventory can be a large range of things, but in this case it will be both the menu that will be shown to the user when they are frozen, and also it will be the user's actual inventory to ensure that they cannot move anything around.
 
-ChatColor
+#### ItemStack
+ItemStacks are all items that can be stored within an Inventory. These will be used when showing the menu to the player.
+
+#### ItemMeta
+ItemMeta is a subset of an ItemStack that is used for customizing the Item. It can change the name of the Item, as well as adding lore to the item.
+
+#### ChatColor
+ChatColor is the way that colours are used within Spigot, due to the fact that Minecraft only has 16 colours and 6 modifiers, such as obfuscated and bold. This will be used for all colour within the project, such as shown above when the user was informed that they were frozen.
+
+### Triggers Used
+There will be two methods of triggering a user being frozen by an Administrator, the first one will be typing the command `/freeze <playerName>`. The second will be selecting their name from an Inventory based menu system. These methods will add the user to the frozen ArrayList and will display the message to the user that they have been frozen. They will also be given a Blindness effect so that they cannot see, and then when they perform any action that is not permitted then it will be blocked, due to the other events within the project.
+
+### Properties Assigned to Screen Components
+There will not be that many on screen properties within this project due to the fact that this is a relatively small system, but I shall list them as follows:
+
+#### Help Page
+The help page will be shown when the user executes the command `chill`, `freezehelp`, `helpfreeze`, `sshelp` or `helpss`. When executed it will run the following code.
+```
+sender.sendMessage("/freeze <playerName> - Freezes/Unfreezes a player, used as a toggle. chill.freeze");
+sender.sendMessage("/frozen <playerName> - Checks if a player is frozen. chill.frozen");
+sender.sendMessage("/panic - Places you into panic mode, whereby you cannot be unfrozen. chill.panic");
+```
+
+#### Command Reference
+If the player runs the commands either with too many arguments, not enough arguments or invalid arguments, a help prompt will be displayed to the user telling them what the correct syntax is. The following is an example of that:
+
+```
+sender.sendMessage("/freeze <playerName>");
+```
+
+#### Confirmation Page
 
 
-* show tools & techniques used
- - data types
-* examples of triggers used
- - commands executed
- - staff freezing player via right click/menu
+#### User Menu
+
+
+#### Admin Menu
+
+
+#### Messages in Chat While Frozen
+
+
+#### Messages in Chat when Action is Forbidden
+
+
 * indicate all properties to be assigned to the screen components
 * 3 well annotated design draft sketches
 * test plan
 * write algorithm & pseudo code
-* flow chart
+
+### Flow Chart
+The following is a flow chart that will outline the process of this system:
+
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/2/Chill%20Flow%20Diagram.png"></img>
 
 <div style="page-break-after=always;"></div>
 
