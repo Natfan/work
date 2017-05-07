@@ -114,10 +114,10 @@ sender.sendMessage("/freeze <playerName>");
 ```
 
 #### Confirmation Page
-
+When performing a security critical command, such as freezing all players on the server, a confirmation command must be run. In this case, the command is `/freeze <*|all>` and will freeze all current players on the server. This may be due to a server error which may cause players to die and lose all of their items, so this ensures that they cannot be harmed. The command to confirm if `/freeze <*|all> confirm` and will ensure that the Administrator was serious about issuing the command as the only way to turn it off is to restart the server.
 
 #### User Menu
-
+When the user is frozen there will be a menu that they can interact with. The middle icon will be information about a general idea as to why they were frozen, and an IP address so that they can join TeamSpeak3, or a link so that they can join Discord, both of which are server-based VoIP services. The button on the left will be titled the **Admit** button and the user can press it if they want to admit to cheating. This will send a notification to the staff member and the user will get a shorter sentence due to the fact that they did not waste the Administrator's time. On the right side there will be a **Dispute** button which will allow the user to join a VoIP service of their choice (a list of VoIP services that they can choose will be displayed after this menu) so that they can talk to the Administrator that froze them. If it turns out that they were lying, their punishment may be extended.
 
 #### Admin Menu
 
