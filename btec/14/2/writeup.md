@@ -155,7 +155,6 @@ panic: Adds the user that issued the command to the frozen ArrayList.
 ### Test Plan
 The following is a list of events that I will test, and the things that I will test them with.
 
-|---------------------|-------------------------------------------------|
 | Event               | Expanded explaination                           |
 |---------------------|-------------------------------------------------|
 | onBlockBreak        | Check if regular users can break blocks         |
@@ -182,7 +181,6 @@ The following is a list of events that I will test, and the things that I will t
 |                     | Check if frozen users can take damage           |
 | onPlayerTeleport    | Check if regular users can teleport             |
 |                     | Check if frozen users can teleport              |
-|---------------------|-------------------------------------------------|
 
 * write algorithm & pseudo code
 
