@@ -120,16 +120,66 @@ When performing a security critical command, such as freezing all players on the
 When the user is frozen there will be a menu that they can interact with. The middle icon will be information about a general idea as to why they were frozen, and an IP address so that they can join TeamSpeak3, or a link so that they can join Discord, both of which are server-based VoIP services. The button on the left will be titled the **Admit** button and the user can press it if they want to admit to cheating. This will send a notification to the staff member and the user will get a shorter sentence due to the fact that they did not waste the Administrator's time. On the right side there will be a **Dispute** button which will allow the user to join a VoIP service of their choice (a list of VoIP services that they can choose will be displayed after this menu) so that they can talk to the Administrator that froze them. If it turns out that they were lying, their punishment may be extended.
 
 #### Admin Menu
-
+When the Administrator wishes to freeze a user, they can either issue the command `/freeze <playerName>` or they can issue the command '/freezegui` to open up a list of all of the players which are online. The Administrator can sort either by frozen or thawed, and if they click on a user's head within the menu then the selected user will be frozen.
 
 #### Messages in Chat While Frozen
-
+When the user is frozen, a message will pop up in their chat notifying them that they have been frozen. The message will also tell them to join a voice chat server such as TeamSpeak3 or Discord.
 
 #### Messages in Chat when Action is Forbidden
+When a user performs an action which is prohibitted while frozen, the same notification that was sent when they were first frozen will also be sent, but the action that they performed will also be within the message so that they know what they should not be doing.
+
+### Design Draft Sketches
+#### \#1
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/2/designsketch1.png"></img>
+
+#### \#2
+<img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/2/designsketch2.png"></img>
+
+#### \#3
+While this next design draft is not a sketch, is it the layout of how the command syntax will work.
+```
+freeze:
+	<playerName>: Freezes/Thaws the specified user.
+	<UUID>: Freezes/Thaws the UUID applied to the player.
+	<all|*>: Asks the Administrator for a confirmation.
+		<confirm>: Confirms the command and adds all players on the server to the frozen ArrayList.
+thaw:
+	<playerName>: Thaws the specified user.
+	<UUID>: Thaws the specified user.
+chill: Shows information about the plugin.
+panic: Adds the user that issued the command to the frozen ArrayList.
+```
+
+### Test Plan
+The following is a list of events that I will test, and the things that I will test them with.
+:---------------------:-------------------------------------------------:
+| onBlockBreak        | Check if regular users can break blocks         |
+|		      |	Check if frozen users can break blocks          |
+| onBlockPlace        | Check if regular users can place blocks         |
+|		      | Check if frozen users can place blocks	        |
+| onCommandPreprocess | Check if regular users can execute commands     |
+|		      | Check if frozen users can execute commands      |
+| onEnderpearlThrow   | Check if regular users can throw enderpearls    |
+|		      | Check if frozen users can throw enderpeasls     |
+| onInventoryClose    | Check if regular users can close inventories    |
+|                     | Check if frozen users can close inventories     |
+| onPlayerDropItem    | Check if regular users can drop items           |
+|                     | Check if frozen users can drop items            |
+| onPlayerGiveDamage  | Check if regular users can give damage          |
+|                     | Check if frozen users can give damage           |
+| onPlayerMove        | Check if regular users can move                 |
+|                     | Check if frozen users can move                  |
+| onPlayerPickupItem  | Check if regular users can pickup items         |
+|                     | Check if frozen users can pickup items          |
+| onPlayerQuit        | Check if regular users can notify staff on quit |
+|                     | Check if frozen users can notify staff on quit  |
+| onPlayerTakeDamage  | Check if regular users can take damage          |
+|                     | Check if frozen users can take damage           |
+| onPlayerTeleport    | Check if regular users can teleport             |
+|                     | Check if frozen users can teleport              |
+:---------------------:-------------------------------------------------:
 
 
-* indicate all properties to be assigned to the screen components
-* 3 well annotated design draft sketches
 * test plan
 * write algorithm & pseudo code
 
