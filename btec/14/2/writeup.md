@@ -8,7 +8,7 @@ The software that I shall be designing is a plugin for piece of server software 
 Selection is important to this program as without it, the Administrator cannot specify which user they would like to freeze, meaning that the program would be completely useless without it.
 
 ### Loops
-Loops are also very important for the "\*" feature, which freezes all players on the server. This may be useful if there are some severe bugs that would affect the entire player base, so they are being frozen for thier own safety. This feature request a loop to go through all the online players on the server and add them all to the ArrayList of frozen players.
+Loops are also very important for the "\*" feature, which freezes all players on the server. This may be useful if there are some severe bugs that would affect the entire player base, so they are being frozen for their own safety. This feature request a loop to go through all the online players on the server and add them all to the ArrayList of frozen players.
 
 ### Event Handlers
 Event Handlers are used to prevent frozen players from moving, interacting with their environment, interacting with other players, typing commands or talking in chat, amongst other things. This is extremely useful and should be considered one of the core features of the system.
@@ -22,7 +22,9 @@ Variable declaration is useful as it allows me to store the unique identifiers o
 ### Constants
 A constant that will be used is the ChatColor short hands. Instead of having to write out
 
-`player.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] " + ChatColor.DARK_AQUA + "You have been " + ChatColor.GREEN + "frozen" + ChatColor.DARK_AQUA + ".");`
+```
+player.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] " + ChatColor.DARK_AQUA + "You have been " + ChatColor.GREEN + "frozen" + ChatColor.DARK_AQUA + ".");
+```
 
 Which is an excessively long line of code which will need to be changed if the formatting of the colours ever needs to change, I can just write:
 
@@ -38,7 +40,7 @@ Which is much shorter and more efficient. It also allows me to change the colour
 
 ```
 string prefix = ChatColor.GOLD + "[" + ChatColor.YELLOW + "Colossal" + ChatColor.GOLD + "] ";
-ChatColor pri = ChatColor.DARK_AQUA;
+ChatColor pri = ChatColor.DARK\_AQUA;
 ChatColor sec = ChatColor.GREEN;
 
 
@@ -137,7 +139,7 @@ When a user performs an action which is prohibitted while frozen, the same notif
 
 #### \#3
 While this next design draft is not a sketch, is it the layout of how the command syntax will work.
-```
+````
 freeze:
 	<playerName>: Freezes/Thaws the specified user.
 	<UUID>: Freezes/Thaws the UUID applied to the player.
@@ -153,7 +155,8 @@ panic: Adds the user that issued the command to the frozen ArrayList.
 ### Test Plan
 The following is a list of events that I will test, and the things that I will test them with.
 
-| Event               | Expanded exxplaination                          |
+|---------------------|-------------------------------------------------|
+| Event               | Expanded explaination                           |
 |---------------------|-------------------------------------------------|
 | onBlockBreak        | Check if regular users can break blocks         |
 |		      |	Check if frozen users can break blocks          |
@@ -179,9 +182,8 @@ The following is a list of events that I will test, and the things that I will t
 |                     | Check if frozen users can take damage           |
 | onPlayerTeleport    | Check if regular users can teleport             |
 |                     | Check if frozen users can teleport              |
+|---------------------|-------------------------------------------------|
 
-
-* test plan
 * write algorithm & pseudo code
 
 ### Flow Chart
@@ -193,5 +195,11 @@ The following is a flow chart that will outline the process of this system:
 
 ## MII: Reasoning Behind Tools and Techniques
 * list tools & techniques
+ - controls
+ - objects
+ - triggers
+ - menus
+ - debugging
+ - variables
 * give reasons for the above
 * justify the above
