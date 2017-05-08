@@ -186,6 +186,52 @@ The following is a list of events that I will test, and the things that I will t
 
 * write algorithm & pseudo code
 
+### Psuedo Code
+In the following segment I will show some pseudo code of various elements of my program, and I shall comment them as to what they do.
+
+```
+event : PlayerPlaceBlockEvent /* Executed whenever a player places a block */
+	player event.getPlayer : Player /* Sets the variable "player" to the player that broke the block and sets it to the datatype Player */
+	if Main.frozen.contains(player.getUniqueID) /* checks if the player that broke the block is frozen */
+		event.setCancelled(true) /* cancels the event */
+		player.sendMessage(frozenMessage) /* sends the player a message that they are frozen */
+```
+
+```
+event : CommandPreprocessEvent /* Executed whenever a player runs a command */
+	player event.getPlayer : Player /* Sets the variable "player" to the player that executed the command and sets it to the datatype Player */
+	if Main.frozen.contains(player.getUniqueID) /* checks if the player that executed the command is frozen */
+		event.setCancelled(true) /* cancels the event */
+		player.sendMessage(frozenMessage) /* sends the player a message that they are frozen */
+```
+
+```
+event : onPlayerMove /* Executed whenever a player moves */
+	player event.getPlayer : Player /* Sets the variable "player" to the player that broke the block and sets it to the datatype Player */
+	if Main.frozen.contains(player.getUniqueID) /* checks if the player that moves is frozen */
+		event.setCancelled(true) /* cancels the event */
+		player.sendMessage(frozenMessage) /* sends the player a message that they are frozen */
+```
+
+```
+event : CommandExecutor /* Executed whenever a player runs a command */
+	sender : CommandSender /* Sets the variable "sender" to the player that sent the command */
+	commandlabel : String /* Sets the variable "commandlabel" to the command that was run and sets it to the datatype String */
+	if commandlabel.equalsIgnoreCase("freeze") /* Runs the if statement if the command that the player types is `/freeze` */
+		if sender.hasPermission("chill.freeze") /* Runs the if statement if the sender has the correct permission */
+			if args.length == 0 /* Runs the if statement if the arguments after the command are null (equal to 0) */
+				sender.sendMessage(freezeSyntax) /* Sends the syntax for the freeze command */
+			if args[0].equalsIgnoreCase("all") /* Runs the if statement if the sender wrote the first argument as "all" */
+				if !sender.hasPermission("chill.freeze.all") /* Runs the if statement if the user does not have the correct permission */
+					sender.sendMessage(permissionError) /* Sends the player a permission error */
+				if args[1].equalsIgnoreCase("confirm) /* Runs the if statement if the sender wrote the second argument as "confirm" */
+					for Player all : getOnlinePlayers() /* Goes through all online players and assigns each one to the variable "all" before moving onto the next one */
+						Main.frozen.add(all.getUniqueID) /* Adds the player "all" to the frozen list, effectively freezing them */
+				sender.sendMessage(confirmPlease) /* Sends the sender a confirmation message */
+			targetEntity = args[1] : Entity /* Sets the variable targetEntity and applies the first argument that the user gives it, along with setting it to be the Entity datatype */
+			if targetEntity instanceof Player /* Checks if targetEntity is a Player */
+				target = targetEntity : Player /* Assigns the value of targetEntity to a new variable "target", which is a player */
+```
 ### Flow Chart
 The following is a flow chart that will outline the process of this system:
 
