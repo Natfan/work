@@ -139,7 +139,7 @@ When a user performs an action which is prohibitted while frozen, the same notif
 
 #### \#3
 While this next design draft is not a sketch, is it the layout of how the command syntax will work.
-````
+```
 freeze:
 	<playerName>: Freezes/Thaws the specified user.
 	<UUID>: Freezes/Thaws the UUID applied to the player.
