@@ -122,7 +122,7 @@ When performing a security critical command, such as freezing all players on the
 When the user is frozen there will be a menu that they can interact with. The middle icon will be information about a general idea as to why they were frozen, and an IP address so that they can join TeamSpeak3, or a link so that they can join Discord, both of which are server-based VoIP services. The button on the left will be titled the **Admit** button and the user can press it if they want to admit to cheating. This will send a notification to the staff member and the user will get a shorter sentence due to the fact that they did not waste the Administrator's time. On the right side there will be a **Dispute** button which will allow the user to join a VoIP service of their choice (a list of VoIP services that they can choose will be displayed after this menu) so that they can talk to the Administrator that froze them. If it turns out that they were lying, their punishment may be extended.
 
 #### Admin Menu
-When the Administrator wishes to freeze a user, they can either issue the command `/freeze <playerName>` or they can issue the command '/freezegui` to open up a list of all of the players which are online. The Administrator can sort either by frozen or thawed, and if they click on a user's head within the menu then the selected user will be frozen.
+When the Administrator wishes to freeze a user, they can either issue the command `/freeze <playerName>` or they can issue the command `/freezegui` to open up a list of all of the players which are online. The Administrator can sort either by frozen or thawed, and if they click on a user's head within the menu then the selected user will be frozen.
 
 #### Messages in Chat While Frozen
 When the user is frozen, a message will pop up in their chat notifying them that they have been frozen. The message will also tell them to join a voice chat server such as TeamSpeak3 or Discord.
@@ -184,7 +184,7 @@ The following is a list of events that I will test, and the things that I will t
 
 * write algorithm & pseudo code
 
-### Psuedo Code
+### Pseudo Code
 In the following segment I will show some pseudo code of various elements of my program, and I shall comment them as to what they do.
 
 ```
@@ -215,7 +215,7 @@ event : onPlayerMove /* Executed whenever a player moves */
 event : CommandExecutor /* Executed whenever a player runs a command */
 	sender : CommandSender /* Sets the variable "sender" to the player that sent the command */
 	commandlabel : String /* Sets the variable "commandlabel" to the command that was run and sets it to the datatype String */
-	if commandlabel.equalsIgnoreCase("freeze") /* Runs the if statement if the command that the player types is `/freeze` */
+	if commandlabel.equalsIgnoreCase("freeze") /* Runs the if statement if the command that the player types is /freeze */
 		if sender.hasPermission("chill.freeze") /* Runs the if statement if the sender has the correct permission */
 			if args.length == 0 /* Runs the if statement if the arguments after the command are null (equal to 0) */
 				sender.sendMessage(freezeSyntax) /* Sends the syntax for the freeze command */
@@ -238,7 +238,8 @@ event : CommandExecutor /* Executed whenever a player runs a command */
 						Main.frozen.add(target.getUniqueID) /* Adds the target to the frozen list */
 					else /* Notifies all online staff members that the user may be trying to abuse
 						sendMessage(player.getName() + " might be trying to abuse!", "chill.notify") /* sends a message to all users with the specific permission node */
-	if commandlabel.equalsIgnoreCase("thaw") /* runs the if statement if the command that the player types is `/thaw` */
+
+	if commandlabel.equalsIgnoreCase("thaw") /* runs the if statement if the command that the player types is /thaw */
 		if sender.hasPermission("chill.freeze")  /* Runs the if statement if the sender has the correct permission */
 			if args.length == 0 /* Runs the if statement if the arguments after the command are null (equal to 0) */
 				sender.sendMessage(freezeSyntax) /* Sends the syntax for the freeze command */
@@ -251,7 +252,7 @@ event : CommandExecutor /* Executed whenever a player runs a command */
 				else /* throw an error as the target isnt frozen
 					sender.sendMessage(targetNotFrozen)
 
-	if commandlabel.equalsIgnoreCase("panic") /* runs the if statement if the command that the player types is `/panic` */
+	if commandlabel.equalsIgnoreCase("panic") /* runs the if statement if the command that the player types is /panic */
 		if sender.hasPermission("chill.panic")  /* Runs the if statement if the sender has the correct permission */
 			if !Main.frozen.contains(target.getUniqueID) /* Checks if the target's UUID isn't in the frozen list  */
 				addEffects(target) /* Remove debuff effects from the target */
@@ -265,12 +266,23 @@ The following is a flow chart that will outline the process of this system:
 <div style="page-break-after=always;"></div>
 
 ## MII: Reasoning Behind Tools and Techniques
+I shall now list some tools and techniques, give reasons as to why they are used and justify them.
+
+### Objects
+Objects are useful within event driven programming due to the fact that it allows programmers to instanciate 
+
+### Triggers
+
+
+### Menus
+
+
+### Debugging
+
+
+### Variables
+
+
 * list tools & techniques
- - controls
- - objects
- - triggers
- - menus
- - debugging
- - variables
 * give reasons for the above
 * justify the above
