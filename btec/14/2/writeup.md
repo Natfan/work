@@ -226,9 +226,36 @@ event : CommandExecutor /* Executed whenever a player runs a command */
 					for Player all : getOnlinePlayers() /* Goes through all online players and assigns each one to the variable "all" before moving onto the next one */
 						Main.frozen.add(all.getUniqueID) /* Adds the player "all" to the frozen list, effectively freezing them */
 				sender.sendMessage(confirmPlease) /* Sends the sender a confirmation message */
-			targetEntity = args[1] : Entity /* Sets the variable targetEntity and applies the first argument that the user gives it, along with setting it to be the Entity datatype */
+			targetEntity args[1] : Entity /* Sets the variable targetEntity and applies the first argument that the user gives it, along with setting it to be the Entity datatype */
 			if targetEntity instanceof Player /* Checks if targetEntity is a Player */
-				target = targetEntity : Player /* Assigns the value of targetEntity to a new variable "target", which is a player */
+				target targetEntity : Player /* Assigns the value of targetEntity to a new variable "target", which is a player */
+				if Main.frozen.contains(target.getUniqueID) /* Checks if the target's UUID is in the frozen list  */
+					removeEffects(target) /* Remove debuff effects from the target */
+					Main.frozen.remove(target.getUniqueID) /* Removes the target from the frozen list */
+				else /* Checks if the target's UUID is not in the frozen list */
+					if !target.hasPermission("chill.override") /* Prevents other Administrators from being frozen */
+						addEffects(target) /* Adds debuff effects to the target */
+						Main.frozen.add(target.getUniqueID) /* Adds the target to the frozen list */
+					else /* Notifies all online staff members that the user may be trying to abuse
+						sendMessage(player.getName() + " might be trying to abuse!", "chill.notify") /* sends a message to all users with the specific permission node */
+	if commandlabel.equalsIgnoreCase("thaw") /* runs the if statement if the command that the player types is `/thaw` */
+		if sender.hasPermission("chill.freeze")  /* Runs the if statement if the sender has the correct permission */
+			if args.length == 0 /* Runs the if statement if the arguments after the command are null (equal to 0) */
+				sender.sendMessage(freezeSyntax) /* Sends the syntax for the freeze command */
+			targetEntity args[1] : Entity /* Sets the variable targetEntity and applies the first argument that the user gives it, along with setting it to be the Entity datatype */
+			if targetEntity instanceof Player /* Checks if targetEntity is a Player */
+				target targetEntity : Player /* Assigns the value of targetEntity to a new variable "target", which is a player */
+				if Main.frozen.contains(target.getUniqueID) /* Checks if the target's UUID is in the frozen list  */
+					removeEffects(target) /* Remove debuff effects from the target */
+					Main.frozen.remove(target.getUniqueID) /* Removes the target from the frozen list */
+				else /* throw an error as the target isnt frozen
+					sender.sendMessage(targetNotFrozen)
+
+	if commandlabel.equalsIgnoreCase("panic") /* runs the if statement if the command that the player types is `/panic` */
+		if sender.hasPermission("chill.panic")  /* Runs the if statement if the sender has the correct permission */
+			if !Main.frozen.contains(target.getUniqueID) /* Checks if the target's UUID isn't in the frozen list  */
+				addEffects(target) /* Remove debuff effects from the target */
+				Main.frozen.add(target.getUniqueID) /* Removes the target from the frozen list */
 ```
 ### Flow Chart
 The following is a flow chart that will outline the process of this system:
