@@ -155,7 +155,7 @@ panic: Adds the user that issued the command to the frozen ArrayList.
 ### Test Plan
 The following is a list of events that I will test, and the things that I will test them with.
 
-| Event               | Expanded explaination                           |
+| Event               | Expanded explanation                           |
 |---------------------|-------------------------------------------------|
 | onBlockBreak        | Check if regular users can break blocks         |
 |		      |	Check if frozen users can break blocks          |
@@ -164,7 +164,7 @@ The following is a list of events that I will test, and the things that I will t
 | onCommandPreprocess | Check if regular users can execute commands     |
 |		      | Check if frozen users can execute commands      |
 | onEnderpearlThrow   | Check if regular users can throw enderpearls    |
-|		      | Check if frozen users can throw enderpeasls     |
+|		      | Check if frozen users can throw enderpearls     |
 | onInventoryClose    | Check if regular users can close inventories    |
 |                     | Check if frozen users can close inventories     |
 | onPlayerDropItem    | Check if regular users can drop items           |
@@ -275,7 +275,15 @@ Objects are useful within event driven programming due to the fact that it allow
 Triggers are actions that get triggered when an event occurs. These are very useful due to the fact that it allows you to do some very interesting event driven things such as clearing cache when a user logs out of a system or assigning a discount when a customer uses a promotional code. This means that triggers make event driven programming better than traditional programming methods as the code for removing the cache on specific events only has to be written once as a function, then it can be applied to as many events as the developer wants.
 
 ### Menus
-Menus are a method of allowing users to interact with more advanced parts of a program, such as saving, loading and editing preferences. In many GUI programs, a list of menus can be accessed by pressing `ALT` which will show up headings such as *File*, *Edit*, *View*, *Print* and *Help*. All of these headers can be clicked on to access even more functions. For instance, in *File* alone there are usually the following:
+Menus are a method of allowing users to interact with more advanced parts of a program, such as saving, loading and editing preferences. In many GUI programs, a list of menus can be accessed by pressing `ALT` which will show up headings such as
+* File 
+* Edit
+* View
+* Print
+* Help
+
+All of these headers can be clicked on to access even more functions. For instance, in *File* alone there are usually the following:
+
 * New
 * Open
 * Save
@@ -285,7 +293,7 @@ Menus are a method of allowing users to interact with more advanced parts of a p
 * Preferences
 * Quit
 
-As you can see, this is a vast amount of options and functions to choose from.
+As you can see, this is a vast amount of options and functions to choose from. This allows the user to perform many more actions than if they did not have a menu, and the preferences settings allows the user to customize their experience as much as they want. Menus would be much harder to write in an imperative language as the developer would not be able to display the menu on button presses, such as clicking on `File -> Open` and also having the ability to press `C-o`.
 
 ### Debugging
 
