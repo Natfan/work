@@ -269,7 +269,7 @@ The following is a flow chart that will outline the process of this system:
 I shall now list some tools and techniques, give reasons as to why they are used and justify them.
 
 ### Objects
-Objects are useful within event driven programming due to the fact that it allows programmers to instanciate 
+Objects are useful within event driven programming due to the fact that it allows programmers to instantiate instances of their code, meaning that they can edit small bits of them on the fly and using them instead of the default values. This is highly useful as developers can then compare their edited values with the original ones in order to view the changes. This is a good thing as it lets developers follow the rules of object orientation, making their code more efficient and streamlined, allowing for easier documentation and better code continuity.
 
 ### Triggers
 
