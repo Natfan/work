@@ -293,10 +293,10 @@ All of these headers can be clicked on to access even more functions. For instan
 * Preferences
 * Quit
 
-As you can see, this is a vast amount of options and functions to choose from. This allows the user to perform many more actions than if they did not have a menu, and the preferences settings allows the user to customize their experience as much as they want. Menus would be much harder to write in an imperative language as the developer would not be able to display the menu on button presses, such as clicking on `File -> Open` and also having the ability to press `C-o`.
+As you can see, this is a vast amount of options and functions to choose from. This allows the user to perform many more actions than if they did not have a menu, and the preferences settings allows the user to customize their experience as much as they want. Menus would be much harder to write in an imperative language as the developer would not be able to display the menu on button presses, such as clicking on `File -> Open` and also having the ability to press `C-o`. This means that menus are useful and should be used by developers that want to give users larger amount of functionality while still kepping a simple, clean user experience, or UX.
 
 ### Debugging
-
+Debugging is highly useful to developers as it allows them to step through code and see where errors are occuring. 
 
 ### Variables
 
