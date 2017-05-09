@@ -272,7 +272,7 @@ I shall now list some tools and techniques, give reasons as to why they are used
 Objects are useful within event driven programming due to the fact that it allows programmers to instantiate instances of their code, meaning that they can edit small bits of them on the fly and using them instead of the default values. This is highly useful as developers can then compare their edited values with the original ones in order to view the changes. This is a good thing as it lets developers follow the rules of object orientation, making their code more efficient and streamlined, allowing for easier documentation and better code continuity.
 
 ### Triggers
-
+Triggers are actions that get triggered when an event occurs. These are very useful due to the fact that it allows you to do some very interesting event driven things such as clearing cache when a user logs out of a system or assigning a discount when a customer uses a promotional code. This means that triggers make event driven programming better than traditional programming methods as the code for removing the cache on specific events only has to be written once as a function, then it can be applied to as many events as the developer wants.
 
 ### Menus
 
