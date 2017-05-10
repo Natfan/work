@@ -299,8 +299,28 @@ As you can see, this is a vast amount of options and functions to choose from. T
 Debugging is highly useful to developers as it allows them to step through code and see where errors are occurring. This allows developers to spend less time bug fixing and more time coding, meaning that their time is used more efficiently. Most Integrated Development Environments, or IDEs, have their own debugging tools built in, such as underlining or otherwise highlighting code that is syntactically incorrect. Debugging can also be found when executing the code in the form of StackTraces where the developer is shown the position and time of their code's failure, meaning that they can go out of their way to fix it.
 
 ### Variables
+Variables are arguably one of the most important concepts of traditional and event driven programming. They allow developers to store data within their programs with specific boundaries, such as being a whole number or one character in length. These pieces of data can be set to be able to be accessed from different places in the program, or they can be kept a secret. Variables can then be manipulated to produce desireable results. I shall show an example of this now.
 
+```
+/* This is counting up to 100 without the use of variables */
+Console.Write("0 ");
+Console.Write("1 ");
+Console.Write("2 ");
+...
+```
 
-* list tools & techniques
-* give reasons for the above
-* justify the above
+```
+/* This is counting up to 100 with the use of variables */
+for (int i = 0; i >= 100; i++) {
+	Console.Write(i + " ");
+}
+```
+
+```
+/* This is another method of counting up to 100 with the use of variables */
+int i = 0;
+while (i < 100) {
+	Console.Write(i + " ");
+	i++; /* The same as i = i + i; */
+}
+```
