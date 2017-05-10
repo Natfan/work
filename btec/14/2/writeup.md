@@ -19,6 +19,8 @@ Debugging is extremely useful from a development standpoint as it helps me check
 ### Variable Declaration and Scope
 Variable declaration is useful as it allows me to store the unique identifiers of players who are frozen, meaning that checks can be performed on them and cancel their actions if they are within the list. The scope of this variable will be within the main class due to the fact that it will need to be accessed from every class, so it being stored in the main class makes it in the most central position possible.
 
+<div style="page-break-after: always;"></div>
+
 ### Constants
 A constant that will be used is the ChatColor short hands. Instead of having to write out
 
@@ -48,6 +50,8 @@ player.sendMessage(prefix + pri + "You have been " + sec + "frozen" + pri + ".")
 ```
 
 As with the other constants, these variables will be accessible across the entire project.
+
+<div style="page-break-after: always;"></div>
 
 ### Data Types
 I shall be using many different data types, some of which are primitive and can be found within the Java language, and some of which are more advanced and are native to Spigot. I shall list them as follows:
@@ -93,6 +97,8 @@ ItemMeta is a subset of an ItemStack that is used for customizing the Item. It c
 
 #### ChatColor
 ChatColor is the way that colours are used within Spigot, due to the fact that Minecraft only has 16 colours and 6 modifiers, such as obfuscated and bold. This will be used for all colour within the project, such as shown above when the user was informed that they were frozen.
+
+<div style="page-break-after: always;"></div>
 
 ### Triggers Used
 There will be two methods of triggering a user being frozen by an Administrator, the first one will be typing the command `/freeze <playerName>`. The second will be selecting their name from an Inventory based menu system. These methods will add the user to the frozen ArrayList and will display the message to the user that they have been frozen. They will also be given a Blindness effect so that they cannot see, and then when they perform any action that is not permitted then it will be blocked, due to the other events within the project.
@@ -152,19 +158,21 @@ chill: Shows information about the plugin.
 panic: Adds the user that issued the command to the frozen ArrayList.
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Test Plan
 The following is a list of events that I will test, and the things that I will test them with.
 
-| Event               | Expanded explanation                           |
+| Event               | Expanded Explanation                            |
 |---------------------|-------------------------------------------------|
 | onBlockBreak        | Check if regular users can break blocks         |
-|		      |	Check if frozen users can break blocks          |
+|											|	Check if frozen users can break blocks          |
 | onBlockPlace        | Check if regular users can place blocks         |
-|		      | Check if frozen users can place blocks	        |
+|											| Check if frozen users can place blocks	        |
 | onCommandPreprocess | Check if regular users can execute commands     |
-|		      | Check if frozen users can execute commands      |
+|		      						| Check if frozen users can execute commands      |
 | onEnderpearlThrow   | Check if regular users can throw enderpearls    |
-|		      | Check if frozen users can throw enderpearls     |
+|								      | Check if frozen users can throw enderpearls     |
 | onInventoryClose    | Check if regular users can close inventories    |
 |                     | Check if frozen users can close inventories     |
 | onPlayerDropItem    | Check if regular users can drop items           |
@@ -182,88 +190,90 @@ The following is a list of events that I will test, and the things that I will t
 | onPlayerTeleport    | Check if regular users can teleport             |
 |                     | Check if frozen users can teleport              |
 
-* write algorithm & pseudo code
+<div style="page-break-after: always;"></div>
 
 ### Pseudo Code
-In the following segment I will show some pseudo code of various elements of my program, and I shall comment them as to what they do.
+In the following segment I will show some pseudo code of various elements of my program.
+
+A commented version of this can be found at [natfan.github.io/pseudo](https://natfan.github.io/pseudo)
 
 ```
-event : PlayerPlaceBlockEvent /* Executed whenever a player places a block */
-	player event.getPlayer : Player /* Sets the variable "player" to the player that broke the block and sets it to the datatype Player */
-	if Main.frozen.contains(player.getUniqueID) /* checks if the player that broke the block is frozen */
-		event.setCancelled(true) /* cancels the event */
-		player.sendMessage(frozenMessage) /* sends the player a message that they are frozen */
-```
-
-```
-event : CommandPreprocessEvent /* Executed whenever a player runs a command */
-	player event.getPlayer : Player /* Sets the variable "player" to the player that executed the command and sets it to the datatype Player */
-	if Main.frozen.contains(player.getUniqueID) /* checks if the player that executed the command is frozen */
-		event.setCancelled(true) /* cancels the event */
-		player.sendMessage(frozenMessage) /* sends the player a message that they are frozen */
+event : PlayerPlaceBlockEvent
+	player event.getPlayer : Player
+	if Main.frozen.contains(player.getUniqueID)
+		event.setCancelled(true)
+		player.sendMessage(frozenMessage)
 ```
 
 ```
-event : onPlayerMove /* Executed whenever a player moves */
-	player event.getPlayer : Player /* Sets the variable "player" to the player that broke the block and sets it to the datatype Player */
-	if Main.frozen.contains(player.getUniqueID) /* checks if the player that moves is frozen */
-		event.setCancelled(true) /* cancels the event */
-		player.sendMessage(frozenMessage) /* sends the player a message that they are frozen */
+event : CommandPreprocessEvent
+	player event.getPlayer : Player
+	if Main.frozen.contains(player.getUniqueID)
+		event.setCancelled(true)
+		player.sendMessage(frozenMessage)
 ```
 
 ```
-event : CommandExecutor /* Executed whenever a player runs a command */
-	sender : CommandSender /* Sets the variable "sender" to the player that sent the command */
-	commandlabel : String /* Sets the variable "commandlabel" to the command that was run and sets it to the datatype String */
-	if commandlabel.equalsIgnoreCase("freeze") /* Runs the if statement if the command that the player types is /freeze */
-		if sender.hasPermission("chill.freeze") /* Runs the if statement if the sender has the correct permission */
-			if args.length == 0 /* Runs the if statement if the arguments after the command are null (equal to 0) */
-				sender.sendMessage(freezeSyntax) /* Sends the syntax for the freeze command */
-			if args[0].equalsIgnoreCase("all") /* Runs the if statement if the sender wrote the first argument as "all" */
-				if !sender.hasPermission("chill.freeze.all") /* Runs the if statement if the user does not have the correct permission */
-					sender.sendMessage(permissionError) /* Sends the player a permission error */
-				if args[1].equalsIgnoreCase("confirm) /* Runs the if statement if the sender wrote the second argument as "confirm" */
-					for Player all : getOnlinePlayers() /* Goes through all online players and assigns each one to the variable "all" before moving onto the next one */
-						Main.frozen.add(all.getUniqueID) /* Adds the player "all" to the frozen list, effectively freezing them */
-				sender.sendMessage(confirmPlease) /* Sends the sender a confirmation message */
-			targetEntity args[1] : Entity /* Sets the variable targetEntity and applies the first argument that the user gives it, along with setting it to be the Entity datatype */
-			if targetEntity instanceof Player /* Checks if targetEntity is a Player */
-				target targetEntity : Player /* Assigns the value of targetEntity to a new variable "target", which is a player */
-				if Main.frozen.contains(target.getUniqueID) /* Checks if the target's UUID is in the frozen list  */
-					removeEffects(target) /* Remove debuff effects from the target */
-					Main.frozen.remove(target.getUniqueID) /* Removes the target from the frozen list */
-				else /* Checks if the target's UUID is not in the frozen list */
-					if !target.hasPermission("chill.override") /* Prevents other Administrators from being frozen */
-						addEffects(target) /* Adds debuff effects to the target */
-						Main.frozen.add(target.getUniqueID) /* Adds the target to the frozen list */
-					else /* Notifies all online staff members that the user may be trying to abuse
-						sendMessage(player.getName() + " might be trying to abuse!", "chill.notify") /* sends a message to all users with the specific permission node */
+event : onPlayerMove
+	player event.getPlayer : Player
+	if Main.frozen.contains(player.getUniqueID)
+		event.setCancelled(true)
+		player.sendMessage(frozenMessage)
+```
 
-	if commandlabel.equalsIgnoreCase("thaw") /* runs the if statement if the command that the player types is /thaw */
-		if sender.hasPermission("chill.freeze")  /* Runs the if statement if the sender has the correct permission */
-			if args.length == 0 /* Runs the if statement if the arguments after the command are null (equal to 0) */
-				sender.sendMessage(freezeSyntax) /* Sends the syntax for the freeze command */
-			targetEntity args[1] : Entity /* Sets the variable targetEntity and applies the first argument that the user gives it, along with setting it to be the Entity datatype */
-			if targetEntity instanceof Player /* Checks if targetEntity is a Player */
-				target targetEntity : Player /* Assigns the value of targetEntity to a new variable "target", which is a player */
-				if Main.frozen.contains(target.getUniqueID) /* Checks if the target's UUID is in the frozen list  */
-					removeEffects(target) /* Remove debuff effects from the target */
-					Main.frozen.remove(target.getUniqueID) /* Removes the target from the frozen list */
+```
+event : CommandExecutor
+	sender : CommandSender
+	commandlabel : String
+	if commandlabel.equalsIgnoreCase("freeze")
+		if sender.hasPermission("chill.freeze")
+			if args.length == 0
+				sender.sendMessage(freezeSyntax)
+			if args[0].equalsIgnoreCase("all")
+				if !sender.hasPermission("chill.freeze.all")
+					sender.sendMessage(permissionError)
+				if args[1].equalsIgnoreCase("confirm)
+					for Player all : getOnlinePlayers()
+						Main.frozen.add(all.getUniqueID)
+				sender.sendMessage(confirmPlease)
+			targetEntity args[1] : Entity
+			if targetEntity instanceof Player
+				target targetEntity : Player
+				if Main.frozen.contains(target.getUniqueID)
+					removeEffects(target)
+					Main.frozen.remove(target.getUniqueID)
+				else
+					if !target.hasPermission("chill.override")
+						addEffects(target)
+						Main.frozen.add(target.getUniqueID)
+					else
+						sendMessage(player.getName() + " might be trying to abuse!", "chill.notify")
+
+	if commandlabel.equalsIgnoreCase("thaw")
+		if sender.hasPermission("chill.freeze")
+			if args.length == 0
+				sender.sendMessage(freezeSyntax)
+			targetEntity args[1] : Entity
+			if targetEntity instanceof Player
+				target targetEntity : Player
+				if Main.frozen.contains(target.getUniqueID)
+					removeEffects(target)
+					Main.frozen.remove(target.getUniqueID)
 				else /* throw an error as the target isnt frozen
 					sender.sendMessage(targetNotFrozen)
 
-	if commandlabel.equalsIgnoreCase("panic") /* runs the if statement if the command that the player types is /panic */
-		if sender.hasPermission("chill.panic")  /* Runs the if statement if the sender has the correct permission */
-			if !Main.frozen.contains(target.getUniqueID) /* Checks if the target's UUID isn't in the frozen list  */
-				addEffects(target) /* Remove debuff effects from the target */
-				Main.frozen.add(target.getUniqueID) /* Removes the target from the frozen list */
+	if commandlabel.equalsIgnoreCase("panic")
+		if sender.hasPermission("chill.panic")
+			if !Main.frozen.contains(target.getUniqueID)
+				addEffects(target)
+				Main.frozen.add(target.getUniqueID)
 ```
 ### Flow Chart
 The following is a flow chart that will outline the process of this system:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/btec/14/2/Chill%20Flow%20Diagram.png"></img>
 
-<div style="page-break-after=always;"></div>
+<div style="page-break-after: always;"></div>
 
 ## MII: Reasoning Behind Tools and Techniques
 I shall now list some tools and techniques, give reasons as to why they are used and justify them.
@@ -295,6 +305,8 @@ All of these headers can be clicked on to access even more functions. For instan
 
 As you can see, this is a vast amount of options and functions to choose from. This allows the user to perform many more actions than if they did not have a menu, and the preferences settings allows the user to customize their experience as much as they want. Menus would be much harder to write in an imperative language as the developer would not be able to display the menu on button presses, such as clicking on `File -> Open` and also having the ability to press `C-o`. This means that menus are useful and should be used by developers that want to give users larger amount of functionality while still keeping a simple, clean user experience, or UX.
 
+<div style="page-break-after: always;"></div>
+
 ### Debugging
 Debugging is highly useful to developers as it allows them to step through code and see where errors are occurring. This allows developers to spend less time bug fixing and more time coding, meaning that their time is used more efficiently. Most Integrated Development Environments, or IDEs, have their own debugging tools built in, such as underlining or otherwise highlighting code that is syntactically incorrect. Debugging can also be found when executing the code in the form of StackTraces where the developer is shown the position and time of their code's failure, meaning that they can go out of their way to fix it.
 
@@ -302,7 +314,6 @@ Debugging is highly useful to developers as it allows them to step through code 
 Variables are arguably one of the most important concepts of traditional and event driven programming. They allow developers to store data within their programs with specific boundaries, such as being a whole number or one character in length. These pieces of data can be set to be able to be accessed from different places in the program, or they can be kept a secret. Variables can then be manipulated to produce desireable results. I shall show an example of this now.
 
 ```
-/* This is counting up to 100 without the use of variables */
 Console.Write("0 ");
 Console.Write("1 ");
 Console.Write("2 ");
@@ -310,17 +321,15 @@ Console.Write("2 ");
 ```
 
 ```
-/* This is counting up to 100 with the use of variables */
 for (int i = 0; i >= 100; i++) {
 	Console.Write(i + " ");
 }
 ```
 
 ```
-/* This is another method of counting up to 100 with the use of variables */
 int i = 0;
 while (i < 100) {
 	Console.Write(i + " ");
-	i++; /* The same as i = i + i; */
+	i++;
 }
 ```
