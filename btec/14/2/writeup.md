@@ -14,7 +14,7 @@ Loops are also very important for the "\*" feature, which freezes all players on
 Event Handlers are used to prevent frozen players from moving, interacting with their environment, interacting with other players, typing commands or talking in chat, amongst other things. This is extremely useful and should be considered one of the core features of the system.
 
 ### Debugging
-Debugging is extremely useful from a development standpoint as it helps me check where errors are in the code if any arise. I can do this by outputting messages when every action is performed, but only showing the messages to staff members if the debugging boolean is set to true. This should not be used in production to prevent spam towards the Administrator, as these messages will be sent in chat and could cause lots of spam such as a message being sent whenever a frozen player changes their position even by a centimeter.
+Debugging is extremely useful from a development standpoint as it helps me check where errors are in the code if any arise. I can do this by outputting messages when every action is performed, but only showing the messages to staff members if the debugging Boolean is set to true. This should not be used in production to prevent spam towards the Administrator, as these messages will be sent in chat and could cause lots of spam such as a message being sent whenever a frozen player changes their position even by a centimetre.
 
 ### Variable Declaration and Scope
 Variable declaration is useful as it allows me to store the unique identifiers of players who are frozen, meaning that checks can be performed on them and cancel their actions if they are within the list. The scope of this variable will be within the main class due to the fact that it will need to be accessed from every class, so it being stored in the main class makes it in the most central position possible.
@@ -74,7 +74,7 @@ The Player is a subset of an entity that is controlled by the user. Both the Adm
 The HumanEntity is an interface of the Player, and NPCs, that is used by chest functions within Spigot.
 
 #### Projectile
-The Projectile is an entity that moves through the air within the game. There are a few subsets of it, such as Arrows, Potions, EnderPearls, Eggs and Snowballs. As a rule of thumb, if the player can throw it then it is a Projectile. These will need to be
+The Projectile is an entity that moves through the air within the game. There are a few subsets of it, such as Arrows, Potions, Enderpearls, Eggs and Snowballs. As a rule of thumb, if the player can throw it then it is a Projectile. These will need to be
 
 ##### Potion
 A Potion is an item within Minecraft that gives the consumer a specific effect when applied. They can either be drunk or, in the case of this instance, thrown onto the ground. These 'splash' potions cause an AoE which applies the potion effect to all entities within the vicinity.
@@ -128,7 +128,7 @@ When the Administrator wishes to freeze a user, they can either issue the comman
 When the user is frozen, a message will pop up in their chat notifying them that they have been frozen. The message will also tell them to join a voice chat server such as TeamSpeak3 or Discord.
 
 #### Messages in Chat when Action is Forbidden
-When a user performs an action which is prohibitted while frozen, the same notification that was sent when they were first frozen will also be sent, but the action that they performed will also be within the message so that they know what they should not be doing.
+When a user performs an action which is prohibited while frozen, the same notification that was sent when they were first frozen will also be sent, but the action that they performed will also be within the message so that they know what they should not be doing.
 
 ### Design Draft Sketches
 #### \#1
@@ -276,7 +276,7 @@ Triggers are actions that get triggered when an event occurs. These are very use
 
 ### Menus
 Menus are a method of allowing users to interact with more advanced parts of a program, such as saving, loading and editing preferences. In many GUI programs, a list of menus can be accessed by pressing `ALT` which will show up headings such as
-* File 
+* File
 * Edit
 * View
 * Print
@@ -293,10 +293,10 @@ All of these headers can be clicked on to access even more functions. For instan
 * Preferences
 * Quit
 
-As you can see, this is a vast amount of options and functions to choose from. This allows the user to perform many more actions than if they did not have a menu, and the preferences settings allows the user to customize their experience as much as they want. Menus would be much harder to write in an imperative language as the developer would not be able to display the menu on button presses, such as clicking on `File -> Open` and also having the ability to press `C-o`. This means that menus are useful and should be used by developers that want to give users larger amount of functionality while still kepping a simple, clean user experience, or UX.
+As you can see, this is a vast amount of options and functions to choose from. This allows the user to perform many more actions than if they did not have a menu, and the preferences settings allows the user to customize their experience as much as they want. Menus would be much harder to write in an imperative language as the developer would not be able to display the menu on button presses, such as clicking on `File -> Open` and also having the ability to press `C-o`. This means that menus are useful and should be used by developers that want to give users larger amount of functionality while still keeping a simple, clean user experience, or UX.
 
 ### Debugging
-Debugging is highly useful to developers as it allows them to step through code and see where errors are occuring. 
+Debugging is highly useful to developers as it allows them to step through code and see where errors are occurring. This allows developers to spend less time bug fixing and more time coding, meaning that their time is used more efficiently. Most Integrated Development Environments, or IDEs, have their own debugging tools built in, such as underlining or otherwise highlighting code that is syntactically incorrect. Debugging can also be found when executing the code in the form of StackTraces where the developer is shown the position and time of their code's failure, meaning that they can go out of their way to fix it.
 
 ### Variables
 
