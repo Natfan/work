@@ -52,4 +52,27 @@ Within databases there are three different forms of normalization.
 | 04 |  blue, red |
 
 ###### 2NF
+| ID | CID | Literal Location |
+|----|-----|------------------|
+| 01 | 110 | London           |
+| 02 | 420 | California       | 
+| 03 | 911 | Cape Town        |
 
+| ID | CID |
+|----|-----|
+| 01 | 110 |
+| 02 | 420 |
+| 03 | 911 |
+
+| CID | Literal Location |
+|-----|------------------|
+| 110 | London           |
+| 420 | California       |
+| 911 | Cape Town        |
+
+###### 3NF
+| BID | GID | Literal Genre | Price |
+|-----|-----|---------------|-------|
+| 221 | 001 | Fiction       | 
+| 486 | 002 | Non-Fiction   |
+| 683 | 003 | Education     |
