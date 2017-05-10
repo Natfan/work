@@ -22,6 +22,24 @@ Data Validation is a method of ensuring that all data within the database is val
 #### Normalization
 Within databases there are three different forms of normalization.
 
+* **UNF**, or **Unnormalized** is when there is lots of data redundancy and can contain many data structures within a single hallmark.
 * **1NF**, or **First Normal Form** is when each field in a table does not contain the same type of information. An example of this would be in a customer list where each table would only contain one phone number.
 * **2NF**, or **Second Normal Form** is when each field in a table must be a function of the other fields in the table if it is not a determiner of the contents of that field
 * **3NF**, or **Third Normal Form** is when there is absolutely no duplicate information within the table. For example, if two tables both require a phone number field, that information would be placed into a separate table, and the two other tables would then information that they want such as the phone number data, via an index field in the newly created phone number table. Any and all change that are made to a phone number will now automatically update and be reflected to all tables that use the phone number table.
+
+##### Examples
+###### UNF
+| ID |   Colour   | Price |
+|----|------------|-------|
+| 01 | red, green | 07.49 |
+| 02 |    blue    | 02.24 |
+| 03 |   yellow   | 06.87 |
+| 04 |  blue, red | 21.05 |
+
+###### 1NF
+| ID | Price |      | ID |   Colour   |
+|----|-------|      |----|------------|
+| 01 | 07.49 |      | 01 | red, green |
+| 02 | 02.24 |      | 02 |     blue   |
+| 03 | 06.87 |      | 03 |    yellow  |
+| 04 | 21.05 |      | 04 |  blue, red |
