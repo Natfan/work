@@ -50,3 +50,6 @@ Within databases there are three different forms of normalization.
 | 02 |    blue    |
 | 03 |   yellow   |
 | 04 |  blue, red |
+
+###### 2NF
+
