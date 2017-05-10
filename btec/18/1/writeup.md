@@ -37,9 +37,16 @@ Within databases there are three different forms of normalization.
 | 04 |  blue, red | 21.05 |
 
 ###### 1NF
-| ID | Price |      | ID |   Colour   |
-|----|-------|      |----|------------|
-| 01 | 07.49 |      | 01 | red, green |
-| 02 | 02.24 |      | 02 |     blue   |
-| 03 | 06.87 |      | 03 |    yellow  |
-| 04 | 21.05 |      | 04 |  blue, red |
+| ID | Price |
+|----|-------|
+| 01 | 07.49 |
+| 02 | 02.24 |
+| 03 | 06.87 |
+| 04 | 21.05 |
+
+| ID |   Colour   |
+|----|------------|
+| 01 | red, green |
+| 02 |    blue    |
+| 03 |   yellow   |
+| 04 |  blue, red |
