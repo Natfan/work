@@ -2,7 +2,6 @@
 *By Nathan Windisch*
 
 ## Task I: Relational Databases
-
 ### PI: Business Information, Entities, Attributes and Data Validation
 #### Business Information
 Business Information is data such as client information, stock information, share information and more. All of these individual pieces of data should be stored in a database to allow easier access to the system, resulting in faster data transference and quicker response times. Databases come in many forms and use different languages such as `SQL` and `dBase`, and can be used in many different ways. The business information that is saved should be encrypted, to prevent unauthorized access of the data, which may be considered sensitive. Encryption of this data is not just a good practice as far as customer relations go, as they know that their data is safe, but it also can be a legal requirement in some countries, meaning that the business is liable if any data is lost or stolen.
@@ -18,3 +17,11 @@ Entity Relationship is a way of creating diagrams that show how entities can be 
 
 #### Data Validation
 Data Validation is a method of ensuring that all data within the database is valid and accurate. This can be done by performing checks when the data is entered and throwing an exception if an error is made. Another way that this can be achieved is by only allowing certain data types to be allowed to be entered into a field, such as only integers being allowed for an age to be input. This can be expanded upon to ensure that the data that is input into a Date Of Birth field has six numbers split with a slash, such as `08/09/98` for the `8th September 1998`. Data Validation is a huge part of database management as if the data is not validated and the inputs are not sanitized, then hackers can inject malicious code into the system such as `DROP TABLE Customers;` which will result in the database `Customers` being deleted.
+
+### PII: Designing a Relational Database
+#### Normalization
+Within databases there are three different forms of normalization.
+
+* **1NF**, or **First Normal Form** is when each field in a table does not contain the same type of information. An example of this would be in a customer list where each table would only contain one phone number.
+* **2NF**, or **Second Normal Form** is when each field in a table must be a function of the other fields in the table if it is not a determiner of the contents of that field
+* **3NF**, or **Third Normal Form** is when there is absolutely no duplicate information within the table. For example, if two tables both require a phone number field, that information would be placed into a separate table, and the two other tables would then information that they want such as the phone number data, via an index field in the newly created phone number table. Any and all change that are made to a phone number will now automatically update and be reflected to all tables that use the phone number table.
