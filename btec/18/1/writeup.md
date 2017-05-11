@@ -96,6 +96,7 @@ Within databases there are three different forms of normalization.
 | 683 | 003 | 35.73 |
 
 | GID | Literal Genre |
+|-----|---------------|
 | 001 | Fiction       |
 | 002 | Non-Fiction   |
 | 003 | Education     |
