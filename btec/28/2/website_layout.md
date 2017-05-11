@@ -1,10 +1,10 @@
 home#
 history#
-attractions
- school
- hospital
- facilities
+attractions#
+ school#
+ hospital#
+ facilities#
  crime stats#
-map
+map#
 socioeconomic details
 sitemap
