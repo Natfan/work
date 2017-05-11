@@ -38,6 +38,7 @@ Within databases there are three different forms of normalization.
 
 ###### 1NF
 **Unnormalized**
+
 | ID | Price |
 |----|-------|
 | 01 | 07.49 |
@@ -46,6 +47,7 @@ Within databases there are three different forms of normalization.
 | 04 | 21.05 |
 
 **1NFified**
+
 | ID |   Colour   |
 |----|------------|
 | 01 | red, green |
@@ -55,6 +57,7 @@ Within databases there are three different forms of normalization.
 
 ###### 2NF
 **Unnormalized**
+
 | ID | CID | Literal Location |
 |----|-----|------------------|
 | 01 | 110 | London           |
@@ -62,6 +65,7 @@ Within databases there are three different forms of normalization.
 | 03 | 911 | Cape Town        |
 
 **2NFified**
+
 | ID | CID |
 |----|-----|
 | 01 | 110 |
@@ -76,6 +80,7 @@ Within databases there are three different forms of normalization.
 
 ###### 3NF
 **Unnormalized**
+
 | BID | GID | Literal Genre | Price |
 |-----|-----|---------------|-------|
 | 221 | 001 | Fiction       | 05.88 |
@@ -83,6 +88,7 @@ Within databases there are three different forms of normalization.
 | 683 | 003 | Education     | 35.73 |
 
 **3NFified**
+
 | BID | GID | Price |
 |-----|-----|-------|
 | 221 | 001 | 05.88 |
