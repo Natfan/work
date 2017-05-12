@@ -13,14 +13,13 @@
     .w3-half img:hover{opacity:1}
 
     img {
-        border: solid 5px transparent;
+      border: solid 5px transparent;
     }
     img:hover {
       border-color: teal;
     }
   </style>
   <body>
-    <!-- Sidenav/menu -->
     <nav class="w3-sidenav w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidenav"><br>
       <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding-xlarge w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px">Close Menu</a>
       <div class="w3-container">
@@ -34,26 +33,21 @@
       <a href="#faq" onclick="w3_close()" class="w3-padding w3-hover-white">FAQ</a>
     </nav>
 
-    <!-- Top menu on small screens -->
     <header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
       <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
       <span>Redruth</span>
     </header>
 
-    <!-- Overlay effect when opening sidenav on small screens -->
     <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-    <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-      <!-- Header -->
       <div class="w3-container" style="margin-top:80px" id="overview">
         <h1 class="w3-jumbo"><b>Redruth</b></h1>
         <h1 class="w3-xxxlarge w3-text-teal"><b>Overview.</b></h1>
         <hr style="width:50px;border:5px solid teal" class="w3-round">
       </div>
 
-      <!-- Photo grid (modal) -->
       <div class="w3-row-padding">
         <div class="w3-half">
           <p>Redruth is a small seaside town within Cornwall. Once home to a large mining industry, the town has been transformed into a tourist
@@ -66,25 +60,25 @@
         </div>
       </div>
 
-      <!-- Modal for full size images on click-->
       <div id="modal01" class="w3-modal w3-black w3-padding-0" onclick="this.style.display='none'">
         <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright">×</span>
         <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-        </div>
       </div>
+    </div>
 
-      <div class="w3-container" id="history" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-teal"><b>History.</b></h1>
-        <hr style="width:50px;border:5px solid teal" class="w3-round">
-        <p>The history of Redruth is a long and interesting one. Originally, it was a small market town that was mostly ignored due to it's larger
+    <div class="w3-container" id="history" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-teal"><b>History.</b></h1>
+      <hr style="width:50px;border:5px solid teal" class="w3-round">
+      <p>The history of Redruth is a long and interesting one. Originally, it was a small market town that was mostly ignored due to it's larger
     neighbors. Once there was a boom in the ore industry at the start of the industrial revolution, everything changed. The copper ore that was found all over
     Redruth was suddenly vauable, and the population and wealth of the area exploded with the new found popular resources that seemed to be everywhere. Wealthy
     businessmen set up mines around Redruth in order to mine the copper to feed the machines of the industrial revolution, and the population of Redruth benefitted
     greatly from this. Previous mines were also used from previous business ventures from back when Redruth and the surrounding area was used for tin mining
     businesses. The high need for copper was driven by the large quantities of brass that had to be manufactured, the key component of which is copper. While the
-    buninessmen who owned the mines became rich and successful, the miners and their families remain poor, ironically.</p>
+    buninessmen who owned the mines became rich and successful, the miners and their families remain poor, ironically.
+      </p>
 
-    <p>During this time, the town started to develop itself around the mining industry. In 1882 a <em>School of Mines</em> was created to help
+      <p>During this time, the town started to develop itself around the mining industry. In 1882 a <em>School of Mines</em> was created to help
     educate a new generation of miners. Another key mining feature that was added during the late 1800 was the <em>Mining Exchange</em>, which was used to trade
     mineral stocks. The industrial revolution that helped reboot the mining industry was helping the town have a new lease of life. Sadly this didn't last long,
     and by the end of the 19th century, the mining industry had moved away from the Cornwall area due to a decline in resources, plunging the town into a
@@ -92,11 +86,12 @@
     either in the mining business or were being trained to work in the mines, they were now in redundent positions in jobs that were no longer availible. Because
     of this, many people emigrated to other countries that were more mining speicalised, such as the Americas, Austalasia and South Africa. The final operational
     mine near Redruth was also the last to be closed in all of Cornwall. The South Crofty mine in Pool closed in the first few months of 1998, effectively ending
-    an era.</p>
-      </div>
+    an era.
+      </p>
+    </div>
 
-      <div class="w3-container" id="attractions" style="margin-top:75px">
-        <h1 class="w3-xxxlarge w3-text-teal"><b>Attractions.</b></h1>
+    <div class="w3-container" id="attractions" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-teal"><b>Attractions.</b></h1>
         <hr style="width:50px;border:5px solid teal" class="w3-round">
         <p>Oddles of fun.</p>
         <p>Cornwall has loads of fun things do to, and Redruth even moreso! Take a look at some of the things you can do below!</p>
@@ -148,7 +143,7 @@
         <div class="w3-col m6 w3-margin-bottom">
 	  <div class="w3-light-grey">
 	    <div class="w3-container">
-    	      <h3>Beaches.</h3>
+    	 <h3>Beaches.</h3>
     	      <p class="w3-opacity">Relaxing Times.</p>
 	      <p>Redruth has three incredible beaches with loads of things to do. All of these beaches have good surf and seasonal lifeguard support.</p>
 	      <p>
@@ -198,7 +193,7 @@
         <h1 class="w3-xxxlarge w3-text-teal"><b>Frequently Asked Questions.</b></h1>
         <hr style="width:50px;border:5px solid teal" class="w3-round" />
         <p>The following are some questions that are normally asked about Redruth.</p>
-	<p>
+	        <p>
 	  <ul>
 	    <li>What is the Capital of Cornwall?
 	      <ul>
@@ -226,7 +221,6 @@
     </div>
 
     <script>
-    // Script to open and close sidenav
     function w3_open() {
         document.getElementById("mySidenav").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
@@ -237,7 +231,6 @@
         document.getElementById("myOverlay").style.display = "none";
     }
 
-    // Modal Image Gallery
     function onClick(element) {
       document.getElementById("img01").src = element.src;
       document.getElementById("modal01").style.display = "block";
