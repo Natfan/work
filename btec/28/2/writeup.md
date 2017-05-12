@@ -7,10 +7,10 @@ For my website I shall be using two assets, as follows:
 * W3.CSS - A Cascading Style Sheet library created by w3schools, a website based around teaching how to code, develop, use and understand computers along with learning markup languages such as HTML, Markdown and CSS.
 
 * Redruth Map - A map by Ordinance Survey, a national map agency that covers all of Great Britain. It has been supplied Wikimedia, a free, open-source information website that allowed me access to the image. It is available for reuse as it is copyrighted under the Creative Commons licence, which allows for non-commercial redistribution.
-![Redruth Map](redruth.png)
+![Redruth Map](site/redruth.png)
 
 ## PV: Creating an Interactive Website
-The website is made over one page, with a navigation bar on the side. 
+The website is made over one page, with a navigation bar on the side.
 
 ### Header & Sidebar
 The following code is from the header and sidebar.
@@ -63,9 +63,11 @@ The following code is from the header and sidebar.
 ```
 
 And now here is what the header actually look like:
+
 ![header](header.png)
 
 And here is what the sidebar actually looks like:
+
 ![sidebar](sidebar.png)
 
 ### Overview
