@@ -71,6 +71,11 @@ And here is what the sidebar actually looks like:
 ![sidebar](sidebar.png)
 
 ### Overview
+The following is the code for the overview segment.
+
+```html
+
+```
 
 ## MII: Explaining the Tools and Techniques Used
 
