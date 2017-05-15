@@ -226,6 +226,40 @@ One final technology is server side scripting. This can allow users to interact 
 <div style="page-break-after: always;"></div>
 
 ## MIII: Improving the Effectiveness of the Website
+There were two main improvements that needed to be performed to the website to make set it to a publishable state, the first being to fix the map. The main issue with this was that the webpage was hosted on a local server which did not have JavaScript installed, whereas if I viewed the code as a file the JavaScript would work. The following is an image of the working version of the website with the map working:
+
+!(map)[map.png]
+
+The other improvement was that I should add some copywrite text to the bottom of the website to prevent theft of my data. The following was the code for this copywrite text:
+
+```html
+      <div class="w3-container" id="contact" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
+        <hr style="width:50px;border:5px solid teal" class="w3-round" />
+	<p>This website is owned by Nathan Windisch on behalf of the Redruth Council in Cornwall, UK. Please redirect all questions about the area to <a href="mailto:admin@redruth-tc.gov.uk">Redruth Council</a> and please redirect any mistakes, faults or web design questions to the <a href="mailto:nathan@windisch.co.uk">Site Administrator</a>.</p>
+      </div>
+    </div>
+```
+
+And the following is the code for the updated navbar
+
+```html
+      <a href="#" onclick="w3_close()" class="w3-padding w3-hover-white">Home.</a>
+      <a href="#overview" onclick="w3_close()" class="w3-padding w3-hover-white">Overview.</a>
+      <a href="#history" onclick="w3_close()" class="w3-padding w3-hover-white">History.</a>
+      <a href="#attractions" onclick="w3_close()" class="w3-padding w3-hover-white">Attractions.</a>
+      <a href="#map" onclick="w3_close()" class="w3-padding w3-hover-white">Map.</a>
+      <a href="#faq" onclick="w3_close()" class="w3-padding w3-hover-white">FAQ.</a>
+      <a href="#contact" onclick="w3_close()" class="w3-padding w3-hover-white">Contact.</a>
+```
+
+This is the Contact text:
+
+![contact](contact.png)
+
+And this is the updated navbar:
+
+![updated navbar](updated_navbar.png)
 
 
 ## DII: Discussing Website Techniques that Aid a User
