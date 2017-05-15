@@ -7,13 +7,16 @@ For my website I shall be using two assets, as follows:
 * W3.CSS - A Cascading Style Sheet library created by w3schools, a website based around teaching how to code, develop, use and understand computers along with learning markup languages such as HTML, Markdown and CSS.
 
 * Redruth Map - A map by Ordinance Survey, a national map agency that covers all of Great Britain. It has been supplied Wikimedia, a free, open-source information website that allowed me access to the image. It is available for reuse as it is copyrighted under the Creative Commons licence, which allows for non-commercial redistribution.
-![Redruth Map](site/redruth.png)
+
+<img src="site/redruth.png" alt="redruth map" style="width: 50%;"></img>
+
+<div style="page-break-after: always;"></div>
 
 ## PV: Creating an Interactive Website
 The website is made over one page, with a navigation bar on the side.
 
 ### Header & Sidebar
-The following code is from the header and sidebar.
+The following code is from the Header and Sidebar.
 
 ```html
 <!DOCTYPE html>
@@ -38,7 +41,6 @@ The following code is from the header and sidebar.
     }
   </style>
   <body>
-    <!-- Sidenav/menu -->
     <nav class="w3-sidenav w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidenav"><br>
       <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding-xlarge w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px">Close Menu</a>
       <div class="w3-container">
@@ -52,33 +54,176 @@ The following code is from the header and sidebar.
       <a href="#faq" onclick="w3_close()" class="w3-padding w3-hover-white">FAQ</a>
     </nav>
 
-    <!-- Top menu on small screens -->
     <header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
       <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
       <span>Redruth</span>
     </header>
 
-    <!-- Overlay effect when opening sidenav on small screens -->
     <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+      <div class="w3-container" style="margin-top:80px" id="overview">
+        <h1 class="w3-jumbo"><b>Redruth</b></h1>
 ```
 
-And now here is what the header actually look like:
+And now here is what the Header actually look like:
 
 ![header](header.png)
 
-And here is what the sidebar actually looks like:
+And here is what the Sidebar actually looks like:
 
 ![sidebar](sidebar.png)
 
+<div style="page-break-after: always;"></div>
+
 ### Overview
-The following is the code for the overview segment.
+The following is the code for the Overview segment.
 
 ```html
+	<h1 class="w3-xxxlarge w3-text-teal"><b>Overview.</b></h1>
+        <hr style="width:50px;border:5px solid teal" class="w3-round">
+      </div>
 
+      <div class="w3-row-padding">
+        <div class="w3-half">
+          <p>Redruth is a small seaside town within Cornwall. Once home to a large mining industry, the town has been transformed into a tourist
+    resort with many different attractions. See the <em>attractions</em> segment for more information.</p>
+        </div>
+
+        <div class="w3-half">
+          <p>Redruth has a population of around 14,000, and has many interesting museums that have been converted from the abandoned mines that are
+          scattered over the town. For more information about a few of the mines within Redruth, see the <em>mines</em> segment.</p>
+        </div>
+      </div>
+```
+This is the output of that code.
+
+![overview](overview.png)
+
+
+<div style="page-break-after: always;"></div>
+
+### History
+The following is the code for the History segment.
+```html
+<div class="w3-container" id="history" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-teal"><b>History.</b></h1>
+      <hr style="width:50px;border:5px solid teal" class="w3-round">
+      <p>The history of Redruth is a long and interesting one. Originally, it was a small market town that was mostly ignored due to it's larger
+    neighbors. Once there was a boom in the ore industry at the start of the industrial revolution, everything changed. The copper ore that was found all over
+    Redruth was suddenly vauable, and the population and wealth of the area exploded with the new found popular resources that seemed to be everywhere. Wealthy
+    businessmen set up mines around Redruth in order to mine the copper to feed the machines of the industrial revolution, and the population of Redruth benefitted
+    greatly from this. Previous mines were also used from previous business ventures from back when Redruth and the surrounding area was used for tin mining
+    businesses. The high need for copper was driven by the large quantities of brass that had to be manufactured, the key component of which is copper. While the
+    buninessmen who owned the mines became rich and successful, the miners and their families remain poor, ironically.
+      </p>
+
+      <p>During this time, the town started to develop itself around the mining industry. In 1882 a <em>School of Mines</em> was created to help
+    educate a new generation of miners. Another key mining feature that was added during the late 1800 was the <em>Mining Exchange</em>, which was used to trade
+    mineral stocks. The industrial revolution that helped reboot the mining industry was helping the town have a new lease of life. Sadly this didn't last long,
+    and by the end of the 19th century, the mining industry had moved away from the Cornwall area due to a decline in resources, plunging the town into a
+    spiraling into a depression as there was lots of mining equipment that was no longer being used. Also, due to the fact that all of the current population were
+    either in the mining business or were being trained to work in the mines, they were now in redundent positions in jobs that were no longer availible. Because
+    of this, many people emigrated to other countries that were more mining speicalised, such as the Americas, Austalasia and South Africa. The final operational
+    mine near Redruth was also the last to be closed in all of Cornwall. The South Crofty mine in Pool closed in the first few months of 1998, effectively ending
+    an era.
+      </p>
+</div>
+```
+This is the output.
+
+![history](history.png)
+
+<div style="page-break-after: always;"></div>
+
+### Map
+This is what the Map's HTML is:
+```html
+<div class="w3-container" id="map" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-teal"><b>Map.</b></h1>
+        <hr style="width:50px;border:5px solid teal" class="w3-round">
+        <p>The following is an interactive map of Redruth, supplied by Google Maps.</p>
+      </div>
+
+      <div class="w3-row-padding">
+        <div class="w3-half w3-margin-bottom">
+	  <div id="mapdiv" style="width: 400px; height: 400px;">My map will go here</div>
+	  <script>
+	    function myMap() {
+    	      var mapOptions = {
+	        center: new google.maps.LatLng(50.233107, -5.227353),
+        	zoom: 15,
+        	mapTypeId: google.maps.MapTypeId.HYBRID
+    	      }
+	      var map = new google.maps.Map(document.getElementById("mapdiv"), mapOptions);
+	    }
+	  </script>
+	  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        </div>
+      </div>
+```
+And this is the output document:
+
+![map broken](map_broken.png)
+
+As you can see, the map is broken currently.
+
+<div style="page-break-after: always;"></div>
+
+### Frequently Asked Questions
+The following is the code for the Frequently Asked Questions:
+
+```html
+      <div class="w3-container" id="faq" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-teal"><b>Frequently Asked Questions.</b></h1>
+        <hr style="width:50px;border:5px solid teal" class="w3-round" />
+        <p>The following are some questions that are normally asked about Redruth.</p>
+	        <p>
+	  <ul>
+	    <li>What is the Capital of Cornwall?
+	      <ul>
+	        <li>Truro</li>
+	      </ul>
+	    </li>
+	    <li>What is the Population of Redruth?
+	      <ul>
+	        <li>12,350~, compared to 550,000~ in Cornwall.</li>
+	      </ul>
+	    </li>
+	    <li>What are some important Industries in Redruth?
+	      <ul>
+	        <li>Previously Tin and Copper, now China Clay</li>
+	      </ul>
+	    </li>
+	    <li>What does Redruth mean?
+	      <ul>
+	        <li>Red River</li>
+	      </ul>
+	    </li>
+	  </ul>
+	</p>
+      </div>
+    </div>
 ```
 
-## MII: Explaining the Tools and Techniques Used
+And the following is the output:
 
+![faq](faq.png)
+
+<div style="page-break-after: always;"></div>
+
+## MII: Explaining the Tools and Techniques Used
+One tool that can be used to create websites are WYSIWYG based editors such as Serif Web Plus, which is a premium software that you have to download. Serif Web Plus allows users to drag and drop elements onto their website and make them interact with one another. I personally find this software difficult and "fiddly", as you need to do many things to change a functional website into a good looking one. I would recommend this for beginners as you can build a website visually and then view the HTML and learn from it. Another WYSIWYG editor is Wix, an online website builder that is similar to Serif Web Plus but is more proprietary and does not give the user access to the HTML. Also, it being online it is Software As A Service or SaaS, meaning that you need a constant internet connection to access it.
+
+One technique that must be used when writing a website is a markup language. A popular example of this is `HTML`, and derivatives of this such as `XHTML` and `HTML5`. These languages allow users to populate webpages with text, images, link, tables and more. HTML can be difficult to use due to it's extensive amount of variables that need to be learnt and placed in the right order for the webpage to function as intended, meaning that a user may prefer another markup language. A popular one is called `BBCode` and it is primarily used in forum software for easier embedding of links and images. Another language is `Markdown`, which is widely used by developers to generate good documentation such as `README.md` pages. Markdown is also used on some social media websites such as `reddit`, which lets users format text. The reason why `Markdown` and `BBCode` are used on forum software and social media is because it gives users similar experience to the formatting of HTML, without the possible security flaws involved.
+
+Another technology that can be used in conjuncture with HTML documents are Cascading Style Sheets, or `CSS`. CSS allows developers to customize the output of the HTML, from simply changing colours to 3D design, beautiful menus and even calculators, when combined with some JS.
+
+One final technology is server side scripting. This can allow users to interact with a website in many different ways, such as registering for a website, smooth scrolling, code syntax correction and even online graphic novels! There are two main languages that are used in server side scripting, the first being `PHP`, or PHP: Hypertext Preprocessor - a recursive acronym. This software is purely run on the server side, meaning that the client does not need to download or install any external libraries in order to use the website. The other software is called JavaScript, or more commonly known as `JS`. JS is the client-side variation of the code, but it can be run on a server as `Node.JS`.
+
+<div style="page-break-after: always;"></div>
 
 ## MIII: Improving the Effectiveness of the Website
 
