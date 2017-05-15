@@ -7,7 +7,7 @@ For this segment I will be listing on screen help that will be displayed when th
 ### The Main Help Page
 The following page will be sent when a user executes the command `/chill`:
 
-![main page](mainpage.png)
+![chill](chill.png)
 
 This is what the code for it looks like:
 
@@ -21,17 +21,17 @@ sender.sendMessage("/panic - Places you into panic mode, whereby you cannot be u
 #### Freeze
 The following is what will be sent if the user execute too many or too few arguments after the '/freeze' command:
 
-![freeze command](freeze.png)
+![freeze command](pics/freeze.png)
 
 And this is what the code for it looks like:
 
 ```java
-sender.sendMessage("/freeze <playerName>");
+sender.sendMessage("Please specify a player.");
 ```
 
 #### Freeze All
 The following is what will be sent if the user execute too many or too few arguments after the '/freeze all' command:
-![freeze all command](freezeall.png)
+![freeze all command](pics/freezeall.png)
 
 And this is what the code for it looks like:
 
@@ -43,12 +43,12 @@ sender.sendMessage("If you are okay with this, type /freeze all confirm");
 
 #### Thaw
 The following is what will be sent if the user execute too many or too few arguments after the '/thaw' command:
-![thaw command](thaw.png)
+![thaw command](pics/thaw.png)
 
 And this is what the code for it looks like:
 
 ```java
-sender.sendMessage("/thaw <playerName>");
+sender.sendMessage("Please specify a player.");
 ```
 
 <div style="page-break-after: always"></div>
