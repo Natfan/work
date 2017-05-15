@@ -8,7 +8,7 @@ For my website I shall be using two assets, as follows:
 
 * Redruth Map - A map by Ordinance Survey, a national map agency that covers all of Great Britain. It has been supplied Wikimedia, a free, open-source information website that allowed me access to the image. It is available for reuse as it is copyrighted under the Creative Commons licence, which allows for non-commercial redistribution.
 
-<img src="site/redruth.png" alt="redruth map" style="width: 50%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/28/2/site/redruth.png" alt="redruth map" style="width: 50%;"></img>
 
 <div style="page-break-after: always;"></div>
 
