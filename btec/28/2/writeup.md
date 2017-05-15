@@ -296,3 +296,23 @@ Menus should also highlight the current place in which a user is in, so that the
 The reason why THINGDEX is emboldened is because all things that are not either the home page, the about page or the contact page are placed under the Thingdex in alphabetical order.
 
 ## DIII: Demonstrating that the Website meets the Requirements
+The end goal of this website was to try to attract new people to a place in the UK. The website had to contain 5 pages about various things to do with the place, and the theme of the website had to match the region. I achieved this by making a website that is comprised of 7 subsections on one page, 2 of which are miscelanious links: one that goes to the top of the page and the other that takes the user to the bottom of the page where they can see contact information and copyright data. The other 5 sections are as follows:
+
+* Overview
+ - This was a page that was giving a general overview of the town, including quick statistics and suggestions on which parts of the site to visit if they want to learn more.
+* History
+ - This was a rather in-depth section that explained how Redruth came to be, from it's origins to the end of the mining era that was a huge landmark in the change of the small, old mining town.
+* Attractions
+ - This page describes four main attractions about Redruth
+  * Mining
+  * Education
+  * Low Crime Levels
+  * Beaches
+* Map
+ - This page gives the user access to an interactive map, powered by Google Maps.
+* FAQ
+ - This page has some short quick questions about Redruth, and their answers.
+
+These 5 segments contains lots of data that a person can use to make a decision to move to Redruth.
+
+I believe that the colour scheme that I chose for this website is good as it is a similar colour to the ocean and makes the user think about calm things, influencing their decision to move to Redruth.
