@@ -230,7 +230,7 @@ There were two main improvements that needed to be performed to the website to m
 
 !(map)[map.png]
 
-The other improvement was that I should add some copywrite text to the bottom of the website to prevent theft of my data. The following was the code for this copywrite text:
+The other improvement was that I should add some copyright text to the bottom of the website to prevent theft of my data. The following was the code for this copyright text:
 
 ```html
       <div class="w3-container" id="contact" style="margin-top:75px">
@@ -261,8 +261,15 @@ And this is the updated navbar:
 
 ![updated navbar](updated_navbar.png)
 
+<div style="page-break-after: always;"></div>
 
 ## DII: Discussing Website Techniques that Aid a User
+There are a few things that can be used within a website to aid a user's navigational journey through a website. The first of which is page tagging. This means setting the metadata of a webpage to contain specific data allowing for easier categorisation of similar pages. This means that if a user goes to `https://example.org/tag/code` then they will have access to view all the pages tagged with "code". The issue with this is that many different subjects can be grouped under "code", such as `C#`, `Java` and `Ruby`. Along with this, markup languages which are not strictly programming languages could be categorised here, such as `HTML` and `Markdown`. To subcategorise this, the tag `/code/programming` could be implemented to ensure that only the latter list of searches will come up. If the user wanted to be even more specific, they could use `/code/js` to access only JavaScript resources. The only real downside to this is that the feature will take a lot of time and effort as many different tags will need to be added to each page in order to make this system complete. This large amount of effort may also be wasted, depending on how many people actually use this system.
 
+Searching is a key part of website traversal. It allows the user to enter key terms and get results of those terms, ranked from many different variables such as most searched, most relevant, or alphabetical. This algorithm can be tweaked and modified behind the scenes for optimization purposes, without generally affecting the user's experience. The main issue with this technology, in comparison to showing the user a word mp of all the tags used, with larger ones either having more pages or searched more often, is that it can take a lot of time and energy to get right. If the code to execute a search is written poorly, then users may leave the site as they find it difficult to find things. Because of this, website developers should try to implement as many technologies as possible in order to allow the user to pick and chose how they want to navigate the site. 
+
+search
+menus
+sitemap
 
 ## DIII: Demonstrating that the Website meets the Requirements
