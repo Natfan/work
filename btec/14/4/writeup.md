@@ -7,7 +7,7 @@ For this segment I will be listing on screen help that will be displayed when th
 ### The Main Help Page
 The following page will be sent when a user executes the command `/chill`:
 
-![chill](chill.png)
+![chill](https://github.com/Natfan/work/raw/master/btec/14/4/pics/chill.png)
 
 This is what the code for it looks like:
 
@@ -21,7 +21,7 @@ sender.sendMessage("/panic - Places you into panic mode, whereby you cannot be u
 #### Freeze
 The following is what will be sent if the user execute too many or too few arguments after the '/freeze' command:
 
-![freeze command](pics/freeze.png)
+![freeze command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/freeze.png)
 
 And this is what the code for it looks like:
 
@@ -31,7 +31,7 @@ sender.sendMessage("Please specify a player.");
 
 #### Freeze All
 The following is what will be sent if the user execute too many or too few arguments after the '/freeze all' command:
-![freeze all command](pics/freezeall.png)
+![freeze all command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/freezeall.png)
 
 And this is what the code for it looks like:
 
@@ -43,7 +43,7 @@ sender.sendMessage("If you are okay with this, type /freeze all confirm");
 
 #### Thaw
 The following is what will be sent if the user execute too many or too few arguments after the '/thaw' command:
-![thaw command](pics/thaw.png)
+![thaw command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/thaw.png)
 
 And this is what the code for it looks like:
 
