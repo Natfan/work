@@ -296,7 +296,7 @@ Menus should also highlight the current place in which a user is in, so that the
 The reason why THINGDEX is emboldened is because all things that are not either the home page, the about page or the contact page are placed under the Thingdex in alphabetical order.
 
 ## DIII: Demonstrating that the Website meets the Requirements
-The end goal of this website was to try to attract new people to a place in the UK. The website had to contain 5 pages about various things to do with the place, and the theme of the website had to match the region. I achieved this by making a website that is comprised of 7 subsections on one page, 2 of which are miscelanious links: one that goes to the top of the page and the other that takes the user to the bottom of the page where they can see contact information and copyright data. The other 5 sections are as follows:
+The end goal of this website was to try to attract new people to a place in the UK. The website had to contain 5 pages about various things to do with the place, and the theme of the website had to match the region. I achieved this by making a website that is comprised of 7 subsections on one page, 2 of which are miscellaneous links: one that goes to the top of the page and the other that takes the user to the bottom of the page where they can see contact information and copyright data. The other 5 sections are as follows:
 
 * Overview
  - This was a page that was giving a general overview of the town, including quick statistics and suggestions on which parts of the site to visit if they want to learn more.
