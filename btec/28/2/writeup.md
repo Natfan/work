@@ -266,10 +266,33 @@ And this is the updated navbar:
 ## DII: Discussing Website Techniques that Aid a User
 There are a few things that can be used within a website to aid a user's navigational journey through a website. The first of which is page tagging. This means setting the metadata of a webpage to contain specific data allowing for easier categorisation of similar pages. This means that if a user goes to `https://example.org/tag/code` then they will have access to view all the pages tagged with "code". The issue with this is that many different subjects can be grouped under "code", such as `C#`, `Java` and `Ruby`. Along with this, markup languages which are not strictly programming languages could be categorised here, such as `HTML` and `Markdown`. To subcategorise this, the tag `/code/programming` could be implemented to ensure that only the latter list of searches will come up. If the user wanted to be even more specific, they could use `/code/js` to access only JavaScript resources. The only real downside to this is that the feature will take a lot of time and effort as many different tags will need to be added to each page in order to make this system complete. This large amount of effort may also be wasted, depending on how many people actually use this system.
 
-Searching is a key part of website traversal. It allows the user to enter key terms and get results of those terms, ranked from many different variables such as most searched, most relevant, or alphabetical. This algorithm can be tweaked and modified behind the scenes for optimization purposes, without generally affecting the user's experience. The main issue with this technology, in comparison to showing the user a word mp of all the tags used, with larger ones either having more pages or searched more often, is that it can take a lot of time and energy to get right. If the code to execute a search is written poorly, then users may leave the site as they find it difficult to find things. Because of this, website developers should try to implement as many technologies as possible in order to allow the user to pick and chose how they want to navigate the site. 
+Searching is a key part of website traversal. It allows the user to enter key terms and get results of those terms, ranked from many different variables such as most searched, most relevant, or alphabetical. This algorithm can be tweaked and modified behind the scenes for optimization purposes, without generally affecting the user's experience. The main issue with this technology, in comparison to showing the user a word mp of all the tags used, with larger ones either having more pages or searched more often, is that it can take a lot of time and energy to get right. If the code to execute a search is written poorly, then users may leave the site as they find it difficult to find things. Because of this, website developers should try to implement as many technologies as possible in order to allow the user to pick and chose how they want to navigate the site. This means that algorithms from other sites may need to be taken and adapted, but developers must ensure that these algorithms have open source licences such as `MIT` or `Creative Commons`.
 
-search
-menus
-sitemap
+Sitemaps are another valid for of transportation between webpages within websites. A sitemap is a list of all webpages within a site, and how they are hierarchically ordered. For instance, all pages on a site are children of the `index` page, but only the `attractions` page has the children: `mining`, `education`, `crimestats` and `beaches`. If the website that I made was made up of multiple pages rather than a single page, then this is how it would be laid out. It allows users to have a large overview of all pages on the system, meaning that they will never lose a page again as they will all be stored there as a glossary, with brief descriptions next to each entry.
+
+Menus are a highly important part of navigating a website, as they give the user a quick and easy interface in which they can interact to change the current page that they are on. Menus should be reactive so that the user knows if they are hovering over an object. It should also show if the link has been visited. Both of these can be done by CSS, as shown below.
+
+```css
+/* An unvisited link. */
+a:link {
+  color: white;
+}
+
+/* A visited link. */
+a:visited {
+  color: cyan;
+}
+
+/* A link that is being hovered on */
+a:hover {
+  color: red;
+}
+```
+
+Menus should also highlight the current place in which a user is in, so that they know where they are in position to other links. The following is an example screenshot from my personal website, https://natfan.github.io/
+
+![bold links](n.gh.io.png)
+
+The reason why THINGDEX is emboldened is because all things that are not either the home page, the about page or the contact page are placed under the Thingdex in alphabetical order.
 
 ## DIII: Demonstrating that the Website meets the Requirements
