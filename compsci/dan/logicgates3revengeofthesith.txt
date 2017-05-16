@@ -1,0 +1,8 @@
+a . ( b + !a )
+ = a . b + a + !a
+ = a . b + 0
+ = a . b
+
+!(!a + !b) . b
+ = (a . b) . b   /* remove the nots as there are 2negatives, meaning that you have to swap the AND to a OR */
+ = a . b

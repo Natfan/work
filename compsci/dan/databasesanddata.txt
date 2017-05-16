@@ -1,0 +1,18 @@
+1NF: Atomic data (no repeated columns or rows), must have a primary key, must have relationships
+2NF: No partial key dependencies (all fields must relate to the primary key (if you have a customer database, only the UUID of the order should be in the customer database))
+3NF: No non partial key dependencies (all data can only relate to the primary key (customer database: address relies on postcode))
+
+1to1: Person---Passport, Cat---Licence plate
+1toMany: Keys>--Locks
+ManytoMany: Teachers>-<Students
+
+Three Box Model: Memory, Processor, I/O
+Stored Program Concept: Processor fetches and executes memory then outputs it to the I/O
+Von Newman: One place for both instruction and memory
+Harvard: One place for instruction, one place for memory
+
+3 Types of Storage: RAM, ROM, EPROM (Electrically Erasable Programmable ROM)
+Secondary Storage Devices: Internal and External Hard Drives, Flash Memory (USB Flash Drives), Optical Media (CDs [6-7MB], DVDs [5-6GB], Bluray[50-60GB]), Magnetic Tape (Backup[5-6TB])
+Address Bus: Only unidirectional bus
+Data Bus: Bidirectional
+Control Bus: Bidirectional, when the clock is fired to ensure syncing

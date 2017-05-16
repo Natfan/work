@@ -51,3 +51,7 @@ convert binary to denary
 ^^^^ this is wrong, do not flip first, flip last
 ***
 
+-107
+01101011
+10010100
+1.0010101 # 0111
