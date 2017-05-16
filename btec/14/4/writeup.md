@@ -55,4 +55,6 @@ sender.sendMessage("Please specify a player.");
 
 ## MI: Technical Documentation
 ### Overview
-This program was developed for staff members on a game server that I own and administrate. The plugin allows those with specific permissions to execute commands that 
+This program was developed for staff members on a game server that I own and administrate. The plugin allows those with specific permissions to execute commands that will let them stop suspected cheaters from interacting with the world, thus allowing legitimate players to enjoy the game without interruption. Once a player has been frozen, they will not be able to move, attack other players or interact with the environment, among other things. A menu will appear on their screen informing them as to why they have been frozen and the IP address to the voice server that they need to connect to so that they can talk to an Administrator. Once they have joined the voice server, they may need to download a piece of software that will allow the Administrator to scan their game files to ensure that they are not cheating. If they confess to cheating, then their punishment may be reduced. However, if they do not confess and it turns out that they were cheating, their ban will be permanent.
+
+### 
