@@ -1,0 +1,53 @@
+-16.75
+
+16 3/4
+16 1/2 1/4
+010000    [ 16]
+      .11 [.75]
+010000.11 [ 16.75]
+101111.01 [-16.75] (negate the numbers)
+
+1.01111 01
+
+***
+
+260
+100000100
+normalize and remove all trailing 0s at the end due to it being positive
+1000001
+shift the deciaml places along all the way -1
+0.100001
+shifted 8 places, mantissa is 8
+0100001 1000
+
+***
+
+3/64
+convert into smaller bits, in this case its 1/32th (as it is equal to 2/64ths) and 1/64th (as adding them together is 3/64)
+0/2 0/4 0/8 0/16 1/32 1/64
+convert this number into binary
+000011
+add "0." to the start to make it 8bit mantissa
+0.0000011
+then because we added one at the start, make the expont 0001
+
+0.0000011 0001
+
+00.000011
+
+***
+
+11100000 # 0110
+flip the mantissa and minus one as you're going from positive to negative
+00011110 # 0110
+add a decimal point to the start of the number
+0.0011110 # 0110
+because the exponent is 6, move the decimal point along by 6
+0001111.0 # 0110
+now we can remove the exponent
+0001111.0
+convert binary to denary
+0001111 = **15**
+^^^^ this is wrong, do not flip first, flip last
+***
+
