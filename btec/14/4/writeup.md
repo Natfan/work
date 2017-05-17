@@ -67,6 +67,23 @@ sender.sendMessage("Please specify a player.");
 ### Overview
 This program was developed for staff members on a game server that I own and administrate. The plugin allows those with specific permissions to execute commands that will let them stop suspected cheaters from interacting with the world, thus allowing legitimate players to enjoy the game without interruption. Once a player has been frozen, they will not be able to move, attack other players or interact with the environment, among other things. A menu will appear on their screen informing them as to why they have been frozen and the IP address to the voice server that they need to connect to so that they can talk to an Administrator. Once they have joined the voice server, they may need to download a piece of software that will allow the Administrator to scan their game files to ensure that they are not cheating. If they confess to cheating, then their punishment may be reduced. However, if they do not confess and it turns out that they were cheating, their ban will be permanent.
 
+### Prerequisites
+There are a few prerequisites for being able to run this program, these are as follows:
+* `Java 8`, needed to be able to run the server software.
+* Preferably a VPS or Dedicated server to run the Minecraft server code on for easier setup.
+ - `Ubuntu` or `CentOS`, both in headless mode, are recommended as they are easy to set up and are lightweight.
+* A `Minecraft` server running the software `Bukkit` or a variation thereof such as:
+ - `Spigot`
+ - `Paper`
+ - `Sponge`
+  * Please note that the `Pore` plugin must be installed to be able to run `Bukkit` plugins.
+ - `Wolf in a Bukkit`
+ - `Trident`
+ - `ForgeBukkit`, or it's competitor `BukkitForge`
+* Access to modify file permissions if running a Linux distribution, to allow `run.sh` to be executed.
+* Internet access to be able to verify the clients connection with Mojang authentication servers.
+* Internet access to be able to allow users to connect to the server outside of a LAN environment.
+
 ### User Guide
 #### Freezing
 If you believe that a player is cheating beyond reasonable doubt, and you have recorded evidence of doing actions which either do not seem legitimate or set of large amounts/high numbers of AntiCheat violations, then you may freeze a player. You are also allowed to freeze a player if they are obviously cheating and are in the action of preventing other legitimate players from having an enjoyable experience, such as killing them to take their stuff. You are not allowed to freeze a player as a joke, even if they explicitly request it. Freezing is a serious action and will be broadcast to all online staff members. To prevent abuse, you cannot freeze other staff members as they have the `chill.override` permission. If you attempt to freeze a staff member then the action will be denied and all online staff will be notified of this. If you abuse the features of freezing you may be demoted or even banned from the server. The command to freeze a player is `/freeze <playerName>`
