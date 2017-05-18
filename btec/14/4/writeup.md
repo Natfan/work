@@ -31,6 +31,7 @@ sender.sendMessage("Please specify a player.");
 
 #### Freeze All
 The following is what will be sent if the user execute too many or too few arguments after the '/freeze all' command:
+
 ![freeze all command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/freezeall.png)
 
 And this is what the code for it looks like:
@@ -43,6 +44,7 @@ sender.sendMessage("If you are okay with this, type /freeze all confirm");
 
 #### Thaw
 The following is what will be sent if the user execute too many or too few arguments after the '/thaw' command:
+
 ![thaw command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/thaw.png)
 
 And this is what the code for it looks like:
@@ -53,6 +55,7 @@ sender.sendMessage("Please specify a player.");
 
 #### Frozen
 The following is what will be sent if the user executes too many or too few arguments after the `/frozen` command:
+
 ![frozen command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen.png)
 
 And this is what the code for it looks like:
@@ -96,10 +99,16 @@ If you believe that the player that you froze was not cheating, you can either t
 
 #### Frozen
 To check if a player is frozen, simply issue `/frozen` command to check if the player is frozen or not. The command output will either show if the player IS frozen, like so:
+
 ![frozen check true](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen_true.png)
 
 And this is what the output will be if the player is NOT frozen:
+
 ![frozen check false](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen_false.png)
+
+Finally, this is the output when the player is offline:
+
+![frozen check offline](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen_offline.png)
 
 This is a very simple command and cannot really be abused. Please note that all information gained as a staff member should not be revealed to the player base unless a consensus from the Ownership Team is reached. While we try to be a transparent organisation, some inner workings of the Administrative side of things need to be kept secret.
 
