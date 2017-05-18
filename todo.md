@@ -16,10 +16,10 @@ Only things that I need to do at time of writing will be added. I will not backd
 * [ ] Unit 14 Assignment 4.
 * [ ] Unit 18 Assignment 1.
 * [ ] Unit 18 Assignment 2.
-* [x] Unit 26 Assignment 1. [R]
+* [x] Unit 26 Assignment 1.
 * [x] Unit 26 Assignment 2.
 * [ ] Unit 28 Assignment 2.
-* [x] Unit 29 Assignment 2. [R]
+* [x] Unit 29 Assignment 2.
 * [ ] Unit 31 Assignment 1.
 * [ ] Unit 31 Assignment 2.
 * [ ] Unit 42 Assignment 1.
