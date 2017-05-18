@@ -2,9 +2,11 @@
 *By Nathan Windisch*
 
 ## PVI: Onscreen Help
+
 For this segment I will be listing on screen help that will be displayed when the user enters a command wrong, or if they type in the command without the arguments.
 
 ### The Main Help Page
+
 The following page will be sent when a user executes the command `/chill`:
 
 ![chill](https://github.com/Natfan/work/raw/master/btec/14/4/pics/chill.png)
