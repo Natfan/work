@@ -112,3 +112,27 @@ The diagram above shows all of the entities within the game, as shown by the gre
 Data Dictionaries are a method of laying out data in a way that allows it to be read easily by a human. The formatting should be well sorted and concise in a table or matrix, and would normally contain simple data like the variable name, type of data and size of the field. The following is an example of a data dictionary, also taken from Wikimedia.org:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Data_Dictionary.png" style="width: 75%;"></img>
+
+The following is an example of a data dictionary that I have created:
+
+| Field Name   | Data Type | Maximum Field Length  | Description 
+|-|-|-|-
+| EmployeeID | UUID | 16 Characters | Used as a unique identifier for each employee 
+| EmployeeName | String | 64 Characters | Used as a human readable format for identifying customers
+| EmployeeRole | String | 16 Character | Used for the permission system
+| RoleDescription | String | 128 Character | A brief description of their role
+| RoleWageMin | Double | 10 Digits | The minimum amount that a person in that role can be paid
+| RoleWageMax | Double | 10 Digits | The maximum amount that a person in that role can be paid
+| CustomerID | UUID | 16 Characters | used as a unique identifier for each customer
+| CustomerName | String | 64 Characters | Used as a human readable format for identifying customers
+| CustomerBalance | Double | 10 Digits | The amount of credits that the customer has
+| CustomerAddress | String | 64 Characters | The address of the customer
+| CustomerPostcode | String | 8 Characters | The postcode of the customer
+| CustomerPhoneNumber | Integer | 15 Characters | Either the mobile or the landline number of the customer
+| ItemID | UUID | 16 Characters | Used as a unique identifier for each item
+| ItemName | String | 64 Characters | Used as a human readable format for identifying items
+| ItemPrice | Double | 10 Digits | The price of the item
+| ItemDescription | String | 128 Characters | A brief description of the product
+| ItemTags | ArrayList<String> | 64 Characters Per Entry | A list of tags that can be applied to the item
+
+#### 
