@@ -108,6 +108,10 @@ When creating a relational database, an Entity Relationship Diagram must be crea
 
 The diagram above shows all of the entities within the game, as shown by the green boxes, and how they are related to one another using the blue diamonds. For example, in relation to the diagram above, one account can have many characters, but each character can only have one account. Each region can contain many characters, but each character can only be in one region. Each of the entities contains values, as shown by the red circles. The primary key, or main defining characteristic, is in a lighter red circle with emboldened and underline text. Again, another example using the diagram above, is that each account has an account name, a password, a date where they last signed on and more, but the account name is the primary key that is used as the unique identifier for each account.
 
+The following image is my Entity Relationship Diagram:
+
+<img src="https;//github.com/Natfan/work/raw/master/btec/18/1/erd.png" style="width: 75%;"></img>
+
 #### Data Dictionary
 Data Dictionaries are a method of laying out data in a way that allows it to be read easily by a human. The formatting should be well sorted and concise in a table or matrix, and would normally contain simple data like the variable name, type of data and size of the field. The following is an example of a data dictionary, also taken from Wikimedia.org:
 
