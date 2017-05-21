@@ -119,7 +119,7 @@ Data Dictionaries are a method of laying out data in a way that allows it to be 
 
 The following is an example of a data dictionary that I have created:
 
-| Field Name   | Data Type | Maximum Field Length  | Description 
+| Field Name | Data Type | Maximum Field Length | Description 
 |-|-|-|-
 | EmployeeID | UUID | 16 Characters | Used as a unique identifier for each employee 
 | EmployeeName | String | 64 Characters | Used as a human readable format for identifying customers
@@ -139,4 +139,5 @@ The following is an example of a data dictionary that I have created:
 | ItemDescription | String | 128 Characters | A brief description of the product
 | ItemTags | ArrayList<String> | 64 Characters Per Entry | A list of tags that can be applied to the item
 
-#### 
+#### Entity Life History
+The life history of an entity is a list of actions that are performed to a entity within it's lifetime. 
