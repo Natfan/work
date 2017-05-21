@@ -28,13 +28,14 @@ Within databases there are three different forms of normalization.
 * **3NF**, or **Third Normal Form** is when there is absolutely no duplicate information within the table. For example, if two tables both require a phone number field, that information would be placed into a separate table, and the two other tables would then information that they want such as the phone number data, via an index field in the newly created phone number table. Any and all change that are made to a phone number will now automatically update and be reflected to all tables that use the phone number table.
 
 ##### Examples
+The following are some examples of different relational databases that I have mocked up with items based around gardening:
 ###### UNF
-| ID |   Colour   | Price |
-|----|------------|-------|
-| 01 | red, green | 07.49 |
-| 02 | blue       | 02.24 |
-| 03 | yellow     | 06.87 |
-| 04 | blue, red  | 21.05 |
+| ID | Type     | Price |
+|----|----------|-------|
+| 01 | daisy    | 07.49 |
+| 02 | iris     | 02.24 |
+| 03 | lavender | 06.87 |
+| 04 | pansy    | 21.05 |
 
 ###### 1NF
 **Unnormalized**
@@ -48,61 +49,60 @@ Within databases there are three different forms of normalization.
 
 **1NFified**
 
-| ID |   Colour   |
-|----|------------|
-| 01 | red, green |
-| 02 | blue       |
-| 03 | yellow     |
-| 04 | blue, red  |
+| ID | Type     |
+|----|----------|
+| 01 | daisy    |
+| 02 | iris     |
+| 03 | lavender |
+| 04 | pansy    |
 
 ###### 2NF
 **Unnormalized**
 
-| ID | CID | Literal Location |
-|----|-----|------------------|
-| 01 | 110 | London           |
-| 02 | 420 | California       |
-| 03 | 911 | Cape Town        |
+| ID | Client ID | Balance |
+|----|-----------|---------|
+| 01 | 110       | 96.03   |
+| 02 | 420       | 05.24   |
+| 03 | 911       | 12.62   |
 
 **2NFified**
 
-| ID | CID |
-|----|-----|
-| 01 | 110 |
-| 02 | 420 |
-| 03 | 911 |
+| ID | Client ID |
+|----|-----------|
+| 01 | 110       |
+| 02 | 420       |
+| 03 | 911       |
 
-| CID | Literal Location |
-|-----|------------------|
-| 110 | London           |
-| 420 | California       |
-| 911 | Cape Town        |
+| Client ID | Balance |
+|-----------|---------|
+| 110       | 96.03   |
+| 420       | 05.24   |
+| 911       | 12.62   |
 
 ###### 3NF
 **Unnormalized**
 
-| BID | GID | Literal Genre | Price |
-|-----|-----|---------------|-------|
-| 221 | 001 | Fiction       | 05.88 |
-| 486 | 002 | Non-Fiction   | 09.15 |
-| 683 | 003 | Education     | 35.73 |
+| Flower ID | Bloom Season ID | Literal Season Name | Price |
+|-----------|-----------------|---------------------|-------|
+| 221       | 001             | Spring              | 05.88 |
+| 486       | 002             | Summer              | 09.15 |
+| 683       | 001             | Spring              | 35.73 |
 
 **3NFified**
 
-| BID | GID | Price |
-|-----|-----|-------|
-| 221 | 001 | 05.88 |
-| 486 | 002 | 09.15 |
-| 683 | 003 | 35.73 |
+| Flower ID | Bloom Season ID | Price |
+|-----------|-----------------|-------|
+| 221       | 001             | 05.88 |
+| 486       | 002             | 09.15 |
+| 683       | 001             | 35.73 |
 
-| GID | Literal Genre |
-|-----|---------------|
-| 001 | Fiction       |
-| 002 | Non-Fiction   |
-| 003 | Education     |
+| Bloom Season ID | Literal Season Name |
+|-----------------|---------------------|
+| 001             | Spring              |
+| 002             | Summer              |
 
 #### Entity Relationship Diagram
-When creating a relational database, an Entity Relationship Diagram must be created in order to define how different parts of the database will fit together. The following is an example from Wikimedia.org about an MMORPG:
+When creating a relational database, an Entity Relationship Diagram must be created in order to define how different parts of the database will fit together. The following is an example from <a>wikimedia.org</a> about an MMORPG:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/ER_Diagram_MMORPG.png" style="width: 75%;"></img>
 
@@ -113,11 +113,11 @@ The following image is my Entity Relationship Diagram:
 <img src="https;//github.com/Natfan/work/raw/master/btec/18/1/erd.png" style="width: 75%;"></img>
 
 #### Data Dictionary
-Data Dictionaries are a method of laying out data in a way that allows it to be read easily by a human. The formatting should be well sorted and concise in a table or matrix, and would normally contain simple data like the variable name, type of data and size of the field. The following is an example of a data dictionary, also taken from Wikimedia.org:
+Data Dictionaries are a method of laying out data in a way that allows it to be read easily by a human. The formatting should be well sorted and concise in a table or matrix, and would normally contain simple data like the variable name, type of data and size of the field. The following is an example of a data dictionary, also taken from <a>wikimedia.org</a>:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Data_Dictionary.png" style="width: 75%;"></img>
 
-The following is an example of a data dictionary that I have created:
+The following is an example of a data dictionary that I have created for the gardening company **Coastal Corners**:
 
 | Field Name | Data Type | Maximum Field Length | Description 
 |-|-|-|-
@@ -140,4 +140,15 @@ The following is an example of a data dictionary that I have created:
 | ItemTags | ArrayList<String> | 64 Characters Per Entry | A list of tags that can be applied to the item
 
 #### Entity Life History
-The life history of an entity is a list of actions that are performed to a entity within it's lifetime. 
+The life history of an entity is a list of actions that are performed to a entity within it's lifetime. All changes that are made to the entity are tracked and can be displayed in a flow chart. The following image is from <a>technologyuk.net</a> and is about bank account information:
+
+<img src="https://www.technologyuk.net/computing/sad/images/elh01.gif" style="width: 75%;"></img>
+
+The following is my Entity Life History Diagram for a batch of trowels:
+
+<img src="https;//github.com/Natfan/work/raw/master/btec/18/1/elh.png" style="width: 75%;"></img>
+
+#### Front End Design
+The following are three sketches for front end interfaces that the users will use. This first one will be the login screen:
+
+<img src="https;//github.com/Natfan/work/raw/master/btec/18/1/login.png" style="width: 75%;"></img>
