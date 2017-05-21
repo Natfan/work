@@ -1,6 +1,8 @@
 # Unit XVIII Assignment I
 *By Nathan Windisch*
 
+# DO THE ENTITY RELATIONSHIP DIAGRAM
+
 ## Task I: Relational Databases
 ### PI: Business Information, Entities, Attributes and Data Validation
 #### Business Information
@@ -110,7 +112,7 @@ The diagram above shows all of the entities within the game, as shown by the gre
 
 The following image is my Entity Relationship Diagram:
 
-<img src="https;//github.com/Natfan/work/raw/master/btec/18/1/erd.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/18/1/erd.png" style="width: 75%;"></img>
 
 #### Data Dictionary
 Data Dictionaries are a method of laying out data in a way that allows it to be read easily by a human. The formatting should be well sorted and concise in a table or matrix, and would normally contain simple data like the variable name, type of data and size of the field. The following is an example of a data dictionary, also taken from <a>wikimedia.org</a>:
@@ -146,9 +148,27 @@ The life history of an entity is a list of actions that are performed to a entit
 
 The following is my Entity Life History Diagram for a batch of trowels:
 
-<img src="https;//github.com/Natfan/work/raw/master/btec/18/1/elh.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/18/1/elh.png" style="width: 75%;"></img>
 
 #### Front End Design
 The following are three sketches for front end interfaces that the users will use. This first one will be the login screen:
 
-<img src="https;//github.com/Natfan/work/raw/master/btec/18/1/login.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/18/1/login.png" style="width: 75%;"></img>
+
+The second one will be that of the querying of the database after logging in:
+
+<img src="https://github.com/Natfan/work/raw/master/btec/18/1/query.png" style="width: 75%;"></img>
+
+The third and final sketch will be the report that is outputted to the user after they query:
+
+<img src="https://github.com/Natfan/work/raw/master/btec/18/1/report.png" style="width: 75%;"></img>
+
+
+### MI: Explaining Referential Integrity and Primary & Foreign Keys
+#### How Referential Integrity is Set in a Database
+* what is referential integrity
+ * connecting databases
+ * ensures that data is properly referenced
+ * automatic
+ * most software does this by default
+* what errors are detected?
