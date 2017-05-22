@@ -114,7 +114,7 @@ The diagram above shows all of the entities within the game, as shown by the gre
 
 The following image is my Entity Relationship Diagram:
 
-<img src="https://github.com/Natfan/work/raw/master/btec/18/1/erd.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/18/1/erd.png.png" style="width: 75%;"></img>
 
 #### Data Dictionary
 Data Dictionaries are a method of laying out data in a way that allows it to be read easily by a human. The formatting should be well sorted and concise in a table or matrix, and would normally contain simple data like the variable name, type of data and size of the field. The following is an example of a data dictionary, also taken from <a>wikimedia.org</a>:
