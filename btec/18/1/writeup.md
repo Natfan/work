@@ -182,6 +182,7 @@ When recovering data from tables, both the primary and secondary keys should be 
 <div style="page-break-after: always;"></div>
 
 ### DI: Avoiding Potential Design & Construction Errors
+#### Inconsistent Naming Schema
 One common error in database design is having an inconsistent naming schema. An impact of this is that it will be harder to search for things in the database if the search query is case sensitive. An example of this changing prefixes of data, such as all data retaining to customers, from being FULL CAPS, camelCase and lowercase. The following is a quick table with some values to give a more visual representation of what this would look like:
 
 | Name | Value |
@@ -192,7 +193,8 @@ One common error in database design is having an inconsistent naming schema. An 
 
 A way to fix this issue is to have a well documented naming schema to ensure that all entries follow a strict standard, and are even rejected if they are incorrect. This leads me into my second potential error: poor documentation.
 
-Poor documentation is a large issue as it makes certain employees indespensable. This means that when they leave the company, all of their knowledge of the system will leave with them. This can result in customers not getting the correct orders or information being deleted. A way to solve this issue is to document the way that the database is laid out. An example of some well documented database variables is as follows:
+#### Poor Documentation
+Poor documentation is a large issue as it makes certain employees indispensable. This means that when they leave the company, all of their knowledge of the system will leave with them. This can result in customers not getting the correct orders or information being deleted. A way to solve this issue is to document the way that the database is laid out. An example of some well documented database variables is as follows:
 
 | Name | Description |
 |-|-|
@@ -200,15 +202,29 @@ Poor documentation is a large issue as it makes certain employees indespensable.
 | CUSTOMER_age | A double used to store the customer's age |
 | ITEM_id | A unique identifier for quickly accessing items from the database; should only be used in the backend |
 
-* common errors
- * normalization
- * hard deletes
-* impacts of errors
- * normalization
- * hard deletes
-* avoiding errors
- * normalization
- * hard deletes
-* examples
- * normalization
- * hard deletes
+#### Normalization
+Every database within a company should be set to the Third Normal Form, as it is the most efficient and easy to search for. One impact of lower levels of normalization is that searching within the database will be much less efficient due to the fact that more tables will need to be searched. A way to avoid this is to set up the database in such a way that the database is very efficient and easy to search. An example of this will be shown below:
+
+**Unnormalized**
+
+| Flower ID | Bloom Season ID | Literal Season Name | Price |
+|-----------|-----------------|---------------------|-------|
+| 221       | 001             | Spring              | 05.88 |
+| 486       | 002             | Summer              | 09.15 |
+| 683       | 001             | Spring              | 35.73 |
+
+**3NFified**
+
+| Flower ID | Bloom Season ID | Price |
+|-----------|-----------------|-------|
+| 221       | 001             | 05.88 |
+| 486       | 002             | 09.15 |
+| 683       | 001             | 35.73 |
+
+| Bloom Season ID | Literal Season Name |
+|-----------------|---------------------|
+| 001             | Spring              |
+| 002             | Summer              |
+
+#### Deleting
+The final issue that can be made when making a database is when you want to delete data. Deleting data permanently is usually a bad thing, as more often than not the data will be needed later down the line. This means that data will be deleted permanently without the ability to recover it later. A real world example of this is when a customer deactivates their account with the company so the data is hard deleted, only for them to want to resubscribe a few months later and having to reenter all of their data again. The solution to this is to set the row to be inactive so that it will not show up in searches, but the data can be reactivated later with ease.
