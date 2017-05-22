@@ -20,6 +20,8 @@ Entity Relationship is a way of creating diagrams that show how entities can be 
 #### Data Validation
 Data Validation is a method of ensuring that all data within the database is valid and accurate. This can be done by performing checks when the data is entered and throwing an exception if an error is made. Another way that this can be achieved is by only allowing certain data types to be allowed to be entered into a field, such as only integers being allowed for an age to be input. This can be expanded upon to ensure that the data that is input into a Date Of Birth field has six numbers split with a slash, such as `08/09/98` for the `8th September 1998`. Data Validation is a huge part of database management as if the data is not validated and the inputs are not sanitized, then hackers can inject malicious code into the system such as `DROP TABLE Customers;` which will result in the database `Customers` being deleted.
 
+<div style="page-break-after: always;"></div>
+
 ### PII: Designing a Relational Database
 #### Normalization
 Within databases there are three different forms of normalization.
@@ -163,15 +165,50 @@ The third and final sketch will be the report that is outputted to the user afte
 
 <img src="https://github.com/Natfan/work/raw/master/btec/18/1/report.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
 
 ### MI: Explaining Referential Integrity and Primary & Foreign Keys
 #### How Referential Integrity is Set in a Database
-* what is referential integrity
- * connecting databases
- * ensures that data is properly referenced
- * automatic
- * most software does this by default
-* what errors are detected?
-* how can these errors be corrected
-* how can data be recovered from multiple tables?
- * primary & foreign keys
+First off, referential integrity is a relational database concept about how all table relationships must be constant and consistent. To put this in more simple terms the `foreign key`, which is a field or fields which uniquely identify either a row in the same or another table, must be similar to the `primary key`, which is the unique identifier for each record. Referential connect databases together by ensuring that the data is properly referenced and verified. Most database creation softwares do this function automatically, as it is important for relational databases to have as it is what inherently makes them relational.
+
+#### Errors Detected and Fixes
+There are two main type of referential integrity errors, the first being when the parent table is being edited. If a primary key value is updated or edited and the rule applies to foreign keys within the child table, then the secondary database will reject the delete or update commands. If you want to ensure that the changes to the primary key values within the parent table are saved and propagated then the child table must be edited first to ensure that all the matching foreign keys are either changed or deleted first.
+
+The second type of referential integrity error is when a foreign key value is created within a child table but there is no matching entry within the parent table. The second database will reject the command that has been issued due to the fact that that value within foreign keys cannot exist without a primary key value in the corresponding table. To fix this issue and change the foreign key value in the child table, the parent table must be edited and a row should be created with a primary key value that matches the foreign key's new value.
+
+#### Data Recovery Using Multiple Tables
+When recovering data from tables, both the primary and secondary keys should be used. This is because the data that is linked from the foreign key from one table, and the primary key of the other. A good way of thinking about this is imagining that the keys are pointers which tell the database where the data is actually stored, rather than it being an actual clone of the data. This method can also work with multiple tables, as long as they are all in 3NF as they allow the database software to just search through the pointers and find the original data.
+
+<div style="page-break-after: always;"></div>
+
+### DI: Avoiding Potential Design & Construction Errors
+One common error in database design is having an inconsistent naming schema. An impact of this is that it will be harder to search for things in the database if the search query is case sensitive. An example of this changing prefixes of data, such as all data retaining to customers, from being FULL CAPS, camelCase and lowercase. The following is a quick table with some values to give a more visual representation of what this would look like:
+
+| Name | Value |
+|-|-|
+| customer_name | "John Smith" |
+| CUSTOMER_dob | 08091998 |
+| customer_PostCode | RG67NW |
+
+A way to fix this issue is to have a well documented naming schema to ensure that all entries follow a strict standard, and are even rejected if they are incorrect. This leads me into my second potential error: poor documentation.
+
+Poor documentation is a large issue as it makes certain employees indespensable. This means that when they leave the company, all of their knowledge of the system will leave with them. This can result in customers not getting the correct orders or information being deleted. A way to solve this issue is to document the way that the database is laid out. An example of some well documented database variables is as follows:
+
+| Name | Description |
+|-|-|
+| CUSTOMER_name | A string used to store the customer's name |
+| CUSTOMER_age | A double used to store the customer's age |
+| ITEM_id | A unique identifier for quickly accessing items from the database; should only be used in the backend |
+
+* common errors
+ * normalization
+ * hard deletes
+* impacts of errors
+ * normalization
+ * hard deletes
+* avoiding errors
+ * normalization
+ * hard deletes
+* examples
+ * normalization
+ * hard deletes
