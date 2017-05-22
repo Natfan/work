@@ -172,3 +172,6 @@ The third and final sketch will be the report that is outputted to the user afte
  * automatic
  * most software does this by default
 * what errors are detected?
+* how can these errors be corrected
+* how can data be recovered from multiple tables?
+ * primary & foreign keys
