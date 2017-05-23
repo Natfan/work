@@ -92,11 +92,9 @@ The following code is from the Header and Sidebar.
         <h1 class="w3-jumbo"><b>Redruth</b></h1>
 ```
 
-And now here is what the Header actually look like:
+And now here is what the Header & Sidebar actually look like:
 
 ![header](header.png)
-
-And here is what the Sidebar actually looks like:
 
 ![sidebar](sidebar.png)
 
@@ -271,7 +269,7 @@ This is what the Map's HTML is:
 ```
 And this is the output document:
 
-![map broken](map_broken.png)
+![map](map.png)
 
 As you can see, the map is broken currently.
 
