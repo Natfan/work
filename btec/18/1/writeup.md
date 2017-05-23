@@ -1,8 +1,6 @@
 # Unit XVIII Assignment I
 *By Nathan Windisch*
 
-# DO THE ENTITY RELATIONSHIP DIAGRAM
-
 ## Task I: Relational Databases
 ### PI: Business Information, Entities, Attributes and Data Validation
 #### Business Information
