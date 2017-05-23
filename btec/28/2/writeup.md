@@ -2,6 +2,18 @@
 *By Nathan Windisch*
 
 ## PIV: Designing an Interactive Website
+### Moodboard & Storyboard
+The following image is my storyboard for the website that can double up as a moodboard:
+<img src="https://github.com/Natfan/work/raw/master/btec/28/2/site/storyboard.png" alt="storyboard" style="width: 50%;"></img>
+
+### Site Template & Colour Scheme
+The following is my site template:
+
+<img src="https://github.com/Natfan/work/raw/master/btec/28/2/site/sitetemplete.png" alt="storyboard" style="width: 50%;"></img>
+
+As you can see, the colour scheme that I am using is blue and teal. This is because it invokes a calm and peaceful emotional response from the reader, and makes them think of beaches, waves and relaxing times.
+
+### Asset List
 For my website I shall be using two assets, as follows:
 
 * W3.CSS - A Cascading Style Sheet library created by w3schools, a website based around teaching how to code, develop, use and understand computers along with learning markup languages such as HTML, Markdown and CSS.
@@ -9,6 +21,18 @@ For my website I shall be using two assets, as follows:
 * Redruth Map - A map by Ordinance Survey, a national map agency that covers all of Great Britain. It has been supplied Wikimedia, a free, open-source information website that allowed me access to the image. It is available for reuse as it is copyrighted under the Creative Commons licence, which allows for non-commercial redistribution.
 
 <img src="https://github.com/Natfan/work/raw/master/btec/28/2/site/redruth.png" alt="redruth map" style="width: 50%;"></img>
+
+### Outline of Content
+The following is a basic outline of the content that I am planning on having in my website:
+
+* Header
+* Sidebar
+* Overview
+* History
+* Attractions
+* Map
+* Frequently Asked Questions
+* Contact Us
 
 <div style="page-break-after: always;"></div>
 
@@ -138,6 +162,87 @@ This is the output.
 
 <div style="page-break-after: always;"></div>
 
+### Attractions:
+This is what the Attraction's HTML is:
+```html
+<div class="w3-container" id="attractions" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-teal"><b>Attractions.</b></h1>
+        <hr style="width:50px;border:5px solid teal" class="w3-round">
+        <p>Oddles of fun.</p>
+        <p>Cornwall has loads of fun things do to, and Redruth even moreso! Take a look at some of the things you can do below!</p>
+      </div>
+
+      <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col m6 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <div class="w3-container">
+              <h3>Mining.</h3>
+              <p class="w3-opacity">Museums and Tours.</p>
+              <p>As aforementioned, a large amount of Redruth's history is compromised of the large scale mining industry. Because of this, there are
+    many fun and interesting abandoned mines that have been converted into museums and exhibitions. This means that you can learn more about the culture
+    surrounding Redruth and the Cornish mining industry, including the impacts on the local area and the rest of the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m6 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <div class="w3-container">
+              <h3>Crime Statistics.</h3>
+              <p class="w3-opacity">Rest Easy.</p>
+              <p>Redruth has a relatively low crime rate, as you can see in the graph below which depicts the crime statistics for 2016.
+              </p>
+              <p>
+                Click the image for a higher resolution.
+                <a href="chart.png">
+                  <img src="chart.png" alt="Chart" style="width:200px;">
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col m6 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <div class="w3-container">
+              <h3>Education.</h3>
+              <p class="w3-opacity">Learn About Learning.</p>
+              <p>As aforementioned, a large amount of Redruth's history is compromised of the large scale mining industry. Because of this, there are
+    many fun and interesting abandoned mines that have been converted into museums and exhibitions. This means that you can learn more about the culture
+    surrounding Redruth and the Cornish mining industry, including the impacts on the local area and the rest of the world.</p>
+	      <hr style="height: 0pt; visibility: hidden;" />
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m6 w3-margin-bottom">
+	  <div class="w3-light-grey">
+	    <div class="w3-container">
+    	 <h3>Beaches.</h3>
+    	      <p class="w3-opacity">Relaxing Times.</p>
+	      <p>Redruth has three incredible beaches with loads of things to do. All of these beaches have good surf and seasonal lifeguard support.</p>
+	      <p>
+	      	<ul>
+		  <li>
+	  	    Porthtowan is a Blue Flag beach.
+		  </li>
+		  <li>
+	  	    Chapel Porth Beach has excellent parking.
+		  </li>
+		  <li>
+		    Portreath Beach has a Café with great food, along with some clean toilets and great parking.
+		  </li>
+      		</ul>
+	      <hr style="height: 4pt; visibility: hidden;" />
+    	      </p>
+  	    </div>
+	  </div>
+	</div>
+      </div>
+```
+This is the output:
+![attractions](attractions.png)
+
 ### Map
 This is what the Map's HTML is:
 ```html
@@ -211,6 +316,20 @@ The following is the code for the Frequently Asked Questions:
 And the following is the output:
 
 ![faq](faq.png)
+
+<div style="page-break-after: always;"></div>
+
+### Contact Us
+The following is the code for the Contact Us page:
+
+```html
+      <div class="w3-container" id="contact" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
+        <hr style="width:50px;border:5px solid teal" class="w3-round" />
+	<p>This website is owned by Nathan Windisch on behalf of the Redruth Council in Cornwall, UK. Please redirect all questions about the area to <a href="mailto:admin@redruth-tc.gov.uk">Redruth Council</a> and please redirect any mistakes, faults or web design questions to the <a href="mailto:nathan@windisch.co.uk">Site Administrator</a>.</p>
+      </div>
+    </div>
+```
 
 <div style="page-break-after: always;"></div>
 
