@@ -4,12 +4,12 @@
 ## PIV: Designing an Interactive Website
 ### Moodboard & Storyboard
 The following image is my storyboard for the website that can double up as a moodboard:
-<img src="https://github.com/Natfan/work/raw/master/btec/28/2/site/storyboard.png" alt="storyboard" style="width: 50%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/28/2/storyboard.png" alt="storyboard" style="width: 50%;"></img>
 
 ### Site Template & Colour Scheme
 The following is my site template:
 
-<img src="https://github.com/Natfan/work/raw/master/btec/28/2/site/sitetemplete.png" alt="storyboard" style="width: 50%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/28/2/sitetemplate.png" alt="storyboard" style="width: 50%;"></img>
 
 As you can see, the colour scheme that I am using is blue and teal. This is because it invokes a calm and peaceful emotional response from the reader, and makes them think of beaches, waves and relaxing times.
 
