@@ -96,8 +96,6 @@ And now here is what the Header & Sidebar actually look like:
 
 ![header](header.png)
 
-![sidebar](sidebar.png)
-
 <div style="page-break-after: always;"></div>
 
 ### Overview
@@ -345,7 +343,7 @@ One final technology is server side scripting. This can allow users to interact 
 ## MIII: Improving the Effectiveness of the Website
 There were two main improvements that needed to be performed to the website to make set it to a publishable state, the first being to fix the map. The main issue with this was that the webpage was hosted on a local server which did not have JavaScript installed, whereas if I viewed the code as a file the JavaScript would work. The following is an image of the working version of the website with the map working:
 
-![map](map.png)
+![map fixed](map_fixed.png)
 
 The other improvement was that I should add some copyright text to the bottom of the website to prevent theft of my data. The following was the code for this copyright text:
 
