@@ -16,6 +16,9 @@ As a computer gets used more and more, the disk will access commonly used files 
 ### Spam Removal
 Another common weapon in a Technical Support Agent's arsenal is the ability to critically find spam, useless or otherwise miselanious files and remove them. A common method is for the Technical Support Agent to get the user to place any locations of files that they think may be important into a text file, so that they can be backed up, including a list of commonly used software. The technician will then clone all of this data onto a secondary hard drive and keep them safe, before 'nuking the system from orbit' or wiping all files on the system. This will speed up the system tremenously due to the fact that only the essential software and files will be on the new system.
 
+### Software Diagnostics
+There are a few different types of diagnostics checks that the Support Agent can perform, but the most common is an AntiVirus scan.
+
 * Software Diagnostics (AntiVirus)
 * Hardware Diagnostics
 * Control Panel
