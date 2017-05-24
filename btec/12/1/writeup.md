@@ -1,0 +1,18 @@
+# Unit XII Assignment I
+*By Nathan Windisch*
+
+## PI: Tools and Techniques Used in IT Support
+There are a few different tools that can be used within IT Support, and I shall list some of them and the technique that they are used in
+
+### Virtual Network Computing
+Virtual Network Computing, or VNC, is a method for IT Support Technicians to be able to access client's computers from all over the world. The technology that it uses is the ability to view and interact with a computer across the Internet. This usually includes access to view the monitor and manipulate the keyboard and mouse, but it can also allow the Technician access to listen to the sound output of the system, view video feed from peripherals such as webcams, and listen to or even manipulate the sound input to the system via a microphone. Two main services used for VNC are TeamViewer, which is an industry standard in technical support operations, and Join.Me, a relatively new player in the field with a much easier user interface. Both have free plans, but if a business wants to utilize all the tools available to them then they should purchase a business licence of some sort. 
+
+### VoIP Communication
+Another key tool that IT Support Technicians have at their disposal is Voice Over Internet Protocol, or VoIP. This allows Support Engineers to communicate with clients quickly, easily and clearly without the need for extensive setup times. The client simply needs to download the program and connect to the server, in most cases. There are a few main contenders for VoIP communication, the first being Skype by Microsoft. Skype is the most well known program out of my three examples, but it is normally used by private citizens for communication between friends and family, or Skype Business which is commonly used in internal systems in large companies as a fast and secure VoIP and IM (Instant Messaging) application. Another piece of software that can be used is TeamSpeak3, which is a server based model rather that peer-to-peer which is what Skype is. With TeamSpeak3, the client connects to a server and can then speak to everyone connected to that server, as long as they have the correct permission nodes and are in the correct voice channels. A positive to using TeamSpeak3 over Skype is that it runs on a server based model with clients connecting to one IP address or domain name, making it more centralised. A downside to using TeamSpeak3 is that it is much less known than Skype, meaning that less users will have it. Also, the setup process for TeamSpeak3 is relatively long, which may put clients off. The final piece of software that I shall be discussing in this segment is Discord, which is a free desktop, mobile and web application with both a graphical and command line user interface. Discord is primarily used in the PC video gaming community, but due to the fact that it has a web application it can be easily installed and utilized by anyone. While Discord uses a server-based model, it allows users to join servers to talk to large numbers of people or once, while still letting users add each other as contacts and calling them, imitating the peer-to-peer aspect of Skype without the possible security risks of the latter. Discord servers can also be much more easily accessed, as an invite link can be set to permanent and then an easier web link can be set to redirect to it. The final benefit of Discord is that it allows for users to access it via the web, reducing setup time.
+
+* Defragging
+* Spam Removal
+* Software Diagnostics (AntiVirus)
+* Hardware Diagnostics
+* Control Panel
+* Task Manager/HTOP
