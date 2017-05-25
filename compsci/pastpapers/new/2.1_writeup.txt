@@ -72,3 +72,42 @@ NAT allows IPs to be freed up when a user disconnects so that IP addresses do no
 ---
 
 Speed is capped at network rather than disk speed, so the increased speeds of the SSD is unused. SSDs are also more expensive and have a lower amount of storage per cost. HDDs are better 
+
+---
+
+CREATE TABLE Member {
+  MemberID VARCHAR(8) PRIMARY KEY; // NOT NULL
+  Forename VARCHAR(20);
+  Surname VARCHAR(20);
+  MaxBooks INT;
+  DateOfBirth Date;
+}
+
+SELECT BookID, Title, Author, Price, Category FROM Book WHERE Price > 25, Author == "David Ferguson" ORDERBY Desc; // ORDER BY is two words, and the WHERE statements should have AND between, nit commas.
+
+Retrieve
+
+Representation #1
+
+??? // more compact, structure is directly understood in some languages such as javascript and python, quicker to parse, easier to create
+
+---
+
+??? // The speed that the data is being sent at and the variety of the data
+
+Cannot change data and affect another part of the program
+
+Need pen & paper, will do later
+
+---
+
+??? // { z | z = N and z < y };
+
+((3*3) * (3*2)) = (9 * 6) = 15 [WRONG] // 36 (???)
+
+??? // Reduces a list of values to a single value | applying a combining function
+
+---
+
+ethical: should they access client data, if they delete data then is that wrong, do they know where all the data is?
+legal: do they 

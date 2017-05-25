@@ -39,6 +39,8 @@ The following are some examples of different relational databases that I have mo
 | 03 | lavender | 06.87 |
 | 04 | pansy    | 21.05 |
 
+<div style="page-break-after: always;"></div>
+
 ###### 1NF
 **Unnormalized**
 
@@ -103,12 +105,16 @@ The following are some examples of different relational databases that I have mo
 | 001             | Spring              |
 | 002             | Summer              |
 
+<div style="page-break-after: always;"></div>
+
 #### Entity Relationship Diagram
 When creating a relational database, an Entity Relationship Diagram must be created in order to define how different parts of the database will fit together. The following is an example from <a>wikimedia.org</a> about an MMORPG:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/ER_Diagram_MMORPG.png" style="width: 75%;"></img>
 
 The diagram above shows all of the entities within the game, as shown by the green boxes, and how they are related to one another using the blue diamonds. For example, in relation to the diagram above, one account can have many characters, but each character can only have one account. Each region can contain many characters, but each character can only be in one region. Each of the entities contains values, as shown by the red circles. The primary key, or main defining characteristic, is in a lighter red circle with emboldened and underline text. Again, another example using the diagram above, is that each account has an account name, a password, a date where they last signed on and more, but the account name is the primary key that is used as the unique identifier for each account.
+
+<div style="page-break-after: always;"></div>
 
 The following image is my Entity Relationship Diagram:
 
@@ -119,11 +125,13 @@ Data Dictionaries are a method of laying out data in a way that allows it to be 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Data_Dictionary.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
+
 The following is an example of a data dictionary that I have created for the gardening company **Coastal Corners**:
 
-| Field Name | Data Type | Maximum Field Length | Description 
+| Field Name | Data Type | Maximum Field Length | Description
 |-|-|-|-
-| EmployeeID | UUID | 16 Characters | Used as a unique identifier for each employee 
+| EmployeeID | UUID | 16 Characters | Used as a unique identifier for each employee
 | EmployeeName | String | 64 Characters | Used as a human readable format for identifying customers
 | EmployeeRole | String | 16 Character | Used for the permission system
 | RoleDescription | String | 128 Character | A brief description of their role
@@ -150,6 +158,8 @@ The following is my Entity Life History Diagram for a batch of trowels:
 
 <img src="https://github.com/Natfan/work/raw/master/btec/18/1/elh.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
+
 #### Front End Design
 The following are three sketches for front end interfaces that the users will use. This first one will be the login screen:
 
@@ -158,6 +168,8 @@ The following are three sketches for front end interfaces that the users will us
 The second one will be that of the querying of the database after logging in:
 
 <img src="https://github.com/Natfan/work/raw/master/btec/18/1/query.png" style="width: 75%;"></img>
+
+<div style="page-break-after: always;"></div>
 
 The third and final sketch will be the report that is outputted to the user after they query:
 
@@ -202,6 +214,8 @@ Poor documentation is a large issue as it makes certain employees indispensable.
 
 #### Normalization
 Every database within a company should be set to the Third Normal Form, as it is the most efficient and easy to search for. One impact of lower levels of normalization is that searching within the database will be much less efficient due to the fact that more tables will need to be searched. A way to avoid this is to set up the database in such a way that the database is very efficient and easy to search. An example of this will be shown below:
+
+<div style="page-break-after: always;"></div>
 
 **Unnormalized**
 
