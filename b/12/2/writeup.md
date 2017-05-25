@@ -18,7 +18,7 @@ There are a few different types of security that employees should implement when
 ## PII: Types of Faults
 The following is an email that I sent to my colleague Daniel Easteal about the types of faults that can occur in our businesses.
 
-<img src="https://github.com/Natfan/work/raw/master/btec/12/2/email.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/12/2/email.png" style="width: 75%;"></img>
 
 ## MII: Advantages and Disadvantages of Outsourcing Technical Support
 
