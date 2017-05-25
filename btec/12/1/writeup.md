@@ -30,7 +30,7 @@ If there is a process that is using up a lot of system resources, then a Task Ma
 ## MI: Importance of Keeping Fault Logs
 The following is an email transcript between myself and my colleague Daniel Easteal about Fault Logs:
 
-<img src="email.png"></img>
+<img src="https://github.com/Natfan/work/raw/master/btec/12/1/email.png" style="width: 75%;"></img>
 
 <div style="page-break-after: always;"></div>
 
