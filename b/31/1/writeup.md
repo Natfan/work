@@ -33,4 +33,14 @@ Stop Motion is another older form of animation and uses singlar images that have
 
 <div style="page-break-after: always;"></div>
 
-## PII: 
+## PII: Different Uses of Animation
+There are many different ways that animation can be used. I will now list five different ways in which animation can be used.
+
+### Advertisement
+Advertisement is the main method of pushing a product or service to more new people, in order to sell the product and generate new customers. Animation is used in many television adverisements due to the fact that it allows the company to show footage that may not be possible to create with practical effects. This can result in some very powerful visual scenes. One of the most well known adverts in British culture is the 'John Lewis Christmas Adverts' which are a yearly event and have become part of popular culture in the UK. In 2016, the advert depcited a young girl who often looks up at the moon, and on this particular evening she finds a shed with an old man living alone inside. She tries to talk to the man over many different ways but to no avail. Finally, Christmas Day comes and a package arrives by balloon outside the old man's home. He opens it up and finds a telescope. Using the telescope, he spots the girl and sees her waving back at him. This advertisement, combined with the slow, soft music, makes it very moving but it is important to remember that this would not be possible without the animation of the old man on the moon. Due to the fact that it impossible a person to walk on the surface of the moon without a spacesuit, it is obvious that CGI, a type of animation, was used.
+
+### Creative Art
+
+
+### Education
+Educational animations are used to help inform the audience of different things. When making an educational animation it is important to remember what the age of intended viewers are. For instance, if they are children then animals may be a good choice to try to 
