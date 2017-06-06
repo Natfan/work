@@ -27,9 +27,21 @@ The following example is part of a video which can be seen at [natfan.github.io/
 <img src="https://github.com/Natfan/work/raw/master/b/31/1/typography.png"></img>
 
 ### Stop Motion
-Stop Motion is another older form of animation and uses singlar images that have only a few things moved to be placed one after the other, to make it seem like the subjects in question are moving. Stop motion has been used in popular culture, such as the TV show and movie `Wallace and Gromit`.
+Stop Motion is another older form of animation and uses singular images that have only a few things moved to be placed one after the other, to make it seem like the subjects in question are moving. Stop motion has been used in popular culture, such as the TV show and movie `Wallace and Gromit`.
 
 <img src="https://c1.staticflickr.com/5/4134/4770431283_1316f23810_b.jpg"></img>
+
+### Masking
+Masking animation is when an animation will be added to the background of an image. Traditionally this was made by animators painting a static background and then draw on the objects that will move later on, ensuring that they can be shown to move across the screen without changing the static image in the back, meaning that the static background does not need to be recreated for every frame. A good example of this is the animated show Family Guy.
+
+<img src="https://c1.staticflickr.com/3/2479/4491914871_8dce7c3ea0_b.jpg"></img>
+
+### Movement
+Movement animation requires all objects within the scene to move at one point or another. Over time, an object will move from one point to another at a specific speed. The speed is important as if it moves too quickly it may look unrealistic and if it moves too slowly then it may simply take too long. The one downside to this is that only a simple objects can move due to the fact that complex objects such as characters with many body parts can look unstable with this method.
+
+<img src="http://res.freestockphotos.biz/pictures/15/15600-illustration-of-a-dancing-cartoon-blue-man-pv.png"></img>
+
+### Morphing
 
 <div style="page-break-after: always;"></div>
 
@@ -37,10 +49,13 @@ Stop Motion is another older form of animation and uses singlar images that have
 There are many different ways that animation can be used. I will now list five different ways in which animation can be used.
 
 ### Advertisement
-Advertisement is the main method of pushing a product or service to more new people, in order to sell the product and generate new customers. Animation is used in many television adverisements due to the fact that it allows the company to show footage that may not be possible to create with practical effects. This can result in some very powerful visual scenes. One of the most well known adverts in British culture is the 'John Lewis Christmas Adverts' which are a yearly event and have become part of popular culture in the UK. In 2016, the advert depcited a young girl who often looks up at the moon, and on this particular evening she finds a shed with an old man living alone inside. She tries to talk to the man over many different ways but to no avail. Finally, Christmas Day comes and a package arrives by balloon outside the old man's home. He opens it up and finds a telescope. Using the telescope, he spots the girl and sees her waving back at him. This advertisement, combined with the slow, soft music, makes it very moving but it is important to remember that this would not be possible without the animation of the old man on the moon. Due to the fact that it impossible a person to walk on the surface of the moon without a spacesuit, it is obvious that CGI, a type of animation, was used.
+Advertisement is the main method of pushing a product or service to more new people, in order to sell the product and generate new customers. Animation is used in many television advertisements due to the fact that it allows the company to show footage that may not be possible to create with practical effects. This can result in some very powerful visual scenes. One of the most well known adverts in British culture is the 'John Lewis Christmas Adverts' which are a yearly event and have become part of popular culture in the UK. In 2016, the advert depicted a young girl who often looks up at the moon, and on this particular evening she finds a shed with an old man living alone inside. She tries to talk to the man over many different ways but to no avail. Finally, Christmas Day comes and a package arrives by balloon outside the old man's home. He opens it up and finds a telescope. Using the telescope, he spots the girl and sees her waving back at him. This advertisement, combined with the slow, soft music, makes it very moving but it is important to remember that this would not be possible without the animation of the old man on the moon. Due to the fact that it impossible a person to walk on the surface of the moon without a spacesuit, it is obvious that CGI, a type of animation, was used.
 
 ### Creative Art
 
 
 ### Education
-Educational animations are used to help inform the audience of different things. When making an educational animation it is important to remember what the age of intended viewers are. For instance, if they are children then animals may be a good choice to try to 
+Educational animations are used to help inform the audience of different things. When making an educational animation it is important to remember what the age of intended viewers are. For instance, if they are children then animals may be a good choice to try to convey the message. When showing complex diagrams, such as a blow up of an engine, an animation may be needed to be to show the innards of the machine. Another example is for a more specific case. If the animation is for geography, there may be an animation of the Earth spinning and zooming in on important areas.
+
+### Entertainment
+One of the most known types of animation that is used in entertainment are the animated movie studios `Walt Disney` and `Pixar`, which have made at least 170 films combined. All of these films span many different types of animation such as stop motion, traditional and 3D animation. Animated movies are normally made for a younger audience, but recently some animated movies have been made for an adult audience, such as the R rated film `Sausage Party`.
