@@ -18,6 +18,8 @@ The following image is the Products table.
 
 <div style="page-break-after: always;"></div>
 
+The following is the aforementioned data dictionary.
+
 | Field Name | Data Type | Maximum Field Length | Description
 |-|-|-|-
 | EmployeeID | UUID | 16 Characters | Used as a unique identifier for each employee
