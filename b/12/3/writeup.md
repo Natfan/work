@@ -44,7 +44,18 @@ After a bit of searching, I found out that the WiFi system that we are using is 
 
 <div style="page-break-after: always;"></div>
 
-## MIII: 
+## MIII: Source Material Value and Appendices
+### Appendices
+In the previous segment, I used an Appendix to ensure that the page could still be accessed even if the website `windowsforum.com` goes down for whatever reason. I used the website `archive.is` to take a snapshot of the webpage to be able to view it at a later date if required The appendix is as follows:
+
+Appendix I: http://archive.is/f3JVF
+
+### Values of Source Material
+#### Cross Referencing
+When looking at source material it is always important to cross reference it to ensure that the data is valid and secure. Cross referencing is best used when looking at multiple credible sources and ensuring that they all say either the same or similar things. Once this is done, it is always good to reference every source that you have come across that validates your points and place them all in various appendices.
+
+#### Legitimacy and Valuing Data
+Just because many difference sources show that data is similar to one another, does not mean that they are all correct. All data should be internally validated and some common sense should be used in order to ensure that the data is all present, correct, accurate and valid. A good example of this in recent times is the school of thought that vaccines caused autism. There were a few different scientific journals that stated this, but that have since been discredited. Sadly, due to the populaces inability to process new, conflicting information the fact that this data was falsified did not seem to have much of an affect on those who believed otherwise. Because of this, there have been cases of children dying due to being infected by diseases that they should be vaccinated against.
 
 <div style="page-break-after: always;"></div>
 
