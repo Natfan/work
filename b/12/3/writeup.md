@@ -59,7 +59,17 @@ Just because many difference sources show that data is similar to one another, d
 
 <div style="page-break-after: always;"></div>
 
-## MIV:
+## MIV: Common Faults and How To Solve Them
+The following are some common faults that many users come across but do not know how to solve easily, luckily I shall include some simple guides and tips to solving these issues.
+
+### Forgotten Password
+If you have forgotten your password, there are a few different things that you can do. The first is to press the `Recover Password` button and attempt to reset your password by the email that you are sent via either clicking on the link or entering the temporary password that you have been given. If you do not have access to this email then you could try to request a password reset from the system administrator, if you can contact them personally. A good way to prevent this is to have a password manager such as `LastPass`, which will save all of your passwords and allow you to generate new secure ones, all secured behind a master password.
+
+### Computer Is Slow
+If you computer is slow then you could try to defragment your disk. If you are on Windows, then you can press `Win+R` and type in `defrag`, then follow the instructions to lower the amount of files on your system and to make sure that they are not corrupt or damaged. Another good idea is to stop programs from loading on startup, and this can be done by going into your Task Manager by pressing `Control+Shift+Escape` and setting all programs that are in the "Startup" tab to be false.
+
+### Wipe Files
+To wipe your files on a Windows machine, a good first step is to format your drive(s). This can be done by opening the File Explorer with `Win+E` and right clicking on the drive that you want to wipe, then selecting `Format...`. There are some more advanced utilities out there that can make your data utterly unrecoverable.
 
 <div style="page-break-after: always;"></div>
 
