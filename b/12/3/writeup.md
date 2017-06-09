@@ -40,7 +40,7 @@ The following segment is an expert from my full faults logs which are much more 
 > #### Solution
 > The fix was to ensure that the user's password was reset, in order to let the user reset their password and log back in again with their new password. I issued them a temporary password that would expire once they logged in and the system automatically prompted them to set a new one. The new temporary password in question was their first name, followed by their surname, followed by the numbers 4, 5 and 6.
 > #### Information Links
-After a bit of searching, I found out that the WiFi system that we are using is officially classed under WPA-Enterprise. This means that each user on the system can have different levels of access to the system, all password protected. I found out how to reset a user's password from our internal, NDA'd documentation and I used the following thread to initially find out about WPA-Enterprise: `https://windowsforum.com/threads/wpa3-enterprise-possible-password-recovery.77324/` See `{Appendix I}` for a mirror.
+> After a bit of searching, I found out that the WiFi system that we are using is officially classed under WPA-Enterprise. This means that each user on the system can have different levels of access to the system, all password protected. I found out how to reset a user's password from our internal, NDA'd documentation and I used the following thread to initially find out about WPA-Enterprise: `https://windowsforum.com/threads/wpa3-enterprise-possible-password-recovery.77324/` See `{Appendix I}` for a mirror.
 
 <div style="page-break-after: always;"></div>
 
@@ -94,7 +94,7 @@ This questionnaire, combined with the previously shown fault log, will look some
 > #### Solution
 > The fix was to ensure that the user's password was reset, in order to let the user reset their password and log back in again with their new password. I issued them a temporary password that would expire once they logged in and the system automatically prompted them to set a new one. The new temporary password in question was their first name, followed by their surname, followed by the numbers 4, 5 and 6.
 > #### Information Links
-After a bit of searching, I found out that the WiFi system that we are using is officially classed under WPA-Enterprise. This means that each user on the system can have different levels of access to the system, all password protected. I found out how to reset a user's password from our internal, NDA'd documentation and I used the following thread to initially find out about WPA-Enterprise: `https://windowsforum.com/threads/wpa3-enterprise-possible-password-recovery.77324/` See `{Appendix I}` for a mirror.
+> After a bit of searching, I found out that the WiFi system that we are using is officially classed under WPA-Enterprise. This means that each user on the system can have different levels of access to the system, all password protected. I found out how to reset a user's password from our internal, NDA'd documentation and I used the following thread to initially find out about WPA-Enterprise: `https://windowsforum.com/threads/wpa3-enterprise-possible-password-recovery.77324/` See `{Appendix I}` for a mirror.
 > How easy to follow was the advice that was given to you, out of ten?
 > Why did you rate the above question as you did?
 > What was the method that you used to receive the support? (Email, telephone, text etc,)
