@@ -41,6 +41,29 @@ When sending an animation via an email attachment, then the file size of the ani
 <div style="page-break-after: always;"></div>
 
 ### MIII: Techniques used to Minimize Animation File Size
+There are a few different techniques that can be used to minimize the file size of animations. The following is a short list of a few techniques that can be used:
+
+* Quality vs Quantity
+ - Lossy Compression
+ - Lossless Compression
+* Auto Cropping
+* Frame Disposal
+
+I shall now explain what they are, as seen below:
+
+#### Quality vs Quantity
+
+
+##### Lossy Compression
+
+
+##### Lossless Compression
+
+
+#### Auto Cropping
+
+
+#### Frame Disposal
 
 
 <div style="page-break-after: always;"></div>
