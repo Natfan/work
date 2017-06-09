@@ -73,4 +73,35 @@ To wipe your files on a Windows machine, a good first step is to format your dri
 
 <div style="page-break-after: always;"></div>
 
-## DII: 
+## DII: Effective Communication
+In the following segment I shall discuss a method of communicating with the end user. This method takes the form of a questionnaire and is a quick and easy format to fill out that has lots of usability with a mix of qualitative and quantitative questions, giving the analyst a good mix of datasets. The following is an example questionnaire:
+
+> How easy to follow was the advice that was given to you, out of ten?
+> Why did you rate the above question as you did?
+> What was the method that you used to receive the support? (Email, telephone, text etc,)
+> Was this method useful to you or would you have preferred something different, and why?
+> Do you believe that the technician handled the issue well, out of ten?
+> Was the response time to your issue satisfactory, out of ten?
+> Would you recommend this service to a friend or colleague? If not, why not?
+> Do you have any other suggestions or improvements?
+
+This questionnaire, combined with the previously shown fault log, will look something like the following:
+
+> #### Date
+> 20th May 2017
+> #### Issue
+> The user could connect to the WiFi but they could not access any web pages due to the fact that they were not logged into the system.
+> #### Solution
+> The fix was to ensure that the user's password was reset, in order to let the user reset their password and log back in again with their new password. I issued them a temporary password that would expire once they logged in and the system automatically prompted them to set a new one. The new temporary password in question was their first name, followed by their surname, followed by the numbers 4, 5 and 6.
+> #### Information Links
+After a bit of searching, I found out that the WiFi system that we are using is officially classed under WPA-Enterprise. This means that each user on the system can have different levels of access to the system, all password protected. I found out how to reset a user's password from our internal, NDA'd documentation and I used the following thread to initially find out about WPA-Enterprise: `https://windowsforum.com/threads/wpa3-enterprise-possible-password-recovery.77324/` See `{Appendix I}` for a mirror.
+> How easy to follow was the advice that was given to you, out of ten?
+> Why did you rate the above question as you did?
+> What was the method that you used to receive the support? (Email, telephone, text etc,)
+> Was this method useful to you or would you have preferred something different, and why?
+> Do you believe that the technician handled the issue well, out of ten?
+> Was the response time to your issue satisfactory, out of ten?
+> Would you recommend this service to a friend or colleague? If not, why not?
+> Do you have any other suggestions or improvements?
+
+
