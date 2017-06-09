@@ -12,10 +12,10 @@ A frame is a still image within a video or animation. Every single video ever ma
 When creating an animation via a computer, you will not want to make many different objects all on the same group. For one, this will make it very unorganized and hard to work with, and for another it may mean that you delete the wrong thing by accident. This is where layers come in. Layers allow the user to separate different objects and other aspects of their project, meaning that it is easier to find different objects and edit singular parts of the animation. These layers can be locked so that they cannot be moved, hidden so that they are not distracting or placed in "solo mode" so that they be worked on individually.
 
 #### Button
-Buttons can be found in websites and applications that require a user's input. An example of this is a music player application that will have buttons that let the user play, pause, stop, rewind and fast-forward the currently playing song. These buttons are coincidinally also found within animation applications such as Flash and After Effects. These let you navigate your animation with ease, letting you go to very precise areas of your program.
+Buttons can be found in websites and applications that require a user's input. An example of this is a music player application that will have buttons that let the user play, pause, stop, rewind and fast-forward the currently playing song. These buttons are coincidentally also found within animation applications such as Flash and After Effects. These let you navigate your animation with ease, letting you go to very precise areas of your program.
 
 #### Library
-
+Libraries are like APIs within programming, they allow you to add new features and functionality to your animations. An example of this could be if you wish to add bouncing to your animation, you can just use `bounce.js`, a Javascript library that makes CSS have a more "warm, bouncy" feel to your shapes.
 
 <div style="page-break-after: always;"></div>
 
