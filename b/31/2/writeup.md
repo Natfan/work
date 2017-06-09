@@ -20,7 +20,23 @@ Libraries are like APIs within programming, they allow you to add new features a
 <div style="page-break-after: always;"></div>
 
 ### PV: Factors when Creating Animations for the Web
+There are a few different criteria that need to be considered when designing and creating animations for the web, and they are as follows:
 
+* House Style
+* Output Devices (PC, Mobile etc)
+* Email Attachment
+* Size
+
+I shall now go more in-depth with each of these points.
+
+#### House Style
+The first point is house style, which is the generic style that the place that you place your animation on will have. An example of this is that if you have a website with a very dark and minimalist theme, making an animation that has a bright and sunny theme and message may not be the best idea. Another example would be if you made a animation with lots of bevels and edges on a website that was very flat and used a Material Design philosophy.
+
+#### Output Devices
+Output Devices are also very important. If you are creating an animation for a PC version of a website, bandwidth may not be an issue, as will be discussed later. A PC also means that the screen will be bigger and the pixel density may be lower due to the fact that the screen is larger but the resolution stays the same. A mobile will be smaller and more compact, this meaning that the animation size will need to be smaller.
+
+#### Email Attachment & Size
+When sending an animation via an email attachment, then the file size of the animation will need to be smaller. Compression may be required for this, but it may also lower the quality of the animation. Another reason why the file size may need to be smaller is if it is being accessed on a mobile, where data plans may limit the size of the image that the user wants to download.
 
 <div style="page-break-after: always;"></div>
 
