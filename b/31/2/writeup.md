@@ -52,7 +52,7 @@ There are a few different techniques that can be used to minimize the file size 
 I shall now explain what they are, as seen below:
 
 #### Quality vs Quantity
-
+One of the main ways to minimise a GIF's size is to reduce the quality of the image. This can be done by just lowering the resolution of the image, but other things can be done as I shall explain below. The important thing to remember is that you will need to balance the quality of the image with the quantity of the amount of images that you can save on your drive. This basically means that you could store one GIF that has an incredibly high resolution and framerate, but if it is 1TB in size then it will be very hard to save lots of them. The other side of the coin is that you could save an image as only eight pixels in width and height, but it would be very hard to make out what it is supposed to be, especially if the original source material is an image or series of images taken from real life. A way to solve this would be to use compression, a method to make files smaller. There are two categories of compression, lossy and lossless, and I shall elaborate on them now.
 
 ##### Lossy Compression
 
@@ -65,6 +65,8 @@ I shall now explain what they are, as seen below:
 
 #### Frame Disposal
 
+
+#### Colour Density
 
 <div style="page-break-after: always;"></div>
 
