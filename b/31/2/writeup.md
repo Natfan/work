@@ -91,22 +91,6 @@ The following image is my story board on the stop motion animation that I am pla
 
 The following is a brief list of the timing of the animation:
 
-* Small Lego "Snake" is at the bottom of the board. Around it there are lots of 2x2 bricks. (0:00)
-* The Snake starts moving towards the nearest brick. (0:01)
-* When it touches the brick, the touched brick joins onto the end of the Snake. (0:02)
-* The Snake continues to move around the board, collecting each brick as it goes. (0:02 - 0:37)
-* The Snake moves to the left side of the board, straightened tuning out (0:36 - 0:41)
-* The Snake starts to move down the left side of the board, now taking the shape of a right angle (0:41 - 0:45)
-* The Snake moves off the screen (0:45 - 0:51)
-* The animation ends
-
-#### Animation II
-The following image is my story board on the stop motion animation that I am planning on making using a digital camera and some editing software to stitch the images together.
-
-<img src="storyboard2.png"></img>
-
-The following is a brief list of the timing of the animation:
-
 * The clouds all start at the left side of the screen. (0:01)
 * The clouds individually move across the screen, taking 12 seconds each. (0:01 - 0:012)
 * When the cloud hits the right side of the screen, it is "teleported" to the left side of the screen again. (0:13)
@@ -125,20 +109,26 @@ While there is a door in the final product, I may not add it in as I want the an
 
 <div style="page-break-after: always;"></div>
 
-### PVII: Implementation of Computer Animations Using Different Techniques
-#### Animation I
-##### Test Cases
-Due to the fact that the animation is encoded in the MP4 format, it will work with all modern browsers including Chrome, Firefox, Safari and Opera, along with the mobile versions of all of the latter. It may not work on Linux machines due to the fact that MP4 is not opensource.
+#### Animation II
+The following image is my story board on the stop motion animation that I am planning on making using a digital camera and some editing software to stitch the images together.
 
-###### Feedback
-When looking for feedback, I spoke to my colleague Daniel Easteal. After viewing the animation, he was unsure as to what it was. I explained that it was a simulation of the popular game "Snake" represented by Lego in a stop motion animation. He understood after I explained, but I felt that I needed to verify what the animation actually was before it started, which lead me to the change that I made in my change log below.
+<img src="storyboard2.png"></img>
 
-###### Change Log
-My only change was to add a title to the animation to explain what it was.
+The following is a brief list of the timing of the animation:
+
+* Small Lego "Snake" is at the bottom of the board. Around it there are lots of 2x2 bricks. (0:00)
+* The Snake starts moving towards the nearest brick. (0:01)
+* When it touches the brick, the touched brick joins onto the end of the Snake. (0:02)
+* The Snake continues to move around the board, collecting each brick as it goes. (0:02 - 0:37)
+* The Snake moves to the left side of the board, straightened tuning out (0:36 - 0:41)
+* The Snake starts to move down the left side of the board, now taking the shape of a right angle (0:41 - 0:45)
+* The Snake moves off the screen (0:45 - 0:51)
+* The animation ends
 
 <div style="page-break-after: always;"></div>
 
-#### Animation II
+### PVII: Implementation of Computer Animations Using Different Techniques
+#### Animation I
 ##### Test Cases
 Due to the fact that the animation uses P5js, it will work with all modern browsers including Chrome, Firefox, Safari and Opera, along with the mobile versions of all of the latter.
 
@@ -152,5 +142,22 @@ When getting feedback, I spoke to one of my colleagues, Ryan Krage. He gave me f
 
 <div style="page-break-after: always;"></div>
 
-### DII: Tools and Techniques Used to Create Animations
+#### Animation II
+##### Test Cases
+Due to the fact that the animation is encoded in the MP4 format, it will work with all modern browsers including Chrome, Firefox, Safari and Opera, along with the mobile versions of all of the latter. It may not work on Linux machines due to the fact that MP4 is not opensource.
 
+###### Feedback
+When looking for feedback, I spoke to my colleague Daniel Easteal. After viewing the animation, he was unsure as to what it was. I explained that it was a simulation of the popular game "Snake" represented by Lego in a stop motion animation. He understood after I explained, but I felt that I needed to verify what the animation actually was before it started, which lead me to the change that I made in my change log below.
+
+###### Change Log
+My only change was to add a title to the animation to explain what it was.
+
+<div style="page-break-after: always;"></div>
+
+### DII: Tools and Techniques Used to Create Animations
+In the following segment I will go through the two animation techniques that I used to create each animation and I will list what I liked, what I would improve and what did not work. Like the previous critera, it will be in a table format.
+
+| Technique Name | What I Liked | What I Would Improve | What Did Not Work |
+|-|-|-|-|
+| Frame By Frame | How it was each to go back and change things. | I would make the User Interface easier to use. | My laptop is not very powerful, and so the program ran slowly. |
+| Stop Motion    | That it was much more hands-on | I would increase the length of the animation. | I kept on having to readjust the camera, so I should invest in a camera stand next time. |
