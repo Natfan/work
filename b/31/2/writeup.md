@@ -55,18 +55,19 @@ I shall now explain what they are, as seen below:
 One of the main ways to minimise a GIF's size is to reduce the quality of the image. This can be done by just lowering the resolution of the image, but other things can be done as I shall explain below. The important thing to remember is that you will need to balance the quality of the image with the quantity of the amount of images that you can save on your drive. This basically means that you could store one GIF that has an incredibly high resolution and framerate, but if it is 1TB in size then it will be very hard to save lots of them. The other side of the coin is that you could save an image as only eight pixels in width and height, but it would be very hard to make out what it is supposed to be, especially if the original source material is an image or series of images taken from real life. A way to solve this would be to use compression, a method to make files smaller. There are two categories of compression, lossy and lossless, and I shall elaborate on them now.
 
 ##### Lossy Compression
-
+Lossy Compression is when the amount of pixels within the image are reduced. This can mean just setting a group of 4 pixels that are all roughly the same colour to be just one static colour, to reducing the size of the entire image by a distinct scale factor, such as reducing a 1920x1080 pixel image to a 1080x720 pixel image, or a 4000x4000 pixel image to 2000x2000 pixel image. While this can greatly reduce file size, it can also result in a more "blurry" or pixelated image due to the resolution being reduced. Another issue is that if an image is lossy compressed too much, "artifacts" may appear which can damage the image. To put lossy compression in layman's terms, reconstructs the data via approximation.
 
 ##### Lossless Compression
-
+Lossless compression is a more "reliable" method of compressing images, due to the fact that only excess pixels are removed. This is similar to auto cropping, which I shall elaborate upon later. Lossless compression allows for perfect reconstruction of data, meaning that no parts of the image are lost, which can lead to a larger file size. An example of this is the compression of the string "AAAAAABBBBBCCC", which can be compressed into "6A5B3C" due to the fact that there are 6As in the string, followed by 5Bs, followed by 3Cs. This means that the string can be expanded with ease, but the compressed version will take up less space.
 
 #### Auto Cropping
-
+Auto Cropping is when an animation or image has excess parts of an image removed. For instance, if an exported video of an animation is two minutes long, but the actual animation in question is only one minute long then the auto cropping tool will remove the excess frames by default. Another example is if the project file for an animation states that the image is 1920x1080 pixels in size, but the actual animation only takes up the top 500x500 pixels, then the animation can be cropped to remove these excess pixels. Auto cropping is useful as it reduced file size without reducing the actual quality of the image.
 
 #### Frame Disposal
-
+Frame Disposal is a method of reducing file size by removing the current frame before the next frame should be displayed. This effectively reduces file size as it means that only one frame can be seen at any one time. Also, it means that there are less pixels in the animation and frames are less likely to overlap, meaning that there is less wasted space and more files can be stored on the drive as the file size is lower.
 
 #### Colour Density
+Colour Density is the total amount of colours that can be used in a colour palette. An example of this is the GIF file format, which is a 16bit colour scheme as there are a maximum of 256 colours that can be used. A higher colour density means that there are more colours that can be used in an image, but it also increases the file size as the index of all of the colours that can be used needs to be larger. Files can deliberately reduce their colour density if some of the colours are not being used at all, thus reducing the size of the image.
 
 <div style="page-break-after: always;"></div>
 
