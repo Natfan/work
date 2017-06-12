@@ -86,12 +86,40 @@ In the following segment I shall make a list of 3 different specialist softwares
 ### PVI: Designing Computer Animations Using Different Techniques
 #### Animation I
 The following image is my story board on the stop motion animation that I am planning on making using a digital camera and some editing software to stitch the images together.
-* story board on snakes
-* timing and keyframe documentation
+
+<img src="storyboard1.png"></img>
+
+The following is a brief list of the timing of the animation:
+
+* Small Lego "Snake" is at the bottom of the board. Around it there are lots of 2x2 bricks. (0:00)
+* The Snake starts moving towards the nearest brick. (0:01)
+* When it touches the brick, the touched brick joins onto the end of the Snake. (0:02)
+* The Snake continues to move around the board, collecting each brick as it goes. (0:02 - 0:37)
+* The Snake moves to the left side of the board, straightened tuning out (0:36 - 0:41)
+* The Snake starts to move down the left side of the board, now taking the shape of a right angle (0:41 - 0:45)
+* The Snake moves off the screen (0:45 - 0:51)
+* The animation ends
 
 #### Animation II
-* story board on <???>
-* timing and keyframe documentation
+The following image is my story board on the stop motion animation that I am planning on making using a digital camera and some editing software to stitch the images together.
+
+<img src="storyboard2.png"></img>
+
+The following is a brief list of the timing of the animation:
+
+* The clouds all start at the left side of the screen. (0:01)
+* The clouds individually move across the screen, taking 12 seconds each. (0:01 - 0:012)
+* When the cloud hits the right side of the screen, it is "teleported" to the left side of the screen again. (0:13)
+* The clouds teleport individually of one another, and keep moving for the duration of animation, which is infinite as it is similar to a GIF. (INF)
+* The grounds starts off as just green grass (0:00)
+* Every half a second, a part of the house is drawn. (0:00 - 0:045)
+* The bottom of the house is generated (0:00 - 0:005)
+* The left side of the house is generated (0:005 - 0:01)
+* The top of the house is generated (0:01 - 0:015)
+* The right side of the house is generated (0:015 - 0:02)
+* The left side of the roof is generated (0:02 - 0:025)
+* The right side of the roof is generated (0:025 - 0:03)
+* After the house has been generated, the clouds repeat. (0:03 - 1:00)
 
 <div style="page-break-after: always;"></div>
 
@@ -107,23 +135,23 @@ The following image is my story board on the stop motion animation that I am pla
 * chat with Ryan
 
 ###### Change Log
-* yeet this is a change log
+* this is a change log
 
 <div style="page-break-after: always;"></div>
 
 #### Animation II
 ##### Test Cases
-* windows pc
-* linux laptop
-* android mobile
-* windows phone
+Due to the fact that the animation uses P5js, it will work with all modern browsers including Chrome, Firefox, Safari and Opera, along with the mobile versions of all of the latter.
 
 ###### Feedback
-* chat with Ryan
+When getting feedback, I spoke to one of my colleagues, Ryan Krage. He gave me feedback with my animation, and told me to add a door to the house to make it more obvious as to what it is. I did so, as can be seen in the final design. The changes that I made can be seen in the change log below.
 
 ###### Change Log
-* yeet this is a change log
+* The left side of the door is generated (0:03 - 0:035)
+* The top of the door is generated (0:035 - 0:04)
+* The right side of the door is generated (0:04 - 0:045)
 
 <div style="page-break-after: always;"></div>
 
 ### DII: Tools and Techniques Used to Create Animations
+
