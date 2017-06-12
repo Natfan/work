@@ -72,7 +72,13 @@ Colour Density is the total amount of colours that can be used in a colour palet
 <div style="page-break-after: always;"></div>
 
 ### DI: Compare Specialist Animation Software
+In the following segment I shall make a list of 3 different specialist softwares that are used for animation and list a few things about each of them such as ease of access, price, what I liked about it, what I would improve if I could and what did not work at all. This will be in a table based format.
 
+| Software Name | Price | Ease of Access | What I Liked | What I Would Improve | What Didn't Work |
+|-|-|-|-|-|-|
+| Flash | £20/mo | Very easy for beginners. | Expansive, helpful community. | Add more file formats that can be worked with. | Strong and stable with regular updates, I've found no bugs yet. |
+| Blender | Free | Steep learning curve. | Relatively easier to pick up in comparison to others. | UI Design is cramped. | Can be prone to crashes. |
+| Adobe After Effects | £20/mo | Relatively straight forward for beginners, with lots of tutorials. | Make a cheaper version for students. | Some types of motion graphics are difficult to use. |
 
 <div style="page-break-after: always;"></div>
 
