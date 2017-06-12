@@ -85,7 +85,8 @@ In the following segment I shall make a list of 3 different specialist softwares
 ## Task II
 ### PVI: Designing Computer Animations Using Different Techniques
 #### Animation I
-* story board on sneks
+The following image is my story board on the stop motion animation that I am planning on making using a digital camera and some editing software to stitch the images together.
+* story board on snakes
 * timing and keyframe documentation
 
 #### Animation II
@@ -103,7 +104,7 @@ In the following segment I shall make a list of 3 different specialist softwares
 * windows phone
 
 ###### Feedback
-* chat wit my homie G Ryan
+* chat with Ryan
 
 ###### Change Log
 * yeet this is a change log
@@ -118,7 +119,7 @@ In the following segment I shall make a list of 3 different specialist softwares
 * windows phone
 
 ###### Feedback
-* chat wit my homie G Ryan
+* chat with Ryan
 
 ###### Change Log
 * yeet this is a change log
