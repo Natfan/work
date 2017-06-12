@@ -78,7 +78,7 @@ In the following segment I shall make a list of 3 different specialist softwares
 |-|-|-|-|-|-|
 | Flash | £20/mo | Very easy for beginners. | Expansive, helpful community. | Add more file formats that can be worked with. | Strong and stable with regular updates, I've found no bugs yet. |
 | Blender | Free | Steep learning curve. | Relatively easier to pick up in comparison to others. | UI Design is cramped. | Can be prone to crashes. |
-| Adobe After Effects | £20/mo | Relatively straight forward for beginners, with lots of tutorials. | Make a cheaper version for students. | Some types of motion graphics are difficult to use. |
+| Adobe After Effects | £20/mo | Relatively straight forward for beginners, with lots of tutorials. | Make a cheaper version for students. | Some types of motion graphics are difficult to use. | Strong and stable with regular updates, I've found no bugs yet. |
 
 <div style="page-break-after: always;"></div>
 
@@ -87,7 +87,7 @@ In the following segment I shall make a list of 3 different specialist softwares
 #### Animation I
 The following image is my story board on the stop motion animation that I am planning on making using a digital camera and some editing software to stitch the images together.
 
-<img src="storyboard1.png"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/31/2/storyboard1.png"></img>
 
 The following is a brief list of the timing of the animation:
 
@@ -112,7 +112,7 @@ While there is a door in the final product, I may not add it in as I want the an
 #### Animation II
 The following image is my story board on the stop motion animation that I am planning on making using a digital camera and some editing software to stitch the images together.
 
-<img src="storyboard2.png"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/31/2/storyboard2.png"></img>
 
 The following is a brief list of the timing of the animation:
 
