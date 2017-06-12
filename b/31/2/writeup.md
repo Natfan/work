@@ -121,21 +121,20 @@ The following is a brief list of the timing of the animation:
 * The right side of the roof is generated (0:025 - 0:03)
 * After the house has been generated, the clouds repeat. (0:03 - 1:00)
 
+While there is a door in the final product, I may not add it in as I want the animation to be minimalistic.
+
 <div style="page-break-after: always;"></div>
 
 ### PVII: Implementation of Computer Animations Using Different Techniques
 #### Animation I
 ##### Test Cases
-* windows pc
-* linux laptop
-* android mobile
-* windows phone
+Due to the fact that the animation is encoded in the MP4 format, it will work with all modern browsers including Chrome, Firefox, Safari and Opera, along with the mobile versions of all of the latter. It may not work on Linux machines due to the fact that MP4 is not opensource.
 
 ###### Feedback
-* chat with Ryan
+When looking for feedback, I spoke to my colleague Daniel Easteal. After viewing the animation, he was unsure as to what it was. I explained that it was a simulation of the popular game "Snake" represented by Lego in a stop motion animation. He understood after I explained, but I felt that I needed to verify what the animation actually was before it started, which lead me to the change that I made in my change log below.
 
 ###### Change Log
-* this is a change log
+My only change was to add a title to the animation to explain what it was.
 
 <div style="page-break-after: always;"></div>
 
