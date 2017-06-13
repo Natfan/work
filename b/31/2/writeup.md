@@ -162,14 +162,14 @@ In the following segment I will go through the two animation techniques that I u
 I really liked how easy it was to go back and change things, one has utter control over the animation and everything about it, including speed, colour and resolution. Another good thing about Frame By Frame animation is that it allows the user to add in large amounts of detail whenever they want, meaning that the animator can ad detail at the start of the project, even if they are close to the end. Another good thing about Frame By Frame animation is that it can be much cheaper than other forms of animation as no expensive lights or cameras need to be purchased, merely a either a one-time fee or a monthly subscription if it is a paid for service such as Adobe's After Effects or Adobe's Flash. The process can even be free, aside from the initial startup costs of buying the computer, as softwares such as Blender and Scratch also have access to creating animations. Also, due to the use of tweening, the animator can animate long stretches of video with objects moving about very easily as they all just follow a path over the time specified.
 
 ##### Stop Motion
-I appreciated the fact that Stop Motion is much more hands on and allowed me to really understand how animation works. Because I had to do it all myself I felt a greater understanding of craft as it is very similar to how the older generations would make their animations. While this is more time consuming, it is also much more satisfying to have a completed piece of work.
+I appreciated the fact that Stop Motion is much more hands on and allowed me to really understand how animation works. Because I had to do it all myself I felt a greater understanding of craft as it is very similar to how the older generations would make their animations. While this is more time consuming, it is also much more satisfying to have a completed piece of work. Another good thing about stop motion animation is that it uses lots of real life objects and features, meaning that you can really apply anything in your vacinaty to be part of your animation. Finally, you can edit these objects with your hands, rather than using limited tools that you can find on the computer, allowing for more mobility and flexibility.
 
 #### What I Would Improve
 ##### Frame By Frame
 I would make the User Interface easier to use.
 
 ##### Stop Motion
-I would increase the length of the animation.
+I would increase the length of the animation by speeding up the process of creating the animation. I would do this by simplifying actions, one way that I could achieve this is via making a "macro" so that I can repeat things over and over again with very little effort.
 
 #### What Didn't Work
 ##### Frame By Frame
