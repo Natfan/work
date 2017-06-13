@@ -155,9 +155,25 @@ My only change was to add a title to the animation to explain what it was.
 <div style="page-break-after: always;"></div>
 
 ### DII: Tools and Techniques Used to Create Animations
-In the following segment I will go through the two animation techniques that I used to create each animation and I will list what I liked, what I would improve and what did not work. Like the previous critera, it will be in a table format.
+In the following segment I will go through the two animation techniques that I used to create each animation and I will list what I liked, what I would improve and what did not work.
 
-| Technique Name | What I Liked | What I Would Improve | What Did Not Work |
-|-|-|-|-|
-| Frame By Frame | How it was each to go back and change things. | I would make the User Interface easier to use. | My laptop is not very powerful, and so the program ran slowly. |
-| Stop Motion    | That it was much more hands-on | I would increase the length of the animation. | I kept on having to readjust the camera, so I should invest in a camera stand next time. |
+#### What I Liked
+##### Frame By Frame
+I really liked how easy it was to go back and change things, one has utter control over the animation and everything about it, including speed, colour and resolution. Another good thing about Frame By Frame animation is that it allows the user to add in large amounts of detail whenever they want, meaning that the animator can ad detail at the start of the project, even if they are close to the end. Another good thing about Frame By Frame animation is that it can be much cheaper than other forms of animation as no expensive lights or cameras need to be purchased, merely a either a one-time fee or a monthly subscription if it is a paid for service such as Adobe's After Effects or Adobe's Flash. The process can even be free, aside from the initial startup costs of buying the computer, as softwares such as Blender and Scratch also have access to creating animations. Also, due to the use of tweening, the animator can animate long stretches of video with objects moving about very easily as they all just follow a path over the time specified.
+
+##### Stop Motion
+I appreciated the fact that Stop Motion is much more hands on and allowed me to really understand how animation works. Because I had to do it all myself I felt a greater understanding of craft as it is very similar to how the older generations would make their animations. While this is more time consuming, it is also much more satisfying to have a completed piece of work.
+
+#### What I Would Improve
+##### Frame By Frame
+I would make the User Interface easier to use.
+
+##### Stop Motion
+I would increase the length of the animation.
+
+#### What Didn't Work
+##### Frame By Frame
+My laptop is not very powerful, so the program ran slowly.
+
+##### Stop Motion
+I kept on having to readjust the camera, so I should invest in a camera stand next time.
