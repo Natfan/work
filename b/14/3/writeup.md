@@ -479,3 +479,385 @@ public class onEnderpearlThrow implements Listener {
     }
 }
 ```
+
+#### onFrozenGiveDamage.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Player;
+import org.bukkit.entity.Projectile;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.potion.Potion;
+
+public class onFrozenGiveDamage implements Listener {
+    public ChillMain plugin;
+
+    public onFrozenGiveDamage(ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onFrozenGiveDamageEvent(EntityDamageByEntityEvent e) { // is fired when an entity damages another
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+
+        Entity damager = e.getDamager();
+        if (damager instanceof Player) { // checks if the person who dealt the damage was a player
+            Player damagerPlayer = (Player) damager;
+            if (plugin.frozen.contains(damagerPlayer.getUniqueId())) { // if the player is frozen, dont let them deal damage
+                damagerPlayer.sendMessage(prefix + sec + "You " + pri + "are currently " + sec + "frozen " + pri + "and cannot " + sec + "give " + pri + "damage!");
+                e.setCancelled(true);
+            }
+        }
+        if (damager instanceof Projectile) { // checks if the damager was a projectile (arrow, egg, snowball etc)
+            Projectile projectile = (Projectile) damager;
+            if (projectile.getShooter() instanceof Player) {
+                Player damagerShooter = (Player) projectile.getShooter();
+                if (plugin.frozen.contains(damagerShooter.getUniqueId())) { // checks if the player that fired the shot was frozen
+                    damagerShooter.sendMessage(prefix + sec + "You " + pri + "are currently " + sec + "frozen " + pri + "and cannot " + sec + "give " + pri + "damage!");
+                    e.setCancelled(true); // cancels the event
+                }
+            }
+        }
+        if (damager instanceof Potion) { // does the same for potions
+            Projectile projectile = (Projectile) damager;
+            ...
+            }
+        }
+    }
+}
+```
+
+#### onInventoryClose.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.inventory.InventoryCloseEvent;
+import org.bukkit.plugin.Plugin;
+import org.bukkit.scheduler.BukkitScheduler;
+
+public class onInventoryCloseEvent implements Listener {
+    public ChillMain plugin;
+    public onInventoryCloseEvent(ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onInventoryClose(InventoryCloseEvent e) { // is fired whenever an inventory is closed
+        Player p = (Player) e.getPlayer();
+        BukkitScheduler scheduler = Bukkit.getServer().getScheduler();
+        scheduler.scheduleSyncRepeatingTask(plugin, () -> {
+            if (plugin.frozen.contains(p.getUniqueId())) { // checks if the player that closed the inventory was frozen every 3 seconds
+                if (e.getInventory().getName().equals(FrozenMenu.inv.getName())) {
+                    p.closeInventory(); // closes their current inventory and opens up the menu
+                    p.openInventory(FrozenMenu.inv);
+                }
+            }
+        }, 60L, 60L);
+    }
+}
+```
+
+#### onPlayerDropItem.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import net.survivalz.chill.Strings;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerDropItemEvent;
+
+public class onPlayerDropItem implements Listener {
+    public ChillMain plugin;
+    public onPlayerDropItem (ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerDropItemEvent(PlayerDropItemEvent e) { // fires whenever a player drops and item
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+
+        Player p = e.getPlayer();
+        if (plugin.frozen.contains(p.getUniqueId())) {
+            e.setCancelled(true); // cancels the event if the player is frozen so that they cannot give their stuff to an unfrozen player
+            plugin.blank(p);
+            p.sendMessage(prefix + "You are currently " + sec + "frozen " + pri + "and cannot " + sec + "drop " + pri + "items!");
+            p.sendMessage(Strings.joinTS1);
+            p.sendMessage(Strings.joinTS2);
+        }
+    }
+}
+```
+
+#### onPlayerInventoryClickItem.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import net.survivalz.chill.MenuItems;
+import net.survivalz.chill.Strings;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.HumanEntity;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.inventory.InventoryType;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
+
+public class onPlayerInventoryClickItem implements Listener {
+    public ChillMain plugin;
+    public onPlayerInventoryClickItem(ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerClickItemEvent(InventoryClickEvent e) { // fires whenever a player clicks in an inventory
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+
+        HumanEntity humanEntity = e.getWhoClicked();
+        Inventory inventory = e.getInventory();
+        Player p = (Player) humanEntity;
+        ItemStack clicked = e.getCurrentItem();
+        InventoryType.SlotType slotType = e.getSlotType();
+
+        if (plugin.frozen.contains(p.getUniqueId())) {
+            if (inventory.getType() != null) {
+                if (p.getOpenInventory().getTopInventory().getName() != FrozenMenu.inv.getName()) {
+                    e.setCancelled(true); // stop players from interactive with inventories that arent the menu
+                    plugin.blank(p);
+                    p.sendMessage(prefix + "You are currently " + sec + "frozen " + pri + "and cannot " + sec + "move " + pri + "items!");
+                    p.sendMessage(Strings.joinTS1);
+                    p.sendMessage(Strings.joinTS2);
+                } else {
+                    if (slotType.equals(InventoryType.SlotType.CONTAINER)) {
+                        if (clicked.isSimilar(MenuItems.admit())) { // tells staff to ban the player if they admit
+                            p.sendMessage("YOU CLICKED ADMIT");
+                            e.setCancelled(true);
+                            Bukkit.broadcastMessage(p.getName() + "admitted to cheating, please issue /ban " + p.getName() + " Modified Client (Admitted)");
+                        }
+                        if (clicked.isSimilar(MenuItems.info())) {
+                            p.sendMessage("YOU CLICKED INFO");
+                            e.setCancelled(true);
+                        }
+                        if (clicked.isSimilar(MenuItems.close())) {
+                            p.sendMessage("YOU CLICKED CLOSE");
+                            e.setCancelled(true);
+                            if (p.hasPermission("chill.override")) { // only lets them close the inventory if they have the perm "chill.override"
+                                p.closeInventory();
+                            } else {
+                                p.sendMessage("You cannot close this menu.");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+#### onPlayerMove.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import net.survivalz.chill.Strings;
+import org.bukkit.ChatColor;
+import org.bukkit.Location;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerMoveEvent;
+import org.bukkit.util.Vector;
+
+public class onPlayerMove implements Listener {
+    public ChillMain plugin;
+    public onPlayerMove (ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerMoveEvent(PlayerMoveEvent e) { // fires whenever a player moves
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+
+        Player p = e.getPlayer();
+        if (plugin.frozen.contains(p.getUniqueId())) {
+            Location location = p.getLocation(); // creates a new location and sets it to the player's previous position
+            location.setY(p.getWorld().getHighestBlockYAt(p.getLocation())); // places the on the highest block so that they are not in midair
+            location.setPitch(e.getTo().getPitch());
+            location.setYaw(e.getTo().getYaw());
+            p.teleport(location); // sets their location to their old location
+            p.setVelocity(new Vector().zero()); // sets their velocity to 0
+            plugin.blank(p);
+            p.sendMessage(prefix + "You are currently " + sec + "frozen " + pri + "and cannot " + sec + "move" + pri + "!");
+            p.sendMessage(Strings.joinTS1);
+            p.sendMessage(Strings.joinTS2);
+        }
+    }
+}
+```
+
+#### onPlayerPickupItem.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import net.survivalz.chill.Strings;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerPickupItemEvent;
+
+public class onPlayerPickupItem implements Listener {
+    public ChillMain plugin;
+    public onPlayerPickupItem(ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerPickupItemEvent(PlayerPickupItemEvent e) { // fires whenever a player picks up an item
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+
+        Player p = e.getPlayer();
+        if (plugin.frozen.contains(p.getUniqueId())) {
+            e.setCancelled(true); // prevents them from picking up items
+            plugin.blank(p);
+            p.sendMessage(prefix + "You are currently " + sec + "frozen " + pri + "and cannot " + sec + "pick up " + pri + "items!");
+            p.sendMessage(Strings.joinTS1);
+            p.sendMessage(Strings.joinTS2);
+        }
+    }
+}
+```
+
+#### onPlayerQuit.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import net.survivalz.chill.ChillMain;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerQuitEvent;
+
+public class onPlayerQuit implements Listener {
+    public ChillMain plugin;
+    public onPlayerQuit(ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerQuitEvent(PlayerQuitEvent e) { // fires when a player leaves the server
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+        Player p = e.getPlayer();
+        if (plugin.frozen.contains(p.getUniqueId())) {
+            Bukkit.broadcast(prefix + sec + p.getName() + pri + " has " + sec + "disconnected " + pri + "while " + sec + "frozen" + pri + ".", "chill.notify"); // notifies all staff that a player disconnected while frozen
+        }
+    }
+}
+```
+
+#### onPlayerTakeDamage.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import net.survivalz.chill.Strings;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageEvent;
+
+public class onPlayerTakeDamage implements Listener {
+    public ChillMain plugin;
+    public onPlayerTakeDamage (ChillMain plugin) {
+        plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerTakeDamageEvent(EntityDamageEvent e) { // fires whenever an entity takes damage
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+
+        if (e.getEntity() instanceof Player) {
+            Player p = (Player) e.getEntity();
+            if (plugin.frozen.contains(p.getUniqueId())) {
+                e.setCancelled(true); // prevents frozen players from taking damage
+                plugin.blank(p);
+                p.sendMessage(prefix + "You are currently " + sec + "frozen " + pri + "and cannot " + sec + "take " + pri + "damage!");
+                e.getCause();
+                p.sendMessage(Strings.joinTS1);
+                p.sendMessage(Strings.joinTS2);
+            }
+        }
+    }
+}
+```
+
+#### onPlayerTeleport.java
+```java
+package net.survivalz.chill.events;
+
+import net.survivalz.chill.ChillMain;
+import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerTeleportEvent;
+
+public class onPlayerTeleport implements Listener {
+    public ChillMain plugin;
+
+    public onPlayerTeleport(ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerTeleportEvent(PlayerTeleportEvent e) { // fires whenever a player telteports
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+
+        Player player = e.getPlayer();
+        if (plugin.frozen.contains(player.getUniqueId())) {
+            if (!(e.getCause() == PlayerTeleportEvent.TeleportCause.PLUGIN) || !(e.getCause() == PlayerTeleportEvent.TeleportCause.COMMAND)) { // prevents them from teleporting via enderpearls but allows teleportation via plugins or commands
+                player.sendMessage(prefix + sec + "You " + pri + "are currently " + sec + "frozen " + pri + "and cannot " + sec + "use " + pri + "Ender Pearls!");
+                e.setCancelled(true);
+            }
+        }
+    }
+}
+```
