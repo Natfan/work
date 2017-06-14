@@ -114,7 +114,7 @@ public class MenuItems {
 
     public static ItemStack admit() {
         ItemStack item = new ItemStack(Material.STAINED_GLASS_PANE, 0, (short) 5);
-        ... 
+        ...
 
         return item;
     }
@@ -286,7 +286,7 @@ public class onCommand implements CommandExecutor { // sets this class to be the
                 }
             }
         }
-        if (commandlabel.equalsIgnoreCase("chill")) { //outputs plugin information 
+        if (commandlabel.equalsIgnoreCase("chill")) { //outputs plugin information
             sender.sendMessage("");
             sender.sendMessage(prefix + sec + "/freeze <playerName> " + pri + "- Freezes/Unfreezes a player, used as a toggle. " + sec + "chill.freeze");
             sender.sendMessage(prefix + sec + "/frozen <playerName> " + pri + "- Checks if a player is frozen. " + sec + "chill.frozen");
@@ -836,11 +836,11 @@ The following images are proof that my program works.
 
 #### After Being Frozen: Player's Perspective
 
-<img src="https://github.com/Natfan/work/b/raw/master/14/3/ss2.png"></img>
+<img src="https://github.com/Natfan/work/b/raw/master/b/14/3/ss2.png"></img>
 
 #### After Being Frozen: Administrator's Perspective
 
-<img src="https://github.com/Natfan/work/b/raw/master/14/3/ss3.png"></img>
+<img src="https://github.com/Natfan/work/b/raw/master/b/14/3/ss3.png"></img>
 
 <div style="page-break-after: always;"></div>
 
@@ -863,6 +863,8 @@ Image \#1:
 
 <img src="https://github.com/natfan/work/raw/master/b/14/3/test1.png"></img>
 
+<div style="page-break-after: always;"></div>
+
 Image \#2:
 
 <img src="https://github.com/natfan/work/raw/master/b/14/3/test2.png"></img>
@@ -871,9 +873,15 @@ Image \#3:
 
 <img src="https://github.com/natfan/work/raw/master/b/14/3/test3.png"></img>
 
+<img src="https://github.com/natfan/work/raw/master/b/14/3/test3_2.png"></img>
+
+<div style="page-break-after: always;"></div>
+
 Image \#4:
 
 <img src="https://github.com/natfan/work/raw/master/b/14/3/test4.png"></img>
+
+<img src="https://github.com/natfan/work/raw/master/b/14/3/test4_2.png"></img>
 
 <div style="page-break-after: always;"></div>
 
