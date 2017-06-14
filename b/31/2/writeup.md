@@ -166,7 +166,7 @@ I appreciated the fact that Stop Motion is much more hands on and allowed me to 
 
 #### What I Would Improve
 ##### Frame By Frame
-I would make the User Interface easier to use.
+I would make the User Experience and User Interface easier to use. The way that I would solve this first issue is by allowing animators to clone previous layers so that they can progress with finishing their animation quickly, rather than having to recreate the previous frame exactly, aside from one or two minor changes. I would also work with the method of how objects can be modified by allowing animators to easily select any brush strokes and group them together, thus allowing easy and free movement of anything that they have drawn. This ties in with the previous improvement as it allows users to 
 
 ##### Stop Motion
 I would increase the length of the animation by speeding up the process of creating the animation. I would do this by simplifying actions, one way that I could achieve this is via making a "macro" so that I can repeat things over and over again with very little effort.
