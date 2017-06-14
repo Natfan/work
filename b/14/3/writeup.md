@@ -901,15 +901,15 @@ The following images are proof that my program works.
 
 #### Before Being Frozen: Player's Perspective
 
-<img src="https://github.com/Natfan/work/b/14/3/ss1.png"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/14/3/ss1.png"></img>
 
 #### After Being Frozen: Player's Perspective
 
-<img src="https://github.com/Natfan/work/b/14/3/ss2.png"></img>
+<img src="https://github.com/Natfan/work/b/raw/master/14/3/ss2.png"></img>
 
 #### After Being Frozen: Administrator's Perspective
 
-<img src="https://github.com/Natfan/work/b/14/3/ss3.png"></img>
+<img src="https://github.com/Natfan/work/b/raw/master/14/3/ss3.png"></img>
 
 <div style="page-break-after: always;"></div>
 
@@ -920,3 +920,65 @@ This program is a plugin for piece of server software called `Spigot` that is us
 
 ## PV: Testing the Event Driven Program
 In the following segment I shall create a table which has a list of all of the tests, their expected outcomes and an image to show for it, which can be seen in the table below, title with the corresponding number that is in the table.
+
+Test | Expected Result | Image Number
+-|-|-
+`/freeze` once | Will freeze the player. | 1
+`/freeze` twice | Will unfreeze the player. | 2
+`/thaw` | Will unfreeze the player if they are frozen, otherwise do nothing. | 3
+`/frozen` | Will output if the player is frozen or not. | 4
+
+Image \#1:
+
+<img src="https://github.com/natfan/work/raw/master/b/14/3/test1.png"></img>
+
+Image \#2:
+
+<img src="https://github.com/natfan/work/raw/master/b/14/3/test2.png"></img>
+
+Image \#3:
+
+<img src="https://github.com/natfan/work/raw/master/b/14/3/test3.png"></img>
+
+Image \#4:
+
+<img src="https://github.com/natfan/work/raw/master/b/14/3/test4.png"></img>
+
+<div style="page-break-after: always;"></div>
+
+## MIII: Testing with Corrective Action
+In the following segment I shall create a table which has a list of all of the tests as shown before, with a few new ones as well. I shall say what result they should have, what result they actually had and the fix that was created, if required
+
+Test | Expected Result | Actual Result | Fix
+-|-|-|-
+`/freeze` once | Will freeze the player. | Freezes the player. | None.
+`/freeze` twice | Will unfreeze the player. | Unfreezes the player. | None.
+`/thaw` | Will unfreeze the player if they are frozen, otherwise do nothing. | Unfreezes the player if needed, else outputs error. | None.
+`/frozen` | Will output if the player is frozen or not. | Outputs if the player is frozen if they are, else outputs that they are not. | None.
+Player moving when thawed. | Players can move. | Players could move. | None.
+Player moving when frozen. | Players cannot move. | Players could not move. | None.
+Player placing blocks when thawed. | Players can place blocks. | Players could place blocks. | None.
+Player placing blocks when frozen. | Players cannot place blocks. | Players could not place blocks. | None.
+Player breaking blocks when thawed. | Players can break blocks. | Players could break blocks. | None.
+Player breaking blocks when frozen. | Players cannot break blocks. | Players could not break blocks. | None.
+Player picking up items when thawed. | Players can pick up items. | Players could pick up items. | None.
+Player picking up items when frozen. | Players cannot pick up items. | Players could not pick up items. | None.
+Player dropping items when thawed. | Players can drop items. | Players could drop items. | None.
+Player dropping items when frozen. | Players cannot drop items. | Players could not drop items. | None.
+Player teleporting when thawed. | Players can teleport. | Players could teleport. | None.
+Player teleporting when frozen. | Players cannot teleport. | Players could not teleport. | None.
+Player executing commands when thawed. | Players can execute commands. | Players could execute commands. | None.
+Player executing commands when frozen. | Players cannot execute commands. | Players could not execute commands. | None.
+Player throw enderpearls when thawed. | Players can throw enderpearls. | Players could throw enderpearls. | None.
+Player throw enderpearls when frozen. | Players cannot throw enderpearls. | Players could not throw enderpearls. | None.
+
+<div style="page-break-after: always;"></div>
+
+## DII: Evaluation
+### Evaluation Form
+thing
+
+### Changes based on Evaluation
+things (ANNOTATE CODE)
+pictures with changes
+why its better
