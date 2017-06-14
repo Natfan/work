@@ -971,6 +971,10 @@ Player executing commands when thawed. | Players can execute commands. | Players
 Player executing commands when frozen. | Players cannot execute commands. | Players could not execute commands. | None.
 Player throw enderpearls when thawed. | Players can throw enderpearls. | Players could throw enderpearls. | None.
 Player throw enderpearls when frozen. | Players cannot throw enderpearls. | Players could not throw enderpearls. | None.
+`/freeze` permissions. | Players need the right permission to execute `/freeze`. | Players could only execute `/freeze` if they had the correct permissions. | None.
+`/freeze` override permissions. | Players who have the permission `chill.override` cannot get `/freeze`. | Players could `/freeze` those who did not have the permission. | None.
+`/thaw` permissions. | Players need the right permission to execute `/thaw`. | Players could only execute `/thaw` if they had the correct permissions. | None.
+`/frozen` permissions. | Players need the right permission to execute `/frozen`. | Players could only execute `/frozen` if they had the correct permissions. | None.
 
 <div style="page-break-after: always;"></div>
 
