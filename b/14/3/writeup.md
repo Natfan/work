@@ -129,16 +129,7 @@ package net.survivalz.chill;
 
 import net.survivalz.chill.events.FrozenMenu;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.GameMode;
-import org.bukkit.Location;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Player;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
+...
 
 public class onCommand implements CommandExecutor { // sets this class to be the place where all the commands can be found
     public ChillMain plugin; // these next few lines link back to the main plugin, for referencing
@@ -156,12 +147,11 @@ public class onCommand implements CommandExecutor { // sets this class to be the
                     sender.sendMessage(prefix + "Please specify a " + sec + "player" + pri + ".");
                     return true;
                 }
-                if (args[0].equalsIgnoreCase("*") || args[0].equalsIgnoreCase("all")) { if they try to freeze all and have the perm ,go through the security steps
+                if (args[0].equalsIgnoreCase("*") || args[0].equalsIgnoreCase("all")) { // if they try to freeze all and have the perm ,go through the security steps
                     if (!sender.hasPermission("chill.freeze.all")) {
                         sender.sendMessage(prefix + "You do " + sec + "not " + pri + "have permission to perform this " + sec + "command" + pri + ".");
                         return true;
                     } else {
-                        sender.sendMessage(prefix + "This is in " + sec + "development" + pri + ".");
                         if (args.length == 1) {
                             sender.sendMessage(prefix + "This is a " + sec + "very " + pri + "serious command.");
                             sender.sendMessage(prefix + "This freezes " + sec + "all " + pri + "online players.");
@@ -321,11 +311,7 @@ package net.survivalz.chill.events;
 
 import net.survivalz.chill.MenuItems;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.inventory.ClickType;
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.ItemStack;
+...
 
 public class FrozenMenu {
     public static Inventory inv = Bukkit.createInventory(null, 8, ChatColor.GOLD + "Frozen Menu"); // creates the menu, sets it to be 1 row (9 spaces wide), sets the name of the menu and sets the owner to be null so that anyone can access
@@ -345,12 +331,9 @@ public class FrozenMenu {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.block.BlockBreakEvent;
+...
 
 public class onBlockBreak implements Listener { // tells the server that this listens for events
     public ChillMain plugin;
@@ -383,12 +366,9 @@ public class onBlockBreak implements Listener { // tells the server that this li
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.block.BlockPlaceEvent;
+...
 
 public class onBlockPlace implements Listener {
     public ChillMain plugin;
@@ -421,12 +401,9 @@ public class onBlockPlace implements Listener {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerCommandPreprocessEvent;
+...
 
 public class onCommandPreprocess implements Listener {
     public ChillMain plugin;
@@ -462,12 +439,7 @@ package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
 import org.bukkit.ChatColor;
-import org.bukkit.entity.EnderPearl;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.entity.ProjectileLaunchEvent;
+...
 
 public class onEnderpearlThrow implements Listener {
     public ChillMain plugin;
@@ -502,13 +474,7 @@ package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Player;
-import org.bukkit.entity.Projectile;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDamageByEntityEvent;
-import org.bukkit.potion.Potion;
+...
 
 public class onFrozenGiveDamage implements Listener {
     public ChillMain plugin;
@@ -558,12 +524,7 @@ package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
 import org.bukkit.Bukkit;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.inventory.InventoryCloseEvent;
-import org.bukkit.plugin.Plugin;
-import org.bukkit.scheduler.BukkitScheduler;
+...
 
 public class onInventoryCloseEvent implements Listener {
     public ChillMain plugin;
@@ -594,12 +555,9 @@ public class onInventoryCloseEvent implements Listener {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerDropItemEvent;
+...
 
 public class onPlayerDropItem implements Listener {
     public ChillMain plugin;
@@ -632,18 +590,9 @@ public class onPlayerDropItem implements Listener {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.MenuItems;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.entity.HumanEntity;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.event.inventory.InventoryType;
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.ItemStack;
+...
 
 public class onPlayerInventoryClickItem implements Listener {
     public ChillMain plugin;
@@ -706,14 +655,9 @@ public class onPlayerInventoryClickItem implements Listener {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.ChatColor;
-import org.bukkit.Location;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerMoveEvent;
-import org.bukkit.util.Vector;
+...
 
 public class onPlayerMove implements Listener {
     public ChillMain plugin;
@@ -751,12 +695,9 @@ public class onPlayerMove implements Listener {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerPickupItemEvent;
+...
 
 public class onPlayerPickupItem implements Listener {
     public ChillMain plugin;
@@ -789,13 +730,9 @@ public class onPlayerPickupItem implements Listener {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.ChillMain;
+...
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerQuitEvent;
+...
 
 public class onPlayerQuit implements Listener {
     public ChillMain plugin;
@@ -823,12 +760,9 @@ public class onPlayerQuit implements Listener {
 package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
-import net.survivalz.chill.Strings;
+...
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDamageEvent;
+...
 
 public class onPlayerTakeDamage implements Listener {
     public ChillMain plugin;
@@ -865,10 +799,7 @@ package net.survivalz.chill.events;
 
 import net.survivalz.chill.ChillMain;
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerTeleportEvent;
+...
 
 public class onPlayerTeleport implements Listener {
     public ChillMain plugin;
@@ -980,9 +911,80 @@ Player throw enderpearls when frozen. | Players cannot throw enderpearls. | Play
 
 ## DII: Evaluation
 ### Evaluation Form
-thing
+The following is an evaluation form that was filled out by one of my friends and users of the plugin, Brendan Taylor.
+
+> **Does the plugin freeze player specified, unless they have the specific permission?**
+> Yes
+> **Does the plugin keep the player frozen even if they log out and log back in again, or change their username?**
+> Yes, it does both.
+> **Are there any bugs with the program?**
+> One: If the player with the username "All" is connected then they cannot get frozen.
+> **Are there any changes that you would request in version 2.0 if this program?**
+> The ability to change the colours and text of the messages.
+> **Did you enjoy this plugin? Did it satisfy all requirements?**
+> Yes and yes. This was worth my time to download and install, it works almost flawlessly.
 
 ### Changes based on Evaluation
-things (ANNOTATE CODE)
-pictures with changes
-why its better
+The following is the `onCommand.java` class that I changed to fix the bug that was reported. I shall only show the code that was changed, along with the header of the program and annotations of what was changed.
+
+```java
+package net.survivalz.chill;
+
+import net.survivalz.chill.events.FrozenMenu;
+import org.bukkit.Bukkit;
+...
+
+public class onCommand implements CommandExecutor {
+    public ChillMain plugin;
+    public onCommand (ChillMain plugin) {
+        this.plugin = plugin;
+    }
+
+    public boolean onCommand(CommandSender sender, Command cmd, String commandlabel, String[] args) { // starting to create commands
+        String prefix = plugin.prefix;
+        ChatColor pri = plugin.pri;
+        ChatColor sec = plugin.sec;
+        if (commandlabel.equalsIgnoreCase("freeze") || commandlabel.equalsIgnoreCase("ss")) {
+            if (sender.hasPermission("chill.freeze")) {
+                if (args.length == 0) {
+                    sender.sendMessage(prefix + "Please specify a " + sec + "player" + pri + ".");
+                    return true;
+                }
+                if (args[0].equalsIgnoreCase("*")) { // I removed the "all" argument from the command, and as usernames cannot contain symbols like "*", everything is safe.
+                    if (!sender.hasPermission("chill.freeze.all")) {
+                        sender.sendMessage(prefix + "You do " + sec + "not " + pri + "have permission to perform this " + sec + "command" + pri + ".");
+                        return true;
+                    } else {
+                        sender.sendMessage(prefix + "This is in " + sec + "development" + pri + ".");
+                        if (args.length == 1) {
+                            sender.sendMessage(prefix + "This is a " + sec + "very " + pri + "serious command.");
+                            sender.sendMessage(prefix + "This freezes " + sec + "all " + pri + "online players.");
+                            sender.sendMessage(prefix + "If you are okay with this, type " + sec + "/freeze all confirm");
+                        } else if (args.length < 1) {
+                            if (args[1].equalsIgnoreCase("confirm")) {
+                                for (Player player : Bukkit.getOnlinePlayers()) {
+                                    if (plugin.frozen.contains(player)) {
+                                        plugin.frozen.add(player.getUniqueId());
+                                        sender.sendMessage(prefix + "Froze " + sec + player.getName() + pri + ".");
+                                    }
+                                }
+                                return true;
+                            } else {
+                                sender.sendMessage(prefix + "This is a " + sec + "very " + pri + "serious command.");
+                                sender.sendMessage(prefix + "This freezes " + sec + "all " + pri + "online players.");
+                                sender.sendMessage(prefix + "If you are okay with this, type " + sec + "/freeze all confirm");
+                                return true;
+                            }
+                        }
+                        return true;
+                    }
+                }
+
+        return true;
+    }
+}
+```
+
+<img src="https://github.com/Natfan/work/raw/master/b/14/3/changed.png"></img>
+
+As stated in the annotations, this is better as it allows the Administrator to have complete control over their server so that they can freeze anyone that they want, resulting in a cleaner community as no regular user can get around the `/freeze` command.
