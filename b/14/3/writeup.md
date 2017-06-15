@@ -836,11 +836,11 @@ The following images are proof that my program works.
 
 #### After Being Frozen: Player's Perspective
 
-<img src="https://github.com/Natfan/work/b/raw/master/b/14/3/ss2.png"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/14/3/ss2.png"></img>
 
 #### After Being Frozen: Administrator's Perspective
 
-<img src="https://github.com/Natfan/work/b/raw/master/b/14/3/ss3.png"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/14/3/ss3.png"></img>
 
 <div style="page-break-after: always;"></div>
 
@@ -992,6 +992,10 @@ public class onCommand implements CommandExecutor {
     }
 }
 ```
+
+<div style="page-break-after: always;"></div>
+
+The following is an image of the code changes:
 
 <img src="https://github.com/Natfan/work/raw/master/b/14/3/changed.png"></img>
 
