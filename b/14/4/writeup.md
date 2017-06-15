@@ -9,7 +9,15 @@ For this segment I will be listing on screen help that will be displayed when th
 
 The following page will be sent when a user executes the command `/chill`:
 
-![chill](https://github.com/Natfan/work/raw/master/btec/14/4/pics/chill.png)
+![chill](https://github.com/Natfan/work/raw/master/b/14/4/pics/chill.png)
+
+Command | What It Does | Permission
+-|-|-
+`/freeze <playerName>` | Freezes/Unfreezes the player, used as a toggle. | chill.freeze
+`/thaw <playerName>` | Unfreezes a player if they are frozen | chill.freeze
+`/frozen <playerName>` | Checks if the player is frozen | chill.frozen
+`/panic` | Places you into panic mode, whereby you cannot be unfrozen without staff assistance. | chill.panic
+`/chill` | Displays the in-game help page | None
 
 This is what the code for it looks like:
 
@@ -19,11 +27,13 @@ sender.sendMessage("/frozen <playerName> - Checks if a player is frozen. chill.f
 sender.sendMessage("/panic - Places you into panic mode, whereby you cannot be unfrozen. chill.panic");
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### The Command Reference
 #### Freeze
 The following is what will be sent if the user execute too many or too few arguments after the '/freeze' command:
 
-![freeze command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/freeze.png)
+![freeze command](https://github.com/Natfan/work/raw/master/b/14/4/pics/freeze.png)
 
 And this is what the code for it looks like:
 
@@ -34,7 +44,7 @@ sender.sendMessage("Please specify a player.");
 #### Freeze All
 The following is what will be sent if the user execute too many or too few arguments after the '/freeze all' command:
 
-![freeze all command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/freezeall.png)
+![freeze all command](https://github.com/Natfan/work/raw/master/b/14/4/pics/freezeall.png)
 
 And this is what the code for it looks like:
 
@@ -47,7 +57,7 @@ sender.sendMessage("If you are okay with this, type /freeze all confirm");
 #### Thaw
 The following is what will be sent if the user execute too many or too few arguments after the '/thaw' command:
 
-![thaw command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/thaw.png)
+![thaw command](https://github.com/Natfan/work/raw/master/b/14/4/pics/thaw.png)
 
 And this is what the code for it looks like:
 
@@ -58,7 +68,7 @@ sender.sendMessage("Please specify a player.");
 #### Frozen
 The following is what will be sent if the user executes too many or too few arguments after the `/frozen` command:
 
-![frozen command](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen.png)
+![frozen command](https://github.com/Natfan/work/raw/master/b/14/4/pics/frozen.png)
 
 And this is what the code for it looks like:
 
@@ -89,6 +99,8 @@ There are a few prerequisites for being able to run this program, these are as f
 * Internet access to be able to verify the clients connection with Mojang authentication servers.
 * Internet access to be able to allow users to connect to the server outside of a LAN environment.
 
+<div style="page-break-after: always;"></div>
+
 ### User Guide
 #### Freezing
 If you believe that a player is cheating beyond reasonable doubt, and you have recorded evidence of doing actions which either do not seem legitimate or set of large amounts/high numbers of AntiCheat violations, then you may freeze a player. You are also allowed to freeze a player if they are obviously cheating and are in the action of preventing other legitimate players from having an enjoyable experience, such as killing them to take their stuff. You are not allowed to freeze a player as a joke, even if they explicitly request it. Freezing is a serious action and will be broadcast to all online staff members. To prevent abuse, you cannot freeze other staff members as they have the `chill.override` permission. If you attempt to freeze a staff member then the action will be denied and all online staff will be notified of this. If you abuse the features of freezing you may be demoted or even banned from the server. The command to freeze a player is `/freeze <playerName>`
@@ -102,17 +114,19 @@ If you believe that the player that you froze was not cheating, you can either t
 #### Frozen
 To check if a player is frozen, simply issue `/frozen` command to check if the player is frozen or not. The command output will either show if the player IS frozen, like so:
 
-![frozen check true](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen_true.png)
+![frozen check true](https://github.com/Natfan/work/raw/master/b/14/4/pics/frozen_true.png)
 
 And this is what the output will be if the player is NOT frozen:
 
-![frozen check false](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen_false.png)
+![frozen check false](https://github.com/Natfan/work/raw/master/b/14/4/pics/frozen_false.png)
 
 Finally, this is the output when the player is offline:
 
-![frozen check offline](https://github.com/Natfan/work/raw/master/btec/14/4/pics/frozen_offline.png)
+![frozen check offline](https://github.com/Natfan/work/raw/master/b/14/4/pics/frozen_offline.png)
 
 This is a very simple command and cannot really be abused. Please note that all information gained as a staff member should not be revealed to the player base unless a consensus from the Ownership Team is reached. While we try to be a transparent organisation, some inner workings of the Administrative side of things need to be kept secret.
+
+<div style="page-break-after: always;"></div>
 
 ### Development Guide
 #### Naming Schema
