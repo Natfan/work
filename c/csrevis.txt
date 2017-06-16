@@ -1,0 +1,39 @@
+PG 33:
+
+1. 256: Landscape[1,1].Warren = new Warren(Variability, 38);
+
+2. a. Location
+   b. Rabbit, 788
+   c. Animal, 788
+   d. Genders, 790
+   e. ???, get/set
+   f. Reset Food Consumed
+   g. TimePeriod
+   h. ShowDetail
+   i. DoubleProbabilityDeathOrOtherCauses
+3. a. Has multiple classes extended, 802
+   b. Only has one extension
+
+PG 39:
+
+1. public Fox Fox; 63
+2. a. private Rabbit[] Rabbits; 414
+   b. class Fox : Animal { 701
+   c. class Fox : Animal { 701
+   d. public Warren(...) { 421
+   e. IsFemale /*get*/ 840
+   f. public void GiveFood /*set*/ 774
+   g. MenuOption 16
+   h. FixedInitialLocations 21
+   i. 706, 763, 796, 798
+3. a. 802
+   b. Only one extention
+4. IsFemale 736
+5. CalculateNewAge, 660
+
+
+PG 41, see copy.cs
+1. 28/29
+2. See menu for more, 33-67
+3. 107-121
+8. doing it
