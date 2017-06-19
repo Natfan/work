@@ -6,15 +6,15 @@ The following screenshots are the tables that I have made within my database. Th
 
 The following image is the Customers table.
 
-<img src="https://github.com/Natfan/work/raw/master/b/18/2/pics/3-1.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/customerstable.png" style="width: 75%;"></img>
 
 The following image is the Employees table.
 
-<img src="https://github.com/Natfan/work/raw/master/b/18/2/pics/3-2.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/gardenerstable.png" style="width: 75%;"></img>
 
-The following image is the Products table.
+The following image is the Jobs table.
 
-<img src="https://github.com/Natfan/work/raw/master/b/18/2/pics/3-3.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/jobstable.png" style="width: 75%;"></img>
 
 <div style="page-break-after: always;"></div>
 
@@ -43,9 +43,9 @@ The following is the aforementioned data dictionary.
 <div style="page-break-after: always;"></div>
 
 ## PIV: Forms
-The following form is a form which allows users to search though the Products table. The following image is taken from that search query:
+The following form is a form which allows users to search though the Jobs table. The following image is taken from that search query:
 
-<img src="https://github.com/Natfan/work/raw/master/b/18/2/pics/4-1.png" style="width: 75%;"></img>
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/jobsquery.png" style="width: 75%;"></img>
 
 This is the output that it will give:
 
