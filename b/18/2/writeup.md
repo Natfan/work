@@ -103,3 +103,92 @@ The following image is the same form but with different data that has been auto-
 <div style="page-break-after: always;"></div>
 
 ## PVII: Testing and Logging
+
+<div style="page-break-after: always;"></div>
+
+## MII: Importing Data
+The following image is the file that I was going to use to import:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import1.png" style="width: 75%;"></img>
+
+I used a wizard within Access to help me import the data, as follows:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import2.png" style="width: 75%;"></img>
+
+In the above image I set the data to append to the end of the table.
+
+I came across an error which was caused by the fact that I already had the table open, so I had to close it:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import3.png" style="width: 75%;"></img>
+
+In the image below I had to confirm that all of the data was in the right column, which it was:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import4.png" style="width: 75%;"></img>
+
+In the next image, I had to confirm what table I wanted to import the data to, and confirm if I wanted the wizard to analyse my data:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import5.png" style="width: 75%;"></img>
+
+Here, I had to start the analysis:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import6.png" style="width: 75%;"></img>
+
+This was the first part of the analysis wizard, it started by explaining what one of the issues might be:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import7.png" style="width: 75%;"></img>
+
+Next, it showed me how it was going to fix the problem:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import8.png" style="width: 75%;"></img>
+
+I wanted to decide what I was going to do, so that I could have full control over the data:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import9.png" style="width: 75%;"></img>
+
+I confirmed that all of the data is correct, as seen below:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import10.png" style="width: 75%;"></img>
+
+I split the table in two, so that the main lookup could be done in the "primary" table, `CID`, and the secondary data which might not be unique was in the "secondary" table, `CData`.
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import11.png" style="width: 75%;"></img>
+
+I did not want to create a new query:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import12.png" style="width: 75%;"></img>
+
+The data was successfully imported:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import13.png" style="width: 75%;"></img>
+
+Albeit, the columns were a tad unordered:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import14.png" style="width: 75%;"></img>
+
+Fixed, but the IDs were a bit odd...
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import15.png" style="width: 75%;"></img>
+
+Because I was looking at the `CData` table:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import16.png" style="width: 76%;"></img>
+
+This meant that the IDs were not the same as the Customer IDs, which were in a separate table. The data is much more compact there:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/import17.png" style="width: 76%;"></img>
+
+<div style="page-break-after: always;"></div>
+
+## MIII: Exporting Data
+I used a wizard within Access to help me export the data, as follows:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/export1.png" style="width: 75%;"></img>
+
+The following image is the outcome that was generated, an Excel file with all of the data:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/export2.png" style="width: 75%;"></img>
+
+This is the final step to show that everything was successful:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/export3.png" style="width: 75%;"></img>
+
