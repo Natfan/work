@@ -47,23 +47,59 @@ The following form is a form which allows users to search though the Jobs table.
 
 <img src="https://github.com/Natfan/work/raw/master/b/18/2/img/jobsquery.png" style="width: 75%;"></img>
 
-This is the output that it will give:
+This is the output that it will give if the values in the query are set to be "ProductID == 1":
 
-| ProductID | ProductName | UnitPrice | ProductDescription | CategoryID |
+| JobID | JobName | JobPrice | AssignedGardener | AssignedCustomer |
 |-|-|-|-|-|
-| 1 | Clearance | 250 | Garden Clearance.. | 1 |
+| 1 | Clearance | 250 | 7 | 3 |
 
-This is another query that has been made with this form:
+Other queries can be made with this form, and this is the output that it will give if the values in the query are set to "AssignedCustomer == 3":
 
-<img src="https://github.com/Natfan/work/raw/master/b/18/2/pics/4-2.png" style="width: 75%;"></img>
-
-This is the output that it will give:
-
-| ProductID | ProductName | UnitPrice | ProductDescription | CategoryID |
+| JobID | JobName | JobPrice | AssignedGardener | AssignedCustomer |
 |-|-|-|-|-|
-| 1 | Clearance | 250 | Garden Clearance.. | 1 |
-| 2 | Maintenance | 2000 | Garden Maintenance.. | 1 |
-| 3 | Tidying | 300 | Garden Tidying.. | 1 |
-| 4 | Redesign | 5000 | Garden Redesign.. | 1 |
+| 1 | Clearance | 250 | 7 | 3 |
+| 2 | Maintenance | 2000 | 3 | 3 |
+| 3 | Tidying | 300 | 5 | 3 |
+| 4 | Redesign | 5000 | 9 | 3 |
 
+The following is a secondary form that is used for adding data to the database. It requires a password so that the user can verify that they have the correct access:
 
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/jobsquery2.png" style="width: 75%;"></img>
+
+And this is a hypothetical outcome that the form being filled out could create:
+
+| GardenerID | GardenerFirstName | GardenerLastName |
+|-|-|-|
+| 10 | David | Tennant |
+
+<div style="page-break-after: always;"></div>
+
+## PV: Querying the Database
+I shall now create some reports that show the results of the database being queried. I shall show the total sales of the business, the top five customers and the total amount of customers to gardeners.
+
+The following image is the output of the total sales:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/salesquery.png" style="width: 75%;"></img>
+
+The following image is the output of the top five customers:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/top5query.png" style="width: 75%;"></img>
+
+The following image is the output of the amount of customers per gardener:
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/customerspergardenerquery.png" style="width: 75%;"></img>
+
+<div style="page-break-after: always;"></div>
+
+## PVI: Form Themes
+The following image is a form that has been stylised to be more appealing to the user with a bright yellow background, navigation at the top in the form of breadcrumbs so that the user can go to previous sections, and a dropdown box to allow easier data addition, which will auto update the entire form when any of the boxes are changed.
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/themedform.png" style="width: 75%;"></img>
+
+The following image is the same form but with different data that has been auto-updated.
+
+<img src="https://github.com/Natfan/work/raw/master/b/18/2/img/themedform2.png" style="width: 75%;"></img>
+
+<div style="page-break-after: always;"></div>
+
+## PVII: Testing and Logging
