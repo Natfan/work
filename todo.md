@@ -15,7 +15,7 @@ Only things that I need to do at time of writing will be added. I will not backd
 * [x] Unit 12 Assignment 3.
 * [x] Unit 14 Assignment 1.
 * [x] Unit 14 Assignment 2.
-* [ ] Unit 14 Assignment 3.
+* [x] Unit 14 Assignment 3. [Needs to be marked]
 * [x] Unit 14 Assignment 4.
 * [x] Unit 18 Assignment 1.
 * [ ] Unit 18 Assignment 2.
