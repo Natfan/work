@@ -103,6 +103,15 @@ The following image is the same form but with different data that has been auto-
 <div style="page-break-after: always;"></div>
 
 ## PVII: Testing and Logging
+### Test Log
+| ID | Date | Summary | Details | Expected Outcome | Passed? | Problem ID |
+|-|-|-|-|-|-|-|
+| 1 | date | summary | details | ex outcome | yes/no | 1 or N/A |
+
+### Fault Log
+| Problem ID | Test ID | Problem | Solution |
+|-|-|-|
+| 1 | 1 | cake is lie | bake cake |
 
 <div style="page-break-after: always;"></div>
 
