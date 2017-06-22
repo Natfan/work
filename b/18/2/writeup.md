@@ -62,6 +62,8 @@ Other queries can be made with this form, and this is the output that it will gi
 | 3 | Tidying | 300 | 5 | 3 |
 | 4 | Redesign | 5000 | 9 | 3 |
 
+<div style="page-break-after: always;"></div>
+
 The following is a secondary form that is used for adding data to the database. It requires a password so that the user can verify that they have the correct access:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/jobsquery2.png" style="width: 75%;"></img>
@@ -140,6 +142,8 @@ I came across an error which was caused by the fact that I already had the table
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import3.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
+
 In the image below I had to confirm that all of the data was in the right column, which it was:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import4.png" style="width: 75%;"></img>
@@ -152,6 +156,8 @@ Here, I had to start the analysis:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import6.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
+
 This was the first part of the analysis wizard, it started by explaining what one of the issues might be:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import7.png" style="width: 75%;"></img>
@@ -159,6 +165,8 @@ This was the first part of the analysis wizard, it started by explaining what on
 Next, it showed me how it was going to fix the problem:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import8.png" style="width: 75%;"></img>
+
+<div style="page-break-after: always;"></div>
 
 I wanted to decide what I was going to do, so that I could have full control over the data:
 
@@ -168,6 +176,8 @@ I confirmed that all of the data is correct, as seen below:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import10.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
+
 I split the table in two, so that the main lookup could be done in the "primary" table, `CID`, and the secondary data which might not be unique was in the "secondary" table, `CData`.
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import11.png" style="width: 75%;"></img>
@@ -175,6 +185,8 @@ I split the table in two, so that the main lookup could be done in the "primary"
 I did not want to create a new query:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import12.png" style="width: 75%;"></img>
+
+<div style="page-break-after: always;"></div>
 
 The data was successfully imported:
 
@@ -184,6 +196,8 @@ Albeit, the columns were a tad unordered:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import14.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
+
 Fixed, but the IDs were a bit odd...
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import15.png" style="width: 75%;"></img>
@@ -191,6 +205,8 @@ Fixed, but the IDs were a bit odd...
 Because I was looking at the `CData` table:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/import16.png" style="width: 76%;"></img>
+
+<div style="page-break-after: always;"></div>
 
 This meant that the IDs were not the same as the Customer IDs, which were in a separate table. The data is much more compact there:
 
@@ -206,6 +222,8 @@ I used a wizard within Access to help me export the data, as follows:
 The following image is the outcome that was generated, an Excel file with all of the data:
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/export2.png" style="width: 75%;"></img>
+
+<div style="page-break-after: always;"></div>
 
 This is the final step to show that everything was successful:
 
@@ -306,4 +324,3 @@ def print():
 
 print()
 ```
-
