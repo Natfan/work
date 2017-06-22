@@ -245,23 +245,37 @@ The code will also be executed whenever an order has been completed.
 When I decided to start to look for feedback, I created a questionnaire with the following questions and format:
 
 >Please rate the following questions that are prepended with an `*` out of 5, where 1 is terrible and 5 is excellent.
+
 >> \*Appearance:
+>
 >> \*Legibility:
+>
 >> \*Ease of Access:
+>
 >> \*Extensive Features:
+>
 >> \*Intuitive Design:
+>
 >> \*Overall Satisfaction:
+>
 >> Improvement Suggestions:
 
 I gave the questionnaire to one of my customers, Ryan Krage. The following are his answers.
 
 >Please rate the following questions that are prepended with an `*` out of 5, where 1 is terrible and 5 is excellent.
+>
 >> \*Appearance: 4
+>
 >> \*Legibility: 5
+>
 >> \*Ease of Access: 5
+>
 >> \*Extensive Features: 1
+>
 >> \*Intuitive Design: 5
+>
 >> \*Overall Satisfaction: 4
+>
 >> Improvement Suggestions: The code to print the bill didn't work.
 
 I took the criticisms given to me on-board and rewrote the code to work with the client's Windows setup, as the previous iteration of the code only worked with Linux. I added an option feature at the start of the program for the user to select what operating system they were running.
