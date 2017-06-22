@@ -106,12 +106,22 @@ The following image is the same form but with different data that has been auto-
 ### Test Log
 | ID | Date | Summary | Details | Expected Outcome | Passed? | Problem ID |
 |-|-|-|-|-|-|-|
-| 1 | date | summary | details | ex outcome | yes/no | 1 or N/A |
+| 1 | 18/3/17 | Form Gardener First Name Entry Check | Check if input is text and one word only | Only one word with no numbers/symbols can be inputted | Yes | N/A |
+| 2 | 18/3/17 | Form Gardener Last Name Entry Check | Check if input is text and one word only | Only one word with no numbers/symbols can be inputted | Yes | N/A |
+| 3 | 18/3/17 | Form Customer First Name Entry Check | Check if input is text and one word only | Only one word with no numbers/symbols can be inputted | Yes | N/A |
+| 4 | 18/3/17 | Form Customer Last Name Entry Check | Check if input is text and one word only | Only one word with no numbers/symbols can be inputted | Yes | N/A |
+| 5 | 18/3/17 | Form Customer First Name Entry Check | Check if input is text and one word only | Only one word with no numbers/symbols can be inputted | Yes | N/A |
+| 6 | 18/3/17 | Generate Bill Report | Check if the bill will be generated | A bill will be generated with dynamically changed with the new data | Yes | N/A |
+| 7 | 18/3/17 | Generate Top5 Report | Check if the top five list will be generated | A list of the top five customers will be generated with dynamically changed with the new data | Yes | N/A |
+| 8 | 18/3/17 | Generate Total Sales Report | Check if the sales list will be generated | A list of all the sales will be generated with dynamically changed with the new data | Yes | N/A |
+| 9 | 18/3/17 | Print Bill via Linux | Check if the bill can be printed on Linux | The bill will be sent to the printer | Yes | N/A |
+| 9 | 18/3/17 | Print Bill via Windows | Check if the bill can be printed on Windows | The bill will be sent to the printer | No | 1 |
+| 10 | 18/3/17 | Referential Integrity | Check if the database has referential integrity | The database will have referential integrity | Yes | N/A |
 
 ### Fault Log
 | Problem ID | Test ID | Problem | Solution |
 |-|-|-|
-| 1 | 1 | cake is lie | bake cake |
+| 1 | 9 | The bill wouldn't print on Linux | Create a new method for printing via Linux, see D2 |
 
 <div style="page-break-after: always;"></div>
 
@@ -211,7 +221,20 @@ The following image is of the main form which has a button on it that will print
 The following is the code, written in Python
 
 ```python3
-code goes here lol
+import subprocess
+
+def print():
+    printfile = open("print.txt", r)
+    
+    if platform.system() == "Linux" or platform.system() == "linux":
+        lpr =  subprocess.Popen("/usr/bin/lpr", stdin=subprocess.PIPE)
+        print("starting to print the file")
+        lpr.stdin.write(printfile)
+        print("file printing finished")
+    else:
+        print("your operating system is not currently supported")
+
+print()
 ```
 
 The code will also be executed whenever an order has been completed.
@@ -244,6 +267,29 @@ I gave the questionnaire to one of my customers, Ryan Krage. The following are h
 I took the criticisms given to me on-board and rewrote the code to work with the client's Windows setup, as the previous iteration of the code only worked with Linux. I added an option feature at the start of the program for the user to select what operating system they were running.
 
 ```python3
-code goes here lol
+import platform
+import subprocess
+
+def print():
+    printfile = open("print.txt", r)
+    
+    if platform.system() == "Windows" or platform.system() == "windows":
+        print("starting to print the file")
+        win32api.ShellExecute(
+            0,
+            "print",
+            printfile,
+            '/d:"%s"' % win32print.GetDefaultPrinter (),
+            ".",
+            0
+        )
+        print("file printing finished")
+    elif platform.system() == "Linux" or platform.system() == "linux":
+        lpr =  subprocess.Popen("/usr/bin/lpr", stdin=subprocess.PIPE)
+        lpr.stdin.write(printfile)
+    else:
+        print("your operating system is not currently supported")
+
+print()
 ```
 
