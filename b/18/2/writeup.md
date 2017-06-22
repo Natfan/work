@@ -120,7 +120,7 @@ The following image is the same form but with different data that has been auto-
 
 ### Fault Log
 | Problem ID | Test ID | Problem | Solution |
-|-|-|-|
+|-|-|-|-|
 | 1 | 9 | The bill wouldn't print on Linux | Create a new method for printing via Linux, see D2 |
 
 <div style="page-break-after: always;"></div>
