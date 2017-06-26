@@ -93,7 +93,8 @@ The following image is the output of the amount of customers per gardener:
 
 <div style="page-break-after: always;"></div>
 
-## PVI: Form Themes
+## PVI: Form Themes and Normalization
+### Form Themes
 The following image is a form that has been stylised to be more appealing to the user with a bright yellow background, navigation at the top in the form of breadcrumbs so that the user can go to previous sections, and a dropdown box to allow easier data addition, which will auto update the entire form when any of the boxes are changed.
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/themedform.png" style="width: 75%;"></img>
@@ -101,6 +102,90 @@ The following image is a form that has been stylised to be more appealing to the
 The following image is the same form but with different data that has been auto-updated.
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/themedform2.png" style="width: 75%;"></img>
+
+### Normalization
+Within databases there are three different forms of normalization.
+
+* **UNF**, or **Unnormalized** is when there is lots of data redundancy and can contain many data structures within a single hallmark.
+* **1NF**, or **First Normal Form** is when each field in a table does not contain the same type of information. An example of this would be in a customer list where each table would only contain one phone number.
+* **2NF**, or **Second Normal Form** is when each field in a table must be a function of the other fields in the table if it is not a determiner of the contents of that field
+* **3NF**, or **Third Normal Form** is when there is absolutely no duplicate information within the table. For example, if two tables both require a phone number field, that information would be placed into a separate table, and the two other tables would then information that they want such as the phone number data, via an index field in the newly created phone number table. Any and all change that are made to a phone number will now automatically update and be reflected to all tables that use the phone number table.
+
+##### Examples
+The following are some examples of different relational databases that I have mocked up with items based around gardening:
+###### UNF
+| ID | Type     | Price |
+|----|----------|-------|
+| 01 | daisy    | 07.49 |
+| 02 | iris     | 02.24 |
+| 03 | lavender | 06.87 |
+| 04 | pansy    | 21.05 |
+
+<div style="page-break-after: always;"></div>
+
+###### 1NF
+**Unnormalized**
+
+| ID | Price |
+|----|-------|
+| 01 | 07.49 |
+| 02 | 02.24 |
+| 03 | 06.87 |
+| 04 | 21.05 |
+
+**1NFified**
+
+| ID | Type     |
+|----|----------|
+| 01 | daisy    |
+| 02 | iris     |
+| 03 | lavender |
+| 04 | pansy    |
+
+###### 2NF
+**Unnormalized**
+
+| ID | Client ID | Balance |
+|----|-----------|---------|
+| 01 | 110       | 96.03   |
+| 02 | 420       | 05.24   |
+| 03 | 911       | 12.62   |
+
+**2NFified**
+
+| ID | Client ID |
+|----|-----------|
+| 01 | 110       |
+| 02 | 420       |
+| 03 | 911       |
+
+| Client ID | Balance |
+|-----------|---------|
+| 110       | 96.03   |
+| 420       | 05.24   |
+| 911       | 12.62   |
+
+###### 3NF
+**Unnormalized**
+
+| Flower ID | Bloom Season ID | Literal Season Name | Price |
+|-----------|-----------------|---------------------|-------|
+| 221       | 001             | Spring              | 05.88 |
+| 486       | 002             | Summer              | 09.15 |
+| 683       | 001             | Spring              | 35.73 |
+
+**3NFified**
+
+| Flower ID | Bloom Season ID | Price |
+|-----------|-----------------|-------|
+| 221       | 001             | 05.88 |
+| 486       | 002             | 09.15 |
+| 683       | 001             | 35.73 |
+
+| Bloom Season ID | Literal Season Name |
+|-----------------|---------------------|
+| 001             | Spring              |
+| 002             | Summer              |
 
 <div style="page-break-after: always;"></div>
 
@@ -263,7 +348,6 @@ The code will also be executed whenever an order has been completed.
 When I decided to start to look for feedback, I created a questionnaire with the following questions and format:
 
 >Please rate the following questions that are prepended with an `*` out of 5, where 1 is terrible and 5 is excellent.
-
 >> \*Appearance:
 >>
 >> \*Legibility:
