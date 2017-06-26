@@ -103,6 +103,8 @@ The following image is the same form but with different data that has been auto-
 
 <img src="https://raw.githubusercontent.com/Natfan/work/master/b/18/2/img/themedform2.png" style="width: 75%;"></img>
 
+<div style="page-break-after: always;"></div>
+
 ### Normalization
 Within databases there are three different forms of normalization.
 
